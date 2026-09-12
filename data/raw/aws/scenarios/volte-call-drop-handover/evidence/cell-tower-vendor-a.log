@@ -1,0 +1,161 @@
+2025-03-24T03:12:08.456Z INFO  mobility-controller [Config] Parameter handover_prep_timer set to 2000ms (default)
+2025-03-24T04:05:33.123Z INFO  cell-tower-vendor-a [Handover] X2 handover successful for UE DEV-8821 from CELL-E104 to CELL-E105 elapsed_ms=312
+2025-03-24T04:18:59.876Z INFO  cell-tower-vendor-a [Signal] RSRP=-92dBm, SINR=18.3dB for UE DEV-8821, cell=CELL-E105
+2025-03-24T05:02:17.345Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from CELL-E107 for UE DEV-9334, accepted
+2025-03-24T05:02:17.456Z INFO  cell-tower-vendor-a [Handover] X2 handover successful for UE DEV-9334 from CELL-E107 to CELL-N201 elapsed_ms=389
+2025-03-24T06:34:11.221Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-7712 source=CELL-E112 target=CELL-E113 elapsed_ms=412
+2025-03-24T07:15:44.789Z INFO  cell-tower-vendor-a [Signal] RSRP=-101dBm, SINR=12.1dB for UE DEV-8892, cell=CELL-E118
+2025-03-24T07:45:03.210Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E119 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T07:45:03.215Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8892
+2025-03-24T07:45:03.567Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8892 source=CELL-E119 target=CELL-N205
+2025-03-24T08:02:32.145Z INFO  cell-tower-vendor-a [Signal] RSRP=-108dBm, SINR=9.8dB for UE DEV-9120, cell=CELL-E121
+2025-03-24T08:21:19.890Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9120 source=CELL-E121 target=CELL-E122 elapsed_ms=375
+2025-03-24T09:03:55.334Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E125 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T09:03:55.340Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8776
+2025-03-24T09:03:55.678Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8776 source=CELL-E125 target=CELL-N210
+2025-03-24T09:12:47.901Z INFO  cell-tower-vendor-a [Signal] RSRP=-115dBm, SINR=7.2dB for UE DEV-8776, cell=CELL-E125
+2025-03-24T10:08:23.667Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9541 source=CELL-E133 target=CELL-E134 elapsed_ms=433
+2025-03-24T10:45:11.121Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E138 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T10:45:11.127Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9541
+2025-03-24T10:45:11.455Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9541 source=CELL-E138 target=CELL-N218
+2025-03-24T11:02:48.890Z INFO  cell-tower-vendor-a [Signal] RSRP=-120dBm, SINR=5.1dB for UE DEV-9541, cell=CELL-E138
+2025-03-24T11:56:37.223Z INFO  cell-tower-vendor-a [Handover] X2 handover successful for UE DEV-8112 from CELL-E142 to CELL-E143 elapsed_ms=301
+2025-03-24T12:13:55.778Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8112 source=CELL-E142 target=CELL-E143 elapsed_ms=301
+2025-03-24T12:44:01.112Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E147 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T12:44:01.118Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9902
+2025-03-24T12:44:01.445Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9902 source=CELL-E147 target=CELL-N225
+2025-03-24T13:01:22.888Z INFO  cell-tower-vendor-a [Signal] RSRP=-128dBm, SINR=3.0dB for UE DEV-9902, cell=CELL-E147
+2025-03-24T13:33:55.665Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-7654 source=CELL-E150 target=CELL-E151 elapsed_ms=392
+2025-03-24T14:02:10.999Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E153 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T14:02:11.005Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8803
+2025-03-24T14:02:11.321Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8803 source=CELL-E153 target=CELL-N229
+2025-03-24T14:23:18.555Z INFO  cell-tower-vendor-a [Signal] RSRP=-118dBm, SINR=4.5dB for UE DEV-8803, cell=CELL-E153
+2025-03-24T15:11:44.777Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9430 source=CELL-E159 target=CELL-E160 elapsed_ms=365
+2025-03-24T15:55:33.213Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E163 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T15:55:33.219Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9430
+2025-03-24T15:55:33.542Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9430 source=CELL-E163 target=CELL-N237
+2025-03-24T16:12:09.887Z INFO  cell-tower-vendor-a [Signal] RSRP=-125dBm, SINR=2.8dB for UE DEV-9430, cell=CELL-E163
+2025-03-24T16:47:22.112Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-7111 source=CELL-E167 target=CELL-E168 elapsed_ms=401
+2025-03-24T17:13:45.678Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E171 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T17:13:45.684Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-7111
+2025-03-24T17:13:45.990Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-7111 source=CELL-E171 target=CELL-N242
+2025-03-24T17:32:10.334Z INFO  cell-tower-vendor-a [Signal] RSRP=-119dBm, SINR=4.9dB for UE DEV-7111, cell=CELL-E171
+2025-03-24T18:05:19.881Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8888 source=CELL-E175 target=CELL-E176 elapsed_ms=390
+2025-03-24T18:47:25.122Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E180 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T18:47:25.128Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8888
+2025-03-24T18:47:25.440Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8888 source=CELL-E180 target=CELL-N249
+2025-03-24T19:05:38.665Z INFO  cell-tower-vendor-a [Signal] RSRP=-122dBm, SINR=3.7dB for UE DEV-8888, cell=CELL-E180
+2025-03-24T19:34:10.222Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9223 source=CELL-E185 target=CELL-E186 elapsed_ms=381
+2025-03-24T20:12:47.999Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E190 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T20:12:48.005Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9223
+2025-03-24T20:12:48.311Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9223 source=CELL-E190 target=CELL-N255
+2025-03-24T20:33:52.776Z INFO  cell-tower-vendor-a [Signal] RSRP=-127dBm, SINR=2.1dB for UE DEV-9223, cell=CELL-E190
+2025-03-24T21:01:15.443Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8771 source=CELL-E195 target=CELL-E196 elapsed_ms=421
+2025-03-24T21:44:33.888Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E200 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T21:44:33.894Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8771
+2025-03-24T21:44:34.201Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8771 source=CELL-E200 target=CELL-N262
+2025-03-24T22:02:50.677Z INFO  cell-tower-vendor-a [Signal] RSRP=-124dBm, SINR=2.5dB for UE DEV-8771, cell=CELL-E200
+2025-03-24T22:48:12.334Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9441 source=CELL-E205 target=CELL-E206 elapsed_ms=345
+2025-03-24T23:19:45.778Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E210 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T23:19:45.784Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9441
+2025-03-24T23:19:46.090Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9441 source=CELL-E210 target=CELL-N270
+2025-03-24T23:42:11.123Z INFO  cell-tower-vendor-a [Signal] RSRP=-120dBm, SINR=4.2dB for UE DEV-9441, cell=CELL-E210
+2025-03-25T00:05:22.556Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8311 source=CELL-E215 target=CELL-E216 elapsed_ms=366
+2025-03-25T00:55:33.778Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E220 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T00:55:33.784Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8311
+2025-03-25T00:55:34.091Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8311 source=CELL-E220 target=CELL-N277
+2025-03-25T01:12:09.887Z INFO  cell-tower-vendor-a [Signal] RSRP=-126dBm, SINR=2.3dB for UE DEV-8311, cell=CELL-E220
+2025-03-25T01:56:18.112Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-7622 source=CELL-E225 target=CELL-E226 elapsed_ms=398
+2025-03-25T02:34:22.445Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E230 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T02:34:22.451Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-7622
+2025-03-25T02:34:22.757Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-7622 source=CELL-E230 target=CELL-N284
+2025-03-25T02:51:33.999Z INFO  cell-tower-vendor-a [Signal] RSRP=-117dBm, SINR=5.0dB for UE DEV-7622, cell=CELL-E230
+2025-03-25T03:22:44.123Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9128 source=CELL-E235 target=CELL-E236 elapsed_ms=374
+2025-03-25T04:01:55.665Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E240 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T04:01:55.671Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9128
+2025-03-25T04:01:55.977Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9128 source=CELL-E240 target=CELL-N291
+2025-03-25T04:22:08.443Z INFO  cell-tower-vendor-a [Signal] RSRP=-123dBm, SINR=3.4dB for UE DEV-9128, cell=CELL-E240
+2025-03-25T05:15:22.778Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8449 source=CELL-E245 target=CELL-E246 elapsed_ms=388
+2025-03-25T06:02:44.888Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E250 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T06:02:44.894Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8449
+2025-03-25T06:02:45.201Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8449 source=CELL-E250 target=CELL-N298
+2025-03-25T06:21:33.665Z INFO  cell-tower-vendor-a [Signal] RSRP=-125dBm, SINR=2.7dB for UE DEV-8449, cell=CELL-E250
+2025-03-25T07:12:47.443Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-7991 source=CELL-E255 target=CELL-E256 elapsed_ms=391
+2025-03-25T08:04:55.887Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E260 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T08:04:55.893Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-7991
+2025-03-25T08:04:56.199Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-7991 source=CELL-E260 target=CELL-N305
+2025-03-25T08:22:11.222Z INFO  cell-tower-vendor-a [Signal] RSRP=-120dBm, SINR=4.0dB for UE DEV-7991, cell=CELL-E260
+2025-03-25T09:05:33.778Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9555 source=CELL-E265 target=CELL-E266 elapsed_ms=378
+2025-03-25T09:56:44.556Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E270 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T09:56:44.562Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9555
+2025-03-25T09:56:44.868Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9555 source=CELL-E270 target=CELL-N312
+2025-03-25T10:14:10.999Z INFO  cell-tower-vendor-a [Signal] RSRP=-127dBm, SINR=2.0dB for UE DEV-9555, cell=CELL-E270
+2025-03-25T11:03:55.443Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8711 source=CELL-E275 target=CELL-E276 elapsed_ms=367
+2025-03-25T11:55:11.122Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E280 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T11:55:11.128Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8711
+2025-03-25T11:55:11.434Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8711 source=CELL-E280 target=CELL-N319
+2025-03-25T12:13:22.556Z INFO  cell-tower-vendor-a [Signal] RSRP=-124dBm, SINR=2.9dB for UE DEV-8711, cell=CELL-E280
+2025-03-25T13:04:55.888Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9330 source=CELL-E285 target=CELL-E286 elapsed_ms=410
+2025-03-25T13:56:22.445Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E290 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T13:56:22.451Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9330
+2025-03-25T13:56:22.757Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9330 source=CELL-E290 target=CELL-N326
+2025-03-25T14:15:33.999Z INFO  cell-tower-vendor-a [Signal] RSRP=-128dBm, SINR=1.8dB for UE DEV-9330, cell=CELL-E290
+2025-03-25T15:02:44.123Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8225 source=CELL-E295 target=CELL-E296 elapsed_ms=393
+2025-03-25T15:54:55.665Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E300 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T15:54:55.671Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8225
+2025-03-25T15:54:55.977Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8225 source=CELL-E300 target=CELL-N333
+2025-03-25T16:12:11.222Z INFO  cell-tower-vendor-a [Signal] RSRP=-125dBm, SINR=2.6dB for UE DEV-8225, cell=CELL-E300
+2025-03-25T17:05:33.778Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9506 source=CELL-E305 target=CELL-E306 elapsed_ms=385
+2025-03-25T17:56:44.556Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E310 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T17:56:44.562Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9506
+2025-03-25T17:56:44.868Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9506 source=CELL-E310 target=CELL-N340
+2025-03-25T18:14:10.999Z INFO  cell-tower-vendor-a [Signal] RSRP=-122dBm, SINR=3.5dB for UE DEV-9506, cell=CELL-E310
+2025-03-25T19:03:55.443Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8668 source=CELL-E315 target=CELL-E316 elapsed_ms=371
+2025-03-25T19:55:11.122Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E320 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T19:55:11.128Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8668
+2025-03-25T19:55:11.434Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8668 source=CELL-E320 target=CELL-N347
+2025-03-25T20:13:22.556Z INFO  cell-tower-vendor-a [Signal] RSRP=-126dBm, SINR=2.4dB for UE DEV-8668, cell=CELL-E320
+2025-03-25T21:02:44.123Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9442 source=CELL-E325 target=CELL-E326 elapsed_ms=387
+2025-03-25T21:54:55.665Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E330 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T21:54:55.671Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9442
+2025-03-25T21:54:55.977Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9442 source=CELL-E330 target=CELL-N354
+2025-03-25T22:12:11.222Z INFO  cell-tower-vendor-a [Signal] RSRP=-123dBm, SINR=3.2dB for UE DEV-9442, cell=CELL-E330
+2025-03-25T23:05:33.778Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8881 source=CELL-E335 target=CELL-E336 elapsed_ms=395
+2025-03-25T23:56:44.556Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E340 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T23:56:44.562Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8881
+2025-03-25T23:56:44.868Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8881 source=CELL-E340 target=CELL-N361
+2025-03-26T00:14:10.999Z INFO  cell-tower-vendor-a [Signal] RSRP=-127dBm, SINR=2.1dB for UE DEV-8881, cell=CELL-E340
+2025-03-26T01:03:55.443Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9774 source=CELL-E345 target=CELL-E346 elapsed_ms=382
+2025-03-26T01:55:11.122Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E350 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T01:55:11.128Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9774
+2025-03-26T01:55:11.434Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9774 source=CELL-E350 target=CELL-N368
+2025-03-26T02:13:22.556Z INFO  cell-tower-vendor-a [Signal] RSRP=-124dBm, SINR=3.0dB for UE DEV-9774, cell=CELL-E350
+2025-03-26T02:15:33.000Z INFO  cell-tower-vendor-b [Update] Firmware upgrade to version 19.2.4 completed successfully
+2025-03-26T03:02:44.123Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8005 source=CELL-E355 target=CELL-E356 elapsed_ms=376
+2025-03-26T03:54:55.665Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E360 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T03:54:55.671Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8005
+2025-03-26T03:54:55.977Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8005 source=CELL-E360 target=CELL-N375
+2025-03-26T04:12:11.222Z INFO  cell-tower-vendor-a [Signal] RSRP=-121dBm, SINR=3.8dB for UE DEV-8005, cell=CELL-E360
+2025-03-26T05:05:33.778Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9552 source=CELL-E365 target=CELL-E366 elapsed_ms=390
+2025-03-26T05:56:44.556Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E370 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T05:56:44.562Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9552
+2025-03-26T05:56:44.868Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9552 source=CELL-E370 target=CELL-N382
+2025-03-26T06:14:10.999Z INFO  cell-tower-vendor-a [Signal] RSRP=-125dBm, SINR=2.8dB for UE DEV-9552, cell=CELL-E370
+2025-03-26T07:03:55.443Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8227 source=CELL-E375 target=CELL-E376 elapsed_ms=388
+2025-03-26T07:55:11.122Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E380 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T07:55:11.128Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8227
+2025-03-26T07:55:11.434Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8227 source=CELL-E380 target=CELL-N389
+2025-03-26T08:13:22.556Z INFO  cell-tower-vendor-a [Signal] RSRP=-127dBm, SINR=2.0dB for UE DEV-8227, cell=CELL-E380
+2025-03-26T09:02:44.123Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9776 source=CELL-E385 target=CELL-E386 elapsed_ms=369
+2025-03-26T09:54:55.665Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E390 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T09:54:55.671Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-9776
+2025-03-26T09:54:55.977Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-9776 source=CELL-E390 target=CELL-N396
+2025-03-26T10:12:11.222Z INFO  cell-tower-vendor-a [Signal] RSRP=-122dBm, SINR=3.6dB for UE DEV-9776, cell=CELL-E390
+2025-03-26T11:05:33.778Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-8553 source=CELL-E395 target=CELL-E396 elapsed_ms=374
+2025-03-26T11:56:44.556Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E400 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T11:56:44.562Z INFO  cell-tower-vendor-a [Handover] X2 handover failed, initiating S1 handover for UE DEV-8553
+2025-03-26T11:56:44.868Z INFO  mobility-controller [Handover] S1 handover prep initiated for UE DEV-8553 source=CELL-E400 target=CELL-N403
+2025-03-26T12:14:10.999Z INFO  cell-tower-vendor-a [Signal] RSRP=-126dBm, SINR=2.5dB for UE DEV-8553, cell=CELL-E400
+2025-03-26T13:02:44.123Z INFO  mobility-controller [Handover] Handover prep completed for UE DEV-9445 source=CELL-E405 target=CELL-E406 elapsed_ms=386
+2025-03-26T13:54:55.665Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from CELL-E410 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T13:54

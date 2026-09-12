@@ -1,0 +1,223 @@
+2026-03-25T02:03:17.234Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-25T00:00:00Z, source=events-warehouse-db, partition=2026-03-24
+2026-03-25T02:03:18.456Z DEBUG feature-aggregator [DataLoad] Loaded 180,241,032 records from events-warehouse-db in 1m12s
+2026-03-25T02:03:19.871Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,123,891 distinct user_id values
+2026-03-25T02:03:20.123Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,123,891 distinct user_id values
+2026-03-25T02:03:20.456Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,123,891 distinct user_id values
+2026-03-25T02:03:20.789Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,123,891 distinct user_id values
+2026-03-25T02:03:21.234Z DEBUG feature-aggregator [Aggregation] Grouped 5,123,891 records into 5,123,891 distinct user_id values
+2026-03-25T02:03:22.567Z INFO  feature-aggregator [Output] Writing 5,123,891 feature vectors to feature-store-api
+2026-03-25T02:03:23.111Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.5s, records=5,123,891
+2026-03-25T02:03:23.456Z INFO  feature-aggregator [Pipeline] Completed batch in 7m06s, success=true
+2026-03-25T08:03:16.789Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-25T06:00:00Z, source=events-warehouse-db, partition=2026-03-25
+2026-03-25T08:03:17.912Z DEBUG feature-aggregator [DataLoad] Loaded 180,245,778 records from events-warehouse-db in 1m11s
+2026-03-25T08:03:18.345Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,124,012 distinct user_id values
+2026-03-25T08:03:18.678Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,124,012 distinct user_id values
+2026-03-25T08:03:19.012Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,124,012 distinct user_id values
+2026-03-25T08:03:19.345Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,124,012 distinct user_id values
+2026-03-25T08:03:19.789Z DEBUG feature-aggregator [Aggregation] Grouped 5,124,012 records into 5,124,012 distinct user_id values
+2026-03-25T08:03:21.123Z INFO  feature-aggregator [Output] Writing 5,124,012 feature vectors to feature-store-api
+2026-03-25T08:03:21.567Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.4s, records=5,124,012
+2026-03-25T08:03:21.890Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-25T14:03:15.345Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-25T12:00:00Z, source=events-warehouse-db, partition=2026-03-25
+2026-03-25T14:03:16.678Z DEBUG feature-aggregator [DataLoad] Loaded 180,248,931 records from events-warehouse-db in 1m13s
+2026-03-25T14:03:17.012Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,124,105 distinct user_id values
+2026-03-25T14:03:17.345Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,124,105 distinct user_id values
+2026-03-25T14:03:17.678Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,124,105 distinct user_id values
+2026-03-25T14:03:18.012Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,124,105 distinct user_id values
+2026-03-25T14:03:18.456Z DEBUG feature-aggregator [Aggregation] Grouped 5,124,105 records into 5,124,105 distinct user_id values
+2026-03-25T14:03:19.789Z INFO  feature-aggregator [Output] Writing 5,124,105 feature vectors to feature-store-api
+2026-03-25T14:03:20.123Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,124,105
+2026-03-25T14:03:20.456Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-25T20:03:14.890Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-25T18:00:00Z, source=events-warehouse-db, partition=2026-03-25
+2026-03-25T20:03:16.123Z DEBUG feature-aggregator [DataLoad] Loaded 180,251,322 records from events-warehouse-db in 1m12s
+2026-03-25T20:03:16.456Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,124,218 distinct user_id values
+2026-03-25T20:03:16.789Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,124,218 distinct user_id values
+2026-03-25T20:03:17.123Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,124,218 distinct user_id values
+2026-03-25T20:03:17.456Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,124,218 distinct user_id values
+2026-03-25T20:03:17.890Z DEBUG feature-aggregator [Aggregation] Grouped 5,124,218 records into 5,124,218 distinct user_id values
+2026-03-25T20:03:19.123Z INFO  feature-aggregator [Output] Writing 5,124,218 feature vectors to feature-store-api
+2026-03-25T20:03:19.456Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,124,218
+2026-03-25T20:03:19.789Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-26T02:03:13.234Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-26T00:00:00Z, source=events-warehouse-db, partition=2026-03-25
+2026-03-26T02:03:14.567Z DEBUG feature-aggregator [DataLoad] Loaded 180,254,011 records from events-warehouse-db in 1m11s
+2026-03-26T02:03:14.901Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,124,302 distinct user_id values
+2026-03-26T02:03:15.234Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,124,302 distinct user_id values
+2026-03-26T02:03:15.567Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,124,302 distinct user_id values
+2026-03-26T02:03:15.901Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,124,302 distinct user_id values
+2026-03-26T02:03:16.234Z DEBUG feature-aggregator [Aggregation] Grouped 5,124,302 records into 5,124,302 distinct user_id values
+2026-03-26T02:03:17.567Z INFO  feature-aggregator [Output] Writing 5,124,302 feature vectors to feature-store-api
+2026-03-26T02:03:17.901Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,124,302
+2026-03-26T02:03:18.234Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-26T08:03:12.789Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-26T06:00:00Z, source=events-warehouse-db, partition=2026-03-26
+2026-03-26T08:03:14.123Z DEBUG feature-aggregator [DataLoad] Loaded 180,257,444 records from events-warehouse-db in 1m12s
+2026-03-26T08:03:14.456Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,124,421 distinct user_id values
+2026-03-26T08:03:14.789Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,124,421 distinct user_id values
+2026-03-26T08:03:15.123Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,124,421 distinct user_id values
+2026-03-26T08:03:15.456Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,124,421 distinct user_id values
+2026-03-26T08:03:15.789Z DEBUG feature-aggregator [Aggregation] Grouped 5,124,421 records into 5,124,421 distinct user_id values
+2026-03-26T08:03:17.123Z INFO  feature-aggregator [Output] Writing 5,124,421 feature vectors to feature-store-api
+2026-03-26T08:03:17.456Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.4s, records=5,124,421
+2026-03-26T08:03:17.789Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-26T14:03:11.345Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-26T12:00:00Z, source=events-warehouse-db, partition=2026-03-26
+2026-03-26T14:03:12.678Z DEBUG feature-aggregator [DataLoad] Loaded 180,260,145 records from events-warehouse-db in 1m13s
+2026-03-26T14:03:13.012Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,124,509 distinct user_id values
+2026-03-26T14:03:13.345Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,124,509 distinct user_id values
+2026-03-26T14:03:13.678Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,124,509 distinct user_id values
+2026-03-26T14:03:14.012Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,124,509 distinct user_id values
+2026-03-26T14:03:14.345Z DEBUG feature-aggregator [Aggregation] Grouped 5,124,509 records into 5,124,509 distinct user_id values
+2026-03-26T14:03:15.678Z INFO  feature-aggregator [Output] Writing 5,124,509 feature vectors to feature-store-api
+2026-03-26T14:03:16.012Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,124,509
+2026-03-26T14:03:16.345Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-26T20:03:10.890Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-26T18:00:00Z, source=events-warehouse-db, partition=2026-03-26
+2026-03-26T20:03:12.123Z DEBUG feature-aggregator [DataLoad] Loaded 180,263,772 records from events-warehouse-db in 1m12s
+2026-03-26T20:03:12.456Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,124,617 distinct user_id values
+2026-03-26T20:03:12.789Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,124,617 distinct user_id values
+2026-03-26T20:03:13.123Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,124,617 distinct user_id values
+2026-03-26T20:03:13.456Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,124,617 distinct user_id values
+2026-03-26T20:03:13.789Z DEBUG feature-aggregator [Aggregation] Grouped 5,124,617 records into 5,124,617 distinct user_id values
+2026-03-26T20:03:15.123Z INFO  feature-aggregator [Output] Writing 5,124,617 feature vectors to feature-store-api
+2026-03-26T20:03:15.456Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,124,617
+2026-03-26T20:03:15.789Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-27T02:03:09.345Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-27T00:00:00Z, source=events-warehouse-db, partition=2026-03-26
+2026-03-27T02:03:10.678Z DEBUG feature-aggregator [DataLoad] Loaded 180,266,418 records from events-warehouse-db in 1m11s
+2026-03-27T02:03:11.012Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,124,703 distinct user_id values
+2026-03-27T02:03:11.345Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,124,703 distinct user_id values
+2026-03-27T02:03:11.678Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,124,703 distinct user_id values
+2026-03-27T02:03:12.012Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,124,703 distinct user_id values
+2026-03-27T02:03:12.345Z DEBUG feature-aggregator [Aggregation] Grouped 5,124,703 records into 5,124,703 distinct user_id values
+2026-03-27T02:03:13.678Z INFO  feature-aggregator [Output] Writing 5,124,703 feature vectors to feature-store-api
+2026-03-27T02:03:14.012Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,124,703
+2026-03-27T02:03:14.345Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-27T08:03:08.789Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-27T06:00:00Z, source=events-warehouse-db, partition=2026-03-27
+2026-03-27T08:03:10.123Z DEBUG feature-aggregator [DataLoad] Loaded 180,270,055 records from events-warehouse-db in 1m12s
+2026-03-27T08:03:10.456Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,124,819 distinct user_id values
+2026-03-27T08:03:10.789Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,124,819 distinct user_id values
+2026-03-27T08:03:11.123Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,124,819 distinct user_id values
+2026-03-27T08:03:11.456Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,124,819 distinct user_id values
+2026-03-27T08:03:11.789Z DEBUG feature-aggregator [Aggregation] Grouped 5,124,819 records into 5,124,819 distinct user_id values
+2026-03-27T08:03:13.123Z INFO  feature-aggregator [Output] Writing 5,124,819 feature vectors to feature-store-api
+2026-03-27T08:03:13.456Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.4s, records=5,124,819
+2026-03-27T08:03:13.789Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-27T14:03:07.345Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-27T12:00:00Z, source=events-warehouse-db, partition=2026-03-27
+2026-03-27T14:03:08.678Z DEBUG feature-aggregator [DataLoad] Loaded 180,273,122 records from events-warehouse-db in 1m13s
+2026-03-27T14:03:09.012Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,124,906 distinct user_id values
+2026-03-27T14:03:09.345Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,124,906 distinct user_id values
+2026-03-27T14:03:09.678Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,124,906 distinct user_id values
+2026-03-27T14:03:10.012Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,124,906 distinct user_id values
+2026-03-27T14:03:10.345Z DEBUG feature-aggregator [Aggregation] Grouped 5,124,906 records into 5,124,906 distinct user_id values
+2026-03-27T14:03:11.678Z INFO  feature-aggregator [Output] Writing 5,124,906 feature vectors to feature-store-api
+2026-03-27T14:03:12.012Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,124,906
+2026-03-27T14:03:12.345Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-27T20:03:06.890Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-27T18:00:00Z, source=events-warehouse-db, partition=2026-03-27
+2026-03-27T20:03:08.123Z DEBUG feature-aggregator [DataLoad] Loaded 180,276,487 records from events-warehouse-db in 1m12s
+2026-03-27T20:03:08.456Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,125,014 distinct user_id values
+2026-03-27T20:03:08.789Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,125,014 distinct user_id values
+2026-03-27T20:03:09.123Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,125,014 distinct user_id values
+2026-03-27T20:03:09.456Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,125,014 distinct user_id values
+2026-03-27T20:03:09.789Z DEBUG feature-aggregator [Aggregation] Grouped 5,125,014 records into 5,125,014 distinct user_id values
+2026-03-27T20:03:11.123Z INFO  feature-aggregator [Output] Writing 5,125,014 feature vectors to feature-store-api
+2026-03-27T20:03:11.456Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,125,014
+2026-03-27T20:03:11.789Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-28T02:03:05.345Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-28T00:00:00Z, source=events-warehouse-db, partition=2026-03-27
+2026-03-28T02:03:06.678Z DEBUG feature-aggregator [DataLoad] Loaded 180,279,821 records from events-warehouse-db in 1m11s
+2026-03-28T02:03:07.012Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,125,102 distinct user_id values
+2026-03-28T02:03:07.345Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,125,102 distinct user_id values
+2026-03-28T02:03:07.678Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,125,102 distinct user_id values
+2026-03-28T02:03:08.012Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,125,102 distinct user_id values
+2026-03-28T02:03:08.345Z DEBUG feature-aggregator [Aggregation] Grouped 5,125,102 records into 5,125,102 distinct user_id values
+2026-03-28T02:03:09.678Z INFO  feature-aggregator [Output] Writing 5,125,102 feature vectors to feature-store-api
+2026-03-28T02:03:10.012Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,125,102
+2026-03-28T02:03:10.345Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-28T08:03:04.789Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-28T06:00:00Z, source=events-warehouse-db, partition=2026-03-28
+2026-03-28T08:03:06.123Z DEBUG feature-aggregator [DataLoad] Loaded 180,282,954 records from events-warehouse-db in 1m11s
+2026-03-28T08:03:06.456Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,125,217 distinct user_id values
+2026-03-28T08:03:06.789Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,125,217 distinct user_id values
+2026-03-28T08:03:07.123Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,125,217 distinct user_id values
+2026-03-28T08:03:07.456Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,125,217 distinct user_id values
+2026-03-28T08:03:07.789Z DEBUG feature-aggregator [Aggregation] Grouped 5,125,217 records into 5,125,217 distinct user_id values
+2026-03-28T08:03:09.123Z INFO  feature-aggregator [Output] Writing 5,125,217 feature vectors to feature-store-api
+2026-03-28T08:03:09.456Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,125,217
+2026-03-28T08:03:09.789Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-28T14:03:03.345Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-28T12:00:00Z, source=events-warehouse-db, partition=2026-03-28
+2026-03-28T14:03:04.678Z DEBUG feature-aggregator [DataLoad] Loaded 180,285,688 records from events-warehouse-db in 1m13s
+2026-03-28T14:03:05.012Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,125,305 distinct user_id values
+2026-03-28T14:03:05.345Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,125,305 distinct user_id values
+2026-03-28T14:03:05.678Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,125,305 distinct user_id values
+2026-03-28T14:03:06.012Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,125,305 distinct user_id values
+2026-03-28T14:03:06.345Z DEBUG feature-aggregator [Aggregation] Grouped 5,125,305 records into 5,125,305 distinct user_id values
+2026-03-28T14:03:07.678Z INFO  feature-aggregator [Output] Writing 5,125,305 feature vectors to feature-store-api
+2026-03-28T14:03:08.012Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,125,305
+2026-03-28T14:03:08.345Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-28T20:03:02.890Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-28T18:00:00Z, source=events-warehouse-db, partition=2026-03-28
+2026-03-28T20:03:04.123Z DEBUG feature-aggregator [DataLoad] Loaded 180,288,977 records from events-warehouse-db in 1m11s
+2026-03-28T20:03:04.456Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,125,423 distinct user_id values
+2026-03-28T20:03:04.789Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,125,423 distinct user_id values
+2026-03-28T20:03:05.123Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,125,423 distinct user_id values
+2026-03-28T20:03:05.456Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,125,423 distinct user_id values
+2026-03-28T20:03:05.789Z DEBUG feature-aggregator [Aggregation] Grouped 5,125,423 records into 5,125,423 distinct user_id values
+2026-03-28T20:03:07.123Z INFO  feature-aggregator [Output] Writing 5,125,423 feature vectors to feature-store-api
+2026-03-28T20:03:07.456Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,125,423
+2026-03-28T20:03:07.789Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-29T02:03:01.345Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-29T00:00:00Z, source=events-warehouse-db, partition=2026-03-28
+2026-03-29T02:03:02.678Z DEBUG feature-aggregator [DataLoad] Loaded 180,292,450 records from events-warehouse-db in 1m12s
+2026-03-29T02:03:03.012Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,125,511 distinct user_id values
+2026-03-29T02:03:03.345Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,125,511 distinct user_id values
+2026-03-29T02:03:03.678Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,125,511 distinct user_id values
+2026-03-29T02:03:04.012Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,125,511 distinct user_id values
+2026-03-29T02:03:04.345Z DEBUG feature-aggregator [Aggregation] Grouped 5,125,511 records into 5,125,511 distinct user_id values
+2026-03-29T02:03:05.678Z INFO  feature-aggregator [Output] Writing 5,125,511 feature vectors to feature-store-api
+2026-03-29T02:03:06.012Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,125,511
+2026-03-29T02:03:06.345Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-29T08:03:00.789Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-29T06:00:00Z, source=events-warehouse-db, partition=2026-03-29
+2026-03-29T08:03:02.123Z DEBUG feature-aggregator [DataLoad] Loaded 180,295,873 records from events-warehouse-db in 1m11s
+2026-03-29T08:03:02.456Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,125,629 distinct user_id values
+2026-03-29T08:03:02.789Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,125,629 distinct user_id values
+2026-03-29T08:03:03.123Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,125,629 distinct user_id values
+2026-03-29T08:03:03.456Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,125,629 distinct user_id values
+2026-03-29T08:03:03.789Z DEBUG feature-aggregator [Aggregation] Grouped 5,125,629 records into 5,125,629 distinct user_id values
+2026-03-29T08:03:05.123Z INFO  feature-aggregator [Output] Writing 5,125,629 feature vectors to feature-store-api
+2026-03-29T08:03:05.456Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,125,629
+2026-03-29T08:03:05.789Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-29T14:02:59.345Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-29T12:00:00Z, source=events-warehouse-db, partition=2026-03-29
+2026-03-29T14:03:00.678Z DEBUG feature-aggregator [DataLoad] Loaded 180,298,719 records from events-warehouse-db in 1m13s
+2026-03-29T14:03:01.012Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,125,717 distinct user_id values
+2026-03-29T14:03:01.345Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,125,717 distinct user_id values
+2026-03-29T14:03:01.678Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,125,717 distinct user_id values
+2026-03-29T14:03:02.012Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,125,717 distinct user_id values
+2026-03-29T14:03:02.345Z DEBUG feature-aggregator [Aggregation] Grouped 5,125,717 records into 5,125,717 distinct user_id values
+2026-03-29T14:03:03.678Z INFO  feature-aggregator [Output] Writing 5,125,717 feature vectors to feature-store-api
+2026-03-29T14:03:04.012Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,125,717
+2026-03-29T14:03:04.345Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-29T20:02:58.890Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-29T18:00:00Z, source=events-warehouse-db, partition=2026-03-29
+2026-03-29T20:03:00.123Z DEBUG feature-aggregator [DataLoad] Loaded 180,301,626 records from events-warehouse-db in 1m11s
+2026-03-29T20:03:00.456Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,125,835 distinct user_id values
+2026-03-29T20:03:00.789Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,125,835 distinct user_id values
+2026-03-29T20:03:01.123Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,125,835 distinct user_id values
+2026-03-29T20:03:01.456Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,125,835 distinct user_id values
+2026-03-29T20:03:01.789Z DEBUG feature-aggregator [Aggregation] Grouped 5,125,835 records into 5,125,835 distinct user_id values
+2026-03-29T20:03:03.123Z INFO  feature-aggregator [Output] Writing 5,125,835 feature vectors to feature-store-api
+2026-03-29T20:03:03.456Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,125,835
+2026-03-29T20:03:03.789Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-30T02:02:57.345Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-30T00:00:00Z, source=events-warehouse-db, partition=2026-03-29
+2026-03-30T02:02:58.678Z DEBUG feature-aggregator [DataLoad] Loaded 180,304,228 records from events-warehouse-db in 1m12s
+2026-03-30T02:02:59.012Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,125,923 distinct user_id values
+2026-03-30T02:02:59.345Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,125,923 distinct user_id values
+2026-03-30T02:02:59.678Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,125,923 distinct user_id values
+2026-03-30T02:03:00.012Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,125,923 distinct user_id values
+2026-03-30T02:03:00.345Z DEBUG feature-aggregator [Aggregation] Grouped 5,125,923 records into 5,125,923 distinct user_id values
+2026-03-30T02:03:01.678Z INFO  feature-aggregator [Output] Writing 5,125,923 feature vectors to feature-store-api
+2026-03-30T02:03:02.012Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,125,923
+2026-03-30T02:03:02.345Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-30T08:02:56.789Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-30T06:00:00Z, source=events-warehouse-db, partition=2026-03-30
+2026-03-30T08:02:58.123Z DEBUG feature-aggregator [DataLoad] Loaded 180,307,451 records from events-warehouse-db in 1m11s
+2026-03-30T08:02:58.456Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,126,041 distinct user_id values
+2026-03-30T08:02:58.789Z INFO  feature-aggregator [FeatureCalc] Computing purchase_frequency for 5,126,041 distinct user_id values
+2026-03-30T08:02:59.123Z INFO  feature-aggregator [FeatureCalc] Computing category_affinity for 5,126,041 distinct user_id values
+2026-03-30T08:02:59.456Z INFO  feature-aggregator [FeatureCalc] Computing price_sensitivity for 5,126,041 distinct user_id values
+2026-03-30T08:02:59.789Z DEBUG feature-aggregator [Aggregation] Grouped 5,126,041 records into 5,126,041 distinct user_id values
+2026-03-30T08:03:01.123Z INFO  feature-aggregator [Output] Writing 5,126,041 feature vectors to feature-store-api
+2026-03-30T08:03:01.456Z INFO  feature-aggregator [Output] Batch upload successful, latency=1.3s, records=5,126,041
+2026-03-30T08:03:01.789Z INFO  feature-aggregator [Pipeline] Completed batch in 7m05s, success=true
+2026-03-30T14:02:55.345Z INFO  feature-aggregator [Pipeline] Starting batch run for timestamp 2026-03-30T12:00:00Z, source=events-warehouse-db, partition=2026-03-30
+2026-03-30T14:02:56.678Z DEBUG feature-aggregator [DataLoad] Loaded 180,310,729 records from events-warehouse-db in 1m13s
+2026-03-30T14:02:57.012Z INFO  feature-aggregator [FeatureCalc] Computing avg_session_time for 5,1

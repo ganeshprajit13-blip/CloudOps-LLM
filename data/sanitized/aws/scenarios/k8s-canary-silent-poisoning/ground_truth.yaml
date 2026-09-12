@@ -1,0 +1,81 @@
+scenario_id: k8s-canary-silent-poisoning
+display_name: Silent gRPC Deadline Bug
+domain: Kubernetes
+difficulty: hard
+description: A canary deployment of inventory-service v2.1.4 introduces a gRPC connection pooling bug that silently sets a
+  100ms deadline on 1-2% of connections, causing client-side timeouts, retries, and 409 conflicts in downstream services.
+  The root cause service logs show 100% success, and the canary analysis passes because it only monitors the root cause service's
+  own HTTP error rate, not downstream timeout impact.
+hitl_scenario: true
+hitl_clarification_type: change_correlation
+hitl_flow:
+  1_vague_report: "API gateway shows 0.8% 502 errors on checkout since March 27 14:00 UTC. No infrastructure alerts firing. Customer complaints about failed orders are rising."
+  2_clarification: "Were there any changes to client-side timeout config or service mesh? Is the issue affecting all requests or only a subset?"
+  3_user_response: "No infra or config changes recently. A few services had routine canary deployments that week — all auto-promoted, all passed health checks. The errors are across all regions and platforms, not isolated to a specific segment. The checkout flow involves several services (API gateway, order-service, inventory-service, payment-service) so it's not obvious where the bottleneck is."
+  4_focused_investigation: "Agent searches service logs across the checkout path for timeout patterns, correlates with recent deployments, and traces which service-to-service calls are failing."
+  5_correct_root_cause: "gRPC server interceptor incorrectly initializes deadline to 100ms on ~1.5% of pooled connections, causing silent client timeouts and cascading failures."
+root_cause:
+  service: inventory-service
+  issue: gRPC server interceptor incorrectly initializes connection deadline to 100ms on a subset of pooled connections
+  details: The interceptor in v2.1.4 falls back to a hardcoded 100ms deadline during connection initialization when the context
+    deadline is not properly propagated, due to a race condition in interceptor setup. This affects only 1-2% of connections
+    due to connection pooling behavior, and the server always returns 200 OK — masking the issue in its own metrics.
+evidence_keywords:
+- gRPC timeout after 100ms
+- gRPC interceptor initialized with default deadline=100ms
+- 'upstream request timeout: deadline exceeded (100ms)'
+- Duplicate idempotency key
+- HTTP error rate 0.12% < threshold 0.5%.*PROMOTE
+- retrying order.*with same key
+- 502 Bad Gateway
+- grpc-go-1.56.2
+- connection_pooling
+- deadline_propagation
+red_herrings:
+- symptom: elevated_409_conflict_rate
+  service: payment-service
+  description: 409 Conflict responses are correct behavior due to idempotency key reuse from retries — not a bug, but appears
+    as payment service failure.
+- symptom: slow_query_logs_150_220ms
+  service: inventory-db
+  description: Normal database latency for this workload; unrelated to the 100ms timeout issue, but appears as performance
+    degradation.
+- symptom: retry_queue_depth_increase
+  service: notification-service
+  description: Increased retry queue is a downstream effect of failed checkouts, not a root cause — misinterpreted as a systemic
+    failure.
+contributing_factors:
+- Canary analysis only monitors root cause service's own HTTP error rate, ignoring downstream timeout impact
+- Connection pooling masks the bug by limiting affected connections to 1-2%
+- No monitoring or alerting on gRPC deadline violations at the service mesh or client level
+- gRPC interceptor lacks validation of context deadline propagation during connection initialization
+verification_steps:
+- Confirm inventory-service v2.1.4 deployment timestamp aligns with incident start
+- Search order-service logs for "gRPC timeout after 100ms" and correlate with inventory-service connection events
+- Verify envoy sidecar logs show "deadline exceeded (100ms)" for upstream calls to inventory-service
+- Inspect inventory-service v2.1.4 source code for gRPC interceptor initialization logic
+- Confirm no changes to order-service timeout config or service mesh policies in last 3 weeks
+- Validate that payment-service 409s are all tied to duplicate idempotency keys from order-service retries
+- Check flagger-controller logs for promotion decision based solely on inventory-service HTTP error rate
+fix_recommendations:
+- immediate: Rollback inventory-service to v2.1.3
+- short_term: Update Flagger canary analysis to include downstream timeout rate (e.g., order-service gRPC timeout rate) as
+    a critical metric
+- long_term: Implement connection-level deadline monitoring in gRPC interceptors; add validation that client deadline is preserved;
+    introduce connection health probes that verify deadline propagation
+- long_term: Add service mesh telemetry for gRPC deadlines and propagate them as custom metrics to observability platform
+- long_term: Enforce code review requirement for gRPC interceptor changes to include deadline propagation tests
+plain_english_summary: A small percentage of checkout requests are failing with timeouts, but the service responsible looks
+  completely healthy by its own metrics. A canary deployment was automatically promoted because it passed all health checks
+  -- yet it introduced a subtle bug affecting only 1-2% of network connections.
+causation_chain:
+- step: Inventory service v2.1.4 deployed via canary
+  service: inventory-service
+- step: gRPC bug sets 100ms deadline on 1-2% of connections
+  service: inventory-service
+- step: Affected requests timeout before completing
+  service: order-service
+- step: Canary sees <0.5% error rate, auto-promotes to production
+  service: flagger-controller
+- step: 502 errors appear on checkout endpoint
+  service: api-gateway

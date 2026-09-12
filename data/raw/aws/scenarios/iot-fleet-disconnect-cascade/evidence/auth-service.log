@@ -1,0 +1,236 @@
+2026-03-27T22:00:00.012Z INFO  auth-service [Config] Loaded TLS certificate from /etc/certificates/auth-cert.pem
+2026-03-27T22:00:00.045Z INFO  auth-service [Redis] Connected to redis://redis-cluster-01:6379/0
+2026-03-27T22:00:00.089Z INFO  auth-service [DeviceRegistry] Connected to gRPC endpoint device-registry.prod:50051
+2026-03-27T22:00:00.123Z INFO  auth-service [Metrics] Starting telemetry collector with interval 30s
+2026-03-27T22:00:01.001Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-1023-US session_id=9a3b7c2d-e4f5-6a7b-8c9d-0e1f2a3b4c5d
+2026-03-27T22:00:01.122Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-1023-US cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-27T22:00:01.187Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=us-east-1
+2026-03-27T22:00:01.201Z INFO  auth-service [Auth] Token issued device_id=VSN-1023-US token_ttl=3600s session_id=9a3b7c2d-e4f5-6a7b-8c9d-0e1f2a3b4c5d latency_ms=189
+2026-03-27T22:05:02.345Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-1024-US session_id=2e3f4a5b-6c7d-8e9f-0a1b-2c3d4e5f6a7b
+2026-03-27T22:05:02.412Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-1024-US cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-27T22:05:02.456Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=us-west-2
+2026-03-27T22:05:02.488Z INFO  auth-service [Auth] Token issued device_id=VSN-1024-US token_ttl=3600s session_id=2e3f4a5b-6c7d-8e9f-0a1b-2c3d4e5f6a7b latency_ms=143
+2026-03-27T22:10:03.602Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-1025-CA session_id=3f4a5b6c-7d8e-9f0a-1b2c-3d4e5f6a7b8c
+2026-03-27T22:10:03.678Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-1025-CA cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-27T22:10:03.712Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=ca-central-1
+2026-03-27T22:10:03.745Z INFO  auth-service [Auth] Token issued device_id=VSN-1025-CA token_ttl=3600s session_id=3f4a5b6c-7d8e-9f0a-1b2c-3d4e5f6a7b8c latency_ms=143
+2026-03-27T22:15:11.011Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-1026-EU session_id=4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d
+2026-03-27T22:15:11.089Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-1026-EU cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-27T22:15:11.122Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=eu-west-1
+2026-03-27T22:15:11.255Z INFO  auth-service [Auth] Token issued device_id=VSN-1026-EU token_ttl=3600s session_id=4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d latency_ms=144
+2026-03-27T22:25:22.301Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-1027-CA session_id=5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e
+2026-03-27T22:25:22.367Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-1027-CA cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-27T22:25:22.401Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=ca-east-1
+2026-03-27T22:25:22.435Z INFO  auth-service [Auth] Token issued device_id=VSN-1027-CA token_ttl=3600s session_id=5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e latency_ms=134
+2026-03-27T22:35:03.003Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-1028-AP session_id=7d8e9f0a-1b2c-3d4e-5f6a-7b8c9d0e1f2a
+2026-03-27T22:35:03.070Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-1028-AP cert_issuer=GlobalSign root_ca=GlobalSign_Root_CA
+2026-03-27T22:35:03.104Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=ap-southeast-1
+2026-03-27T22:35:03.238Z INFO  auth-service [Auth] Token issued device_id=VSN-1028-AP token_ttl=3600s session_id=7d8e9f0a-1b2c-3d4e-5f6a-7b8c9d0e1f2a latency_ms=135
+2026-03-27T22:45:21.421Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-1029-US session_id=8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b
+2026-03-27T22:45:21.498Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-1029-US cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-27T22:45:21.532Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=us-east-2
+2026-03-27T22:45:21.667Z INFO  auth-service [Auth] Token issued device_id=VSN-1029-US token_ttl=3600s session_id=8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b latency_ms=146
+2026-03-27T22:55:33.810Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-1030-US session_id=9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c
+2026-03-27T22:55:33.883Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-1030-US cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-27T22:55:33.916Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=us-east-1
+2026-03-27T22:55:34.050Z INFO  auth-service [Auth] Token issued device_id=VSN-1030-US token_ttl=3600s session_id=9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c latency_ms=140
+2026-03-27T23:10:44.192Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-1031-EU session_id=a0b1c2d3-e4f5-6a7b-8c9d-e0f1a2b3c4d5
+2026-03-27T23:10:44.268Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-1031-EU cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-27T23:10:44.301Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=eu-central-1
+2026-03-27T23:10:44.435Z INFO  auth-service [Auth] Token issued device_id=VSN-1031-EU token_ttl=3600s session_id=a0b1c2d3-e4f5-6a7b-8c9d-e0f1a2b3c4d5 latency_ms=143
+2026-03-27T23:28:15.001Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-1032-US session_id=b1c2d3e4-f5a6-7b8c-9d0e-f1a2b3c4d5e6
+2026-03-27T23:28:15.078Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-1032-US cert_issuer=GlobalSign root_ca=GlobalSign_Root_CA
+2026-03-27T23:28:15.112Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=us-west-2
+2026-03-27T23:28:15.246Z INFO  auth-service [Auth] Token issued device_id=VSN-1032-US token_ttl=3600s session_id=b1c2d3e4-f5a6-7b8c-9d0e-f1a2b3c4d5e6 latency_ms=145
+2026-03-27T23:45:25.321Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-1033-CA session_id=c2d3e4f5-a6b7-8c9d-0e1f-a2b3c4d5e6f7
+2026-03-27T23:45:25.392Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-1033-CA cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-27T23:45:25.425Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=ca-west-1
+2026-03-27T23:45:25.559Z INFO  auth-service [Auth] Token issued device_id=VSN-1033-CA token_ttl=3600s session_id=c2d3e4f5-a6b7-8c9d-0e1f-a2b3c4d5e6f7 latency_ms=138
+2026-03-28T02:00:12.003Z INFO  auth-service [Deploy] Rolling deployment initiated: auth-service v3.8.0 (previous: v3.7.2) deploy_id=dep-20260328-001
+2026-03-28T02:00:47.891Z INFO  auth-service [Deploy] Rolling deployment completed: auth-service v3.8.0 (previous: v3.7.2) config_hash=a4b8c3d2
+2026-03-28T02:00:48.102Z INFO  auth-service [Config] Reloading configuration from feature-flags-service endpoint=https://flags.internal.iot.example.com/v1/flags
+2026-03-28T02:00:48.334Z INFO  auth-service [Config] Feature flag update received: ct_validation_enabled=true scope=segment:us-*,ca-* source=feature-flags-service
+2026-03-28T02:00:48.401Z INFO  auth-service [Config] Feature flag unchanged: ct_validation_enabled=false scope=segment:eu-*,ap-*,sa-* source=feature-flags-service
+2026-03-28T02:00:48.445Z INFO  auth-service [Config] Loaded TLS certificate from /etc/certificates/auth-cert.pem
+2026-03-28T02:00:48.512Z INFO  auth-service [Redis] Connected to redis://redis-cluster-01:6379/0
+2026-03-28T02:00:48.601Z INFO  auth-service [DeviceRegistry] Connected to gRPC endpoint device-registry.prod:50051
+2026-03-28T02:00:48.689Z INFO  auth-service [Metrics] Starting telemetry collector with interval 30s
+2026-03-28T02:01:15.012Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2001-US session_id=aa01b2c3-d4e5-f6a7-b8c9-d0e1f2a3b4c5
+2026-03-28T02:01:15.089Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2001-US cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-28T02:01:15.123Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-1 ct_server=ct.cloudflare.com device_id=VSN-2001-US
+2026-03-28T02:01:15.389Z DEBUG auth-service [Auth] CT validation completed ct_server=ct.cloudflare.com ct_validation_latency_ms=266 device_id=VSN-2001-US segment=us-east-1
+2026-03-28T02:01:15.512Z INFO  auth-service [Auth] Token issued device_id=VSN-2001-US token_ttl=3600s session_id=aa01b2c3-d4e5-f6a7-b8c9-d0e1f2a3b4c5 latency_ms=500
+2026-03-28T02:01:16.201Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2002-CA session_id=bb02c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6
+2026-03-28T02:01:16.278Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2002-CA cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-28T02:01:16.312Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=ca-central-1 ct_server=ct.cloudflare.com device_id=VSN-2002-CA
+2026-03-28T02:01:16.523Z DEBUG auth-service [Auth] CT validation completed ct_server=ct.cloudflare.com ct_validation_latency_ms=211 device_id=VSN-2002-CA segment=ca-central-1
+2026-03-28T02:01:16.645Z INFO  auth-service [Auth] Token issued device_id=VSN-2002-CA token_ttl=3600s session_id=bb02c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6 latency_ms=444
+2026-03-28T02:01:17.401Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2003-EU session_id=cc03d4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7
+2026-03-28T02:01:17.478Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2003-EU cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-28T02:01:17.512Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=eu-west-1
+2026-03-28T02:01:17.646Z INFO  auth-service [Auth] Token issued device_id=VSN-2003-EU token_ttl=3600s session_id=cc03d4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7 latency_ms=145
+2026-03-28T06:15:22.102Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2004-US session_id=dd04e5f6-a7b8-c9d0-e1f2-a3b4c5d6e7f8
+2026-03-28T06:15:22.179Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2004-US cert_issuer=GlobalSign root_ca=GlobalSign_Root_CA
+2026-03-28T06:15:22.213Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-west-2 ct_server=ct.cloudflare.com device_id=VSN-2004-US
+2026-03-28T06:15:22.512Z DEBUG auth-service [Auth] CT validation completed ct_server=ct.cloudflare.com ct_validation_latency_ms=299 device_id=VSN-2004-US segment=us-west-2
+2026-03-28T06:15:22.678Z INFO  auth-service [Auth] Token issued device_id=VSN-2004-US token_ttl=3600s session_id=dd04e5f6-a7b8-c9d0-e1f2-a3b4c5d6e7f8 latency_ms=476
+2026-03-28T06:15:23.301Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2005-AP session_id=ee05f6a7-b8c9-d0e1-f2a3-b4c5d6e7f8a9
+2026-03-28T06:15:23.378Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2005-AP cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-28T06:15:23.412Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=ap-southeast-1
+2026-03-28T06:15:23.546Z INFO  auth-service [Auth] Token issued device_id=VSN-2005-AP token_ttl=3600s session_id=ee05f6a7-b8c9-d0e1-f2a3-b4c5d6e7f8a9 latency_ms=145
+2026-03-28T10:42:08.501Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2006-US session_id=ff06a7b8-c9d0-e1f2-a3b4-c5d6e7f8a9b0
+2026-03-28T10:42:08.577Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2006-US cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-28T10:42:08.611Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-1 ct_server=ct.cloudflare.com device_id=VSN-2006-US
+2026-03-28T10:42:08.862Z DEBUG auth-service [Auth] CT validation completed ct_server=ct.cloudflare.com ct_validation_latency_ms=251 device_id=VSN-2006-US segment=us-east-1
+2026-03-28T10:42:09.012Z INFO  auth-service [Auth] Token issued device_id=VSN-2006-US token_ttl=3600s session_id=ff06a7b8-c9d0-e1f2-a3b4-c5d6e7f8a9b0 latency_ms=411
+2026-03-28T15:30:44.102Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2007-EU session_id=a107b8c9-d0e1-f2a3-b4c5-d6e7f8a9b0c1
+2026-03-28T15:30:44.179Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2007-EU cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-28T15:30:44.213Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=eu-central-1
+2026-03-28T15:30:44.346Z INFO  auth-service [Auth] Token issued device_id=VSN-2007-EU token_ttl=3600s session_id=a107b8c9-d0e1-f2a3-b4c5-d6e7f8a9b0c1 latency_ms=144
+2026-03-28T20:15:33.501Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2008-US session_id=b208c9d0-e1f2-a3b4-c5d6-e7f8a9b0c1d2
+2026-03-28T20:15:33.577Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2008-US cert_issuer=GlobalSign root_ca=GlobalSign_Root_CA
+2026-03-28T20:15:33.611Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-2 ct_server=ct.cloudflare.com device_id=VSN-2008-US
+2026-03-28T20:15:33.955Z DEBUG auth-service [Auth] CT validation completed ct_server=ct.cloudflare.com ct_validation_latency_ms=344 device_id=VSN-2008-US segment=us-east-2
+2026-03-28T20:15:34.101Z INFO  auth-service [Auth] Token issued device_id=VSN-2008-US token_ttl=3600s session_id=b208c9d0-e1f2-a3b4-c5d6-e7f8a9b0c1d2 latency_ms=500
+2026-03-29T07:45:22.102Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2009-US session_id=e511f2a3-b4c5-d6e7-f8a9-b0c1d2e3f4a5
+2026-03-29T07:45:22.179Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2009-US cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-29T07:45:22.213Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-1 ct_server=ct.cloudflare.com device_id=VSN-2009-US
+2026-03-29T07:45:22.521Z DEBUG auth-service [Auth] CT validation completed ct_server=ct.cloudflare.com ct_validation_latency_ms=308 device_id=VSN-2009-US segment=us-east-1
+2026-03-29T07:45:22.678Z INFO  auth-service [Auth] Token issued device_id=VSN-2009-US token_ttl=3600s session_id=e511f2a3-b4c5-d6e7-f8a9-b0c1d2e3f4a5 latency_ms=476
+2026-03-29T07:45:23.301Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2010-AP session_id=f612a3b4-c5d6-e7f8-a9b0-c1d2e3f4a5b6
+2026-03-29T07:45:23.378Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2010-AP cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-29T07:45:23.412Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=ap-southeast-1
+2026-03-29T07:45:23.546Z INFO  auth-service [Auth] Token issued device_id=VSN-2010-AP token_ttl=3600s session_id=f612a3b4-c5d6-e7f8-a9b0-c1d2e3f4a5b6 latency_ms=145
+2026-03-29T11:30:44.501Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2011-US session_id=a713b4c5-d6e7-f8a9-b0c1-d2e3f4a5b6c7
+2026-03-29T11:30:44.577Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2011-US cert_issuer=GlobalSign root_ca=GlobalSign_Root_CA
+2026-03-29T11:30:44.611Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-west-2 ct_server=ct.cloudflare.com device_id=VSN-2011-US
+2026-03-29T11:30:44.923Z DEBUG auth-service [Auth] CT validation completed ct_server=ct.cloudflare.com ct_validation_latency_ms=312 device_id=VSN-2011-US segment=us-west-2
+2026-03-29T11:30:45.078Z INFO  auth-service [Auth] Token issued device_id=VSN-2011-US token_ttl=3600s session_id=a713b4c5-d6e7-f8a9-b0c1-d2e3f4a5b6c7 latency_ms=477
+2026-03-29T11:30:45.801Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-2012-EU session_id=b814c5d6-e7f8-a9b0-c1d2-e3f4a5b6c7d8
+2026-03-29T11:30:45.878Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-2012-EU cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-29T11:30:45.912Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=eu-west-1
+2026-03-29T11:30:46.046Z INFO  auth-service [Auth] Token issued device_id=VSN-2012-EU token_ttl=3600s session_id=b814c5d6-e7f8-a9b0-c1d2-e3f4a5b6c7d8 latency_ms=145
+2026-03-29T14:10:01.012Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3001-US session_id=ca01d2e3-f4a5-b6c7-d8e9-f0a1b2c3d4e5
+2026-03-29T14:10:01.089Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3001-US cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-29T14:10:01.123Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-1 ct_server=ct.cloudflare.com device_id=VSN-3001-US
+2026-03-29T14:10:03.156Z WARN  auth-service [Auth] CT validation delayed ct_server=ct.cloudflare.com latency_ms=2033 threshold_ms=5000 device_id=VSN-3001-US segment=us-east-1
+2026-03-29T14:10:03.312Z INFO  auth-service [Auth] Token issued device_id=VSN-3001-US token_ttl=3600s session_id=ca01d2e3-f4a5-b6c7-d8e9-f0a1b2c3d4e5 latency_ms=2200
+2026-03-29T14:12:22.201Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3002-CA session_id=db02e3f4-a5b6-c7d8-e9f0-a1b2c3d4e5f6
+2026-03-29T14:12:22.278Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3002-CA cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-29T14:12:22.312Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=ca-central-1 ct_server=ct.cloudflare.com device_id=VSN-3002-CA
+2026-03-29T14:12:27.445Z WARN  auth-service [Auth] CT validation delayed ct_server=ct.cloudflare.com latency_ms=5133 threshold_ms=5000 device_id=VSN-3002-CA segment=ca-central-1
+2026-03-29T14:12:27.612Z INFO  auth-service [Auth] Token issued device_id=VSN-3002-CA token_ttl=3600s session_id=db02e3f4-a5b6-c7d8-e9f0-a1b2c3d4e5f6 latency_ms=5311
+2026-03-29T14:15:33.101Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3003-US session_id=ec03f4a5-b6c7-d8e9-f0a1-b2c3d4e5f6a7
+2026-03-29T14:15:33.178Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3003-US cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-29T14:15:33.212Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-1 ct_server=ct.cloudflare.com device_id=VSN-3003-US
+2026-03-29T14:15:43.214Z ERROR auth-service [Auth] CT validation timeout ct_server=ct.cloudflare.com ct_validation_latency_ms=10002 timeout_ms=10000 device_id=VSN-3003-US segment=us-east-1
+2026-03-29T14:15:43.218Z ERROR auth-service [Auth] connection_timeout_from_client device_id=VSN-3003-US session_id=ec03f4a5-b6c7-d8e9-f0a1-b2c3d4e5f6a7 reason="client disconnected before CT validation completed" ct_validation_latency_ms=10002
+2026-03-29T14:16:02.501Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3004-EU session_id=fd04a5b6-c7d8-e9f0-a1b2-c3d4e5f6a7b8
+2026-03-29T14:16:02.577Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3004-EU cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-29T14:16:02.611Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=eu-west-1
+2026-03-29T14:16:02.745Z INFO  auth-service [Auth] Token issued device_id=VSN-3004-EU token_ttl=3600s session_id=fd04a5b6-c7d8-e9f0-a1b2-c3d4e5f6a7b8 latency_ms=144
+2026-03-29T14:17:15.201Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3005-CA session_id=ae05b6c7-d8e9-f0a1-b2c3-d4e5f6a7b8c9
+2026-03-29T14:17:15.278Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3005-CA cert_issuer=GlobalSign root_ca=GlobalSign_Root_CA
+2026-03-29T14:17:15.312Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=ca-east-1 ct_server=ct.cloudflare.com device_id=VSN-3005-CA
+2026-03-29T14:17:23.845Z WARN  auth-service [Auth] CT validation delayed ct_server=ct.cloudflare.com latency_ms=8533 threshold_ms=5000 device_id=VSN-3005-CA segment=ca-east-1
+2026-03-29T14:17:24.001Z INFO  auth-service [Auth] Token issued device_id=VSN-3005-CA token_ttl=3600s session_id=ae05b6c7-d8e9-f0a1-b2c3-d4e5f6a7b8c9 latency_ms=8800
+2026-03-29T14:18:44.401Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3006-AP session_id=bf06c7d8-e9f0-a1b2-c3d4-e5f6a7b8c9d0
+2026-03-29T14:18:44.478Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3006-AP cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-29T14:18:44.512Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=ap-southeast-1
+2026-03-29T14:18:44.646Z INFO  auth-service [Auth] Token issued device_id=VSN-3006-AP token_ttl=3600s session_id=bf06c7d8-e9f0-a1b2-c3d4-e5f6a7b8c9d0 latency_ms=145
+2026-03-29T14:20:02.101Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3007-US session_id=c007d8e9-f0a1-b2c3-d4e5-f6a7b8c9d0e1
+2026-03-29T14:20:02.178Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3007-US cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-29T14:20:02.212Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-2 ct_server=ct.cloudflare.com device_id=VSN-3007-US
+2026-03-29T14:20:12.234Z ERROR auth-service [Auth] CT validation timeout ct_server=ct.cloudflare.com ct_validation_latency_ms=10022 timeout_ms=10000 device_id=VSN-3007-US segment=us-east-2
+2026-03-29T14:20:12.238Z ERROR auth-service [Auth] connection_timeout_from_client device_id=VSN-3007-US session_id=c007d8e9-f0a1-b2c3-d4e5-f6a7b8c9d0e1 reason="client disconnected before CT validation completed" ct_validation_latency_ms=10022
+2026-03-29T14:22:33.301Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3008-US session_id=d108e9f0-a1b2-c3d4-e5f6-a7b8c9d0e1f2
+2026-03-29T14:22:33.378Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3008-US cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-29T14:22:33.412Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-west-1 ct_server=ct.cloudflare.com device_id=VSN-3008-US
+2026-03-29T14:22:42.912Z WARN  auth-service [Auth] CT validation delayed ct_server=ct.cloudflare.com latency_ms=9500 threshold_ms=5000 device_id=VSN-3008-US segment=us-west-1
+2026-03-29T14:22:43.078Z INFO  auth-service [Auth] Token issued device_id=VSN-3008-US token_ttl=3600s session_id=d108e9f0-a1b2-c3d4-e5f6-a7b8c9d0e1f2 latency_ms=9777
+2026-03-29T14:25:11.501Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3009-EU session_id=e209f0a1-b2c3-d4e5-f6a7-b8c9d0e1f2a3
+2026-03-29T14:25:11.577Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3009-EU cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-29T14:25:11.611Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=eu-central-1
+2026-03-29T14:25:11.745Z INFO  auth-service [Auth] Token issued device_id=VSN-3009-EU token_ttl=3600s session_id=e209f0a1-b2c3-d4e5-f6a7-b8c9d0e1f2a3 latency_ms=144
+2026-03-29T14:28:05.201Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3010-CA session_id=f310a1b2-c3d4-e5f6-a7b8-c9d0e1f2a3b4
+2026-03-29T14:28:05.278Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3010-CA cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-29T14:28:05.312Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=ca-central-1 ct_server=ct.cloudflare.com device_id=VSN-3010-CA
+2026-03-29T14:28:15.334Z ERROR auth-service [Auth] CT validation timeout ct_server=ct.cloudflare.com ct_validation_latency_ms=10022 timeout_ms=10000 device_id=VSN-3010-CA segment=ca-central-1
+2026-03-29T14:28:15.338Z ERROR auth-service [Auth] connection_timeout_from_client device_id=VSN-3010-CA session_id=f310a1b2-c3d4-e5f6-a7b8-c9d0e1f2a3b4 reason="client disconnected before CT validation completed" ct_validation_latency_ms=10022
+2026-03-29T14:31:42.101Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3011-US session_id=a411b2c3-d4e5-f6a7-b8c9-d0e1f2a3b4c5
+2026-03-29T14:31:42.178Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3011-US cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-29T14:31:42.212Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-1 ct_server=ct.cloudflare.com device_id=VSN-3011-US
+2026-03-29T14:31:52.214Z ERROR auth-service [Auth] CT validation timeout ct_server=ct.cloudflare.com ct_validation_latency_ms=10002 timeout_ms=10000 device_id=VSN-3011-US segment=us-east-1
+2026-03-29T14:31:52.218Z ERROR auth-service [Auth] connection_timeout_from_client device_id=VSN-3011-US session_id=a411b2c3-d4e5-f6a7-b8c9-d0e1f2a3b4c5 reason="client disconnected before CT validation completed" ct_validation_latency_ms=10002
+2026-03-29T14:35:18.401Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3012-AP session_id=b512c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6
+2026-03-29T14:35:18.478Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3012-AP cert_issuer=GlobalSign root_ca=GlobalSign_Root_CA
+2026-03-29T14:35:18.512Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=ap-southeast-1
+2026-03-29T14:35:18.646Z INFO  auth-service [Auth] Token issued device_id=VSN-3012-AP token_ttl=3600s session_id=b512c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6 latency_ms=145
+2026-03-29T14:38:44.501Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3013-US session_id=c613d4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7
+2026-03-29T14:38:44.577Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3013-US cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-29T14:38:44.611Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-west-2 ct_server=ct.cloudflare.com device_id=VSN-3013-US
+2026-03-29T14:38:54.623Z ERROR auth-service [Auth] CT validation timeout ct_server=ct.cloudflare.com ct_validation_latency_ms=10012 timeout_ms=10000 device_id=VSN-3013-US segment=us-west-2
+2026-03-29T14:38:54.627Z ERROR auth-service [Auth] connection_timeout_from_client device_id=VSN-3013-US session_id=c613d4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7 reason="client disconnected before CT validation completed" ct_validation_latency_ms=10012
+2026-03-29T14:42:11.201Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3014-CA session_id=d714e5f6-a7b8-c9d0-e1f2-a3b4c5d6e7f8
+2026-03-29T14:42:11.278Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3014-CA cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-29T14:42:11.312Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=ca-west-1 ct_server=ct.cloudflare.com device_id=VSN-3014-CA
+2026-03-29T14:42:21.334Z ERROR auth-service [Auth] CT validation timeout ct_server=ct.cloudflare.com ct_validation_latency_ms=10022 timeout_ms=10000 device_id=VSN-3014-CA segment=ca-west-1
+2026-03-29T14:42:21.338Z ERROR auth-service [Auth] connection_timeout_from_client device_id=VSN-3014-CA session_id=d714e5f6-a7b8-c9d0-e1f2-a3b4c5d6e7f8 reason="client disconnected before CT validation completed" ct_validation_latency_ms=10022
+2026-03-29T14:48:55.401Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3015-US session_id=e815f6a7-b8c9-d0e1-f2a3-b4c5d6e7f8a9
+2026-03-29T14:48:55.478Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3015-US cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-29T14:48:55.512Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-1 ct_server=ct.cloudflare.com device_id=VSN-3015-US
+2026-03-29T14:49:05.534Z ERROR auth-service [Auth] CT validation timeout ct_server=ct.cloudflare.com ct_validation_latency_ms=10022 timeout_ms=10000 device_id=VSN-3015-US segment=us-east-1
+2026-03-29T14:49:05.538Z ERROR auth-service [Auth] connection_timeout_from_client device_id=VSN-3015-US session_id=e815f6a7-b8c9-d0e1-f2a3-b4c5d6e7f8a9 reason="client disconnected before CT validation completed" ct_validation_latency_ms=10022
+2026-03-29T14:55:44.201Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3016-EU session_id=f916a7b8-c9d0-e1f2-a3b4-c5d6e7f8a9b0
+2026-03-29T14:55:44.278Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3016-EU cert_issuer=GlobalSign root_ca=GlobalSign_Root_CA
+2026-03-29T14:55:44.312Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=eu-west-1
+2026-03-29T14:55:44.446Z INFO  auth-service [Auth] Token issued device_id=VSN-3016-EU token_ttl=3600s session_id=f916a7b8-c9d0-e1f2-a3b4-c5d6e7f8a9b0 latency_ms=145
+2026-03-29T15:02:11.501Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3017-US session_id=a017b8c9-d0e1-f2a3-b4c5-d6e7f8a9b0c1
+2026-03-29T15:02:11.577Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3017-US cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-29T15:02:11.611Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-west-1 ct_server=ct.cloudflare.com device_id=VSN-3017-US
+2026-03-29T15:02:21.623Z ERROR auth-service [Auth] CT validation timeout ct_server=ct.cloudflare.com ct_validation_latency_ms=10012 timeout_ms=10000 device_id=VSN-3017-US segment=us-west-1
+2026-03-29T15:02:21.627Z ERROR auth-service [Auth] connection_timeout_from_client device_id=VSN-3017-US session_id=a017b8c9-d0e1-f2a3-b4c5-d6e7f8a9b0c1 reason="client disconnected before CT validation completed" ct_validation_latency_ms=10012
+2026-03-29T15:10:15.101Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3018-CA session_id=b118c9d0-e1f2-a3b4-c5d6-e7f8a9b0c1d2
+2026-03-29T15:10:15.178Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3018-CA cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-29T15:10:15.212Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=ca-central-1 ct_server=ct.cloudflare.com device_id=VSN-3018-CA
+2026-03-29T15:10:25.234Z ERROR auth-service [Auth] CT validation timeout ct_server=ct.cloudflare.com ct_validation_latency_ms=10022 timeout_ms=10000 device_id=VSN-3018-CA segment=ca-central-1
+2026-03-29T15:10:25.238Z ERROR auth-service [Auth] connection_timeout_from_client device_id=VSN-3018-CA session_id=b118c9d0-e1f2-a3b4-c5d6-e7f8a9b0c1d2 reason="client disconnected before CT validation completed" ct_validation_latency_ms=10022
+2026-03-29T15:25:22.201Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-3019-AP session_id=d320e1f2-a3b4-c5d6-e7f8-a9b0c1d2e3f4
+2026-03-29T15:25:22.278Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-3019-AP cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-29T15:25:22.312Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=ap-southeast-1
+2026-03-29T15:25:22.446Z INFO  auth-service [Auth] Token issued device_id=VSN-3019-AP token_ttl=3600s session_id=d320e1f2-a3b4-c5d6-e7f8-a9b0c1d2e3f4 latency_ms=145
+2026-03-29T17:15:22.101Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-4001-US session_id=ea01f2a3-b4c5-d6e7-f8a9-b0c1d2e3f4a5
+2026-03-29T17:15:22.178Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-4001-US cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-29T17:15:22.212Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-1 ct_server=ct.cloudflare.com device_id=VSN-4001-US
+2026-03-29T17:15:28.345Z WARN  auth-service [Auth] CT validation delayed ct_server=ct.cloudflare.com latency_ms=6133 threshold_ms=5000 device_id=VSN-4001-US segment=us-east-1
+2026-03-29T17:15:28.512Z INFO  auth-service [Auth] Token issued device_id=VSN-4001-US token_ttl=3600s session_id=ea01f2a3-b4c5-d6e7-f8a9-b0c1d2e3f4a5 latency_ms=6311
+2026-03-29T17:45:44.201Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-4002-CA session_id=fb02a3b4-c5d6-e7f8-a9b0-c1d2e3f4a5b6
+2026-03-29T17:45:44.278Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-4002-CA cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-29T17:45:44.312Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=ca-central-1 ct_server=ct.cloudflare.com device_id=VSN-4002-CA
+2026-03-29T17:45:47.456Z WARN  auth-service [Auth] CT validation delayed ct_server=ct.cloudflare.com latency_ms=3144 threshold_ms=5000 device_id=VSN-4002-CA segment=ca-central-1
+2026-03-29T17:45:47.612Z INFO  auth-service [Auth] Token issued device_id=VSN-4002-CA token_ttl=3600s session_id=fb02a3b4-c5d6-e7f8-a9b0-c1d2e3f4a5b6 latency_ms=3311
+2026-03-29T18:15:15.501Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-4003-US session_id=ac03b4c5-d6e7-f8a9-b0c1-d2e3f4a5b6c7
+2026-03-29T18:15:15.577Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-4003-US cert_issuer=GlobalSign root_ca=GlobalSign_Root_CA
+2026-03-29T18:15:15.611Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-west-2 ct_server=ct.cloudflare.com device_id=VSN-4003-US
+2026-03-29T18:15:16.123Z DEBUG auth-service [Auth] CT validation completed ct_server=ct.cloudflare.com ct_validation_latency_ms=512 device_id=VSN-4003-US segment=us-west-2
+2026-03-29T18:15:16.278Z INFO  auth-service [Auth] Token issued device_id=VSN-4003-US token_ttl=3600s session_id=ac03b4c5-d6e7-f8a9-b0c1-d2e3f4a5b6c7 latency_ms=677
+2026-03-29T18:45:22.201Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-4004-US session_id=bd04c5d6-e7f8-a9b0-c1d2-e3f4a5b6c7d8
+2026-03-29T18:45:22.278Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-4004-US cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-29T18:45:22.312Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-1 ct_server=ct.cloudflare.com device_id=VSN-4004-US
+2026-03-29T18:45:22.623Z DEBUG auth-service [Auth] CT validation completed ct_server=ct.cloudflare.com ct_validation_latency_ms=311 device_id=VSN-4004-US segment=us-east-1
+2026-03-29T18:45:22.778Z INFO  auth-service [Auth] Token issued device_id=VSN-4004-US token_ttl=3600s session_id=bd04c5d6-e7f8-a9b0-c1d2-e3f4a5b6c7d8 latency_ms=477
+2026-03-29T18:45:23.401Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-4005-EU session_id=ce05d6e7-f8a9-b0c1-d2e3-f4a5b6c7d8e9
+2026-03-29T18:45:23.478Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-4005-EU cert_issuer=Amazon root CA 1 root_ca=Amazon_Root_CA_1
+2026-03-29T18:45:23.512Z DEBUG auth-service [Auth] CT validation skipped flag=ct_validation_enabled=false segment=eu-west-1
+2026-03-29T18:45:23.646Z INFO  auth-service [Auth] Token issued device_id=VSN-4005-EU token_ttl=3600s session_id=ce05d6e7-f8a9-b0c1-d2e3-f4a5b6c7d8e9 latency_ms=145
+2026-03-29T19:15:11.101Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-4006-CA session_id=df06e7f8-a9b0-c1d2-e3f4-a5b6c7d8e9f0
+2026-03-29T19:15:11.178Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-4006-CA cert_issuer=DigiCert root_ca=DigiCert_Global_Root_G2
+2026-03-29T19:15:11.212Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=ca-east-1 ct_server=ct.cloudflare.com device_id=VSN-4006-CA
+2026-03-29T19:15:11.434Z DEBUG auth-service [Auth] CT validation completed ct_server=ct.cloudflare.com ct_validation_latency_ms=222 device_id=VSN-4006-CA segment=ca-east-1
+2026-03-29T19:15:11.578Z INFO  auth-service [Auth] Token issued device_id=VSN-4006-CA token_ttl=3600s session_id=df06e7f8-a9b0-c1d2-e3f4-a5b6c7d8e9f0 latency_ms=377
+2026-03-29T19:30:22.201Z DEBUG auth-service [Auth] TLS handshake started device_id=VSN-4007-US session_id=e007f8a9-b0c1-d2e3-f4a5-b6c7d8e9f0a1
+2026-03-29T19:30:22.278Z DEBUG auth-service [Auth] Certificate chain validated device_id=VSN-4007-US cert_issuer=Let's_Encrypt root_ca=ISRG_Root_X1
+2026-03-29T19:30:22.312Z DEBUG auth-service [Auth] CT validation started flag=ct_validation_enabled=true segment=us-east-1 ct_server=ct.cloudflare.com device_id=VSN-4007-US
+2026-03-29T19:30:22.511Z DEBUG auth-service [Auth] CT validation completed ct_server=ct.cloudflare.com ct_validation_latency_ms=199 device_id=VSN-4007-US segment=us-east-1
+2026-03-29T19:30:22.678Z INFO  auth-service [Auth] Token issued device_id=VSN-4007-US token_ttl=3600s session_id=e007f8a9-b0c1-d2e3-f4a5-b6c7d8e9f0a1 latency_ms=377
+2026-03-29T19:31:00.001Z INFO  auth-service [Metrics] ct_validation_enabled_segments=[us-east-1,us-west-1,us-west-2,us-east-2,ca-central-1,ca-east-1,ca-west-1] ct_validation_timeout_count=4213 ct_validation_avg_latency_ms=15234 connection_timeout_from_client_count=4213

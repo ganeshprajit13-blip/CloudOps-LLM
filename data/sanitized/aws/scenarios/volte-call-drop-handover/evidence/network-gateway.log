@@ -1,0 +1,142 @@
+2025-03-20T03:12:18.456Z INFO  mobility-controller [Config] Parameter handover_prep_timer set to 2000ms (default)
+2025-03-20T04:05:33.112Z INFO  cell-tower-a [Handover] X2 handover succeeded for UE UE-7832 from cell ERI-045 to ERI-046 elapsed=312ms
+2025-03-20T05:22:19.789Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-047 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T06:44:02.234Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-1984 source_cell=ERI-048 target_cell=NOK-112
+2025-03-20T07:01:55.890Z INFO  cell-tower-a [Radio] RSRP=-98dBm for UE UE-7832 cell=ERI-045
+2025-03-20T08:17:33.421Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-049 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T09:05:12.678Z INFO  mobility-controller [Handover] Handover completed for UE UE-1984 source_cell=ERI-048 target_cell=NOK-112 elapsed=412ms
+2025-03-20T10:33:56.123Z INFO  cell-tower-a [Radio] RSRP=-102dBm for UE UE-3341 cell=ERI-050
+2025-03-20T11:22:44.555Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-051 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T12:45:11.888Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-5523 source_cell=ERI-052 target_cell=NOK-113
+2025-03-20T13:10:22.333Z INFO  cell-tower-a [Radio] RSRP=-110dBm for UE UE-3341 cell=ERI-050
+2025-03-20T14:07:44.777Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-053 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T15:33:19.222Z INFO  mobility-controller [Handover] Handover completed for UE UE-5523 source_cell=ERI-052 target_cell=NOK-113 elapsed=398ms
+2025-03-20T16:55:00.444Z INFO  cell-tower-a [Radio] RSRP=-95dBm for UE UE-7832 cell=ERI-045
+2025-03-20T17:12:33.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-054 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T18:22:11.111Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-6678 source_cell=ERI-055 target_cell=NOK-114
+2025-03-20T19:08:45.555Z INFO  cell-tower-a [Radio] RSRP=-108dBm for UE UE-3341 cell=ERI-050
+2025-03-20T20:31:22.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-056 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T21:44:10.333Z INFO  mobility-controller [Handover] Handover completed for UE UE-6678 source_cell=ERI-055 target_cell=NOK-114 elapsed=421ms
+2025-03-20T22:55:33.777Z INFO  cell-tower-a [Radio] RSRP=-115dBm for UE UE-8891 cell=ERI-057
+2025-03-21T00:11:22.111Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-058 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T01:33:44.555Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-2201 source_cell=ERI-059 target_cell=NOK-115
+2025-03-21T02:05:10.888Z INFO  cell-tower-a [Radio] RSRP=-120dBm for UE UE-8891 cell=ERI-057
+2025-03-21T03:22:19.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-060 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T04:44:33.777Z INFO  mobility-controller [Handover] Handover completed for UE UE-2201 source_cell=ERI-059 target_cell=NOK-115 elapsed=405ms
+2025-03-21T05:55:11.222Z INFO  cell-tower-a [Radio] RSRP=-105dBm for UE UE-3341 cell=ERI-050
+2025-03-21T06:18:22.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-061 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T07:33:45.111Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-4412 source_cell=ERI-062 target_cell=NOK-116
+2025-03-21T08:11:33.555Z INFO  cell-tower-a [Radio] RSRP=-128dBm for UE UE-8891 cell=ERI-057
+2025-03-21T09:44:22.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-063 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T10:55:10.444Z INFO  mobility-controller [Handover] Handover completed for UE UE-4412 source_cell=ERI-062 target_cell=NOK-116 elapsed=387ms
+2025-03-21T12:01:33.888Z INFO  cell-tower-a [Radio] RSRP=-97dBm for UE UE-7832 cell=ERI-045
+2025-03-21T13:22:45.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-064 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T14:33:11.777Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-5523 source_cell=ERI-065 target_cell=NOK-117
+2025-03-21T15:05:44.222Z INFO  cell-tower-a [Radio] RSRP=-112dBm for UE UE-3341 cell=ERI-050
+2025-03-21T16:18:22.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-066 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T17:44:33.111Z INFO  mobility-controller [Handover] Handover completed for UE UE-5523 source_cell=ERI-065 target_cell=NOK-117 elapsed=419ms
+2025-03-21T18:55:10.555Z INFO  cell-tower-a [Radio] RSRP=-100dBm for UE UE-8891 cell=ERI-057
+2025-03-21T20:11:33.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-067 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T21:33:45.444Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-6678 source_cell=ERI-068 target_cell=NOK-118
+2025-03-21T22:05:10.888Z INFO  cell-tower-a [Radio] RSRP=-118dBm for UE UE-3341 cell=ERI-050
+2025-03-21T23:44:22.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-069 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T00:55:10.777Z INFO  mobility-controller [Handover] Handover completed for UE UE-6678 source_cell=ERI-068 target_cell=NOK-118 elapsed=402ms
+2025-03-22T02:11:33.222Z INFO  cell-tower-a [Radio] RSRP=-103dBm for UE UE-7832 cell=ERI-045
+2025-03-22T03:22:45.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-070 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T04:44:33.111Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-2201 source_cell=ERI-071 target_cell=NOK-119
+2025-03-22T05:10:22.555Z INFO  cell-tower-a [Radio] RSRP=-125dBm for UE UE-8891 cell=ERI-057
+2025-03-22T06:33:11.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-072 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T07:55:10.444Z INFO  mobility-controller [Handover] Handover completed for UE UE-2201 source_cell=ERI-071 target_cell=NOK-119 elapsed=391ms
+2025-03-22T09:01:33.888Z INFO  cell-tower-a [Radio] RSRP=-107dBm for UE UE-3341 cell=ERI-050
+2025-03-22T10:22:45.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-073 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T11:33:11.777Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-4412 source_cell=ERI-074 target_cell=NOK-120
+2025-03-22T12:05:44.222Z INFO  cell-tower-a [Radio] RSRP=-119dBm for UE UE-8891 cell=ERI-057
+2025-03-22T13:44:22.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-075 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T14:55:10.111Z INFO  mobility-controller [Handover] Handover completed for UE UE-4412 source_cell=ERI-074 target_cell=NOK-120 elapsed=378ms
+2025-03-22T16:11:33.555Z INFO  cell-tower-a [Radio] RSRP=-99dBm for UE UE-7832 cell=ERI-045
+2025-03-22T17:22:45.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-076 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T18:33:11.444Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-5523 source_cell=ERI-077 target_cell=NOK-121
+2025-03-22T19:05:44.888Z INFO  cell-tower-a [Radio] RSRP=-114dBm for UE UE-3341 cell=ERI-050
+2025-03-22T20:44:22.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-078 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T21:55:10.777Z INFO  mobility-controller [Handover] Handover completed for UE UE-5523 source_cell=ERI-077 target_cell=NOK-121 elapsed=415ms
+2025-03-22T23:11:33.222Z INFO  cell-tower-a [Radio] RSRP=-101dBm for UE UE-8891 cell=ERI-057
+2025-03-23T00:22:45.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-079 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T01:44:33.111Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-6678 source_cell=ERI-080 target_cell=NOK-122
+2025-03-23T02:10:22.555Z INFO  cell-tower-a [Radio] RSRP=-127dBm for UE UE-3341 cell=ERI-050
+2025-03-23T03:33:11.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-081 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T04:55:10.444Z INFO  mobility-controller [Handover] Handover completed for UE UE-6678 source_cell=ERI-080 target_cell=NOK-122 elapsed=408ms
+2025-03-23T06:11:33.888Z INFO  cell-tower-a [Radio] RSRP=-106dBm for UE UE-7832 cell=ERI-045
+2025-03-23T07:22:45.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-082 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T08:33:11.777Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-2201 source_cell=ERI-083 target_cell=NOK-123
+2025-03-23T09:05:44.222Z INFO  cell-tower-a [Radio] RSRP=-123dBm for UE UE-8891 cell=ERI-057
+2025-03-23T10:44:22.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-084 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T11:55:10.111Z INFO  mobility-controller [Handover] Handover completed for UE UE-2201 source_cell=ERI-083 target_cell=NOK-123 elapsed=395ms
+2025-03-23T13:11:33.555Z INFO  cell-tower-a [Radio] RSRP=-96dBm for UE UE-3341 cell=ERI-050
+2025-03-23T14:22:45.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-085 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T15:33:11.444Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-4412 source_cell=ERI-086 target_cell=NOK-124
+2025-03-23T16:05:44.888Z INFO  cell-tower-a [Radio] RSRP=-116dBm for UE UE-8891 cell=ERI-057
+2025-03-23T17:44:22.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-087 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T18:55:10.777Z INFO  mobility-controller [Handover] Handover completed for UE UE-4412 source_cell=ERI-086 target_cell=NOK-124 elapsed=400ms
+2025-03-23T20:11:33.222Z INFO  cell-tower-a [Radio] RSRP=-109dBm for UE UE-7832 cell=ERI-045
+2025-03-23T21:22:45.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-088 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T22:44:33.111Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-5523 source_cell=ERI-089 target_cell=NOK-125
+2025-03-23T23:10:22.555Z INFO  cell-tower-a [Radio] RSRP=-121dBm for UE UE-3341 cell=ERI-050
+2025-03-24T00:33:11.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-090 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T01:55:10.444Z INFO  mobility-controller [Handover] Handover completed for UE UE-5523 source_cell=ERI-089 target_cell=NOK-125 elapsed=417ms
+2025-03-24T03:11:33.888Z INFO  cell-tower-a [Radio] RSRP=-94dBm for UE UE-8891 cell=ERI-057
+2025-03-24T04:22:45.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-091 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T05:33:11.777Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-6678 source_cell=ERI-092 target_cell=NOK-126
+2025-03-24T06:05:44.222Z INFO  cell-tower-a [Radio] RSRP=-113dBm for UE UE-7832 cell=ERI-045
+2025-03-24T07:44:22.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-093 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T08:55:10.111Z INFO  mobility-controller [Handover] Handover completed for UE UE-6678 source_cell=ERI-092 target_cell=NOK-126 elapsed=399ms
+2025-03-24T10:11:33.555Z INFO  cell-tower-a [Radio] RSRP=-99dBm for UE UE-3341 cell=ERI-050
+2025-03-24T11:22:45.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-094 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T12:33:11.444Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-2201 source_cell=ERI-095 target_cell=NOK-127
+2025-03-24T13:05:44.888Z INFO  cell-tower-a [Radio] RSRP=-126dBm for UE UE-8891 cell=ERI-057
+2025-03-24T14:44:22.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-096 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T15:55:10.777Z INFO  mobility-controller [Handover] Handover completed for UE UE-2201 source_cell=ERI-095 target_cell=NOK-127 elapsed=403ms
+2025-03-24T17:11:33.222Z INFO  cell-tower-a [Radio] RSRP=-102dBm for UE UE-7832 cell=ERI-045
+2025-03-24T18:22:45.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-097 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T19:33:11.111Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-4412 source_cell=ERI-098 target_cell=NOK-128
+2025-03-24T20:05:44.555Z INFO  cell-tower-a [Radio] RSRP=-117dBm for UE UE-3341 cell=ERI-050
+2025-03-24T21:44:22.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-099 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-24T22:55:10.444Z INFO  mobility-controller [Handover] Handover completed for UE UE-4412 source_cell=ERI-098 target_cell=NOK-128 elapsed=411ms
+2025-03-25T00:11:33.888Z INFO  cell-tower-a [Radio] RSRP=-98dBm for UE UE-8891 cell=ERI-057
+2025-03-25T01:22:45.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-100 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T02:33:11.777Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-5523 source_cell=ERI-101 target_cell=NOK-129
+2025-03-25T03:05:44.222Z INFO  cell-tower-a [Radio] RSRP=-122dBm for UE UE-7832 cell=ERI-045
+2025-03-25T04:44:22.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-102 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T05:55:10.111Z INFO  mobility-controller [Handover] Handover completed for UE UE-5523 source_cell=ERI-101 target_cell=NOK-129 elapsed=389ms
+2025-03-25T07:11:33.555Z INFO  cell-tower-a [Radio] RSRP=-104dBm for UE UE-3341 cell=ERI-050
+2025-03-25T08:22:45.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-103 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T09:33:11.444Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-6678 source_cell=ERI-104 target_cell=NOK-130
+2025-03-25T10:05:44.888Z INFO  cell-tower-a [Radio] RSRP=-119dBm for UE UE-8891 cell=ERI-057
+2025-03-25T11:44:22.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-105 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T12:55:10.777Z INFO  mobility-controller [Handover] Handover completed for UE UE-6678 source_cell=ERI-104 target_cell=NOK-130 elapsed=407ms
+2025-03-25T14:11:33.222Z INFO  cell-tower-a [Radio] RSRP=-97dBm for UE UE-7832 cell=ERI-045
+2025-03-25T15:22:45.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-106 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T16:33:11.111Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-2201 source_cell=ERI-107 target_cell=NOK-131
+2025-03-25T17:05:44.555Z INFO  cell-tower-a [Radio] RSRP=-124dBm for UE UE-3341 cell=ERI-050
+2025-03-25T18:44:22.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-108 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T19:55:10.444Z INFO  mobility-controller [Handover] Handover completed for UE UE-2201 source_cell=ERI-107 target_cell=NOK-131 elapsed=413ms
+2025-03-25T21:11:33.888Z INFO  cell-tower-a [Radio] RSRP=-101dBm for UE UE-8891 cell=ERI-057
+2025-03-25T22:22:45.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-109 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T23:33:11.777Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-4412 source_cell=ERI-110 target_cell=NOK-132
+2025-03-26T00:05:44.222Z INFO  cell-tower-a [Radio] RSRP=-120dBm for UE UE-7832 cell=ERI-045
+2025-03-26T01:44:22.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-111 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T02:15:33.000Z INFO  cell-tower-b [Firmware] Firmware upgrade to version 19.2.4 completed successfully
+2025-03-26T03:55:10.111Z INFO  mobility-controller [Handover] Handover completed for UE UE-4412 source_cell=ERI-110 target_cell=NOK-132 elapsed=401ms
+2025-03-26T05:11:33.555Z INFO  cell-tower-a [Radio] RSRP=-95dBm for UE UE-3341 cell=ERI-050
+2025-03-26T06:22:45.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-112 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T07:33:11.444Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-5523 source_cell=ERI-113 target_cell=NOK-133
+2025-03-26T08:05:44.888Z INFO  cell-tower-a [Radio] RSRP=-115dBm for UE UE-8891 cell=ERI-057
+2025-03-26T09:44:22.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-114 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T10:55:10.777Z INFO  mobility-controller [Handover] Handover completed for UE UE-5523 source_cell=ERI-113 target_cell=NOK-133 elapsed=394ms
+2025-03-26T12:11:33.222Z INFO  cell-tower-a [Radio] RSRP=-103dBm for UE UE-7832 cell=ERI-045
+2025-03-26T13:22:45.666Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-115 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T14:33:11.111Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-6678 source_cell=ERI-116 target_cell=NOK-134
+2025-03-26T15:05:44.555Z INFO  cell-tower-a [Radio] RSRP=-121dBm for UE UE-3341 cell=ERI-050
+2025-03-26T16:44:22.999Z INFO  cell-tower-b [Handover] X2 handover rejected from source_cell=ERI-117 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T17:55:10.444Z INFO  mobility-controller [Handover] Handover completed for UE UE-6678 source_cell=ERI-116 target_cell=NOK-134 elapsed=406ms
+2025-03-26T19:11:33.888Z INFO  cell-tower-a [Radio] RSRP=-96dBm for UE UE-8891 cell=ERI-057
+2025-03-26T20:22:45.333Z INFO  cell-tower-b [Handover] X2 handover rejected from source

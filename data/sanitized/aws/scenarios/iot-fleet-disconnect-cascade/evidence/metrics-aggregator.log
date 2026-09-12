@@ -1,0 +1,138 @@
+2026-03-28T10:00:00.000Z INFO  metrics-aggregator [Processing] Starting batch processing cycle, devices_online=49821, messages_per_minute=99642, error_rate_by_region=0.03%
+2026-03-28T10:01:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166073 rows, avg_latency_ms=87, cpu_usage=43%
+2026-03-28T10:02:00.234Z INFO  metrics-aggregator [Processing] devices_online=49819, messages_per_minute=99598, error_rate_by_region=0.02%
+2026-03-28T10:03:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166101 rows, avg_latency_ms=89, cpu_usage=42%
+2026-03-28T10:04:00.456Z INFO  metrics-aggregator [Processing] devices_online=49823, messages_per_minute=99671, error_rate_by_region=0.03%
+2026-03-28T10:05:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166092 rows, avg_latency_ms=85, cpu_usage=44%
+2026-03-28T10:06:00.678Z INFO  metrics-aggregator [Processing] devices_online=49817, messages_per_minute=99615, error_rate_by_region=0.02%
+2026-03-28T10:07:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166120 rows, avg_latency_ms=91, cpu_usage=43%
+2026-03-28T10:08:00.890Z INFO  metrics-aggregator [Processing] devices_online=49825, messages_per_minute=99688, error_rate_by_region=0.03%
+2026-03-28T10:09:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166089 rows, avg_latency_ms=88, cpu_usage=42%
+2026-03-28T10:10:00.012Z INFO  metrics-aggregator [Processing] devices_online=49822, messages_per_minute=99655, error_rate_by_region=0.02%
+2026-03-28T10:11:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166110 rows, avg_latency_ms=90, cpu_usage=44%
+2026-03-28T10:12:00.234Z INFO  metrics-aggregator [Processing] devices_online=49818, messages_per_minute=99621, error_rate_by_region=0.03%
+2026-03-28T10:13:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166098 rows, avg_latency_ms=86, cpu_usage=43%
+2026-03-28T10:14:00.456Z INFO  metrics-aggregator [Processing] devices_online=49824, messages_per_minute=99675, error_rate_by_region=0.02%
+2026-03-28T10:15:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166105 rows, avg_latency_ms=87, cpu_usage=42%
+2026-03-28T10:16:00.678Z INFO  metrics-aggregator [Processing] devices_online=49820, messages_per_minute=99630, error_rate_by_region=0.03%
+2026-03-28T10:17:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166122 rows, avg_latency_ms=92, cpu_usage=43%
+2026-03-28T10:18:00.890Z INFO  metrics-aggregator [Processing] devices_online=49826, messages_per_minute=99690, error_rate_by_region=0.02%
+2026-03-28T10:19:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166091 rows, avg_latency_ms=89, cpu_usage=44%
+2026-03-28T10:20:00.012Z INFO  metrics-aggregator [Processing] devices_online=49819, messages_per_minute=99640, error_rate_by_region=0.03%
+2026-03-28T10:21:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166107 rows, avg_latency_ms=88, cpu_usage=43%
+2026-03-28T10:22:00.234Z INFO  metrics-aggregator [Processing] devices_online=49823, messages_per_minute=99673, error_rate_by_region=0.02%
+2026-03-28T10:23:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166095 rows, avg_latency_ms=87, cpu_usage=42%
+2026-03-28T10:24:00.456Z INFO  metrics-aggregator [Processing] devices_online=49821, messages_per_minute=99657, error_rate_by_region=0.03%
+2026-03-28T10:25:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166118 rows, avg_latency_ms=90, cpu_usage=44%
+2026-03-28T10:26:00.678Z INFO  metrics-aggregator [Processing] devices_online=49817, messages_per_minute=99618, error_rate_by_region=0.02%
+2026-03-28T10:27:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166103 rows, avg_latency_ms=86, cpu_usage=43%
+2026-03-28T10:28:00.890Z INFO  metrics-aggregator [Processing] devices_online=49825, messages_per_minute=99685, error_rate_by_region=0.03%
+2026-03-28T10:29:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166099 rows, avg_latency_ms=89, cpu_usage=42%
+2026-03-28T10:30:00.012Z INFO  metrics-aggregator [Processing] devices_online=49820, messages_per_minute=99645, error_rate_by_region=0.02%
+2026-03-28T10:31:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166115 rows, avg_latency_ms=88, cpu_usage=43%
+2026-03-28T10:32:00.234Z INFO  metrics-aggregator [Processing] devices_online=49822, messages_per_minute=99667, error_rate_by_region=0.03%
+2026-03-28T10:33:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166087 rows, avg_latency_ms=85, cpu_usage=44%
+2026-03-28T10:34:00.456Z INFO  metrics-aggregator [Processing] devices_online=49818, messages_per_minute=99625, error_rate_by_region=0.02%
+2026-03-28T10:35:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166109 rows, avg_latency_ms=87, cpu_usage=43%
+2026-03-28T10:36:00.678Z INFO  metrics-aggregator [Processing] devices_online=49824, messages_per_minute=99680, error_rate_by_region=0.03%
+2026-03-28T10:37:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166121 rows, avg_latency_ms=91, cpu_usage=42%
+2026-03-28T10:38:00.890Z INFO  metrics-aggregator [Processing] devices_online=49826, messages_per_minute=99692, error_rate_by_region=0.02%
+2026-03-28T10:39:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166093 rows, avg_latency_ms=88, cpu_usage=43%
+2026-03-28T10:40:00.012Z INFO  metrics-aggregator [Processing] devices_online=49819, messages_per_minute=99647, error_rate_by_region=0.03%
+2026-03-28T10:41:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166113 rows, avg_latency_ms=89, cpu_usage=44%
+2026-03-28T10:42:00.234Z INFO  metrics-aggregator [Processing] devices_online=49823, messages_per_minute=99676, error_rate_by_region=0.02%
+2026-03-28T10:43:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166090 rows, avg_latency_ms=87, cpu_usage=43%
+2026-03-28T10:44:00.456Z INFO  metrics-aggregator [Processing] devices_online=49821, messages_per_minute=99653, error_rate_by_region=0.03%
+2026-03-28T10:45:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166125 rows, avg_latency_ms=93, cpu_usage=42%
+2026-03-28T10:46:00.678Z INFO  metrics-aggregator [Processing] devices_online=49817, messages_per_minute=99619, error_rate_by_region=0.02%
+2026-03-28T10:47:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166106 rows, avg_latency_ms=88, cpu_usage=43%
+2026-03-28T10:48:00.890Z INFO  metrics-aggregator [Processing] devices_online=49825, messages_per_minute=99689, error_rate_by_region=0.03%
+2026-03-28T10:49:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166096 rows, avg_latency_ms=86, cpu_usage=44%
+2026-03-28T10:50:00.012Z INFO  metrics-aggregator [Processing] devices_online=49820, messages_per_minute=99648, error_rate_by_region=0.02%
+2026-03-28T10:51:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166117 rows, avg_latency_ms=90, cpu_usage=43%
+2026-03-28T10:52:00.234Z INFO  metrics-aggregator [Processing] devices_online=49822, messages_per_minute=99669, error_rate_by_region=0.03%
+2026-03-28T10:53:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166085 rows, avg_latency_ms=85, cpu_usage=42%
+2026-03-28T10:54:00.456Z INFO  metrics-aggregator [Processing] devices_online=49818, messages_per_minute=99623, error_rate_by_region=0.02%
+2026-03-28T10:55:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166111 rows, avg_latency_ms=87, cpu_usage=43%
+2026-03-28T10:56:00.678Z INFO  metrics-aggregator [Processing] devices_online=49824, messages_per_minute=99683, error_rate_by_region=0.03%
+2026-03-28T10:57:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166124 rows, avg_latency_ms=92, cpu_usage=44%
+2026-03-28T10:58:00.890Z INFO  metrics-aggregator [Processing] devices_online=49826, messages_per_minute=99694, error_rate_by_region=0.02%
+2026-03-28T10:59:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166094 rows, avg_latency_ms=89, cpu_usage=43%
+2026-03-28T11:00:00.012Z INFO  metrics-aggregator [Processing] devices_online=49819, messages_per_minute=99650, error_rate_by_region=0.03%
+2026-03-28T11:01:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166119 rows, avg_latency_ms=90, cpu_usage=42%
+2026-03-28T11:02:00.234Z INFO  metrics-aggregator [Processing] devices_online=49823, messages_per_minute=99678, error_rate_by_region=0.02%
+2026-03-28T11:03:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166092 rows, avg_latency_ms=88, cpu_usage=43%
+2026-03-28T11:04:00.456Z INFO  metrics-aggregator [Processing] devices_online=49821, messages_per_minute=99656, error_rate_by_region=0.03%
+2026-03-28T11:05:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166127 rows, avg_latency_ms=94, cpu_usage=44%
+2026-03-28T11:06:00.678Z INFO  metrics-aggregator [Processing] devices_online=49817, messages_per_minute=99621, error_rate_by_region=0.02%
+2026-03-28T11:07:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166108 rows, avg_latency_ms=89, cpu_usage=43%
+2026-03-28T11:08:00.890Z INFO  metrics-aggregator [Processing] devices_online=49825, messages_per_minute=99691, error_rate_by_region=0.03%
+2026-03-28T11:09:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166097 rows, avg_latency_ms=87, cpu_usage=42%
+2026-03-28T11:10:00.012Z INFO  metrics-aggregator [Processing] devices_online=49820, messages_per_minute=99652, error_rate_by_region=0.02%
+2026-03-28T11:11:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166116 rows, avg_latency_ms=91, cpu_usage=43%
+2026-03-28T11:12:00.234Z INFO  metrics-aggregator [Processing] devices_online=49822, messages_per_minute=99681, error_rate_by_region=0.03%
+2026-03-28T11:13:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166088 rows, avg_latency_ms=86, cpu_usage=44%
+2026-03-28T11:14:00.456Z INFO  metrics-aggregator [Processing] devices_online=49818, messages_per_minute=99627, error_rate_by_region=0.02%
+2026-03-28T11:15:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166112 rows, avg_latency_ms=88, cpu_usage=43%
+2026-03-28T11:16:00.678Z INFO  metrics-aggregator [Processing] devices_online=49824, messages_per_minute=99686, error_rate_by_region=0.03%
+2026-03-28T11:17:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166128 rows, avg_latency_ms=95, cpu_usage=42%
+2026-03-28T11:18:00.890Z INFO  metrics-aggregator [Processing] devices_online=49826, messages_per_minute=99696, error_rate_by_region=0.02%
+2026-03-28T11:19:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166099 rows, avg_latency_ms=89, cpu_usage=43%
+2026-03-28T11:20:00.012Z INFO  metrics-aggregator [Processing] devices_online=49819, messages_per_minute=99654, error_rate_by_region=0.03%
+2026-03-28T11:21:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166121 rows, avg_latency_ms=92, cpu_usage=44%
+2026-03-28T11:22:00.234Z INFO  metrics-aggregator [Processing] devices_online=49823, messages_per_minute=99683, error_rate_by_region=0.02%
+2026-03-28T11:23:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166093 rows, avg_latency_ms=87, cpu_usage=43%
+2026-03-28T11:24:00.456Z INFO  metrics-aggregator [Processing] devices_online=49821, messages_per_minute=99659, error_rate_by_region=0.03%
+2026-03-28T11:25:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166130 rows, avg_latency_ms=96, cpu_usage=42%
+2026-03-28T11:26:00.678Z INFO  metrics-aggregator [Processing] devices_online=49817, messages_per_minute=99624, error_rate_by_region=0.02%
+2026-03-28T11:27:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166110 rows, avg_latency_ms=88, cpu_usage=43%
+2026-03-28T11:28:00.890Z INFO  metrics-aggregator [Processing] devices_online=49825, messages_per_minute=99693, error_rate_by_region=0.03%
+2026-03-28T11:29:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166100 rows, avg_latency_ms=86, cpu_usage=44%
+2026-03-28T11:30:00.012Z INFO  metrics-aggregator [Processing] devices_online=49820, messages_per_minute=99656, error_rate_by_region=0.02%
+2026-03-28T11:31:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166123 rows, avg_latency_ms=91, cpu_usage=43%
+2026-03-28T11:32:00.234Z INFO  metrics-aggregator [Processing] devices_online=49822, messages_per_minute=99685, error_rate_by_region=0.03%
+2026-03-28T11:33:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166095 rows, avg_latency_ms=87, cpu_usage=42%
+2026-03-28T11:34:00.456Z INFO  metrics-aggregator [Processing] devices_online=49818, messages_per_minute=99629, error_rate_by_region=0.02%
+2026-03-28T11:35:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166115 rows, avg_latency_ms=89, cpu_usage=43%
+2026-03-28T11:36:00.678Z INFO  metrics-aggregator [Processing] devices_online=49824, messages_per_minute=99688, error_rate_by_region=0.03%
+2026-03-28T11:37:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166131 rows, avg_latency_ms=97, cpu_usage=44%
+2026-03-28T11:38:00.890Z INFO  metrics-aggregator [Processing] devices_online=49826, messages_per_minute=99698, error_rate_by_region=0.02%
+2026-03-28T11:39:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166101 rows, avg_latency_ms=88, cpu_usage=43%
+2026-03-28T11:40:00.012Z INFO  metrics-aggregator [Processing] devices_online=49819, messages_per_minute=99658, error_rate_by_region=0.03%
+2026-03-28T11:41:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166125 rows, avg_latency_ms=93, cpu_usage=42%
+2026-03-28T11:42:00.234Z INFO  metrics-aggregator [Processing] devices_online=49823, messages_per_minute=99687, error_rate_by_region=0.02%
+2026-03-28T11:43:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166097 rows, avg_latency_ms=87, cpu_usage=43%
+2026-03-28T11:44:00.456Z INFO  metrics-aggregator [Processing] devices_online=49821, messages_per_minute=99661, error_rate_by_region=0.03%
+2026-03-28T11:45:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166133 rows, avg_latency_ms=98, cpu_usage=44%
+2026-03-28T11:46:00.678Z INFO  metrics-aggregator [Processing] devices_online=49817, messages_per_minute=99631, error_rate_by_region=0.02%
+2026-03-28T11:47:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166112 rows, avg_latency_ms=89, cpu_usage=43%
+2026-03-28T11:48:00.890Z INFO  metrics-aggregator [Processing] devices_online=49825, messages_per_minute=99695, error_rate_by_region=0.03%
+2026-03-28T11:49:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166103 rows, avg_latency_ms=86, cpu_usage=42%
+2026-03-28T11:50:00.012Z INFO  metrics-aggregator [Processing] devices_online=49820, messages_per_minute=99660, error_rate_by_region=0.02%
+2026-03-28T11:51:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166127 rows, avg_latency_ms=94, cpu_usage=43%
+2026-03-28T11:52:00.234Z INFO  metrics-aggregator [Processing] devices_online=49822, messages_per_minute=99689, error_rate_by_region=0.03%
+2026-03-28T11:53:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166099 rows, avg_latency_ms=88, cpu_usage=44%
+2026-03-28T11:54:00.456Z INFO  metrics-aggregator [Processing] devices_online=49818, messages_per_minute=99633, error_rate_by_region=0.02%
+2026-03-28T11:55:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166118 rows, avg_latency_ms=90, cpu_usage=43%
+2026-03-28T11:56:00.678Z INFO  metrics-aggregator [Processing] devices_online=49824, messages_per_minute=99691, error_rate_by_region=0.03%
+2026-03-28T11:57:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166135 rows, avg_latency_ms=99, cpu_usage=42%
+2026-03-28T11:58:00.890Z INFO  metrics-aggregator [Processing] devices_online=49826, messages_per_minute=99700, error_rate_by_region=0.02%
+2026-03-28T11:59:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166105 rows, avg_latency_ms=87, cpu_usage=43%
+2026-03-28T12:00:00.012Z INFO  metrics-aggregator [Processing] devices_online=49819, messages_per_minute=99662, error_rate_by_region=0.03%
+2026-03-28T12:01:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166129 rows, avg_latency_ms=95, cpu_usage=44%
+2026-03-28T12:02:00.234Z INFO  metrics-aggregator [Processing] devices_online=49823, messages_per_minute=99690, error_rate_by_region=0.02%
+2026-03-28T12:03:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166107 rows, avg_latency_ms=88, cpu_usage=43%
+2026-03-28T12:04:00.456Z INFO  metrics-aggregator [Processing] devices_online=49821, messages_per_minute=99664, error_rate_by_region=0.03%
+2026-03-28T12:05:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166137 rows, avg_latency_ms=101, cpu_usage=42%
+2026-03-28T12:06:00.678Z INFO  metrics-aggregator [Processing] devices_online=49817, messages_per_minute=99635, error_rate_by_region=0.02%
+2026-03-28T12:07:00.789Z INFO  metrics-aggregator [Processing] Batch completed, processed 166114 rows, avg_latency_ms=89, cpu_usage=43%
+2026-03-28T12:08:00.890Z INFO  metrics-aggregator [Processing] devices_online=49825, messages_per_minute=99697, error_rate_by_region=0.03%
+2026-03-28T12:09:00.901Z INFO  metrics-aggregator [Processing] Batch completed, processed 166109 rows, avg_latency_ms=87, cpu_usage=44%
+2026-03-28T12:10:00.012Z INFO  metrics-aggregator [Processing] devices_online=49820, messages_per_minute=99666, error_rate_by_region=0.02%
+2026-03-28T12:11:00.123Z INFO  metrics-aggregator [Processing] Batch completed, processed 166131 rows, avg_latency_ms=96, cpu_usage=43%
+2026-03-28T12:12:00.234Z INFO  metrics-aggregator [Processing] devices_online=49822, messages_per_minute=99693, error_rate_by_region=0.03%
+2026-03-28T12:13:00.345Z INFO  metrics-aggregator [Processing] Batch completed, processed 166111 rows, avg_latency_ms=88, cpu_usage=42%
+2026-03-28T12:14:00.456Z INFO  metrics-aggregator [Processing] devices_online=49818, messages_per_minute=99637, error_rate_by_region=0.02%
+2026-03-28T12:15:00.567Z INFO  metrics-aggregator [Processing] Batch completed, processed 166121 rows, avg_latency_ms=91, cpu_usage=43%
+2026-03-28T12:16:00.678Z INFO  metrics-aggregator [Processing] devices_online=49824, messages_per_minute=99695, error_rate_by_region=0.03%
+2026-03-28T12:17:00.789Z INFO  metrics-aggregator [Processing] Batch

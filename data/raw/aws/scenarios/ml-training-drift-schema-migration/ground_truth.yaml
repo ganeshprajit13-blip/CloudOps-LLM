@@ -1,0 +1,116 @@
+scenario_name: ml-training-drift-schema-migration
+display_name: Accuracy Drop from Schema Migration
+domain: ML Platform
+industry: E-commerce SaaS
+difficulty: expert
+hitl_scenario: true
+hitl_clarification_type: change_correlation
+hitl_flow:
+  1_vague_report: "Recommendation model AUC dropped from 0.89 to 0.72 since March 27 (~36 hours). Training jobs complete successfully. No code changes deployed. Multiple retailers reporting poor model performance."
+  2_clarification: "Has there been any recent infrastructure changes or incidents? Are the poor-performing models only those trained recently, or older models too?"
+  3_user_response: "Only models trained since March 27 are affected — older models are fine. There were a few infrastructure changes that week (cert rotation, a DB migration, a feature flag flip) but all went through normal change management. Nobody thinks their changes are related."
+  4_focused_investigation: "Agent searches data pipeline and infrastructure logs around the change window to trace what shifted in the training data and why only recent models are affected."
+  5_correct_root_cause: "Silent backfill failure left 99.8% of records with a placeholder UUID, collapsing per-user features into global averages."
+root_cause:
+  service: events-warehouse-db
+  issue: silent_data_corruption
+  details: Schema migration added user_id_v2 UUID column but backfill script silently failed (connection timeout to lookup
+    table), leaving 99.8% of historical records with placeholder UUID (00000000-0000-0000-0000-000000000000). When feature
+    aggregator enabled USE_USER_ID_V2 flag 40h later, it grouped by this column — collapsing millions of users into one, computing
+    global averages instead of per-user features.
+evidence_keywords:
+- user_id_v2
+- placeholder UUID
+- backfill failed
+- connection timeout
+- USE_USER_ID_V2
+- low cardinality
+- global average
+- 00000000-0000-0000-0000-000000000000
+- 'WARN: UUID lookup table connection timeout'
+red_herrings:
+- service: feature-store-api
+  event: TLS cert rotation at T-18h
+  why_misleading: Recent infrastructure change, visible restarts
+- service: model-serving
+  event: Redis timeout and cache eviction at T-14h
+  why_misleading: Elevated latency correlates with customer complaints
+- service: model-registry
+  event: DynamoDB throttling and auto-scaling
+  why_misleading: Registry performance issues during investigation window
+- service: data-quality-monitor
+  event: Weekend row count variance flags
+  why_misleading: Looks anomalous but is normal traffic pattern
+contributing_factors:
+- service: feature-aggregator
+  mechanism: Groups by user_id_v2 column with 99.8% placeholder values
+  impact: Computes global averages instead of per-user features
+- service: feature-validation-service
+  mechanism: Only validates schema, not value distributions
+  impact: Poisoned data passes all validation checks
+- service: events-warehouse-db
+  mechanism: No automated backfill verification or alerting
+  impact: Silent failure went undetected for 72 hours
+verification_steps:
+- step: 1
+  action: Check training job logs for errors
+  finding: All jobs successful, no errors
+- step: 2
+  action: Compare feature distributions between baseline and degraded models
+  finding: Recent features show identical values across users
+- step: 3
+  action: Trace feature computation back to aggregator
+  finding: Aggregator grouping by user_id_v2 with low cardinality (1,247 distinct values)
+- step: 4
+  action: Query events warehouse for user_id_v2 distribution
+  finding: 99.8% of records have same placeholder UUID (179,640,000/180,000,000)
+- step: 5
+  action: Review migration logs for backfill status
+  finding: 'Single WARN log: UUID lookup table connection timeout after 30s; falling back to default placeholder values for
+    user_id_v2 backfill'
+fix_recommendations:
+- immediate:
+  - Disable USE_USER_ID_V2 feature flag
+  - Retrain all models from past 36h using old user_id column
+- short_term:
+  - Fix lookup table connection issue
+  - Rerun backfill with proper UUID mapping
+  - Validate backfill completed correctly using row-level sampling
+- long_term:
+  - Add feature distribution validation (cardinality checks)
+  - Implement canary training with automatic rollback
+  - Add cross-team migration review process
+  - Monitor feature cardinality in production
+prevention:
+- Validate backfill scripts with row-level sampling before production
+- Add feature distribution tests to validation pipeline
+- Implement canary rollout for feature flags affecting aggregation logic
+- Alert on sudden drops in feature cardinality
+- Require data engineering + ML engineering sign-off on schema changes
+metrics:
+  baseline_auc: 0.89
+  degraded_auc: 0.72
+  baseline_precision: 0.84
+  degraded_precision: 0.68
+  affected_retailers: 8
+  affected_models: 12
+  records_with_placeholder: 179640000
+  total_records: 180000000
+  expected_distinct_users: 5200000
+  actual_distinct_users: 1247
+plain_english_summary: Machine learning model accuracy has quietly dropped from 89% to 72%, affecting product recommendations
+  for millions of users. The models look structurally fine -- the problem is in the data they were trained on. A database
+  migration silently corrupted a key field, and a feature flag change 40 hours later made the corruption visible.
+causation_chain:
+- step: Schema migration adds new user ID column
+  service: events-warehouse-db
+- step: Backfill script silently fails (connection timeout)
+  service: events-warehouse-db
+- step: 99.8% of records get placeholder UUID value
+  service: events-warehouse-db
+- step: Feature flag switches to use new column
+  service: feature-aggregator
+- step: User features collapse to global averages
+  service: feature-aggregator
+- step: Models train on corrupted features, accuracy drops
+  service: model-trainer

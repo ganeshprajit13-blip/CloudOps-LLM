@@ -1,0 +1,152 @@
+2026-03-27T01:02:15.432Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=checkout
+2026-03-27T01:03:48.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=87ms
+2026-03-27T01:04:22.555Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-33902 session_id=ses-1b7d8e2f scope=checkout
+2026-03-27T01:05:09.333Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=92ms
+2026-03-27T01:06:17.789Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-55019 session_id=ses-4a8c3d5e scope=checkout
+2026-03-27T01:07:01.222Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=85ms
+2026-03-27T01:08:44.666Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-12087 session_id=ses-6e2f9a4b scope=checkout
+2026-03-27T01:09:15.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=79ms
+2026-03-27T01:10:33.888Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=inventory
+2026-03-27T01:11:02.444Z INFO  api-gateway [Routing] GET /api/v1/inventory/check?sku=SKU-8832 routed to upstream=inventory-service latency=103ms
+2026-03-27T01:12:18.111Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-44105 session_id=ses-5c7d1f8a scope=checkout
+2026-03-27T01:13:05.555Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=88ms
+2026-03-27T01:14:37.999Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-21089 session_id=ses-8d9e2b4c scope=checkout
+2026-03-27T01:15:21.333Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=91ms
+2026-03-27T01:16:49.777Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-88763 session_id=ses-2f5d9a1b scope=checkout
+2026-03-27T01:17:12.222Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=84ms
+2026-03-27T01:18:55.666Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-11023 session_id=ses-7c3e8f9a scope=checkout
+2026-03-27T01:19:40.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=86ms
+2026-03-27T01:20:26.888Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-55019 session_id=ses-4a8c3d5e scope=inventory
+2026-03-27T01:21:09.444Z INFO  api-gateway [Routing] GET /api/v1/inventory/check?sku=SKU-7721 routed to upstream=inventory-service latency=98ms
+2026-03-27T01:22:34.555Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-99304 session_id=ses-1c4d7b8f scope=checkout
+2026-03-27T01:23:18.222Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=90ms
+2026-03-27T01:24:52.777Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-66801 session_id=ses-5d8e3f9a scope=checkout
+2026-03-27T01:25:33.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=83ms
+2026-03-27T01:26:47.555Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=checkout
+2026-03-27T01:27:20.999Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=87ms
+2026-03-27T01:28:55.333Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-33902 session_id=ses-1b7d8e2f scope=checkout
+2026-03-27T01:29:39.666Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=89ms
+2026-03-27T01:30:14.444Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-55019 session_id=ses-4a8c3d5e scope=checkout
+2026-03-27T01:31:07.777Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=91ms
+2026-03-27T01:32:31.111Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-12087 session_id=ses-6e2f9a4b scope=checkout
+2026-03-27T01:33:15.555Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=85ms
+2026-03-27T01:34:48.999Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=inventory
+2026-03-27T01:35:22.333Z INFO  api-gateway [Routing] GET /api/v1/inventory/check?sku=SKU-5519 routed to upstream=inventory-service latency=101ms
+2026-03-27T01:36:55.666Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-44105 session_id=ses-5c7d1f8a scope=checkout
+2026-03-27T01:37:38.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=93ms
+2026-03-27T01:38:11.444Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-21089 session_id=ses-8d9e2b4c scope=checkout
+2026-03-27T01:39:04.888Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=82ms
+2026-03-27T01:40:29.222Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-88763 session_id=ses-2f5d9a1b scope=checkout
+2026-03-27T01:41:17.555Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=86ms
+2026-03-27T01:42:53.777Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-11023 session_id=ses-7c3e8f9a scope=checkout
+2026-03-27T01:43:41.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=88ms
+2026-03-27T01:44:25.444Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-99304 session_id=ses-1c4d7b8f scope=checkout
+2026-03-27T01:45:18.888Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=90ms
+2026-03-27T01:46:52.333Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-66801 session_id=ses-5d8e3f9a scope=checkout
+2026-03-27T01:47:35.666Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=84ms
+2026-03-27T01:48:19.999Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=checkout
+2026-03-27T01:49:08.222Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=87ms
+2026-03-27T01:50:44.555Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-33902 session_id=ses-1b7d8e2f scope=checkout
+2026-03-27T01:51:28.888Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=89ms
+2026-03-27T01:52:11.111Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-55019 session_id=ses-4a8c3d5e scope=checkout
+2026-03-27T01:53:05.444Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=92ms
+2026-03-27T01:54:39.777Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-12087 session_id=ses-6e2f9a4b scope=checkout
+2026-03-27T01:55:23.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=85ms
+2026-03-27T01:56:57.666Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=inventory
+2026-03-27T01:57:40.999Z INFO  api-gateway [Routing] GET /api/v1/inventory/check?sku=SKU-8832 routed to upstream=inventory-service latency=99ms
+2026-03-27T01:58:14.333Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-44105 session_id=ses-5c7d1f8a scope=checkout
+2026-03-27T01:59:07.777Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=91ms
+2026-03-27T02:00:41.111Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-21089 session_id=ses-8d9e2b4c scope=checkout
+2026-03-27T02:01:25.444Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=86ms
+2026-03-27T02:02:59.888Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-88763 session_id=ses-2f5d9a1b scope=checkout
+2026-03-27T02:03:43.222Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=84ms
+2026-03-27T02:04:17.555Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-11023 session_id=ses-7c3e8f9a scope=checkout
+2026-03-27T02:05:01.999Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=88ms
+2026-03-27T02:06:35.333Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-99304 session_id=ses-1c4d7b8f scope=checkout
+2026-03-27T02:07:28.666Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=90ms
+2026-03-27T02:08:12.111Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-66801 session_id=ses-5d8e3f9a scope=checkout
+2026-03-27T02:09:05.444Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=87ms
+2026-03-27T02:10:39.777Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=checkout
+2026-03-27T02:11:23.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=93ms
+2026-03-27T02:12:57.555Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-33902 session_id=ses-1b7d8e2f scope=checkout
+2026-03-27T02:13:41.888Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=85ms
+2026-03-27T02:14:25.222Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-55019 session_id=ses-4a8c3d5e scope=checkout
+2026-03-27T02:15:18.666Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=89ms
+2026-03-27T02:16:52.999Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-12087 session_id=ses-6e2f9a4b scope=checkout
+2026-03-27T02:17:36.333Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=86ms
+2026-03-27T02:18:10.777Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=inventory
+2026-03-27T02:19:04.111Z INFO  api-gateway [Routing] GET /api/v1/inventory/check?sku=SKU-5519 routed to upstream=inventory-service latency=102ms
+2026-03-27T02:20:38.555Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-44105 session_id=ses-5c7d1f8a scope=checkout
+2026-03-27T02:21:22.888Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=91ms
+2026-03-27T02:22:56.222Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-21089 session_id=ses-8d9e2b4c scope=checkout
+2026-03-27T02:23:40.555Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=84ms
+2026-03-27T02:24:24.999Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-88763 session_id=ses-2f5d9a1b scope=checkout
+2026-03-27T02:25:18.333Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=87ms
+2026-03-27T02:26:52.666Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-11023 session_id=ses-7c3e8f9a scope=checkout
+2026-03-27T02:27:36.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=89ms
+2026-03-27T02:28:20.444Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-99304 session_id=ses-1c4d7b8f scope=checkout
+2026-03-27T02:29:13.777Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=90ms
+2026-03-27T02:30:47.111Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-66801 session_id=ses-5d8e3f9a scope=checkout
+2026-03-27T02:31:31.444Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=85ms
+2026-03-27T02:32:15.888Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=checkout
+2026-03-27T02:33:09.222Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=92ms
+2026-03-27T02:34:43.555Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-33902 session_id=ses-1b7d8e2f scope=checkout
+2026-03-27T02:35:27.888Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=86ms
+2026-03-27T02:36:11.222Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-55019 session_id=ses-4a8c3d5e scope=checkout
+2026-03-27T02:37:05.666Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=88ms
+2026-03-27T02:38:39.999Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-12087 session_id=ses-6e2f9a4b scope=checkout
+2026-03-27T02:39:23.333Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=91ms
+2026-03-27T02:40:57.777Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=inventory
+2026-03-27T02:41:41.111Z INFO  api-gateway [Routing] GET /api/v1/inventory/check?sku=SKU-7721 routed to upstream=inventory-service latency=97ms
+2026-03-27T02:42:25.444Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-44105 session_id=ses-5c7d1f8a scope=checkout
+2026-03-27T02:43:18.888Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=83ms
+2026-03-27T02:44:52.222Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-21089 session_id=ses-8d9e2b4c scope=checkout
+2026-03-27T02:45:36.555Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=85ms
+2026-03-27T02:46:20.999Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-88763 session_id=ses-2f5d9a1b scope=checkout
+2026-03-27T02:47:14.333Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=90ms
+2026-03-27T02:48:48.666Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-11023 session_id=ses-7c3e8f9a scope=checkout
+2026-03-27T02:49:32.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=87ms
+2026-03-27T02:50:16.444Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-99304 session_id=ses-1c4d7b8f scope=checkout
+2026-03-27T02:51:09.777Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=92ms
+2026-03-27T02:52:43.111Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-66801 session_id=ses-5d8e3f9a scope=checkout
+2026-03-27T02:53:27.444Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=84ms
+2026-03-27T02:54:11.888Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=checkout
+2026-03-27T02:55:05.222Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=89ms
+2026-03-27T02:56:39.555Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-33902 session_id=ses-1b7d8e2f scope=checkout
+2026-03-27T02:57:23.888Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=86ms
+2026-03-27T02:58:07.222Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-55019 session_id=ses-4a8c3d5e scope=checkout
+2026-03-27T02:59:01.666Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=91ms
+2026-03-27T03:00:35.999Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-12087 session_id=ses-6e2f9a4b scope=checkout
+2026-03-27T03:01:19.333Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=85ms
+2026-03-27T03:02:53.777Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=inventory
+2026-03-27T03:03:37.111Z INFO  api-gateway [Routing] GET /api/v1/inventory/check?sku=SKU-8832 routed to upstream=inventory-service latency=98ms
+2026-03-27T03:04:21.444Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-44105 session_id=ses-5c7d1f8a scope=checkout
+2026-03-27T03:05:15.888Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=87ms
+2026-03-27T03:06:49.222Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-21089 session_id=ses-8d9e2b4c scope=checkout
+2026-03-27T03:07:33.555Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=89ms
+2026-03-27T03:08:17.999Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-88763 session_id=ses-2f5d9a1b scope=checkout
+2026-03-27T03:09:11.333Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=84ms
+2026-03-27T03:10:45.666Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-11023 session_id=ses-7c3e8f9a scope=checkout
+2026-03-27T03:11:29.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=86ms
+2026-03-27T03:12:13.444Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-99304 session_id=ses-1c4d7b8f scope=checkout
+2026-03-27T03:13:07.777Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=90ms
+2026-03-27T03:14:41.111Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-66801 session_id=ses-5d8e3f9a scope=checkout
+2026-03-27T03:15:25.444Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=88ms
+2026-03-27T03:16:09.888Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=checkout
+2026-03-27T03:17:03.222Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=85ms
+2026-03-27T03:18:37.555Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-33902 session_id=ses-1b7d8e2f scope=checkout
+2026-03-27T03:19:21.888Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=87ms
+2026-03-27T03:20:05.222Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-55019 session_id=ses-4a8c3d5e scope=checkout
+2026-03-27T03:20:59.666Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=91ms
+2026-03-27T03:22:33.999Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-12087 session_id=ses-6e2f9a4b scope=checkout
+2026-03-27T03:23:17.333Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=86ms
+2026-03-27T03:24:51.777Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-77218 session_id=ses-9f3c2a1d scope=inventory
+2026-03-27T03:25:35.111Z INFO  api-gateway [Routing] GET /api/v1/inventory/check?sku=SKU-5519 routed to upstream=inventory-service latency=100ms
+2026-03-27T03:26:19.444Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-44105 session_id=ses-5c7d1f8a scope=checkout
+2026-03-27T03:27:13.888Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=89ms
+2026-03-27T03:28:47.222Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-21089 session_id=ses-8d9e2b4c scope=checkout
+2026-03-27T03:29:31.555Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=84ms
+2026-03-27T03:30:15.999Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-88763 session_id=ses-2f5d9a1b scope=checkout
+2026-03-27T03:31:09.333Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service latency=87ms
+2026-03-27T03:32:43.666Z INFO  api-gateway [Auth] Validated JWT token for user_id=usr-11023 session_id=ses-7c3e8f9a scope=checkout
+2026-03-27T03:33:27.111Z INFO  api-gateway [Routing] POST /api/v1/orders routed to upstream=order-service

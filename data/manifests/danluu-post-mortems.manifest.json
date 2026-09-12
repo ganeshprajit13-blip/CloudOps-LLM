@@ -1,0 +1,60 @@
+{
+  "dataset_name": "danluu-post-mortems",
+  "source_url": "https://github.com/danluu/post-mortems",
+  "source_organization": "Dan Luu (danluu) and community contributors",
+  "license": "No explicit LICENSE file in repository. Repository is public and the README content consists of links to publicly published incident post-mortems written by respective organizations (Amazon, Google, Cloudflare, GitHub, etc.). Each linked post-mortem is published publicly by its respective company. NOTE: Each underlying post-mortem URL links to external company blog posts governed by those companies own Terms of Service.",
+  "download_date": "2026-09-11",
+  "original_file_name": [
+    "danluu-post-mortems-master.zip"
+  ],
+  "original_size_bytes": 39456,
+  "extracted_size_bytes": null,
+  "checksum": {
+    "danluu-post-mortems-master.zip": "sha256:8CF2D68BF6E15FFBBFE3B2A38F1C3D847BF07D13132B3B64D6BD60D1BC3E8D17"
+  },
+  "record_count": null,
+  "data_types": [
+    "incidents"
+  ],
+  "cloud_provider": "Multi-cloud (AWS, GCP, Azure, Cloudflare, GitHub, others)",
+  "services": [
+    "EC2",
+    "DNS",
+    "S3",
+    "RDS",
+    "CDN",
+    "WAF",
+    "BGP routing",
+    "Kubernetes",
+    "databases",
+    "networking",
+    "cloud infrastructure"
+  ],
+  "provenance": "Public curated list of real-world incident post-mortems from major technology companies. Compiled by Dan Luu since 2015. Repository contains README.md with hundreds of links to published post-mortems including: Amazon AWS, Google, Cloudflare, GitHub, Facebook/Meta, CircleCI, Datadog, and many others. Downloaded from official GitHub repository master branch on 2026-09-11. 12,304 GitHub stars. Active since 2015.",
+  "processing_status": "extracted",
+  "sanitization_status": "unverified",
+  "notes": "The ZIP contains only the README.md (links to post-mortems) and a small amount of metadata - it does NOT contain the full text of the post-mortems themselves. The actual post-mortem texts are at external URLs.",
+  "audit": {
+    "audit_date": "2026-09-11",
+    "audit_step": "step3-license-provenance",
+    "license_verified": false,
+    "license_source": "No LICENSE file found in repository - confirmed by ZIP inspection. No license entries in archive.",
+    "license_name": "NONE",
+    "license_url": null,
+    "training_eligibility": "TRAINING_REQUIRES_HUMAN_REVIEW",
+    "rag_eligibility": "RAG_REQUIRES_HUMAN_REVIEW",
+    "attribution_required": "UNKNOWN",
+    "provenance_verified": true,
+    "content_type": [
+      "incidents",
+      "links_references"
+    ],
+    "real_vs_synthetic": "real",
+    "human_review_required": true,
+    "audit_notes": "No LICENSE file in repository. Default copyright law applies. 256 HTTP link lines in README but no full post-mortem text downloaded. Each linked URL governed by respective company ToS.",
+    "checksum_verified": true,
+    "sha256": "8CF2D68BF6E15FFBBFE3B2A38F1C3D847BF07D13132B3B64D6BD60D1BC3E8D17",
+    "zip_contains_full_text": false,
+    "link_count_in_readme": 256
+  }
+}

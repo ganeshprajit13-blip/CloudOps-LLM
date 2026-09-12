@@ -1,0 +1,22 @@
+# Development dependencies for RCA Deep Research Agent
+# Install with: pip install -r requirements-dev.txt
+
+# Include main requirements
+-r requirements.txt
+
+# Testing
+pytest>=9.0.3,<10.0.0
+pytest-asyncio>=0.21.0,<1.0.0
+pytest-cov>=4.0.0,<6.0.0
+moto>=4.0.0,<6.0.0  # AWS service mocking
+
+# Code quality (ruff handles linting + formatting via pre-commit)
+ruff>=0.4.0,<1.0.0
+mypy>=1.0.0,<2.0.0
+
+# Type stubs
+boto3-stubs[bedrock,bedrock-runtime,logs,s3,athena]>=1.34.0,<2.0.0
+
+# Documentation
+mkdocs>=1.5.0,<2.0.0
+mkdocs-material>=9.0.0,<10.0.0

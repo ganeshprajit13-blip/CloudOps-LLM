@@ -1,0 +1,132 @@
+2026-03-25T01:02:18.456Z INFO  inventory-db [Query] SELECT id, stock_level, last_updated FROM inventory WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-77' took 167ms
+2026-03-25T01:05:33.122Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = stock_level - 1 WHERE product_id = 'PROD-99402' AND warehouse_id = 'WH-12' returned 1 row took 189ms
+2026-03-25T01:08:44.789Z INFO  inventory-db [Query] SELECT SUM(stock_level) FROM inventory WHERE warehouse_id = 'WH-77' GROUP BY product_category took 153ms
+2026-03-25T01:11:12.345Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE stock_level < 5 AND warehouse_id = 'WH-33' took 172ms
+2026-03-25T01:14:56.012Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-11783', 'WH-88', 250, '2026-03-25T01:14:56.012Z') took 194ms
+2026-03-25T01:17:23.891Z INFO  inventory-db [Query] DELETE FROM inventory WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-77' AND stock_level = 0 took 148ms
+2026-03-25T01:20:55.678Z INFO  inventory-db [Query] SELECT product_id, stock_level, last_updated FROM inventory WHERE product_id IN ('PROD-11783', 'PROD-99402', 'PROD-77201') AND warehouse_id = 'WH-33' took 181ms
+2026-03-25T01:23:10.234Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T01:23:10.234Z', stock_level = 12 WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-88' returned 1 row took 165ms
+2026-03-25T01:26:44.901Z INFO  inventory-db [Query] SELECT COUNT(*) FROM inventory WHERE warehouse_id = 'WH-12' AND last_updated > '2026-03-25T00:00:00Z' took 158ms
+2026-03-25T01:29:17.567Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-77' ORDER BY last_updated DESC LIMIT 10 took 177ms
+2026-03-25T01:32:09.321Z INFO  inventory-db [Query] SELECT warehouse_id, SUM(stock_level) as total_stock FROM inventory WHERE product_id = 'PROD-99402' GROUP BY warehouse_id took 192ms
+2026-03-25T01:35:41.005Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 88 WHERE product_id = 'PROD-11783' AND warehouse_id = 'WH-33' returned 1 row took 163ms
+2026-03-25T01:38:22.789Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id LIKE 'PROD-%' AND warehouse_id IN ('WH-12', 'WH-33', 'WH-77') took 201ms
+2026-03-25T01:41:56.443Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-88219', 'WH-12', 150, '2026-03-25T01:41:56.443Z') took 178ms
+2026-03-25T01:44:33.112Z INFO  inventory-db [Query] SELECT MAX(last_updated) FROM inventory WHERE warehouse_id = 'WH-88' took 149ms
+2026-03-25T01:47:08.876Z INFO  inventory-db [Query] DELETE FROM inventory WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-77' AND stock_level = 0 took 152ms
+2026-03-25T01:50:15.532Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-33' AND stock_level > 100 took 173ms
+2026-03-25T01:53:49.201Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T01:53:49.201Z', stock_level = 30 WHERE product_id = 'PROD-99402' AND warehouse_id = 'WH-12' returned 1 row took 185ms
+2026-03-25T01:57:12.987Z INFO  inventory-db [Query] SELECT COUNT(DISTINCT product_id) FROM inventory WHERE warehouse_id = 'WH-77' took 161ms
+2026-03-25T02:00:55.664Z INFO  inventory-db [Query] SELECT product_id, stock_level, last_updated FROM inventory WHERE product_id = 'PROD-11783' AND warehouse_id = 'WH-88' took 154ms
+2026-03-25T02:03:28.331Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-77201', 'WH-12', 220, '2026-03-25T02:03:28.331Z') took 176ms
+2026-03-25T02:06:51.109Z INFO  inventory-db [Query] SELECT warehouse_id, COUNT(*) as item_count FROM inventory WHERE stock_level > 0 GROUP BY warehouse_id took 198ms
+2026-03-25T02:09:44.775Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 99 WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-12' returned 1 row took 169ms
+2026-03-25T02:12:17.443Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id IN ('PROD-99402', 'PROD-88219') AND warehouse_id = 'WH-77' took 182ms
+2026-03-25T02:15:30.112Z INFO  inventory-db [Query] DELETE FROM inventory WHERE warehouse_id = 'WH-88' AND product_id = 'PROD-11783' AND stock_level = 0 took 150ms
+2026-03-25T02:18:05.881Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-33' AND last_updated > '2026-03-25T01:00:00Z' took 171ms
+2026-03-25T02:21:22.650Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T02:21:22.650Z', stock_level = 18 WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-88' returned 1 row took 187ms
+2026-03-25T02:24:47.321Z INFO  inventory-db [Query] SELECT COUNT(*) FROM inventory WHERE warehouse_id = 'WH-12' AND product_id LIKE 'PROD-9%' took 157ms
+2026-03-25T02:28:11.998Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-77' ORDER BY stock_level ASC LIMIT 5 took 179ms
+2026-03-25T02:31:34.667Z INFO  inventory-db [Query] SELECT warehouse_id, SUM(stock_level) as total_stock FROM inventory WHERE product_id = 'PROD-11783' GROUP BY warehouse_id took 193ms
+2026-03-25T02:34:58.334Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 77 WHERE product_id = 'PROD-99402' AND warehouse_id = 'WH-88' returned 1 row took 166ms
+2026-03-25T02:38:21.003Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id LIKE 'PROD-8%' AND warehouse_id IN ('WH-12', 'WH-77') took 202ms
+2026-03-25T02:41:54.772Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-88219', 'WH-33', 110, '2026-03-25T02:41:54.772Z') took 175ms
+2026-03-25T02:45:18.441Z INFO  inventory-db [Query] SELECT MAX(last_updated) FROM inventory WHERE warehouse_id = 'WH-33' took 151ms
+2026-03-25T02:48:42.110Z INFO  inventory-db [Query] DELETE FROM inventory WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-12' AND stock_level = 0 took 147ms
+2026-03-25T02:51:15.779Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-88' AND stock_level > 150 took 174ms
+2026-03-25T02:54:39.448Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T02:54:39.448Z', stock_level = 25 WHERE product_id = 'PROD-11783' AND warehouse_id = 'WH-77' returned 1 row took 183ms
+2026-03-25T02:58:03.117Z INFO  inventory-db [Query] SELECT COUNT(DISTINCT product_id) FROM inventory WHERE warehouse_id = 'WH-88' took 160ms
+2026-03-25T03:01:26.786Z INFO  inventory-db [Query] SELECT product_id, stock_level, last_updated FROM inventory WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-33' took 155ms
+2026-03-25T03:04:50.455Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-99402', 'WH-77', 200, '2026-03-25T03:04:50.455Z') took 177ms
+2026-03-25T03:08:14.124Z INFO  inventory-db [Query] SELECT warehouse_id, COUNT(*) as item_count FROM inventory WHERE stock_level > 0 GROUP BY warehouse_id took 199ms
+2026-03-25T03:11:37.793Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 101 WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-77' returned 1 row took 170ms
+2026-03-25T03:15:01.462Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id IN ('PROD-11783', 'PROD-77201') AND warehouse_id = 'WH-33' took 180ms
+2026-03-25T03:18:25.131Z INFO  inventory-db [Query] DELETE FROM inventory WHERE warehouse_id = 'WH-88' AND product_id = 'PROD-99402' AND stock_level = 0 took 150ms
+2026-03-25T03:21:48.800Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-12' AND last_updated > '2026-03-25T02:00:00Z' took 172ms
+2026-03-25T03:25:12.469Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T03:25:12.469Z', stock_level = 42 WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-33' returned 1 row took 189ms
+2026-03-25T03:28:36.138Z INFO  inventory-db [Query] SELECT COUNT(*) FROM inventory WHERE warehouse_id = 'WH-77' AND product_id LIKE 'PROD-7%' took 158ms
+2026-03-25T03:32:00.807Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-33' ORDER BY stock_level ASC LIMIT 5 took 176ms
+2026-03-25T03:35:24.476Z INFO  inventory-db [Query] SELECT warehouse_id, SUM(stock_level) as total_stock FROM inventory WHERE product_id = 'PROD-77201' GROUP BY warehouse_id took 194ms
+2026-03-25T03:38:48.145Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 81 WHERE product_id = 'PROD-11783' AND warehouse_id = 'WH-88' returned 1 row took 167ms
+2026-03-25T03:42:11.814Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id LIKE 'PROD-9%' AND warehouse_id IN ('WH-12', 'WH-88') took 203ms
+2026-03-25T03:45:35.483Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-77201', 'WH-77', 180, '2026-03-25T03:45:35.483Z') took 179ms
+2026-03-25T03:48:59.152Z INFO  inventory-db [Query] SELECT MAX(last_updated) FROM inventory WHERE warehouse_id = 'WH-77' took 152ms
+2026-03-25T03:52:22.821Z INFO  inventory-db [Query] DELETE FROM inventory WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-33' AND stock_level = 0 took 149ms
+2026-03-25T03:55:46.490Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-12' AND stock_level > 120 took 175ms
+2026-03-25T03:59:10.159Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T03:59:10.159Z', stock_level = 15 WHERE product_id = 'PROD-99402' AND warehouse_id = 'WH-88' returned 1 row took 186ms
+2026-03-25T04:02:33.828Z INFO  inventory-db [Query] SELECT COUNT(DISTINCT product_id) FROM inventory WHERE warehouse_id = 'WH-12' took 161ms
+2026-03-25T04:05:57.497Z INFO  inventory-db [Query] SELECT product_id, stock_level, last_updated FROM inventory WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-88' took 156ms
+2026-03-25T04:09:21.166Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-11783', 'WH-12', 210, '2026-03-25T04:09:21.166Z') took 178ms
+2026-03-25T04:12:44.835Z INFO  inventory-db [Query] SELECT warehouse_id, COUNT(*) as item_count FROM inventory WHERE stock_level > 0 GROUP BY warehouse_id took 200ms
+2026-03-25T04:16:08.504Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 90 WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-12' returned 1 row took 171ms
+2026-03-25T04:19:32.173Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id IN ('PROD-99402', 'PROD-88219') AND warehouse_id = 'WH-88' took 181ms
+2026-03-25T04:22:55.842Z INFO  inventory-db [Query] DELETE FROM inventory WHERE warehouse_id = 'WH-77' AND product_id = 'PROD-11783' AND stock_level = 0 took 151ms
+2026-03-25T04:26:19.511Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-33' AND last_updated > '2026-03-25T03:00:00Z' took 173ms
+2026-03-25T04:29:43.180Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T04:29:43.180Z', stock_level = 37 WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-88' returned 1 row took 188ms
+2026-03-25T04:33:06.849Z INFO  inventory-db [Query] SELECT COUNT(*) FROM inventory WHERE warehouse_id = 'WH-88' AND product_id LIKE 'PROD-8%' took 159ms
+2026-03-25T04:36:30.518Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-12' ORDER BY stock_level ASC LIMIT 5 took 177ms
+2026-03-25T04:39:54.187Z INFO  inventory-db [Query] SELECT warehouse_id, SUM(stock_level) as total_stock FROM inventory WHERE product_id = 'PROD-88219' GROUP BY warehouse_id took 195ms
+2026-03-25T04:43:17.856Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 85 WHERE product_id = 'PROD-11783' AND warehouse_id = 'WH-77' returned 1 row took 168ms
+2026-03-25T04:46:41.525Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id LIKE 'PROD-1%' AND warehouse_id IN ('WH-33', 'WH-88') took 204ms
+2026-03-25T04:50:05.194Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-99402', 'WH-33', 195, '2026-03-25T04:50:05.194Z') took 180ms
+2026-03-25T04:53:28.863Z INFO  inventory-db [Query] SELECT MAX(last_updated) FROM inventory WHERE warehouse_id = 'WH-33' took 153ms
+2026-03-25T04:56:52.532Z INFO  inventory-db [Query] DELETE FROM inventory WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-88' AND stock_level = 0 took 148ms
+2026-03-25T05:00:16.201Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-77' AND stock_level > 130 took 176ms
+2026-03-25T05:03:39.870Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T05:03:39.870Z', stock_level = 22 WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-33' returned 1 row took 187ms
+2026-03-25T05:07:03.539Z INFO  inventory-db [Query] SELECT COUNT(DISTINCT product_id) FROM inventory WHERE warehouse_id = 'WH-77' took 162ms
+2026-03-25T05:10:27.208Z INFO  inventory-db [Query] SELECT product_id, stock_level, last_updated FROM inventory WHERE product_id = 'PROD-11783' AND warehouse_id = 'WH-33' took 157ms
+2026-03-25T05:13:50.877Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-77201', 'WH-12', 230, '2026-03-25T05:13:50.877Z') took 179ms
+2026-03-25T05:17:14.546Z INFO  inventory-db [Query] SELECT warehouse_id, COUNT(*) as item_count FROM inventory WHERE stock_level > 0 GROUP BY warehouse_id took 201ms
+2026-03-25T05:20:38.215Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 105 WHERE product_id = 'PROD-99402' AND warehouse_id = 'WH-77' returned 1 row took 172ms
+2026-03-25T05:24:01.884Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id IN ('PROD-88219', 'PROD-77201') AND warehouse_id = 'WH-12' took 182ms
+2026-03-25T05:27:25.553Z INFO  inventory-db [Query] DELETE FROM inventory WHERE warehouse_id = 'WH-33' AND product_id = 'PROD-99402' AND stock_level = 0 took 152ms
+2026-03-25T05:30:49.222Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-88' AND last_updated > '2026-03-25T04:00:00Z' took 174ms
+2026-03-25T05:34:12.891Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T05:34:12.891Z', stock_level = 50 WHERE product_id = 'PROD-99402' AND warehouse_id = 'WH-12' returned 1 row took 190ms
+2026-03-25T05:37:36.560Z INFO  inventory-db [Query] SELECT COUNT(*) FROM inventory WHERE warehouse_id = 'WH-12' AND product_id LIKE 'PROD-1%' took 160ms
+2026-03-25T05:41:00.229Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-33' ORDER BY stock_level ASC LIMIT 5 took 178ms
+2026-03-25T05:44:23.898Z INFO  inventory-db [Query] SELECT warehouse_id, SUM(stock_level) as total_stock FROM inventory WHERE product_id = 'PROD-99402' GROUP BY warehouse_id took 196ms
+2026-03-25T05:47:47.567Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 89 WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-77' returned 1 row took 169ms
+2026-03-25T05:51:11.236Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id LIKE 'PROD-7%' AND warehouse_id IN ('WH-12', 'WH-77') took 205ms
+2026-03-25T05:54:34.905Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-88219', 'WH-77', 165, '2026-03-25T05:54:34.905Z') took 181ms
+2026-03-25T05:57:58.574Z INFO  inventory-db [Query] SELECT MAX(last_updated) FROM inventory WHERE warehouse_id = 'WH-77' took 154ms
+2026-03-25T06:01:22.243Z INFO  inventory-db [Query] DELETE FROM inventory WHERE product_id = 'PROD-11783' AND warehouse_id = 'WH-12' AND stock_level = 0 took 150ms
+2026-03-25T06:04:45.912Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-88' AND stock_level > 140 took 177ms
+2026-03-25T06:08:09.581Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T06:08:09.581Z', stock_level = 17 WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-33' returned 1 row took 188ms
+2026-03-25T06:11:33.250Z INFO  inventory-db [Query] SELECT COUNT(DISTINCT product_id) FROM inventory WHERE warehouse_id = 'WH-88' took 163ms
+2026-03-25T06:14:56.919Z INFO  inventory-db [Query] SELECT product_id, stock_level, last_updated FROM inventory WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-88' took 158ms
+2026-03-25T06:18:20.588Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-11783', 'WH-77', 215, '2026-03-25T06:18:20.588Z') took 180ms
+2026-03-25T06:21:44.257Z INFO  inventory-db [Query] SELECT warehouse_id, COUNT(*) as item_count FROM inventory WHERE stock_level > 0 GROUP BY warehouse_id took 202ms
+2026-03-25T06:25:07.926Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 93 WHERE product_id = 'PROD-99402' AND warehouse_id = 'WH-33' returned 1 row took 173ms
+2026-03-25T06:28:31.595Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id IN ('PROD-88219', 'PROD-11783') AND warehouse_id = 'WH-88' took 183ms
+2026-03-25T06:31:55.264Z INFO  inventory-db [Query] DELETE FROM inventory WHERE warehouse_id = 'WH-77' AND product_id = 'PROD-77201' AND stock_level = 0 took 153ms
+2026-03-25T06:35:18.933Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-12' AND last_updated > '2026-03-25T05:00:00Z' took 175ms
+2026-03-25T06:38:42.602Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T06:38:42.602Z', stock_level = 48 WHERE product_id = 'PROD-11783' AND warehouse_id = 'WH-12' returned 1 row took 191ms
+2026-03-25T06:42:06.271Z INFO  inventory-db [Query] SELECT COUNT(*) FROM inventory WHERE warehouse_id = 'WH-33' AND product_id LIKE 'PROD-9%' took 161ms
+2026-03-25T06:45:29.940Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-88' ORDER BY stock_level ASC LIMIT 5 took 179ms
+2026-03-25T06:48:53.609Z INFO  inventory-db [Query] SELECT warehouse_id, SUM(stock_level) as total_stock FROM inventory WHERE product_id = 'PROD-11783' GROUP BY warehouse_id took 197ms
+2026-03-25T06:52:17.278Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 91 WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-33' returned 1 row took 170ms
+2026-03-25T06:55:40.947Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id LIKE 'PROD-8%' AND warehouse_id IN ('WH-77', 'WH-88') took 206ms
+2026-03-25T06:59:04.616Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-99402', 'WH-88', 190, '2026-03-25T06:59:04.616Z') took 182ms
+2026-03-25T07:02:28.285Z INFO  inventory-db [Query] SELECT MAX(last_updated) FROM inventory WHERE warehouse_id = 'WH-88' took 155ms
+2026-03-25T07:05:51.954Z INFO  inventory-db [Query] DELETE FROM inventory WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-12' AND stock_level = 0 took 151ms
+2026-03-25T07:09:15.623Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-77' AND stock_level > 155 took 178ms
+2026-03-25T07:12:39.292Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T07:12:39.292Z', stock_level = 20 WHERE product_id = 'PROD-99402' AND warehouse_id = 'WH-77' returned 1 row took 189ms
+2026-03-25T07:16:02.961Z INFO  inventory-db [Query] SELECT COUNT(DISTINCT product_id) FROM inventory WHERE warehouse_id = 'WH-77' took 164ms
+2026-03-25T07:19:26.630Z INFO  inventory-db [Query] SELECT product_id, stock_level, last_updated FROM inventory WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-77' took 159ms
+2026-03-25T07:22:50.299Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-77201', 'WH-33', 240, '2026-03-25T07:22:50.299Z') took 181ms
+2026-03-25T07:26:13.968Z INFO  inventory-db [Query] SELECT warehouse_id, COUNT(*) as item_count FROM inventory WHERE stock_level > 0 GROUP BY warehouse_id took 203ms
+2026-03-25T07:29:37.637Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 108 WHERE product_id = 'PROD-11783' AND warehouse_id = 'WH-88' returned 1 row took 174ms
+2026-03-25T07:33:01.306Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id IN ('PROD-77201', 'PROD-88219') AND warehouse_id = 'WH-33' took 184ms
+2026-03-25T07:36:24.975Z INFO  inventory-db [Query] DELETE FROM inventory WHERE warehouse_id = 'WH-88' AND product_id = 'PROD-99402' AND stock_level = 0 took 154ms
+2026-03-25T07:39:48.644Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-12' AND last_updated > '2026-03-25T06:00:00Z' took 176ms
+2026-03-25T07:43:12.313Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026-03-25T07:43:12.313Z', stock_level = 52 WHERE product_id = 'PROD-88219' AND warehouse_id = 'WH-88' returned 1 row took 192ms
+2026-03-25T07:46:35.982Z INFO  inventory-db [Query] SELECT COUNT(*) FROM inventory WHERE warehouse_id = 'WH-77' AND product_id LIKE 'PROD-8%' took 162ms
+2026-03-25T07:50:00.651Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-33' ORDER BY stock_level ASC LIMIT 5 took 180ms
+2026-03-25T07:53:24.320Z INFO  inventory-db [Query] SELECT warehouse_id, SUM(stock_level) as total_stock FROM inventory WHERE product_id = 'PROD-77201' GROUP BY warehouse_id took 198ms
+2026-03-25T07:56:47.989Z INFO  inventory-db [Query] UPDATE inventory SET stock_level = 95 WHERE product_id = 'PROD-99402' AND warehouse_id = 'WH-12' returned 1 row took 171ms
+2026-03-25T08:00:11.658Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE product_id LIKE 'PROD-9%' AND warehouse_id IN ('WH-33', 'WH-77') took 207ms
+2026-03-25T08:03:35.327Z INFO  inventory-db [Query] INSERT INTO inventory (product_id, warehouse_id, stock_level, last_updated) VALUES ('PROD-11783', 'WH-12', 225, '2026-03-25T08:03:35.327Z') took 183ms
+2026-03-25T08:06:58.996Z INFO  inventory-db [Query] SELECT MAX(last_updated) FROM inventory WHERE warehouse_id = 'WH-12' took 156ms
+2026-03-25T08:10:22.665Z INFO  inventory-db [Query] DELETE FROM inventory WHERE product_id = 'PROD-77201' AND warehouse_id = 'WH-88' AND stock_level = 0 took 152ms
+2026-03-25T08:13:46.334Z INFO  inventory-db [Query] SELECT product_id, stock_level FROM inventory WHERE warehouse_id = 'WH-88' AND stock_level > 160 took 179ms
+2026-03-25T08:17:09.003Z INFO  inventory-db [Query] UPDATE inventory SET last_updated = '2026

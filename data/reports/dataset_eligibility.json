@@ -1,0 +1,393 @@
+{
+  "audit_metadata": {
+    "audit_date": "2026-09-11",
+    "audit_version": "1.0.0",
+    "auditor": "automated-step3",
+    "scope": "data/external/",
+    "conservatism_policy": "If there is uncertainty, mark as REQUIRES_HUMAN_REVIEW or UNKNOWN. Absence of explicit prohibition is NOT treated as permission.",
+    "checksum_algorithm": "SHA-256",
+    "checksums_verified": true
+  },
+  "datasets": [
+    {
+      "dataset_id": "rcaeval",
+      "dataset_name": "RCAEval",
+      "source": {
+        "repository_url": "https://github.com/phamquiluan/RCAEval",
+        "organization": "Luan Pham (phamquiluan)",
+        "repository_name": "RCAEval",
+        "release_tag": "v1.7.0",
+        "release_date": "2026-09-03",
+        "acquisition_date": "2026-09-11"
+      },
+      "downloaded_files": [
+        {
+          "filename": "RCAEval-1.7.0.zip",
+          "size_bytes": 2362516,
+          "sha256": "C9F68B97E955220F9BDAD0E6C28BA083E96A6A0CB7610395307FE42925AE42AA",
+          "checksum_verified": true
+        },
+        {
+          "filename": "RCAEval-1.7.0.tar.gz",
+          "size_bytes": 2302319,
+          "sha256": "50A1ED4C7E4BF7F82ECB1342DB7E07E635BFFB450F9327E9C80D257B31F0DA93",
+          "checksum_verified": true
+        }
+      ],
+      "extracted_size_bytes": 4436532,
+      "extracted_entry_count": 149,
+      "license": {
+        "license_name": "MIT",
+        "license_file_path_in_archive": "phamquiluan-RCAEval-405c8fd/LICENSE",
+        "license_verified_from_archive": true,
+        "commercial_use_allowed": true,
+        "modification_allowed": true,
+        "redistribution_allowed": true,
+        "derivative_datasets_allowed": true,
+        "model_training_prohibited": false,
+        "attribution_required": true,
+        "attribution_note": "Copyright notice must be included in copies or substantial portions",
+        "other_restrictions": null
+      },
+      "provenance": {
+        "provenance_verified": true,
+        "real_vs_synthetic": "real",
+        "data_source_description": "735 real failure cases from live Kubernetes-deployed microservice environments; academic benchmark peer-reviewed at ASE 2024, WWW 2025, FSE 2026",
+        "sensitive_data_identified": false,
+        "pii_risk": "none_identified"
+      },
+      "content": {
+        "record_count": 735,
+        "content_types": [
+          "metrics",
+          "traces",
+          "incidents",
+          "rca_labels"
+        ],
+        "aws_specific": false,
+        "has_root_cause_labels": true,
+        "has_symptoms": true,
+        "has_remediation": false,
+        "has_telemetry": true,
+        "cloudops_usefulness": "high"
+      },
+      "eligibility": {
+        "training_eligibility": "TRAINING_ALLOWED",
+        "training_eligibility_rationale": "MIT license verified from archive. No training prohibition. 735 labeled real failure cases with ground-truth RCA labels.",
+        "rag_eligibility": "RAG_ALLOWED",
+        "rag_eligibility_rationale": "MIT license permits RAG use. Failure case descriptions useful for retrieval-augmented CloudOps.",
+        "attribution_required": true,
+        "human_review_required": false,
+        "recommended_use": [
+          "training",
+          "rag"
+        ],
+        "excluded_from_use": []
+      },
+      "duplication_overlap": {
+        "vs_danluu_post_mortems": "low",
+        "vs_aws_sample_rca": "low",
+        "vs_lemma_rca": "high_conceptual_same_benchmark_apps",
+        "vs_412_examples": "low"
+      },
+      "audit_flags": {
+        "license_verified": true,
+        "license_source": "LICENSE file inside downloaded ZIP archive",
+        "provenance_verified": true,
+        "human_review_required": false,
+        "audit_notes": "MIT confirmed from ZIP. Checksums verified. 735 real failure cases. Cleared for training and RAG.",
+        "checksum_verified": true
+      }
+    },
+    {
+      "dataset_id": "danluu_post_mortems",
+      "dataset_name": "danluu/post-mortems",
+      "source": {
+        "repository_url": "https://github.com/danluu/post-mortems",
+        "organization": "Dan Luu (danluu) and community contributors",
+        "repository_name": "post-mortems",
+        "commit_hash": "630562e",
+        "acquisition_date": "2026-09-11"
+      },
+      "downloaded_files": [
+        {
+          "filename": "danluu-post-mortems-master.zip",
+          "size_bytes": 39456,
+          "sha256": "8CF2D68BF6E15FFBBFE3B2A38F1C3D847BF07D13132B3B64D6BD60D1BC3E8D17",
+          "checksum_verified": true
+        }
+      ],
+      "extracted_size_bytes": 97527,
+      "extracted_entry_count": 9,
+      "license": {
+        "license_name": "NONE",
+        "license_file_path_in_archive": null,
+        "license_verified_from_archive": true,
+        "license_absent_confirmed": true,
+        "commercial_use_allowed": "UNKNOWN",
+        "modification_allowed": "UNKNOWN",
+        "redistribution_allowed": "UNKNOWN",
+        "derivative_datasets_allowed": "UNKNOWN",
+        "model_training_prohibited": "UNKNOWN",
+        "attribution_required": "UNKNOWN",
+        "other_restrictions": "Each linked post-mortem URL governed by respective company Terms of Service. Default copyright law applies.",
+        "legal_status": "UNKNOWN / REQUIRES HUMAN REVIEW"
+      },
+      "provenance": {
+        "provenance_verified": true,
+        "real_vs_synthetic": "real",
+        "data_source_description": "Curated index of links to real-world publicly published incident post-mortems. README.md only in ZIP - no full post-mortem text downloaded.",
+        "zip_contains_full_text": false,
+        "link_count_in_readme": 256,
+        "readme_lines": 621
+      },
+      "content": {
+        "record_count": 256,
+        "record_count_note": "256 external HTTP link lines in README; no full post-mortem text in downloaded ZIP",
+        "content_types": [
+          "incidents",
+          "links_references"
+        ],
+        "aws_specific": false,
+        "has_root_cause_labels": false,
+        "has_symptoms": false,
+        "has_remediation": false,
+        "has_telemetry": false,
+        "cloudops_usefulness": "moderate_as_index"
+      },
+      "eligibility": {
+        "training_eligibility": "TRAINING_REQUIRES_HUMAN_REVIEW",
+        "training_eligibility_rationale": "No license file. Default copyright applies. Human legal review required.",
+        "rag_eligibility": "RAG_REQUIRES_HUMAN_REVIEW",
+        "rag_eligibility_rationale": "Same licensing uncertainty. Full RAG requires URL fetching and per-URL ToS evaluation.",
+        "attribution_required": "UNKNOWN",
+        "human_review_required": true,
+        "recommended_use": [
+          "reference_index_only"
+        ],
+        "excluded_from_use": [
+          "training",
+          "rag"
+        ],
+        "exclusion_reason": "Pending human review of license status"
+      },
+      "audit_flags": {
+        "license_verified": false,
+        "license_source": "No LICENSE file found - confirmed by ZIP inspection",
+        "provenance_verified": true,
+        "human_review_required": true,
+        "audit_notes": "No LICENSE file. Default copyright applies. Use as reference index only.",
+        "checksum_verified": true
+      }
+    },
+    {
+      "dataset_id": "aws_sample_rca",
+      "dataset_name": "AWS Sample RCA Deep Investigations",
+      "source": {
+        "repository_url": "https://github.com/aws-samples/sample-rca-deep-investigations",
+        "organization": "Amazon Web Services (aws-samples)",
+        "repository_name": "sample-rca-deep-investigations",
+        "branch": "main",
+        "acquisition_date": "2026-09-11"
+      },
+      "downloaded_files": [
+        {
+          "filename": "aws-sample-rca-deep-investigations-main.zip",
+          "size_bytes": 571350,
+          "sha256": "5D126D755185A5415BD6901414268175BB775CC85633295E656B603A12C5CD7D",
+          "checksum_verified": true
+        }
+      ],
+      "extracted_size_bytes": 2324176,
+      "extracted_entry_count": 263,
+      "license": {
+        "license_name": "MIT-0",
+        "license_full_name": "MIT No Attribution",
+        "license_file_path_in_archive": "sample-rca-deep-investigations-main/LICENSE",
+        "license_verified_from_archive": true,
+        "commercial_use_allowed": true,
+        "modification_allowed": true,
+        "redistribution_allowed": true,
+        "derivative_datasets_allowed": true,
+        "model_training_prohibited": false,
+        "attribution_required": false,
+        "attribution_note": "MIT-0 explicitly waives attribution requirement",
+        "other_restrictions": null
+      },
+      "provenance": {
+        "provenance_verified": true,
+        "real_vs_synthetic": "synthetic_curated",
+        "data_source_description": "5 professionally curated AWS incident investigation scenarios authored by Amazon Web Services engineers.",
+        "scenario_count": 5,
+        "scenario_names": [
+          "care-transcript-supply-chain",
+          "iot-fleet-disconnect-cascade",
+          "k8s-canary-silent-poisoning",
+          "ml-training-drift-schema-migration",
+          "volte-call-drop-handover"
+        ],
+        "sensitive_data_identified": false,
+        "pii_risk": "none"
+      },
+      "content": {
+        "record_count": 5,
+        "record_count_note": "5 complete scenarios each with incident.md, evidence logs, context docs, ground_truth.yaml",
+        "content_types": [
+          "incidents",
+          "logs",
+          "configurations",
+          "documentation",
+          "rca_labels"
+        ],
+        "aws_specific": true,
+        "services_represented": [
+          "EC2",
+          "EKS",
+          "Kubernetes",
+          "IoT_Core",
+          "CloudWatch",
+          "X-Ray",
+          "CloudTrail",
+          "Lambda",
+          "VPC"
+        ],
+        "has_root_cause_labels": true,
+        "has_symptoms": true,
+        "has_remediation": true,
+        "has_telemetry": true,
+        "cloudops_usefulness": "very_high"
+      },
+      "eligibility": {
+        "training_eligibility": "TRAINING_ALLOWED",
+        "training_eligibility_rationale": "MIT-0 license verified from archive. No restrictions. AWS-created content designed for LLM RCA.",
+        "rag_eligibility": "RAG_ALLOWED",
+        "rag_eligibility_rationale": "MIT-0 license permits any use. Scenarios are ideal RAG documents.",
+        "attribution_required": false,
+        "human_review_required": false,
+        "recommended_use": [
+          "training",
+          "rag"
+        ],
+        "excluded_from_use": []
+      },
+      "audit_flags": {
+        "license_verified": true,
+        "license_source": "LICENSE file inside downloaded ZIP archive",
+        "provenance_verified": true,
+        "human_review_required": false,
+        "audit_notes": "MIT-0 confirmed from ZIP. Checksums verified. 5 AWS-curated scenarios with ground truth. No restrictions.",
+        "checksum_verified": true
+      }
+    },
+    {
+      "dataset_id": "lemma_rca_baselines",
+      "dataset_name": "LEMMA-RCA Baselines",
+      "source": {
+        "repository_url": "https://github.com/KnowledgeDiscovery/rca_baselines",
+        "data_url_not_downloaded": "https://huggingface.co/datasets/LEMMA-RCA",
+        "organization": "KnowledgeDiscovery (academic research group)",
+        "repository_name": "rca_baselines",
+        "branch": "main",
+        "acquisition_date": "2026-09-11"
+      },
+      "downloaded_files": [
+        {
+          "filename": "lemma-rca-baselines-main.zip",
+          "size_bytes": 1792968,
+          "sha256": "781074D49DA7B04F4992AB2B9631AE63FC7ECAEE22D91376780A97232D7A8CD5",
+          "checksum_verified": true
+        }
+      ],
+      "extracted_size_bytes": 2361084,
+      "extracted_entry_count": 108,
+      "license": {
+        "license_name": "CC BY-NC 4.0",
+        "license_full_name": "Creative Commons Attribution-NonCommercial 4.0",
+        "license_file_path_in_archive": "rca_baselines-main/LICENSE",
+        "license_verified_from_archive": true,
+        "commercial_use_allowed": false,
+        "modification_allowed": true,
+        "redistribution_allowed": true,
+        "derivative_datasets_allowed": true,
+        "model_training_prohibited": true,
+        "attribution_required": true,
+        "other_restrictions": "NonCommercial restriction - cannot use for commercial purposes (direct quote from LICENSE file)",
+        "secondary_license_note": "Nezha/LICENSE is MIT (IntelligentDDS) - covers only Nezha algorithm code"
+      },
+      "provenance": {
+        "provenance_verified": true,
+        "real_vs_synthetic": "code_only_downloaded",
+        "data_source_description": "Downloaded ZIP contains ONLY baseline algorithm code. Raw data on HuggingFace was NOT downloaded.",
+        "raw_data_downloaded": false,
+        "raw_data_location": "https://huggingface.co/datasets/LEMMA-RCA"
+      },
+      "content": {
+        "record_count": 0,
+        "record_count_note": "0 data records in downloaded ZIP - code only",
+        "content_types": [
+          "source_code",
+          "configurations",
+          "documentation"
+        ],
+        "aws_specific": false,
+        "has_root_cause_labels": false,
+        "has_symptoms": false,
+        "has_remediation": false,
+        "has_telemetry": false,
+        "cloudops_usefulness": "low_with_current_download"
+      },
+      "eligibility": {
+        "training_eligibility": "TRAINING_NOT_ALLOWED",
+        "training_eligibility_rationale": "CC BY-NC 4.0 explicitly prohibits commercial use. Raw data not downloaded.",
+        "rag_eligibility": "RAG_NOT_ALLOWED",
+        "rag_eligibility_rationale": "CC BY-NC 4.0 commercial restriction. No raw data in downloaded ZIP.",
+        "attribution_required": true,
+        "human_review_required": true,
+        "recommended_use": [],
+        "excluded_from_use": [
+          "training",
+          "rag"
+        ],
+        "exclusion_reason": "CC BY-NC 4.0 non-commercial restriction; raw data not downloaded"
+      },
+      "audit_flags": {
+        "license_verified": true,
+        "license_source": "LICENSE file inside downloaded ZIP archive - confirmed CC BY-NC 4.0",
+        "provenance_verified": true,
+        "human_review_required": true,
+        "audit_notes": "CC BY-NC 4.0 confirmed from ZIP. Commercial use prohibited. Raw data not downloaded.",
+        "checksum_verified": true
+      }
+    }
+  ],
+  "summary": {
+    "training_allowed": [
+      "rcaeval",
+      "aws_sample_rca"
+    ],
+    "training_requires_human_review": [
+      "danluu_post_mortems"
+    ],
+    "training_not_allowed": [
+      "lemma_rca_baselines"
+    ],
+    "rag_allowed": [
+      "rcaeval",
+      "aws_sample_rca"
+    ],
+    "rag_requires_human_review": [
+      "danluu_post_mortems"
+    ],
+    "rag_not_allowed": [
+      "lemma_rca_baselines"
+    ],
+    "human_review_required": [
+      "danluu_post_mortems",
+      "lemma_rca_baselines"
+    ],
+    "datasets_excluded": [
+      "lemma_rca_baselines"
+    ],
+    "total_datasets_audited": 4
+  }
+}

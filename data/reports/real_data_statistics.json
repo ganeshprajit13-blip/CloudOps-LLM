@@ -1,0 +1,112 @@
+{
+  "processing_date": "2026-09-11",
+  "pipeline_version": "1.0.0",
+  "datasets_processed": [
+    "RCAEval v1.7.0",
+    "AWS Sample RCA Deep Investigations"
+  ],
+  "extraction": {
+    "rcaeval": {
+      "zip_path": "data/external/rcaeval/RCAEval-1.7.0.zip",
+      "files_extracted": 3,
+      "files_list": [
+        "data\\raw\\rcaeval\\LICENSE",
+        "data\\raw\\rcaeval\\README.md",
+        "data\\raw\\rcaeval\\legacy\\simple_metrics.csv"
+      ],
+      "note": "Only README, LICENSE, legacy/simple_metrics.csv extracted. Full 735-case data NOT downloaded."
+    },
+    "aws": {
+      "zip_path": "data/external/aws/aws-sample-rca-deep-investigations-main.zip",
+      "files_extracted": 219,
+      "scenarios_found": 5
+    }
+  },
+  "sanitization": {
+    "rcaeval": {
+      "files_processed": 3,
+      "total_redactions": 1
+    },
+    "aws": {
+      "files_processed": 219,
+      "total_redactions": 13,
+      "files_with_private_ip_notes": 3
+    }
+  },
+  "normalization": {
+    "rcaeval_cases": 1,
+    "aws_cases": 5,
+    "total_before_dedup": 6
+  },
+  "deduplication": {
+    "duplicates_removed": 0,
+    "duplicates": [],
+    "final_unique_cases": 6
+  },
+  "overlap_with_existing_412": {
+    "count": 4,
+    "overlaps": [
+      {
+        "case_id": "aws-care-transcript-supply-chain",
+        "overlap_keywords": [
+          "s3"
+        ],
+        "assessment": "Low risk -- keyword overlap only, not content duplication"
+      },
+      {
+        "case_id": "aws-iot-fleet-disconnect-cascade",
+        "overlap_keywords": [
+          "cloudwatch"
+        ],
+        "assessment": "Low risk -- keyword overlap only, not content duplication"
+      },
+      {
+        "case_id": "aws-k8s-canary-silent-poisoning",
+        "overlap_keywords": [
+          "eks",
+          "alb"
+        ],
+        "assessment": "Low risk -- keyword overlap only, not content duplication"
+      },
+      {
+        "case_id": "aws-volte-call-drop-handover",
+        "overlap_keywords": [
+          "rds"
+        ],
+        "assessment": "Low risk -- keyword overlap only, not content duplication"
+      }
+    ],
+    "note": "Keyword-level overlap only -- NOT deduplicated against existing 412"
+  },
+  "output_files": {
+    "rcaeval_normalized": "data/normalized/rcaeval_cases.jsonl",
+    "aws_normalized": "data/normalized/aws_cases.jsonl",
+    "rcaeval_rca": "data/rca/rcaeval_rca.jsonl",
+    "aws_rca": "data/rca/aws_rca.jsonl",
+    "all_real_cases": "data/rca/all_real_cases.jsonl"
+  },
+  "case_breakdown": {
+    "rcaeval_cases": 1,
+    "aws_cases": 5,
+    "total_real_cases": 6
+  },
+  "rcaeval_full_dataset_status": {
+    "total_cases_in_benchmark": 735,
+    "cases_in_zip": 0,
+    "cases_processable_without_download": 1,
+    "full_data_status": "NOT_DOWNLOADED",
+    "download_url": "https://huggingface.co/datasets/phamquiluan/RCAEval",
+    "download_size_gb": 3.4,
+    "reason": "Step 4 constraint: Do NOT download new datasets yet"
+  },
+  "rejected_records": {
+    "count": 0,
+    "reasons": []
+  },
+  "protected_files": {
+    "train_jsonl": "data/processed/train.jsonl -- NOT MODIFIED",
+    "validation_jsonl": "data/processed/validation.jsonl -- NOT MODIFIED",
+    "test_jsonl": "data/processed/test.jsonl -- NOT MODIFIED",
+    "external_dir": "data/external/ -- NOT MODIFIED (originals preserved)"
+  }
+}

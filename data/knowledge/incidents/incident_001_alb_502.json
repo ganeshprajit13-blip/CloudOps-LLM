@@ -1,0 +1,11 @@
+{
+  "title": "Incident INC-2026-042: Application Load Balancer HTTP 502 Bad Gateway Outage",
+  "category": "incidents",
+  "service": "alb",
+  "document_type": "incident",
+  "created_at": "2026-04-12T10:15:00Z",
+  "description": "On 2026-04-12 at 10:15 UTC, the main production ingress ALB returned HTTP 502 Bad Gateway responses for 100% of incoming HTTPS traffic on port 443.",
+  "root_cause": "The backend application service (Gunicorn Python API) crashed due to an unhandled memory exception, causing target instances to reset TCP connections during ALB health check requests.",
+  "resolution": "Restarted web server service via systemctl on backend targets i-01112223334445556 and i-09988776655443322. Increased Gunicorn worker memory limits.",
+  "lessons_learned": "Target health checks must have automated systemd restart policies enabled so crashed target processes recover without manual intervention."
+}

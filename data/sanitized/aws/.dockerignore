@@ -1,0 +1,54 @@
+# CDK build outputs - CRITICAL: prevents recursive copy loop
+**/cdk.out
+**/.cdk.staging
+
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*.egg-info
+.eggs
+.venv
+venv
+.pytest_cache
+.coverage
+htmlcov
+
+# Node
+node_modules
+npm-debug.log
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test/scratch files
+quick_test*.py
+test_*.py
+!tests/test_*.py
+
+# Large/unnecessary directories for container
+docs/
+.github/
+*.md
+!patterns/**/README.md
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Logs (keep scenario evidence)
+logs/
+*.log
+!scenarios/**/*.log

@@ -1,0 +1,147 @@
+2026-03-10T02:14:22.111Z INFO  defect-classifier [Pipeline] Batch processed 124 transcripts for zone=NorthAmerica, success_rate=0.987
+2026-03-10T03:22:55.444Z INFO  defect-classifier [SOP] Matched keyword "overheating" in transcript ID=TX-8821-440, classified as thermal_management
+2026-03-10T04:01:33.777Z INFO  defect-classifier [Pipeline] Batch processed 137 transcripts for zone=Europe, success_rate=0.991
+2026-03-10T05:17:09.888Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8822-441, classified as connectivity_issue
+2026-03-10T06:45:12.222Z INFO  defect-classifier [Pipeline] Batch processed 119 transcripts for zone=SouthAmerica, success_rate=0.982
+2026-03-10T07:33:56.555Z INFO  defect-classifier [SOP] Matched keyword "hot" in transcript ID=TX-8823-442, classified as thermal_management
+2026-03-10T08:11:24.999Z INFO  defect-classifier [Pipeline] Batch processed 142 transcripts for zone=AsiaPacific, success_rate=0.989
+2026-03-10T09:05:41.111Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8824-443, classified as firmware_bug
+2026-03-10T10:22:18.333Z INFO  defect-classifier [Pipeline] Batch processed 115 transcripts for zone=NorthAmerica, success_rate=0.978
+2026-03-10T11:40:07.666Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8825-444, classified as power_supply
+2026-03-10T12:15:50.888Z INFO  defect-classifier [Pipeline] Batch processed 128 transcripts for zone=Europe, success_rate=0.993
+2026-03-10T13:08:35.444Z INFO  defect-classifier [SOP] Matched keyword "heat" in transcript ID=TX-8826-445, classified as thermal_management
+2026-03-10T14:44:19.777Z INFO  defect-classifier [Pipeline] Batch processed 131 transcripts for zone=SouthAmerica, success_rate=0.985
+2026-03-10T15:32:01.111Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8827-446, classified as sensor_error
+2026-03-10T16:19:55.555Z INFO  defect-classifier [Pipeline] Batch processed 122 transcripts for zone=AsiaPacific, success_rate=0.981
+2026-03-10T17:07:43.999Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8828-447, classified as connectivity_issue
+2026-03-10T18:55:10.222Z INFO  defect-classifier [Pipeline] Batch processed 135 transcripts for zone=NorthAmerica, success_rate=0.990
+2026-03-10T19:43:27.666Z INFO  defect-classifier [SOP] Matched keyword "overheating" in transcript ID=TX-8829-448, classified as thermal_management
+2026-03-10T20:21:15.888Z INFO  defect-classifier [Pipeline] Batch processed 127 transcripts for zone=Europe, success_rate=0.986
+2026-03-10T21:10:54.333Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8830-449, classified as firmware_bug
+2026-03-10T22:35:22.555Z INFO  defect-classifier [Pipeline] Batch processed 133 transcripts for zone=SouthAmerica, success_rate=0.988
+2026-03-10T23:18:44.777Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8831-450, classified as power_supply
+2026-03-11T00:47:11.111Z INFO  defect-classifier [Pipeline] Batch processed 126 transcripts for zone=AsiaPacific, success_rate=0.984
+2026-03-11T01:31:58.444Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8832-451, classified as sensor_error
+2026-03-11T02:20:40.999Z INFO  defect-classifier [Pipeline] Batch processed 118 transcripts for zone=NorthAmerica, success_rate=0.989
+2026-03-11T03:06:22.333Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8833-452, classified as connectivity_issue
+2026-03-11T04:55:09.666Z INFO  defect-classifier [Pipeline] Batch processed 140 transcripts for zone=Europe, success_rate=0.992
+2026-03-11T05:40:17.888Z INFO  defect-classifier [SOP] Matched keyword "hot" in transcript ID=TX-8834-453, classified as thermal_management
+2026-03-11T06:33:45.111Z INFO  defect-classifier [Pipeline] Batch processed 129 transcripts for zone=SouthAmerica, success_rate=0.979
+2026-03-11T07:22:19.555Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8835-454, classified as firmware_bug
+2026-03-11T08:17:33.999Z INFO  defect-classifier [Pipeline] Batch processed 134 transcripts for zone=AsiaPacific, success_rate=0.987
+2026-03-11T09:05:16.222Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8836-455, classified as power_supply
+2026-03-11T10:44:55.444Z INFO  defect-classifier [Pipeline] Batch processed 121 transcripts for zone=NorthAmerica, success_rate=0.983
+2026-03-11T11:29:12.777Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8837-456, classified as sensor_error
+2026-03-11T12:18:07.111Z INFO  defect-classifier [Pipeline] Batch processed 137 transcripts for zone=Europe, success_rate=0.990
+2026-03-11T13:07:44.555Z INFO  defect-classifier [SOP] Matched keyword "heat" in transcript ID=TX-8838-457, classified as thermal_management
+2026-03-11T14:50:33.888Z INFO  defect-classifier [Pipeline] Batch processed 125 transcripts for zone=SouthAmerica, success_rate=0.986
+2026-03-11T15:38:29.111Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8839-458, classified as connectivity_issue
+2026-03-11T16:25:11.444Z INFO  defect-classifier [Pipeline] Batch processed 141 transcripts for zone=AsiaPacific, success_rate=0.988
+2026-03-11T17:13:07.777Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8840-459, classified as firmware_bug
+2026-03-11T18:01:55.999Z INFO  defect-classifier [Pipeline] Batch processed 130 transcripts for zone=NorthAmerica, success_rate=0.981
+2026-03-11T19:45:30.222Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8841-460, classified as power_supply
+2026-03-11T20:29:14.555Z INFO  defect-classifier [Pipeline] Batch processed 136 transcripts for zone=Europe, success_rate=0.994
+2026-03-11T21:17:08.888Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8842-461, classified as sensor_error
+2026-03-11T22:04:55.111Z INFO  defect-classifier [Pipeline] Batch processed 119 transcripts for zone=SouthAmerica, success_rate=0.977
+2026-03-11T23:33:17.444Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8843-462, classified as connectivity_issue
+2026-03-12T00:21:50.777Z INFO  defect-classifier [Pipeline] Batch processed 128 transcripts for zone=AsiaPacific, success_rate=0.985
+2026-03-12T01:10:33.999Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8844-463, classified as firmware_bug
+2026-03-12T02:44:22.111Z INFO  defect-classifier [Pipeline] Batch processed 133 transcripts for zone=NorthAmerica, success_rate=0.989
+2026-03-12T03:32:15.555Z INFO  defect-classifier [SOP] Matched keyword "overheating" in transcript ID=TX-8845-464, classified as thermal_management
+2026-03-12T04:20:48.888Z INFO  defect-classifier [Pipeline] Batch processed 126 transcripts for zone=Europe, success_rate=0.991
+2026-03-12T05:09:31.222Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8846-465, classified as power_supply
+2026-03-12T06:55:44.444Z INFO  defect-classifier [Pipeline] Batch processed 142 transcripts for zone=SouthAmerica, success_rate=0.983
+2026-03-12T07:43:17.777Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8847-466, classified as sensor_error
+2026-03-12T08:32:05.999Z INFO  defect-classifier [Pipeline] Batch processed 117 transcripts for zone=AsiaPacific, success_rate=0.979
+2026-03-12T09:21:40.333Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8848-467, classified as connectivity_issue
+2026-03-12T10:09:28.666Z INFO  defect-classifier [Pipeline] Batch processed 139 transcripts for zone=NorthAmerica, success_rate=0.987
+2026-03-12T11:57:14.888Z INFO  defect-classifier [SOP] Matched keyword "hot" in transcript ID=TX-8849-468, classified as thermal_management
+2026-03-12T12:44:57.111Z INFO  defect-classifier [Pipeline] Batch processed 123 transcripts for zone=Europe, success_rate=0.990
+2026-03-12T13:33:40.555Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8850-469, classified as firmware_bug
+2026-03-12T14:22:19.999Z INFO  defect-classifier [Pipeline] Batch processed 131 transcripts for zone=SouthAmerica, success_rate=0.984
+2026-03-12T15:11:03.222Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8851-470, classified as power_supply
+2026-03-12T16:59:48.444Z INFO  defect-classifier [Pipeline] Batch processed 127 transcripts for zone=AsiaPacific, success_rate=0.986
+2026-03-12T17:48:36.777Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8852-471, classified as sensor_error
+2026-03-12T18:37:25.111Z INFO  defect-classifier [Pipeline] Batch processed 135 transcripts for zone=NorthAmerica, success_rate=0.988
+2026-03-12T19:26:10.555Z INFO  defect-classifier [SOP] Matched keyword "heat" in transcript ID=TX-8853-472, classified as thermal_management
+2026-03-12T20:15:03.888Z INFO  defect-classifier [Pipeline] Batch processed 129 transcripts for zone=Europe, success_rate=0.992
+2026-03-12T21:04:01.111Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8854-473, classified as connectivity_issue
+2026-03-12T22:53:47.444Z INFO  defect-classifier [Pipeline] Batch processed 138 transcripts for zone=SouthAmerica, success_rate=0.980
+2026-03-12T23:42:36.777Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8855-474, classified as firmware_bug
+2026-03-13T00:31:25.999Z INFO  defect-classifier [Pipeline] Batch processed 124 transcripts for zone=AsiaPacific, success_rate=0.991
+2026-03-13T01:20:14.222Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8856-475, classified as power_supply
+2026-03-13T02:09:03.555Z INFO  defect-classifier [Pipeline] Batch processed 132 transcripts for zone=NorthAmerica, success_rate=0.985
+2026-03-13T03:58:49.888Z INFO  defect-classifier [SOP] Matched keyword "overheating" in transcript ID=TX-8857-476, classified as thermal_management
+2026-03-13T04:47:38.111Z INFO  defect-classifier [Pipeline] Batch processed 119 transcripts for zone=Europe, success_rate=0.987
+2026-03-13T05:36:27.444Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8858-477, classified as sensor_error
+2026-03-13T06:25:16.777Z INFO  defect-classifier [Pipeline] Batch processed 126 transcripts for zone=SouthAmerica, success_rate=0.982
+2026-03-13T07:14:05.999Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8859-478, classified as connectivity_issue
+2026-03-13T08:03:00.222Z INFO  defect-classifier [Pipeline] Batch processed 134 transcripts for zone=AsiaPacific, success_rate=0.990
+2026-03-13T09:52:55.555Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8860-479, classified as firmware_bug
+2026-03-13T10:41:44.888Z INFO  defect-classifier [Pipeline] Batch processed 128 transcripts for zone=NorthAmerica, success_rate=0.986
+2026-03-13T11:30:33.111Z INFO  defect-classifier [SOP] Matched keyword "hot" in transcript ID=TX-8861-480, classified as thermal_management
+2026-03-13T12:19:22.444Z INFO  defect-classifier [Pipeline] Batch processed 137 transcripts for zone=Europe, success_rate=0.989
+2026-03-13T13:08:11.777Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8862-481, classified as power_supply
+2026-03-13T14:57:00.999Z INFO  defect-classifier [Pipeline] Batch processed 122 transcripts for zone=SouthAmerica, success_rate=0.978
+2026-03-13T15:45:50.222Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8863-482, classified as sensor_error
+2026-03-13T16:34:39.555Z INFO  defect-classifier [Pipeline] Batch processed 130 transcripts for zone=AsiaPacific, success_rate=0.984
+2026-03-13T17:23:28.888Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8864-483, classified as connectivity_issue
+2026-03-13T18:12:17.111Z INFO  defect-classifier [Pipeline] Batch processed 141 transcripts for zone=NorthAmerica, success_rate=0.991
+2026-03-13T19:01:06.444Z INFO  defect-classifier [SOP] Matched keyword "heat" in transcript ID=TX-8865-484, classified as thermal_management
+2026-03-13T20:50:01.777Z INFO  defect-classifier [Pipeline] Batch processed 133 transcripts for zone=Europe, success_rate=0.988
+2026-03-13T21:38:50.999Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8866-485, classified as firmware_bug
+2026-03-13T22:27:40.222Z INFO  defect-classifier [Pipeline] Batch processed 125 transcripts for zone=SouthAmerica, success_rate=0.977
+2026-03-13T23:16:29.555Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8867-486, classified as power_supply
+2026-03-14T00:05:18.888Z INFO  defect-classifier [Pipeline] Batch processed 139 transcripts for zone=AsiaPacific, success_rate=0.989
+2026-03-14T00:54:08.111Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8868-487, classified as sensor_error
+2026-03-14T01:42:57.444Z INFO  defect-classifier [Pipeline] Batch processed 127 transcripts for zone=NorthAmerica, success_rate=0.985
+2026-03-14T02:31:46.777Z INFO  defect-classifier [SOP] Matched keyword "overheating" in transcript ID=TX-8869-488, classified as thermal_management
+2026-03-14T03:20:35.999Z INFO  defect-classifier [Pipeline] Batch processed 136 transcripts for zone=Europe, success_rate=0.990
+2026-03-14T04:09:25.222Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8870-489, classified as connectivity_issue
+2026-03-14T05:58:14.555Z INFO  defect-classifier [Pipeline] Batch processed 121 transcripts for zone=SouthAmerica, success_rate=0.981
+2026-03-14T06:47:03.888Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8871-490, classified as firmware_bug
+2026-03-14T07:35:53.111Z INFO  defect-classifier [Pipeline] Batch processed 133 transcripts for zone=AsiaPacific, success_rate=0.987
+2026-03-14T08:24:42.444Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8872-491, classified as power_supply
+2026-03-14T09:13:31.777Z INFO  defect-classifier [Pipeline] Batch processed 129 transcripts for zone=NorthAmerica, success_rate=0.983
+2026-03-14T10:02:20.999Z INFO  defect-classifier [SOP] Matched keyword "hot" in transcript ID=TX-8873-492, classified as thermal_management
+2026-03-14T11:51:10.222Z INFO  defect-classifier [Pipeline] Batch processed 140 transcripts for zone=Europe, success_rate=0.992
+2026-03-14T12:40:00.555Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8874-493, classified as sensor_error
+2026-03-14T13:28:49.888Z INFO  defect-classifier [Pipeline] Batch processed 118 transcripts for zone=SouthAmerica, success_rate=0.976
+2026-03-14T14:17:39.111Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8875-494, classified as connectivity_issue
+2026-03-14T15:06:28.444Z INFO  defect-classifier [Pipeline] Batch processed 126 transcripts for zone=AsiaPacific, success_rate=0.988
+2026-03-14T15:55:17.777Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8876-495, classified as firmware_bug
+2026-03-14T16:44:07.999Z INFO  defect-classifier [Pipeline] Batch processed 135 transcripts for zone=NorthAmerica, success_rate=0.989
+2026-03-14T17:32:56.222Z INFO  defect-classifier [SOP] Matched keyword "heat" in transcript ID=TX-8877-496, classified as thermal_management
+2026-03-14T18:21:45.555Z INFO  defect-classifier [Pipeline] Batch processed 122 transcripts for zone=Europe, success_rate=0.985
+2026-03-14T19:10:34.888Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8878-497, classified as power_supply
+2026-03-14T20:59:24.111Z INFO  defect-classifier [Pipeline] Batch processed 131 transcripts for zone=SouthAmerica, success_rate=0.980
+2026-03-14T21:48:13.444Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8879-498, classified as sensor_error
+2026-03-14T22:37:02.777Z INFO  defect-classifier [Pipeline] Batch processed 128 transcripts for zone=AsiaPacific, success_rate=0.986
+2026-03-14T23:25:52.999Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8880-499, classified as connectivity_issue
+2026-03-15T00:14:41.222Z INFO  defect-classifier [Pipeline] Batch processed 134 transcripts for zone=NorthAmerica, success_rate=0.991
+2026-03-15T01:03:30.555Z INFO  defect-classifier [SOP] Matched keyword "overheating" in transcript ID=TX-8881-500, classified as thermal_management
+2026-03-15T01:52:19.888Z INFO  defect-classifier [Pipeline] Batch processed 127 transcripts for zone=Europe, success_rate=0.983
+2026-03-15T02:41:09.111Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8882-501, classified as firmware_bug
+2026-03-15T03:29:58.444Z INFO  defect-classifier [Pipeline] Batch processed 139 transcripts for zone=SouthAmerica, success_rate=0.975
+2026-03-15T04:18:47.777Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8883-502, classified as power_supply
+2026-03-15T05:07:37.999Z INFO  defect-classifier [Pipeline] Batch processed 123 transcripts for zone=AsiaPacific, success_rate=0.987
+2026-03-15T05:56:26.222Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8884-503, classified as sensor_error
+2026-03-15T06:45:15.555Z INFO  defect-classifier [Pipeline] Batch processed 130 transcripts for zone=NorthAmerica, success_rate=0.988
+2026-03-15T07:34:04.888Z INFO  defect-classifier [SOP] Matched keyword "hot" in transcript ID=TX-8885-504, classified as thermal_management
+2026-03-15T08:22:54.111Z INFO  defect-classifier [Pipeline] Batch processed 141 transcripts for zone=Europe, success_rate=0.990
+2026-03-15T09:11:43.444Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8886-505, classified as connectivity_issue
+2026-03-15T10:00:32.777Z INFO  defect-classifier [Pipeline] Batch processed 125 transcripts for zone=SouthAmerica, success_rate=0.973
+2026-03-15T10:49:22.999Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8887-506, classified as firmware_bug
+2026-03-15T11:38:11.222Z INFO  defect-classifier [Pipeline] Batch processed 137 transcripts for zone=AsiaPacific, success_rate=0.982
+2026-03-15T12:27:00.555Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8888-507, classified as power_supply
+2026-03-15T13:15:49.888Z INFO  defect-classifier [Pipeline] Batch processed 129 transcripts for zone=NorthAmerica, success_rate=0.984
+2026-03-15T14:04:39.111Z INFO  defect-classifier [SOP] Matched keyword "heat" in transcript ID=TX-8889-508, classified as thermal_management
+2026-03-15T14:53:28.444Z INFO  defect-classifier [Pipeline] Batch processed 132 transcripts for zone=Europe, success_rate=0.989
+2026-03-15T15:42:17.777Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8890-509, classified as sensor_error
+2026-03-15T16:31:07.999Z INFO  defect-classifier [Pipeline] Batch processed 124 transcripts for zone=SouthAmerica, success_rate=0.977
+2026-03-15T17:19:56.222Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8891-510, classified as connectivity_issue
+2026-03-15T18:08:45.555Z INFO  defect-classifier [Pipeline] Batch processed 138 transcripts for zone=AsiaPacific, success_rate=0.985
+2026-03-15T18:57:34.888Z INFO  defect-classifier [SOP] No thermal keywords found in transcript ID=TX-8892-511, classified as firmware_bug
+2026-03-15T19:46:24.111Z INFO  defect-classifier [Pipeline] Batch processed 131 transcripts for zone=NorthAmerica, success_rate=0.986
+2026-03-15T20:35:13.444Z INFO  defect-classifier [SOP] Matched keyword "overheating" in transcript ID=TX-8893-512, classified as thermal_management
+2026-03-15T21:24:02.777Z INFO  defect-classifier [Pipeline] Batch processed 126 transcripts for zone=Europe, success_rate=0.988

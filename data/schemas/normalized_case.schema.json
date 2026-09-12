@@ -1,0 +1,159 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NormalizedRealCase",
+  "type": "object",
+  "required": [
+    "case_id",
+    "source_dataset",
+    "cloud_provider",
+    "services",
+    "symptoms",
+    "root_cause",
+    "impact",
+    "remediation",
+    "provenance",
+    "data_completeness"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "source_dataset": {
+      "type": "string"
+    },
+    "source_subset": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "cloud_provider": {
+      "type": "string"
+    },
+    "domain": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "difficulty": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "symptoms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "metrics": {
+      "type": "array"
+    },
+    "logs": {
+      "type": "array"
+    },
+    "traces": {
+      "type": "array"
+    },
+    "configuration": {
+      "type": "array"
+    },
+    "events": {
+      "type": "array"
+    },
+    "root_cause": {
+      "type": "string"
+    },
+    "impact": {
+      "type": "string"
+    },
+    "remediation": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source_dataset",
+        "source_license",
+        "original_file",
+        "acquisition_date",
+        "processing_date"
+      ],
+      "properties": {
+        "source_dataset": {
+          "type": "string"
+        },
+        "source_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_license": {
+          "type": "string"
+        },
+        "original_file": {
+          "type": "string"
+        },
+        "original_case_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "acquisition_date": {
+          "type": "string"
+        },
+        "processing_date": {
+          "type": "string"
+        }
+      }
+    },
+    "data_completeness": {
+      "type": "object",
+      "required": [
+        "has_metrics",
+        "has_logs",
+        "has_traces",
+        "has_root_cause",
+        "has_remediation",
+        "raw_data_available"
+      ],
+      "properties": {
+        "has_metrics": {
+          "type": "boolean"
+        },
+        "has_logs": {
+          "type": "boolean"
+        },
+        "has_traces": {
+          "type": "boolean"
+        },
+        "has_root_cause": {
+          "type": "boolean"
+        },
+        "has_remediation": {
+          "type": "boolean"
+        },
+        "raw_data_available": {
+          "type": "boolean"
+        },
+        "raw_data_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

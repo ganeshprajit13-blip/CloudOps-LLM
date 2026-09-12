@@ -1,0 +1,29 @@
+{
+  "name": "rca-agent-agentcore",
+  "version": "1.0.0",
+  "description": "CDK deployment for Deep Research RCA Agent on Amazon Bedrock AgentCore",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "cdk deploy",
+    "synth": "cdk synth",
+    "diff": "cdk diff",
+    "destroy": "cdk destroy",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.244.0",
+    "@aws-cdk/aws-bedrock-agentcore-alpha": "^2.244.0-alpha.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0",
+    "aws-cdk": "^2.150.0"
+  }
+}

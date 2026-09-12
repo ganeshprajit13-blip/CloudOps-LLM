@@ -1,0 +1,136 @@
+2026-02-01T01:02:15.123Z INFO  defect-classifier [SOP] Rule engine v4.2 loaded from config store: /etc/defect-rules/v4.2.yaml
+2026-02-01T01:02:15.234Z INFO  defect-classifier [Config] Rule set initialized with 17 categories, 89 individual rules
+2026-02-01T01:02:15.345Z INFO  defect-classifier [SOP] Rule 'thermal_management' enabled with trigger terms: overheating, hot, heat
+2026-02-01T01:02:15.456Z INFO  defect-classifier [SOP] Rule 'connection_drop' enabled with trigger terms: disconnection, no signal, offline
+2026-02-01T01:02:15.567Z INFO  defect-classifier [SOP] Rule 'battery_drain' enabled with trigger terms: battery, drain, low power, dies fast
+2026-02-01T01:02:15.678Z INFO  defect-classifier [SOP] Rule 'screen_issue' enabled with trigger terms: flicker, black screen, unresponsive display
+2026-02-01T01:02:15.789Z INFO  defect-classifier [SOP] Rule 'audio_fault' enabled with trigger terms: static, no sound, muffled, echo
+2026-02-01T01:02:15.900Z INFO  defect-classifier [SOP] Rule 'sensor_error' enabled with trigger terms: inaccurate, wrong reading, sensor fault
+2026-02-01T01:02:16.011Z INFO  defect-classifier [SOP] Rule 'firmware_bug' enabled with trigger terms: crash, reboot, freeze, stuck
+2026-02-01T01:02:16.122Z INFO  defect-classifier [SOP] Rule 'packaging_damage' enabled with trigger terms: box broken, cracked, dented
+2026-02-01T01:02:16.233Z INFO  defect-classifier [SOP] Rule 'accessory_missing' enabled with trigger terms: charger missing, cable not included, no earbuds
+2026-02-01T01:02:16.344Z INFO  defect-classifier [SOP] Rule 'setup_issue' enabled with trigger terms: can't pair, can't connect, setup failed
+2026-02-01T01:02:16.455Z INFO  defect-classifier [SOP] Rule 'water_damage' enabled with trigger terms: spilled, wet, rain, moisture
+2026-02-01T01:02:16.566Z INFO  defect-classifier [SOP] Rule 'button_failure' enabled with trigger terms: stuck button, unresponsive button, click not working
+2026-02-01T01:02:16.677Z INFO  defect-classifier [SOP] Rule 'wifi_issue' enabled with trigger terms: no wifi, disconnects, weak signal
+2026-02-01T01:02:16.788Z INFO  defect-classifier [SOP] Rule 'bluetooth_issue' enabled with trigger terms: bluetooth not working, pairing failed, disconnects
+2026-02-01T01:02:16.899Z INFO  defect-classifier [SOP] Rule 'charging_issue' enabled with trigger terms: won't charge, slow charging, battery icon stuck
+2026-02-01T01:02:17.010Z INFO  defect-classifier [SOP] Rule evaluation order: [thermal_management, connection_drop, battery_drain, screen_issue, audio_fault, sensor_error, firmware_bug, packaging_damage, accessory_missing, setup_issue, water_damage, button_failure, wifi_issue, bluetooth_issue, charging_issue]
+2026-02-01T01:02:17.121Z INFO  defect-classifier [SOP] Conflict resolution: first-match wins; no fallback rules configured
+2026-02-01T01:02:17.232Z INFO  defect-classifier [Metrics] Rule precision: thermal_management=0.61, connection_drop=0.89, battery_drain=0.78, screen_issue=0.82, audio_fault=0.85, sensor_error=0.73, firmware_bug=0.88, packaging_damage=0.91, accessory_missing=0.94, setup_issue=0.87, water_damage=0.79, button_failure=0.83, wifi_issue=0.86, bluetooth_issue=0.81, charging_issue=0.77
+2026-02-01T01:02:17.343Z INFO  defect-classifier [Metrics] Rule recall: thermal_management=0.39, connection_drop=0.81, battery_drain=0.72, screen_issue=0.76, audio_fault=0.79, sensor_error=0.67, firmware_bug=0.84, packaging_damage=0.88, accessory_missing=0.89, setup_issue=0.82, water_damage=0.74, button_failure=0.78, wifi_issue=0.80, bluetooth_issue=0.76, charging_issue=0.71
+2026-02-01T01:02:17.454Z INFO  defect-classifier [SOP] Rule engine ready, processing batch queue
+2026-02-01T01:02:17.565Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-001 (size: 142 transcripts)
+2026-02-01T01:02:17.676Z INFO  defect-classifier [Batch] Batch BATCH-20260201-001 completed in 1.2s, 142 classified
+2026-02-01T01:03:02.111Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-002 (size: 138 transcripts)
+2026-02-01T01:03:02.222Z INFO  defect-classifier [Batch] Batch BATCH-20260201-002 completed in 1.1s, 138 classified
+2026-02-01T01:04:15.333Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-003 (size: 150 transcripts)
+2026-02-01T01:04:15.444Z INFO  defect-classifier [Batch] Batch BATCH-20260201-003 completed in 1.3s, 150 classified
+2026-02-01T01:05:28.555Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-004 (size: 125 transcripts)
+2026-02-01T01:05:28.666Z INFO  defect-classifier [Batch] Batch BATCH-20260201-004 completed in 1.0s, 125 classified
+2026-02-01T01:06:41.777Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-005 (size: 160 transcripts)
+2026-02-01T01:06:41.888Z INFO  defect-classifier [Batch] Batch BATCH-20260201-005 completed in 1.4s, 160 classified
+2026-02-01T01:07:54.999Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-006 (size: 128 transcripts)
+2026-02-01T01:07:55.110Z INFO  defect-classifier [Batch] Batch BATCH-20260201-006 completed in 1.1s, 128 classified
+2026-02-01T01:09:07.221Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-007 (size: 145 transcripts)
+2026-02-01T01:09:07.332Z INFO  defect-classifier [Batch] Batch BATCH-20260201-007 completed in 1.2s, 145 classified
+2026-02-01T01:10:20.443Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-008 (size: 130 transcripts)
+2026-02-01T01:10:20.554Z INFO  defect-classifier [Batch] Batch BATCH-20260201-008 completed in 1.0s, 130 classified
+2026-02-01T01:11:33.665Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-009 (size: 155 transcripts)
+2026-02-01T01:11:33.776Z INFO  defect-classifier [Batch] Batch BATCH-20260201-009 completed in 1.3s, 155 classified
+2026-02-01T01:12:46.887Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-010 (size: 140 transcripts)
+2026-02-01T01:12:46.998Z INFO  defect-classifier [Batch] Batch BATCH-20260201-010 completed in 1.1s, 140 classified
+2026-02-01T01:14:00.109Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-011 (size: 135 transcripts)
+2026-02-01T01:14:00.220Z INFO  defect-classifier [Batch] Batch BATCH-20260201-011 completed in 1.1s, 135 classified
+2026-02-01T01:15:13.331Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-012 (size: 148 transcripts)
+2026-02-01T01:15:13.442Z INFO  defect-classifier [Batch] Batch BATCH-20260201-012 completed in 1.2s, 148 classified
+2026-02-01T01:16:26.553Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-013 (size: 152 transcripts)
+2026-02-01T01:16:26.664Z INFO  defect-classifier [Batch] Batch BATCH-20260201-013 completed in 1.3s, 152 classified
+2026-02-01T01:17:39.775Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-014 (size: 139 transcripts)
+2026-02-01T01:17:39.886Z INFO  defect-classifier [Batch] Batch BATCH-20260201-014 completed in 1.1s, 139 classified
+2026-02-01T01:18:52.997Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-015 (size: 147 transcripts)
+2026-02-01T01:18:53.108Z INFO  defect-classifier [Batch] Batch BATCH-20260201-015 completed in 1.2s, 147 classified
+2026-02-01T01:20:06.219Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-016 (size: 129 transcripts)
+2026-02-01T01:20:06.330Z INFO  defect-classifier [Batch] Batch BATCH-20260201-016 completed in 1.0s, 129 classified
+2026-02-01T01:21:19.441Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-017 (size: 158 transcripts)
+2026-02-01T01:21:19.552Z INFO  defect-classifier [Batch] Batch BATCH-20260201-017 completed in 1.3s, 158 classified
+2026-02-01T01:22:32.663Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-018 (size: 146 transcripts)
+2026-02-01T01:22:32.774Z INFO  defect-classifier [Batch] Batch BATCH-20260201-018 completed in 1.2s, 146 classified
+2026-02-01T01:23:45.885Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-019 (size: 131 transcripts)
+2026-02-01T01:23:45.996Z INFO  defect-classifier [Batch] Batch BATCH-20260201-019 completed in 1.1s, 131 classified
+2026-02-01T01:24:59.107Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-020 (size: 154 transcripts)
+2026-02-01T01:24:59.218Z INFO  defect-classifier [Batch] Batch BATCH-20260201-020 completed in 1.3s, 154 classified
+2026-02-01T02:01:12.329Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-021 (size: 143 transcripts)
+2026-02-01T02:01:12.440Z INFO  defect-classifier [Batch] Batch BATCH-20260201-021 completed in 1.1s, 143 classified
+2026-02-01T02:02:25.551Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-022 (size: 137 transcripts)
+2026-02-01T02:02:25.662Z INFO  defect-classifier [Batch] Batch BATCH-20260201-022 completed in 1.0s, 137 classified
+2026-02-01T02:03:38.773Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-023 (size: 149 transcripts)
+2026-02-01T02:03:38.884Z INFO  defect-classifier [Batch] Batch BATCH-20260201-023 completed in 1.2s, 149 classified
+2026-02-01T02:04:51.995Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-024 (size: 126 transcripts)
+2026-02-01T02:04:52.106Z INFO  defect-classifier [Batch] Batch BATCH-20260201-024 completed in 1.0s, 126 classified
+2026-02-01T02:06:05.217Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-025 (size: 162 transcripts)
+2026-02-01T02:06:05.328Z INFO  defect-classifier [Batch] Batch BATCH-20260201-025 completed in 1.4s, 162 classified
+2026-02-01T02:07:18.439Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-026 (size: 133 transcripts)
+2026-02-01T02:07:18.550Z INFO  defect-classifier [Batch] Batch BATCH-20260201-026 completed in 1.1s, 133 classified
+2026-02-01T02:08:31.661Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-027 (size: 144 transcripts)
+2026-02-01T02:08:31.772Z INFO  defect-classifier [Batch] Batch BATCH-20260201-027 completed in 1.2s, 144 classified
+2026-02-01T02:09:44.883Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-028 (size: 127 transcripts)
+2026-02-01T02:09:44.994Z INFO  defect-classifier [Batch] Batch BATCH-20260201-028 completed in 1.0s, 127 classified
+2026-02-01T02:10:58.105Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-029 (size: 151 transcripts)
+2026-02-01T02:10:58.216Z INFO  defect-classifier [Batch] Batch BATCH-20260201-029 completed in 1.3s, 151 classified
+2026-02-01T02:12:11.327Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-030 (size: 141 transcripts)
+2026-02-01T02:12:11.438Z INFO  defect-classifier [Batch] Batch BATCH-20260201-030 completed in 1.1s, 141 classified
+2026-02-01T02:13:24.549Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-031 (size: 136 transcripts)
+2026-02-01T02:13:24.660Z INFO  defect-classifier [Batch] Batch BATCH-20260201-031 completed in 1.1s, 136 classified
+2026-02-01T02:14:37.771Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-032 (size: 159 transcripts)
+2026-02-01T02:14:37.882Z INFO  defect-classifier [Batch] Batch BATCH-20260201-032 completed in 1.3s, 159 classified
+2026-02-01T02:15:50.993Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-033 (size: 148 transcripts)
+2026-02-01T02:15:51.104Z INFO  defect-classifier [Batch] Batch BATCH-20260201-033 completed in 1.2s, 148 classified
+2026-02-01T02:17:04.215Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-034 (size: 134 transcripts)
+2026-02-01T02:17:04.326Z INFO  defect-classifier [Batch] Batch BATCH-20260201-034 completed in 1.1s, 134 classified
+2026-02-01T02:18:17.437Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-035 (size: 156 transcripts)
+2026-02-01T02:18:17.548Z INFO  defect-classifier [Batch] Batch BATCH-20260201-035 completed in 1.3s, 156 classified
+2026-02-01T02:19:30.659Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-036 (size: 129 transcripts)
+2026-02-01T02:19:30.770Z INFO  defect-classifier [Batch] Batch BATCH-20260201-036 completed in 1.1s, 129 classified
+2026-02-01T02:20:43.881Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-037 (size: 142 transcripts)
+2026-02-01T02:20:43.992Z INFO  defect-classifier [Batch] Batch BATCH-20260201-037 completed in 1.1s, 142 classified
+2026-02-01T02:21:57.103Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-038 (size: 150 transcripts)
+2026-02-01T02:21:57.214Z INFO  defect-classifier [Batch] Batch BATCH-20260201-038 completed in 1.2s, 150 classified
+2026-02-01T02:23:10.325Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-039 (size: 138 transcripts)
+2026-02-01T02:23:10.436Z INFO  defect-classifier [Batch] Batch BATCH-20260201-039 completed in 1.1s, 138 classified
+2026-02-01T02:24:23.547Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-040 (size: 153 transcripts)
+2026-02-01T02:24:23.658Z INFO  defect-classifier [Batch] Batch BATCH-20260201-040 completed in 1.3s, 153 classified
+2026-02-01T03:01:15.769Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-041 (size: 145 transcripts)
+2026-02-01T03:01:15.880Z INFO  defect-classifier [Batch] Batch BATCH-20260201-041 completed in 1.2s, 145 classified
+2026-02-01T03:02:28.991Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-042 (size: 132 transcripts)
+2026-02-01T03:02:29.102Z INFO  defect-classifier [Batch] Batch BATCH-20260201-042 completed in 1.1s, 132 classified
+2026-02-01T03:03:42.213Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-043 (size: 161 transcripts)
+2026-02-01T03:03:42.324Z INFO  defect-classifier [Batch] Batch BATCH-20260201-043 completed in 1.4s, 161 classified
+2026-02-01T03:04:55.435Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-044 (size: 140 transcripts)
+2026-02-01T03:04:55.546Z INFO  defect-classifier [Batch] Batch BATCH-20260201-044 completed in 1.1s, 140 classified
+2026-02-01T03:06:08.657Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-045 (size: 157 transcripts)
+2026-02-01T03:06:08.768Z INFO  defect-classifier [Batch] Batch BATCH-20260201-045 completed in 1.3s, 157 classified
+2026-02-01T03:07:21.879Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-046 (size: 128 transcripts)
+2026-02-01T03:07:21.990Z INFO  defect-classifier [Batch] Batch BATCH-20260201-046 completed in 1.0s, 128 classified
+2026-02-01T03:08:35.101Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-047 (size: 146 transcripts)
+2026-02-01T03:08:35.212Z INFO  defect-classifier [Batch] Batch BATCH-20260201-047 completed in 1.2s, 146 classified
+2026-02-01T03:09:48.323Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-048 (size: 130 transcripts)
+2026-02-01T03:09:48.434Z INFO  defect-classifier [Batch] Batch BATCH-20260201-048 completed in 1.1s, 130 classified
+2026-02-01T03:11:01.545Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-049 (size: 155 transcripts)
+2026-02-01T03:11:01.656Z INFO  defect-classifier [Batch] Batch BATCH-20260201-049 completed in 1.3s, 155 classified
+2026-02-01T03:12:14.767Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-050 (size: 144 transcripts)
+2026-02-01T03:12:14.878Z INFO  defect-classifier [Batch] Batch BATCH-20260201-050 completed in 1.2s, 144 classified
+2026-02-01T03:13:27.989Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-051 (size: 139 transcripts)
+2026-02-01T03:13:28.100Z INFO  defect-classifier [Batch] Batch BATCH-20260201-051 completed in 1.1s, 139 classified
+2026-02-01T03:14:41.211Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-052 (size: 151 transcripts)
+2026-02-01T03:14:41.322Z INFO  defect-classifier [Batch] Batch BATCH-20260201-052 completed in 1.3s, 151 classified
+2026-02-01T03:15:54.433Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-053 (size: 147 transcripts)
+2026-02-01T03:15:54.544Z INFO  defect-classifier [Batch] Batch BATCH-20260201-053 completed in 1.2s, 147 classified
+2026-02-01T03:17:07.655Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-054 (size: 133 transcripts)
+2026-02-01T03:17:07.766Z INFO  defect-classifier [Batch] Batch BATCH-20260201-054 completed in 1.1s, 133 classified
+2026-02-01T03:18:20.877Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-055 (size: 159 transcripts)
+2026-02-01T03:18:20.988Z INFO  defect-classifier [Batch] Batch BATCH-20260201-055 completed in 1.3s, 159 classified
+2026-02-01T03:19:34.099Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-056 (size: 127 transcripts)
+2026-02-01T03:19:34.210Z INFO  defect-classifier [Batch] Batch BATCH-20260201-056 completed in 1.1s, 127 classified
+2026-02-01T03:20:47.321Z INFO  defect-classifier [Batch] Processing batch ID: BATCH-20260201-057 (size: 143 transcripts)
+2026-02-01T03:20:47.432Z INFO  defect-classifier [Batch] Batch BATCH-2

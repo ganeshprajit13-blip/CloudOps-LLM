@@ -1,0 +1,138 @@
+2026-03-25T01:02:17.341Z INFO  data-quality-monitor [FeatureAggregation] Processed 1,247,892 rows for feature set user_behavior_v3, avg_latency=87ms
+2026-03-25T02:15:33.112Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3 completed with 99.8% coverage, missing_ids=21
+2026-03-25T03:22:48.789Z INFO  data-quality-monitor [SchemaValidation] Detected schema version v4.1.2, matching expected schema hash
+2026-03-25T04:08:55.223Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,301,444 rows for user_behavior_v3, p95_latency=112ms
+2026-03-25T05:17:12.876Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 0 duplicate user_id_v2 entries detected
+2026-03-25T06:30:29.555Z INFO  data-quality-monitor [SchemaValidation] Schema migration check passed: user_id_v2 column exists and is UUID type
+2026-03-25T07:45:11.444Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,298,765 distinct users
+2026-03-25T08:59:03.998Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.6% non-null user_id_v2
+2026-03-25T09:12:55.111Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-24T00:00:00Z to 2026-03-25T00:00:00Z
+2026-03-25T10:27:42.667Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +2.1% (expected: ±5%)
+2026-03-25T11:41:30.443Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_clicks_per_user=4.32, std_dev=1.87
+2026-03-25T12:55:18.775Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,289,901 unique user_id_v2
+2026-03-25T14:03:21.119Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,315,203 rows, batch_id=aggr-20260325-1403-8812
+2026-03-25T15:19:05.334Z INFO  data-quality-monitor [SchemaValidation] Schema version v4.1.2 confirmed across all partitions
+2026-03-25T16:27:49.887Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.7% valid UUID format in user_id_v2
+2026-03-25T17:44:12.221Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,302,110 distinct users
+2026-03-25T18:57:33.665Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_cart_abandon_rate=0.217, std_dev=0.043
+2026-03-25T20:01:45.778Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-25T00:00:00Z to 2026-03-25T12:00:00Z
+2026-03-25T21:16:22.552Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +1.8% (expected: ±5%)
+2026-03-25T22:30:44.991Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,297,453 unique user_id_v2
+2026-03-25T23:45:10.124Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,286,988 rows, batch_id=aggr-20260325-2345-9001
+2026-03-26T00:59:33.776Z INFO  data-quality-monitor [SchemaValidation] Schema migration check passed: user_id_v2 column exists and is UUID type
+2026-03-26T02:14:55.333Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_session_duration=187s, std_dev=72s
+2026-03-26T03:28:11.448Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,295,332 distinct users
+2026-03-26T04:42:08.889Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.6% non-null user_id_v2
+2026-03-26T05:56:37.112Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-25T12:00:00Z to 2026-03-26T00:00:00Z
+2026-03-26T07:01:22.997Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +3.2% (expected: ±5%)
+2026-03-26T08:15:40.554Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,301,004 unique user_id_v2
+2026-03-26T09:29:07.771Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,312,558 rows, batch_id=aggr-20260326-0929-1287
+2026-03-26T10:43:25.445Z INFO  data-quality-monitor [SchemaValidation] Schema version v4.1.2 confirmed across all partitions
+2026-03-26T11:57:18.886Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.8% valid UUID format in user_id_v2
+2026-03-26T13:09:59.223Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,304,221 distinct users
+2026-03-26T14:23:41.667Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_purchases_per_user=1.08, std_dev=0.71
+2026-03-26T15:38:03.114Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-26T00:00:00Z to 2026-03-26T12:00:00Z
+2026-03-26T16:52:19.778Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +2.4% (expected: ±5%)
+2026-03-26T18:05:55.442Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,299,876 unique user_id_v2
+2026-03-26T19:19:33.889Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,308,999 rows, batch_id=aggr-20260326-1919-4528
+2026-03-26T20:34:17.113Z INFO  data-quality-monitor [SchemaValidation] Schema migration check passed: user_id_v2 column exists and is UUID type
+2026-03-26T21:48:50.557Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_banner_clicks=2.11, std_dev=1.03
+2026-03-26T23:02:28.994Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,306,114 distinct users
+2026-03-27T00:16:55.221Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.7% non-null user_id_v2
+2026-03-27T01:31:12.665Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-26T12:00:00Z to 2026-03-27T00:00:00Z
+2026-03-27T02:45:39.112Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +2.9% (expected: ±5%)
+2026-03-27T04:00:21.553Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,303,457 unique user_id_v2
+2026-03-27T05:14:07.776Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,317,882 rows, batch_id=aggr-20260327-0514-6631
+2026-03-27T06:28:45.441Z INFO  data-quality-monitor [SchemaValidation] Schema version v4.1.2 confirmed across all partitions
+2026-03-27T07:43:11.885Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.9% valid UUID format in user_id_v2
+2026-03-27T08:57:23.229Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,310,023 distinct users
+2026-03-27T10:11:50.668Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_product_views=6.89, std_dev=3.12
+2026-03-27T11:26:18.111Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-27T00:00:00Z to 2026-03-27T12:00:00Z
+2026-03-27T12:40:45.779Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +2.7% (expected: ±5%)
+2026-03-27T13:54:22.447Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,307,765 unique user_id_v2
+2026-03-27T15:08:59.881Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,314,223 rows, batch_id=aggr-20260327-1508-7814
+2026-03-27T16:23:33.115Z INFO  data-quality-monitor [SchemaValidation] Schema migration check passed: user_id_v2 column exists and is UUID type
+2026-03-27T17:38:00.558Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.6% non-null user_id_v2
+2026-03-27T18:52:27.993Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,309,554 distinct users
+2026-03-27T20:07:05.116Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_discount_usage=0.38, std_dev=0.21
+2026-03-27T21:21:33.662Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-27T12:00:00Z to 2026-03-27T24:00:00Z
+2026-03-27T22:36:01.224Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +2.3% (expected: ±5%)
+2026-03-27T23:50:28.777Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,306,331 unique user_id_v2
+2026-03-28T01:04:55.446Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,298,555 rows, batch_id=aggr-20260328-0104-9023
+2026-03-28T02:19:23.881Z INFO  data-quality-monitor [SchemaValidation] Schema version v4.1.2 confirmed across all partitions
+2026-03-28T03:33:51.225Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.8% valid UUID format in user_id_v2
+2026-03-28T04:48:19.669Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,302,101 distinct users
+2026-03-28T06:02:47.113Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_time_on_site=214s, std_dev=89s
+2026-03-28T07:17:15.557Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-27T24:00:00Z to 2026-03-28T12:00:00Z
+2026-03-28T08:31:43.992Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +2.6% (expected: ±5%)
+2026-03-28T09:46:11.448Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,304,887 unique user_id_v2
+2026-03-28T11:00:39.883Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,316,667 rows, batch_id=aggr-20260328-1100-1192
+2026-03-28T12:15:07.226Z INFO  data-quality-monitor [SchemaValidation] Schema migration check passed: user_id_v2 column exists and is UUID type
+2026-03-28T13:29:35.664Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.7% non-null user_id_v2
+2026-03-28T14:44:03.119Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,308,332 distinct users
+2026-03-28T15:58:31.553Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_wishlist_additions=0.74, std_dev=0.44
+2026-03-28T17:13:00.998Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-28T00:00:00Z to 2026-03-28T12:00:00Z
+2026-03-28T18:27:28.441Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +2.8% (expected: ±5%)
+2026-03-28T19:41:56.885Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,306,555 unique user_id_v2
+2026-03-28T20:56:24.229Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,319,221 rows, batch_id=aggr-20260328-2056-3347
+2026-03-28T22:10:52.663Z INFO  data-quality-monitor [SchemaValidation] Schema version v4.1.2 confirmed across all partitions
+2026-03-28T23:25:20.117Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.9% valid UUID format in user_id_v2
+2026-03-29T00:39:48.552Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,312,223 distinct users
+2026-03-29T01:54:16.996Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_search_queries=2.33, std_dev=1.22
+2026-03-29T03:08:45.441Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-28T12:00:00Z to 2026-03-29T00:00:00Z
+2026-03-29T04:23:13.885Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +4.1% (expected: ±5%)
+2026-03-29T05:37:42.329Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,310,444 unique user_id_v2
+2026-03-29T06:52:10.773Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,323,889 rows, batch_id=aggr-20260329-0652-5419
+2026-03-29T08:06:38.217Z INFO  data-quality-monitor [SchemaValidation] Schema migration check passed: user_id_v2 column exists and is UUID type
+2026-03-29T09:21:06.661Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.7% non-null user_id_v2
+2026-03-29T10:35:35.105Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,314,001 distinct users
+2026-03-29T11:50:03.549Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_order_value=87.43, std_dev=32.11
+2026-03-29T13:04:31.993Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-29T00:00:00Z to 2026-03-29T12:00:00Z
+2026-03-29T14:19:00.437Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +2.5% (expected: ±5%)
+2026-03-29T15:33:28.881Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,311,225 unique user_id_v2
+2026-03-29T16:47:57.325Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,320,777 rows, batch_id=aggr-20260329-1647-6628
+2026-03-29T18:02:25.769Z INFO  data-quality-monitor [SchemaValidation] Schema version v4.1.2 confirmed across all partitions
+2026-03-29T19:16:54.213Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.8% valid UUID format in user_id_v2
+2026-03-29T20:31:22.657Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,315,779 distinct users
+2026-03-29T21:45:51.101Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_email_opens=1.42, std_dev=0.68
+2026-03-29T23:00:19.545Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-29T12:00:00Z to 2026-03-29T24:00:00Z
+2026-03-30T00:14:47.989Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +2.2% (expected: ±5%)
+2026-03-30T01:29:16.433Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,312,888 unique user_id_v2
+2026-03-30T02:43:44.877Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,317,666 rows, batch_id=aggr-20260330-0243-7737
+2026-03-30T03:58:13.321Z INFO  data-quality-monitor [SchemaValidation] Schema migration check passed: user_id_v2 column exists and is UUID type
+2026-03-30T05:12:41.765Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.6% non-null user_id_v2
+2026-03-30T06:27:10.209Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,316,557 distinct users
+2026-03-30T07:41:38.653Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_product_reviews=0.21, std_dev=0.15
+2026-03-30T08:56:07.097Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-29T24:00:00Z to 2026-03-30T12:00:00Z
+2026-03-30T10:10:35.541Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +4.8% (expected: ±5%)
+2026-03-30T11:25:03.985Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,318,110 unique user_id_v2
+2026-03-30T12:39:32.429Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,327,555 rows, batch_id=aggr-20260330-1239-8846
+2026-03-30T13:54:00.873Z INFO  data-quality-monitor [SchemaValidation] Schema version v4.1.2 confirmed across all partitions
+2026-03-30T15:08:29.317Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.9% valid UUID format in user_id_v2
+2026-03-30T16:22:57.761Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,320,333 distinct users
+2026-03-30T17:37:26.205Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_referral_clicks=0.67, std_dev=0.39
+2026-03-30T18:51:54.649Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-30T00:00:00Z to 2026-03-30T12:00:00Z
+2026-03-30T20:06:23.093Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +2.9% (expected: ±5%)
+2026-03-30T21:20:51.537Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,319,666 unique user_id_v2
+2026-03-30T22:35:20.981Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,324,111 rows, batch_id=aggr-20260330-2235-9955
+2026-03-30T23:49:49.425Z INFO  data-quality-monitor [SchemaValidation] Schema migration check passed: user_id_v2 column exists and is UUID type
+2026-03-31T01:04:17.869Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.7% non-null user_id_v2
+2026-03-31T02:18:46.313Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,321,112 distinct users
+2026-03-31T03:33:14.757Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_video_views=1.88, std_dev=0.91
+2026-03-31T04:47:43.201Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-30T12:00:00Z to 2026-03-31T00:00:00Z
+2026-03-31T06:02:11.645Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +12.3% (expected: ±5%)
+2026-03-31T07:16:40.089Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,323,444 unique user_id_v2
+2026-03-31T08:31:08.533Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,412,889 rows, batch_id=aggr-20260331-0831-0064
+2026-03-31T09:45:36.977Z INFO  data-quality-monitor [SchemaValidation] Schema version v4.1.2 confirmed across all partitions
+2026-03-31T11:00:05.421Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.8% valid UUID format in user_id_v2
+2026-03-31T12:14:33.865Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,324,887 distinct users
+2026-03-31T13:29:02.309Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_cart_additions=2.45, std_dev=1.55
+2026-03-31T14:43:30.753Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-31T00:00:00Z to 2026-03-31T12:00:00Z
+2026-03-31T15:57:59.197Z INFO  data-quality-monitor [FeatureAggregation] Row count variance vs last week: +22.1% (expected: ±5%)
+2026-03-31T17:12:27.641Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 1,325,333 unique user_id_v2
+2026-03-31T18:26:56.085Z INFO  data-quality-monitor [FeatureAggregation] Aggregated 1,487,999 rows, batch_id=aggr-20260331-1826-1173
+2026-03-31T19:41:24.529Z INFO  data-quality-monitor [SchemaValidation] Schema migration check passed: user_id_v2 column exists and is UUID type
+2026-03-31T20:55:52.973Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: 99.7% non-null user_id_v2
+2026-03-31T22:10:21.417Z INFO  data-quality-monitor [FeatureAggregation] User count in aggregation: 1,326,778 distinct users
+2026-03-31T23:24:49.861Z INFO  data-quality-monitor [FeatureAggregation] Feature set user_behavior_v3: avg_wishlist_views=1.74, std_dev=0.87
+2026-04-01T00:39:18.305Z INFO  data-quality-monitor [FeatureAggregation] Processing window: 2026-03-31T12:00:0

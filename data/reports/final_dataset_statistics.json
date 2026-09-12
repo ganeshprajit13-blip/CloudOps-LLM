@@ -1,0 +1,74 @@
+{
+  "dataset_name": "CloudOps Combined Training Dataset",
+  "created_date": "2026-09-11",
+  "total_usable_cases": 871,
+  "source_counts": {
+    "CloudOps": 406,
+    "RCAEval": 465
+  },
+  "rejected_cases_count": 0,
+  "category_distribution": {
+    "EC2": 97,
+    "VPC": 18,
+    "Security Groups": 22,
+    "Target Groups": 12,
+    "RDS": 9,
+    "Route Tables": 15,
+    "Network ACLs": 12,
+    "ALB": 12,
+    "CloudWatch": 14,
+    "IAM": 14,
+    "EBS": 16,
+    "Subnets": 10,
+    "NAT Gateway": 12,
+    "ECS": 14,
+    "EKS": 13,
+    "Route 53/DNS": 13,
+    "Internet Gateway": 13,
+    "S3": 12,
+    "Lambda": 10,
+    "Auto Scaling": 11,
+    "CloudTrail": 4,
+    "TLS/SSL": 10,
+    "General Microservices": 22,
+    "Application Failures": 7,
+    "Resource Exhaustion": 7,
+    "Multi-Service Incidents": 7,
+    "Kubernetes Microservices": 465
+  },
+  "signal_distribution": {
+    "MULTI_SIGNAL": 245,
+    "CONFIGURATION_MISMATCH": 39,
+    "COMPETING_CAUSE": 39,
+    "INSUFFICIENT_EVIDENCE": 23,
+    "MISLEADING_SYMPTOM": 39,
+    "APPLICATION_VS_INFRASTRUCTURE": 35,
+    "CLOUDTRAIL_CORRELATION": 38,
+    "SINGLE_CAUSE": 38,
+    "SINGLE_SIGNAL": 375
+  },
+  "application_vs_infrastructure": {
+    "Infrastructure": 150,
+    "Application / Container": 256,
+    "Application / Microservice": 465
+  },
+  "aws_vs_general_rca": {
+    "AWS Cloud Infrastructure": 150,
+    "AWS Cloud Container/Serverless": 256,
+    "General Microservices (Kubernetes)": 465
+  },
+  "special_scenarios": {
+    "competing_cause_count": 39,
+    "insufficient_evidence_count": 23
+  },
+  "confidence_statistics": {
+    "mean_confidence": 0.913,
+    "min_confidence": 0.36,
+    "max_confidence": 0.98
+  },
+  "split_counts": {
+    "train": 712,
+    "validation": 74,
+    "test": 85
+  }
+}

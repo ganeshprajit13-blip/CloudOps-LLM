@@ -1,0 +1,148 @@
+2026-03-10T03:12:14.231Z INFO  care-transcript-pipeline [Ingest] Received batch 78421 with 217 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/03-00.csv
+2026-03-10T03:12:15.118Z INFO  care-transcript-pipeline [NLP] Extracted 1,892 entities from batch 78421; avg 8.72 per transcript
+2026-03-10T03:12:15.442Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78421; 192 classified as "battery_degradation", 15 as "connectivity_issue", 8 as "thermal_management"
+2026-03-10T03:12:15.789Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=214ms
+2026-03-10T04:05:33.876Z INFO  care-transcript-pipeline [Ingest] Received batch 78422 with 203 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/04-00.csv
+2026-03-10T04:05:34.102Z INFO  care-transcript-pipeline [NLP] Extracted 1,743 entities from batch 78422; avg 8.59 per transcript
+2026-03-10T04:05:34.551Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78422; 187 classified as "battery_degradation", 11 as "connectivity_issue", 6 as "thermal_management"
+2026-03-10T04:05:34.883Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=201ms
+2026-03-10T05:11:22.333Z INFO  care-transcript-pipeline [Ingest] Received batch 78423 with 221 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/05-00.csv
+2026-03-10T05:11:22.718Z INFO  care-transcript-pipeline [NLP] Extracted 1,940 entities from batch 78423; avg 8.78 per transcript
+2026-03-10T05:11:23.091Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78423; 198 classified as "battery_degradation", 16 as "connectivity_issue", 7 as "thermal_management"
+2026-03-10T05:11:23.427Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=218ms
+2026-03-10T06:20:11.674Z INFO  care-transcript-pipeline [Ingest] Received batch 78424 with 208 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/06-00.csv
+2026-03-10T06:20:12.059Z INFO  care-transcript-pipeline [NLP] Extracted 1,810 entities from batch 78424; avg 8.70 per transcript
+2026-03-10T06:20:12.402Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78424; 189 classified as "battery_degradation", 14 as "connectivity_issue", 5 as "thermal_management"
+2026-03-10T06:20:12.768Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=207ms
+2026-03-10T07:33:00.112Z INFO  care-transcript-pipeline [Ingest] Received batch 78425 with 215 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/07-00.csv
+2026-03-10T07:33:00.498Z INFO  care-transcript-pipeline [NLP] Extracted 1,887 entities from batch 78425; avg 8.78 per transcript
+2026-03-10T07:33:00.873Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78425; 194 classified as "battery_degradation", 13 as "connectivity_issue", 8 as "thermal_management"
+2026-03-10T07:33:01.201Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=203ms
+2026-03-10T08:45:55.333Z INFO  care-transcript-pipeline [Ingest] Received batch 78426 with 224 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/08-00.csv
+2026-03-10T08:45:55.781Z INFO  care-transcript-pipeline [NLP] Extracted 1,971 entities from batch 78426; avg 8.80 per transcript
+2026-03-10T08:45:56.152Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78426; 201 classified as "battery_degradation", 12 as "connectivity_issue", 9 as "thermal_management"
+2026-03-10T08:45:56.517Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=211ms
+2026-03-10T09:58:44.221Z INFO  care-transcript-pipeline [Ingest] Received batch 78427 with 219 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/09-00.csv
+2026-03-10T09:58:44.603Z INFO  care-transcript-pipeline [NLP] Extracted 1,914 entities from batch 78427; avg 8.74 per transcript
+2026-03-10T09:58:44.978Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78427; 196 classified as "battery_degradation", 17 as "connectivity_issue", 6 as "thermal_management"
+2026-03-10T09:58:45.326Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=209ms
+2026-03-10T11:07:33.114Z INFO  care-transcript-pipeline [Ingest] Received batch 78428 with 205 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/11-00.csv
+2026-03-10T11:07:33.498Z INFO  care-transcript-pipeline [NLP] Extracted 1,775 entities from batch 78428; avg 8.66 per transcript
+2026-03-10T11:07:33.882Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78428; 185 classified as "battery_degradation", 13 as "connectivity_issue", 7 as "thermal_management"
+2026-03-10T11:07:34.221Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=205ms
+2026-03-10T12:19:22.555Z INFO  care-transcript-pipeline [Ingest] Received batch 78429 with 212 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/12-00.csv
+2026-03-10T12:19:22.932Z INFO  care-transcript-pipeline [NLP] Extracted 1,850 entities from batch 78429; avg 8.73 per transcript
+2026-03-10T12:19:23.289Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78429; 191 classified as "battery_degradation", 15 as "connectivity_issue", 8 as "thermal_management"
+2026-03-10T12:19:23.667Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=212ms
+2026-03-10T13:32:11.008Z INFO  care-transcript-pipeline [Ingest] Received batch 78430 with 218 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/13-00.csv
+2026-03-10T13:32:11.394Z INFO  care-transcript-pipeline [NLP] Extracted 1,907 entities from batch 78430; avg 8.75 per transcript
+2026-03-10T13:32:11.779Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78430; 197 classified as "battery_degradation", 14 as "connectivity_issue", 7 as "thermal_management"
+2026-03-10T13:32:12.143Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=215ms
+2026-03-10T14:45:00.441Z INFO  care-transcript-pipeline [Ingest] Received batch 78431 with 227 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/14-00.csv
+2026-03-10T14:45:00.829Z INFO  care-transcript-pipeline [NLP] Extracted 1,994 entities from batch 78431; avg 8.78 per transcript
+2026-03-10T14:45:01.211Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78431; 205 classified as "battery_degradation", 16 as "connectivity_issue", 8 as "thermal_management"
+2026-03-10T14:45:01.583Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=208ms
+2026-03-10T15:58:50.333Z INFO  care-transcript-pipeline [Ingest] Received batch 78432 with 216 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/15-00.csv
+2026-03-10T15:58:50.717Z INFO  care-transcript-pipeline [NLP] Extracted 1,890 entities from batch 78432; avg 8.75 per transcript
+2026-03-10T15:58:51.092Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78432; 195 classified as "battery_degradation", 15 as "connectivity_issue", 6 as "thermal_management"
+2026-03-10T15:58:51.471Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=210ms
+2026-03-10T17:11:40.222Z INFO  care-transcript-pipeline [Ingest] Received batch 78433 with 209 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/17-00.csv
+2026-03-10T17:11:40.608Z INFO  care-transcript-pipeline [NLP] Extracted 1,817 entities from batch 78433; avg 8.70 per transcript
+2026-03-10T17:11:40.983Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78433; 189 classified as "battery_degradation", 14 as "connectivity_issue", 6 as "thermal_management"
+2026-03-10T17:11:41.367Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=204ms
+2026-03-10T18:24:30.555Z INFO  care-transcript-pipeline [Ingest] Received batch 78434 with 222 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/18-00.csv
+2026-03-10T18:24:30.941Z INFO  care-transcript-pipeline [NLP] Extracted 1,948 entities from batch 78434; avg 8.77 per transcript
+2026-03-10T18:24:31.327Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78434; 200 classified as "battery_degradation", 13 as "connectivity_issue", 9 as "thermal_management"
+2026-03-10T18:24:31.702Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=217ms
+2026-03-10T19:37:20.444Z INFO  care-transcript-pipeline [Ingest] Received batch 78435 with 213 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/19-00.csv
+2026-03-10T19:37:20.829Z INFO  care-transcript-pipeline [NLP] Extracted 1,860 entities from batch 78435; avg 8.73 per transcript
+2026-03-10T19:37:21.213Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78435; 193 classified as "battery_degradation", 12 as "connectivity_issue", 8 as "thermal_management"
+2026-03-10T19:37:21.598Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=213ms
+2026-03-10T20:50:10.333Z INFO  care-transcript-pipeline [Ingest] Received batch 78436 with 206 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/20-00.csv
+2026-03-10T20:50:10.718Z INFO  care-transcript-pipeline [NLP] Extracted 1,794 entities from batch 78436; avg 8.71 per transcript
+2026-03-10T20:50:11.102Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78436; 188 classified as "battery_degradation", 11 as "connectivity_issue", 7 as "thermal_management"
+2026-03-10T20:50:11.487Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=206ms
+2026-03-10T22:03:00.222Z INFO  care-transcript-pipeline [Ingest] Received batch 78437 with 211 transcripts from s3://cust-care-bucket/transcripts/2026-03-10/22-00.csv
+2026-03-10T22:03:00.608Z INFO  care-transcript-pipeline [NLP] Extracted 1,844 entities from batch 78437; avg 8.74 per transcript
+2026-03-10T22:03:00.993Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78437; 190 classified as "battery_degradation", 13 as "connectivity_issue", 8 as "thermal_management"
+2026-03-10T22:03:01.377Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=214ms
+2026-03-11T00:15:50.114Z INFO  care-transcript-pipeline [Ingest] Received batch 78438 with 204 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/00-00.csv
+2026-03-11T00:15:50.498Z INFO  care-transcript-pipeline [NLP] Extracted 1,773 entities from batch 78438; avg 8.70 per transcript
+2026-03-11T00:15:50.882Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78438; 186 classified as "battery_degradation", 12 as "connectivity_issue", 6 as "thermal_management"
+2026-03-11T00:15:51.267Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=202ms
+2026-03-11T01:28:40.444Z INFO  care-transcript-pipeline [Ingest] Received batch 78439 with 219 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/01-00.csv
+2026-03-11T01:28:40.829Z INFO  care-transcript-pipeline [NLP] Extracted 1,910 entities from batch 78439; avg 8.72 per transcript
+2026-03-11T01:28:41.213Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78439; 194 classified as "battery_degradation", 14 as "connectivity_issue", 7 as "thermal_management"
+2026-03-11T01:28:41.598Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=211ms
+2026-03-11T02:41:30.333Z INFO  care-transcript-pipeline [Ingest] Received batch 78440 with 207 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/02-00.csv
+2026-03-11T02:41:30.718Z INFO  care-transcript-pipeline [NLP] Extracted 1,804 entities from batch 78440; avg 8.71 per transcript
+2026-03-11T02:41:31.102Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78440; 189 classified as "battery_degradation", 13 as "connectivity_issue", 5 as "thermal_management"
+2026-03-11T02:41:31.487Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=208ms
+2026-03-11T03:54:20.222Z INFO  care-transcript-pipeline [Ingest] Received batch 78441 with 225 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/03-00.csv
+2026-03-11T03:54:20.608Z INFO  care-transcript-pipeline [NLP] Extracted 1,974 entities from batch 78441; avg 8.77 per transcript
+2026-03-11T03:54:20.993Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78441; 203 classified as "battery_degradation", 15 as "connectivity_issue", 8 as "thermal_management"
+2026-03-11T03:54:21.377Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=216ms
+2026-03-11T05:07:10.114Z INFO  care-transcript-pipeline [Ingest] Received batch 78442 with 210 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/05-00.csv
+2026-03-11T05:07:10.498Z INFO  care-transcript-pipeline [NLP] Extracted 1,830 entities from batch 78442; avg 8.71 per transcript
+2026-03-11T05:07:10.882Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78442; 191 classified as "battery_degradation", 14 as "connectivity_issue", 7 as "thermal_management"
+2026-03-11T05:07:11.267Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=205ms
+2026-03-11T06:20:00.444Z INFO  care-transcript-pipeline [Ingest] Received batch 78443 with 223 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/06-00.csv
+2026-03-11T06:20:00.829Z INFO  care-transcript-pipeline [NLP] Extracted 1,950 entities from batch 78443; avg 8.74 per transcript
+2026-03-11T06:20:01.213Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78443; 200 classified as "battery_degradation", 16 as "connectivity_issue", 7 as "thermal_management"
+2026-03-11T06:20:01.598Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=213ms
+2026-03-11T07:32:50.333Z INFO  care-transcript-pipeline [Ingest] Received batch 78444 with 214 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/07-00.csv
+2026-03-11T07:32:50.718Z INFO  care-transcript-pipeline [NLP] Extracted 1,872 entities from batch 78444; avg 8.75 per transcript
+2026-03-11T07:32:51.102Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78444; 193 classified as "battery_degradation", 15 as "connectivity_issue", 8 as "thermal_management"
+2026-03-11T07:32:51.487Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=209ms
+2026-03-11T08:45:40.222Z INFO  care-transcript-pipeline [Ingest] Received batch 78445 with 226 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/08-00.csv
+2026-03-11T08:45:40.608Z INFO  care-transcript-pipeline [NLP] Extracted 1,986 entities from batch 78445; avg 8.79 per transcript
+2026-03-11T08:45:40.993Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78445; 204 classified as "battery_degradation", 14 as "connectivity_issue", 9 as "thermal_management"
+2026-03-11T08:45:41.377Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=215ms
+2026-03-11T09:58:30.114Z INFO  care-transcript-pipeline [Ingest] Received batch 78446 with 217 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/09-00.csv
+2026-03-11T09:58:30.498Z INFO  care-transcript-pipeline [NLP] Extracted 1,895 entities from batch 78446; avg 8.73 per transcript
+2026-03-11T09:58:30.882Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78446; 197 classified as "battery_degradation", 13 as "connectivity_issue", 7 as "thermal_management"
+2026-03-11T09:58:31.267Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=207ms
+2026-03-11T11:11:20.444Z INFO  care-transcript-pipeline [Ingest] Received batch 78447 with 208 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/11-00.csv
+2026-03-11T11:11:20.829Z INFO  care-transcript-pipeline [NLP] Extracted 1,808 entities from batch 78447; avg 8.69 per transcript
+2026-03-11T11:11:21.213Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78447; 189 classified as "battery_degradation", 12 as "connectivity_issue", 7 as "thermal_management"
+2026-03-11T11:11:21.598Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=204ms
+2026-03-11T12:24:10.333Z INFO  care-transcript-pipeline [Ingest] Received batch 78448 with 216 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/12-00.csv
+2026-03-11T12:24:10.718Z INFO  care-transcript-pipeline [NLP] Extracted 1,890 entities from batch 78448; avg 8.75 per transcript
+2026-03-11T12:24:11.102Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78448; 195 classified as "battery_degradation", 14 as "connectivity_issue", 7 as "thermal_management"
+2026-03-11T12:24:11.487Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=210ms
+2026-03-11T13:37:00.222Z INFO  care-transcript-pipeline [Ingest] Received batch 78449 with 221 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/13-00.csv
+2026-03-11T13:37:00.608Z INFO  care-transcript-pipeline [NLP] Extracted 1,934 entities from batch 78449; avg 8.75 per transcript
+2026-03-11T13:37:00.993Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78449; 199 classified as "battery_degradation", 15 as "connectivity_issue", 8 as "thermal_management"
+2026-03-11T13:37:01.377Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=217ms
+2026-03-11T14:49:50.114Z INFO  care-transcript-pipeline [Ingest] Received batch 78450 with 212 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/14-00.csv
+2026-03-11T14:49:50.498Z INFO  care-transcript-pipeline [NLP] Extracted 1,852 entities from batch 78450; avg 8.74 per transcript
+2026-03-11T14:49:50.882Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78450; 191 classified as "battery_degradation", 13 as "connectivity_issue", 8 as "thermal_management"
+2026-03-11T14:49:51.267Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=206ms
+2026-03-11T16:02:40.444Z INFO  care-transcript-pipeline [Ingest] Received batch 78451 with 228 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/16-00.csv
+2026-03-11T16:02:40.829Z INFO  care-transcript-pipeline [NLP] Extracted 1,999 entities from batch 78451; avg 8.77 per transcript
+2026-03-11T16:02:41.213Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78451; 206 classified as "battery_degradation", 16 as "connectivity_issue", 8 as "thermal_management"
+2026-03-11T16:02:41.598Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=214ms
+2026-03-11T17:15:30.333Z INFO  care-transcript-pipeline [Ingest] Received batch 78452 with 211 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/17-00.csv
+2026-03-11T17:15:30.718Z INFO  care-transcript-pipeline [NLP] Extracted 1,844 entities from batch 78452; avg 8.74 per transcript
+2026-03-11T17:15:31.102Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78452; 192 classified as "battery_degradation", 12 as "connectivity_issue", 7 as "thermal_management"
+2026-03-11T17:15:31.487Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=208ms
+2026-03-11T18:28:20.222Z INFO  care-transcript-pipeline [Ingest] Received batch 78453 with 224 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/18-00.csv
+2026-03-11T18:28:20.608Z INFO  care-transcript-pipeline [NLP] Extracted 1,962 entities from batch 78453; avg 8.76 per transcript
+2026-03-11T18:28:20.993Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78453; 201 classified as "battery_degradation", 14 as "connectivity_issue", 9 as "thermal_management"
+2026-03-11T18:28:21.377Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=215ms
+2026-03-11T19:41:10.114Z INFO  care-transcript-pipeline [Ingest] Received batch 78454 with 209 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/19-00.csv
+2026-03-11T19:41:10.498Z INFO  care-transcript-pipeline [NLP] Extracted 1,817 entities from batch 78454; avg 8.70 per transcript
+2026-03-11T19:41:10.882Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78454; 188 classified as "battery_degradation", 13 as "connectivity_issue", 6 as "thermal_management"
+2026-03-11T19:41:11.267Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=203ms
+2026-03-11T20:54:00.444Z INFO  care-transcript-pipeline [Ingest] Received batch 78455 with 218 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/20-00.csv
+2026-03-11T20:54:00.829Z INFO  care-transcript-pipeline [NLP] Extracted 1,905 entities from batch 78455; avg 8.74 per transcript
+2026-03-11T20:54:01.213Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78455; 196 classified as "battery_degradation", 15 as "connectivity_issue", 7 as "thermal_management"
+2026-03-11T20:54:01.598Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=212ms
+2026-03-11T22:06:50.333Z INFO  care-transcript-pipeline [Ingest] Received batch 78456 with 202 transcripts from s3://cust-care-bucket/transcripts/2026-03-11/22-00.csv
+2026-03-11T22:06:50.718Z INFO  care-transcript-pipeline [NLP] Extracted 1,760 entities from batch 78456; avg 8.71 per transcript
+2026-03-11T22:06:51.102Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78456; 184 classified as "battery_degradation", 11 as "connectivity_issue", 7 as "thermal_management"
+2026-03-11T22:06:51.487Z INFO  care-transcript-pipeline [Storage] Persisted classifications to DynamoDB table: care-classifications-prod; latency=207ms
+2026-03-12T00:19:40.222Z INFO  care-transcript-pipeline [Ingest] Received batch 78457 with 215 transcripts from s3://cust-care-bucket/transcripts/2026-03-12/00-00.csv
+2026-03-12T00:19:40.608Z INFO  care-transcript-pipeline [NLP] Extracted 1,880 entities from batch 78457; avg 8.74 per transcript
+2026-03-12T00:19:40.993Z INFO  care-transcript-pipeline [Classification] Applied SOP v4.2 to batch 78457; 193 classified as "battery_degradation", 14 as "connectivity_issue", 8 as "thermal_management"
+2026-03-12T00:19:41.377Z INFO  care-trans

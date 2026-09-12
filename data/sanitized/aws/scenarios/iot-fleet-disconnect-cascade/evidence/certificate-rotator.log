@@ -1,0 +1,149 @@
+2026-03-28T10:00:00.000Z INFO  certificate-rotator [JobStart] Starting rotation cycle for devices with certs expiring within 30 days
+2026-03-28T10:00:01.234Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,247 devices (region: eu-west)
+2026-03-28T10:00:02.567Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-1102-EU, validity: 365 days
+2026-03-28T10:00:03.102Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-1102-EU via MQTT
+2026-03-28T10:00:03.890Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-1102-EU, confirmation received
+2026-03-28T10:00:04.112Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-1102-EU to 2027-03-28T10:00:00Z
+2026-03-28T10:00:05.345Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,189 devices (region: ap-southeast)
+2026-03-28T10:00:06.778Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-8874-AP, validity: 365 days
+2026-03-28T10:00:07.221Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-8874-AP via MQTT
+2026-03-28T10:00:07.954Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-8874-AP, confirmation received
+2026-03-28T10:00:08.103Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-8874-AP to 2027-03-28T10:00:00Z
+2026-03-28T10:00:09.555Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,302 devices (region: us-east)
+2026-03-28T10:00:10.891Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9033-US, validity: 365 days
+2026-03-28T10:00:11.334Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9033-US via MQTT
+2026-03-28T10:00:12.007Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9033-US, confirmation received
+2026-03-28T10:00:12.456Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9033-US to 2027-03-28T10:00:00Z
+2026-03-28T10:00:13.123Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,088 devices (region: ca-central)
+2026-03-28T10:00:14.567Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9101-CA, validity: 365 days
+2026-03-28T10:00:15.012Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9101-CA via MQTT
+2026-03-28T10:00:15.789Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9101-CA, confirmation received
+2026-03-28T10:00:16.234Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9101-CA to 2027-03-28T10:00:00Z
+2026-03-28T10:00:17.543Z INFO  certificate-rotator [JobComplete] Rotation cycle completed. 4,826 devices processed. 0 failures.
+2026-03-28T16:00:00.000Z INFO  certificate-rotator [JobStart] Starting rotation cycle for devices with certs expiring within 30 days
+2026-03-28T16:00:01.345Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,194 devices (region: eu-west)
+2026-03-28T16:00:02.789Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-1156-EU, validity: 365 days
+2026-03-28T16:00:03.210Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-1156-EU via MQTT
+2026-03-28T16:00:03.987Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-1156-EU, confirmation received
+2026-03-28T16:00:04.421Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-1156-EU to 2027-03-28T16:00:00Z
+2026-03-28T16:00:05.678Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,210 devices (region: ap-southeast)
+2026-03-28T16:00:06.991Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-8902-AP, validity: 365 days
+2026-03-28T16:00:07.432Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-8902-AP via MQTT
+2026-03-28T16:00:08.109Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-8902-AP, confirmation received
+2026-03-28T16:00:08.550Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-8902-AP to 2027-03-28T16:00:00Z
+2026-03-28T16:00:09.876Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,321 devices (region: us-east)
+2026-03-28T16:00:10.321Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9045-US, validity: 365 days
+2026-03-28T16:00:11.002Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9045-US via MQTT
+2026-03-28T16:00:11.789Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9045-US, confirmation received
+2026-03-28T16:00:12.234Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9045-US to 2027-03-28T16:00:00Z
+2026-03-28T16:00:13.543Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,077 devices (region: ca-central)
+2026-03-28T16:00:14.890Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9123-CA, validity: 365 days
+2026-03-28T16:00:15.312Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9123-CA via MQTT
+2026-03-28T16:00:16.098Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9123-CA, confirmation received
+2026-03-28T16:00:16.543Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9123-CA to 2027-03-28T16:00:00Z
+2026-03-28T16:00:17.891Z INFO  certificate-rotator [JobComplete] Rotation cycle completed. 4,802 devices processed. 0 failures.
+2026-03-28T22:00:00.000Z INFO  certificate-rotator [JobStart] Starting rotation cycle for devices with certs expiring within 30 days
+2026-03-28T22:00:01.456Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,203 devices (region: eu-west)
+2026-03-28T22:00:02.789Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-1189-EU, validity: 365 days
+2026-03-28T22:00:03.234Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-1189-EU via MQTT
+2026-03-28T22:00:03.991Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-1189-EU, confirmation received
+2026-03-28T22:00:04.345Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-1189-EU to 2027-03-28T22:00:00Z
+2026-03-28T22:00:05.678Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,221 devices (region: ap-southeast)
+2026-03-28T22:00:06.990Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-8921-AP, validity: 365 days
+2026-03-28T22:00:07.433Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-8921-AP via MQTT
+2026-03-28T22:00:08.187Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-8921-AP, confirmation received
+2026-03-28T22:00:08.654Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-8921-AP to 2027-03-28T22:00:00Z
+2026-03-28T22:00:09.901Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,318 devices (region: us-east)
+2026-03-28T22:00:10.340Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9056-US, validity: 365 days
+2026-03-28T22:00:11.087Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9056-US via MQTT
+2026-03-28T22:00:11.876Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9056-US, confirmation received
+2026-03-28T22:00:12.309Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9056-US to 2027-03-28T22:00:00Z
+2026-03-28T22:00:13.555Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,081 devices (region: ca-central)
+2026-03-28T22:00:14.991Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9134-CA, validity: 365 days
+2026-03-28T22:00:15.412Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9134-CA via MQTT
+2026-03-28T22:00:16.187Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9134-CA, confirmation received
+2026-03-28T22:00:16.643Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9134-CA to 2027-03-28T22:00:00Z
+2026-03-28T22:00:17.987Z INFO  certificate-rotator [JobComplete] Rotation cycle completed. 4,823 devices processed. 0 failures.
+2026-03-29T04:00:00.000Z INFO  certificate-rotator [JobStart] Starting rotation cycle for devices with certs expiring within 30 days
+2026-03-29T04:00:01.234Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,196 devices (region: eu-west)
+2026-03-29T04:00:02.567Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-1201-EU, validity: 365 days
+2026-03-29T04:00:03.102Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-1201-EU via MQTT
+2026-03-29T04:00:03.890Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-1201-EU, confirmation received
+2026-03-29T04:00:04.112Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-1201-EU to 2027-03-29T04:00:00Z
+2026-03-29T04:00:05.345Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,207 devices (region: ap-southeast)
+2026-03-29T04:00:06.778Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-8935-AP, validity: 365 days
+2026-03-29T04:00:07.221Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-8935-AP via MQTT
+2026-03-29T04:00:07.954Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-8935-AP, confirmation received
+2026-03-29T04:00:08.103Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-8935-AP to 2027-03-29T04:00:00Z
+2026-03-29T04:00:09.555Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,315 devices (region: us-east)
+2026-03-29T04:00:10.891Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9067-US, validity: 365 days
+2026-03-29T04:00:11.334Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9067-US via MQTT
+2026-03-29T04:00:12.007Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9067-US, confirmation received
+2026-03-29T04:00:12.456Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9067-US to 2027-03-29T04:00:00Z
+2026-03-29T04:00:13.123Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,083 devices (region: ca-central)
+2026-03-29T04:00:14.567Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9145-CA, validity: 365 days
+2026-03-29T04:00:15.012Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9145-CA via MQTT
+2026-03-29T04:00:15.789Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9145-CA, confirmation received
+2026-03-29T04:00:16.234Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9145-CA to 2027-03-29T04:00:00Z
+2026-03-29T04:00:17.543Z INFO  certificate-rotator [JobComplete] Rotation cycle completed. 4,802 devices processed. 0 failures.
+2026-03-29T10:00:00.000Z INFO  certificate-rotator [JobStart] Starting rotation cycle for devices with certs expiring within 30 days
+2026-03-29T10:00:01.234Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,194 devices (region: eu-west)
+2026-03-29T10:00:02.567Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-1215-EU, validity: 365 days
+2026-03-29T10:00:03.102Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-1215-EU via MQTT
+2026-03-29T10:00:03.890Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-1215-EU, confirmation received
+2026-03-29T10:00:04.112Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-1215-EU to 2027-03-29T10:00:00Z
+2026-03-29T10:00:05.345Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,212 devices (region: ap-southeast)
+2026-03-29T10:00:06.778Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-8951-AP, validity: 365 days
+2026-03-29T10:00:07.221Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-8951-AP via MQTT
+2026-03-29T10:00:07.954Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-8951-AP, confirmation received
+2026-03-29T10:00:08.103Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-8951-AP to 2027-03-29T10:00:00Z
+2026-03-29T10:00:09.555Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,309 devices (region: us-east)
+2026-03-29T10:00:10.891Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9078-US, validity: 365 days
+2026-03-29T10:00:11.334Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9078-US via MQTT
+2026-03-29T10:00:12.007Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9078-US, confirmation received
+2026-03-29T10:00:12.456Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9078-US to 2027-03-29T10:00:00Z
+2026-03-29T10:00:13.123Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,079 devices (region: ca-central)
+2026-03-29T10:00:14.567Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9156-CA, validity: 365 days
+2026-03-29T10:00:15.012Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9156-CA via MQTT
+2026-03-29T10:00:15.789Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9156-CA, confirmation received
+2026-03-29T10:00:16.234Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9156-CA to 2027-03-29T10:00:00Z
+2026-03-29T10:00:17.543Z INFO  certificate-rotator [JobComplete] Rotation cycle completed. 4,794 devices processed. 0 failures.
+2026-03-29T16:00:00.000Z INFO  certificate-rotator [JobStart] Starting rotation cycle for devices with certs expiring within 30 days
+2026-03-29T16:00:01.345Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,198 devices (region: eu-west)
+2026-03-29T16:00:02.789Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-1228-EU, validity: 365 days
+2026-03-29T16:00:03.210Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-1228-EU via MQTT
+2026-03-29T16:00:03.987Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-1228-EU, confirmation received
+2026-03-29T16:00:04.421Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-1228-EU to 2027-03-29T16:00:00Z
+2026-03-29T16:00:05.678Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,209 devices (region: ap-southeast)
+2026-03-29T16:00:06.991Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-8962-AP, validity: 365 days
+2026-03-29T16:00:07.432Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-8962-AP via MQTT
+2026-03-29T16:00:08.109Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-8962-AP, confirmation received
+2026-03-29T16:00:08.550Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-8962-AP to 2027-03-29T16:00:00Z
+2026-03-29T16:00:09.876Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,317 devices (region: us-east)
+2026-03-29T16:00:10.321Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9089-US, validity: 365 days
+2026-03-29T16:00:11.002Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9089-US via MQTT
+2026-03-29T16:00:11.789Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9089-US, confirmation received
+2026-03-29T16:00:12.234Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9089-US to 2027-03-29T16:00:00Z
+2026-03-29T16:00:13.543Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,085 devices (region: ca-central)
+2026-03-29T16:00:14.890Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9167-CA, validity: 365 days
+2026-03-29T16:00:15.312Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9167-CA via MQTT
+2026-03-29T16:00:16.098Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9167-CA, confirmation received
+2026-03-29T16:00:16.543Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9167-CA to 2027-03-29T16:00:00Z
+2026-03-29T16:00:17.891Z INFO  certificate-rotator [JobComplete] Rotation cycle completed. 4,809 devices processed. 0 failures.
+2026-03-29T22:00:00.000Z INFO  certificate-rotator [JobStart] Starting rotation cycle for devices with certs expiring within 30 days
+2026-03-29T22:00:01.456Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,201 devices (region: eu-west)
+2026-03-29T22:00:02.789Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-1240-EU, validity: 365 days
+2026-03-29T22:00:03.234Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-1240-EU via MQTT
+2026-03-29T22:00:03.991Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-1240-EU, confirmation received
+2026-03-29T22:00:04.345Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-1240-EU to 2027-03-29T22:00:00Z
+2026-03-29T22:00:05.678Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,223 devices (region: ap-southeast)
+2026-03-29T22:00:06.990Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-8980-AP, validity: 365 days
+2026-03-29T22:00:07.433Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-8980-AP via MQTT
+2026-03-29T22:00:08.187Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-8980-AP, confirmation received
+2026-03-29T22:00:08.654Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-8980-AP to 2027-03-29T22:00:00Z
+2026-03-29T22:00:09.901Z INFO  certificate-rotator [DeviceBatch] Processing batch of 1,325 devices (region: us-east)
+2026-03-29T22:00:10.340Z INFO  certificate-rotator [CertGen] Generated new cert for device VSN-9100-US, validity: 365 days
+2026-03-29T22:00:11.087Z INFO  certificate-rotator [PushAttempt] Attempting cert push to VSN-9100-US via MQTT
+2026-03-29T22:00:11.876Z INFO  certificate-rotator [PushSuccess] Successfully pushed cert to VSN-9100-US, confirmation received
+2026-03-29T22:00:12.309Z INFO  certificate-rotator [UpdateRegistry] Updated cert expiry for VSN-9100-US to 2027-03-29T22:00:00Z
+2026-03-29T22:00:13.555Z

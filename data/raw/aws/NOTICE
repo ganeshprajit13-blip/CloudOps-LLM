@@ -1,0 +1,80 @@
+Deep Research RCA Agent
+Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
+
+This project includes the following third-party software/packages:
+
+** LangGraph — https://github.com/langchain-ai/langgraph
+Copyright LangChain, Inc.
+License: MIT
+
+** LangChain Core — https://github.com/langchain-ai/langchain
+Copyright LangChain, Inc.
+License: MIT
+
+** LangChain AWS — https://github.com/langchain-ai/langchain-aws
+Copyright LangChain, Inc.
+License: MIT
+
+** Pydantic — https://github.com/pydantic/pydantic
+Copyright Pydantic Services Inc. and individual contributors
+License: MIT
+
+** FastAPI — https://github.com/tiangolo/fastapi
+Copyright Sebastian Ramirez
+License: MIT
+
+** Uvicorn — https://github.com/encode/uvicorn
+Copyright Tom Christie
+License: BSD-3-Clause
+
+** SSE Starlette — https://github.com/sysid/sse-starlette
+Copyright sysid
+License: BSD-3-Clause
+
+** PyYAML — https://github.com/yaml/pyyaml
+Copyright Kirill Simonov
+License: MIT
+
+** Boto3 — https://github.com/boto/boto3
+Copyright Amazon Web Services
+License: Apache-2.0
+
+** PyJWT — https://github.com/jpadilla/pyjwt
+Copyright Jose Padilla
+License: MIT
+
+** OpenSearch-py — https://github.com/opensearch-project/opensearch-py
+Copyright OpenSearch Contributors
+License: Apache-2.0
+
+** React — https://github.com/facebook/react
+Copyright Meta Platforms, Inc.
+License: MIT
+
+** React Markdown — https://github.com/remarkjs/react-markdown
+Copyright Espen Hovlandsdal
+License: MIT
+
+** AWS Amplify — https://github.com/aws-amplify/amplify-js
+Copyright Amazon Web Services
+License: Apache-2.0
+
+** Vite — https://github.com/vitejs/vite
+Copyright Evan You
+License: MIT
+
+** Tailwind CSS — https://github.com/tailwindlabs/tailwindcss
+Copyright Tailwind Labs, Inc.
+License: MIT
+
+** TypeScript — https://github.com/microsoft/TypeScript
+Copyright Microsoft Corp.
+License: Apache-2.0
+
+** AWS CDK — https://github.com/aws/aws-cdk
+Copyright Amazon Web Services
+License: Apache-2.0
+
+** Constructs — https://github.com/aws/constructs
+Copyright Amazon Web Services
+License: Apache-2.0

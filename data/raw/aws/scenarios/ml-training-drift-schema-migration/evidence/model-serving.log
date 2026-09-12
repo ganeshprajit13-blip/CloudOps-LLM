@@ -1,0 +1,136 @@
+2026-03-25T02:14:33.123Z INFO  model-serving [Cache] Redis hit for user_id=U-882914 prod_id=P-472103 score=0.921
+2026-03-25T02:14:33.245Z INFO  model-serving [Inference] RequestID=req-7f3a8c2b processed in 42ms model=v4.1.7
+2026-03-25T02:14:33.311Z INFO  model-serving [Cache] Redis miss for user_id=U-104552 prod_id=P-883019 score=0.873
+2026-03-25T02:14:33.389Z INFO  model-serving [Inference] RequestID=req-9d4b1e5c processed in 58ms model=v4.1.7
+2026-03-25T02:14:33.452Z INFO  model-serving [Cache] Redis hit for user_id=U-773021 prod_id=P-294011 score=0.842
+2026-03-25T02:14:33.520Z INFO  model-serving [Inference] RequestID=req-2e5f0a8d processed in 39ms model=v4.1.7
+2026-03-25T02:14:33.598Z INFO  model-serving [Cache] Redis hit for user_id=U-441233 prod_id=P-551209 score=0.789
+2026-03-25T02:14:33.676Z INFO  model-serving [Inference] RequestID=req-6c3b9f2e processed in 51ms model=v4.1.7
+2026-03-25T02:14:33.751Z INFO  model-serving [Cache] Redis miss for user_id=U-992310 prod_id=P-774022 score=0.915
+2026-03-25T02:14:33.829Z INFO  model-serving [Inference] RequestID=req-1b8d4f7a processed in 67ms model=v4.1.7
+2026-03-25T02:14:33.903Z INFO  model-serving [Cache] Redis hit for user_id=U-662119 prod_id=P-332010 score=0.855
+2026-03-25T02:14:33.978Z INFO  model-serving [Inference] RequestID=req-5f9e2c6b processed in 45ms model=v4.1.7
+2026-03-25T02:14:34.054Z INFO  model-serving [Cache] Redis hit for user_id=U-220438 prod_id=P-661104 score=0.792
+2026-03-25T02:14:34.132Z INFO  model-serving [Inference] RequestID=req-8a4d7b3c processed in 53ms model=v4.1.7
+2026-03-25T02:14:34.208Z INFO  model-serving [Cache] Redis miss for user_id=U-551349 prod_id=P-119033 score=0.867
+2026-03-25T02:14:34.285Z INFO  model-serving [Inference] RequestID=req-3b7c9f1d processed in 72ms model=v4.1.7
+2026-03-25T02:14:34.361Z INFO  model-serving [Cache] Redis hit for user_id=U-889015 prod_id=P-442055 score=0.901
+2026-03-25T02:14:34.438Z INFO  model-serving [Inference] RequestID=req-6d2f8e4a processed in 40ms model=v4.1.7
+2026-03-25T02:14:34.515Z INFO  model-serving [Cache] Redis hit for user_id=U-113002 prod_id=P-887099 score=0.823
+2026-03-25T02:14:34.592Z INFO  model-serving [Inference] RequestID=req-9f5a1b6c processed in 55ms model=v4.1.7
+2026-03-25T02:14:34.670Z INFO  model-serving [Cache] Redis miss for user_id=U-774120 prod_id=P-295077 score=0.889
+2026-03-25T02:14:34.748Z INFO  model-serving [Inference] RequestID=req-4c3d8f2b processed in 61ms model=v4.1.7
+2026-03-25T02:14:34.825Z INFO  model-serving [Cache] Redis hit for user_id=U-440211 prod_id=P-550112 score=0.775
+2026-03-25T02:14:34.901Z INFO  model-serving [Inference] RequestID=req-7e6b9c3a processed in 48ms model=v4.1.7
+2026-03-25T02:14:34.979Z INFO  model-serving [Cache] Redis hit for user_id=U-993144 prod_id=P-772008 score=0.908
+2026-03-25T02:14:35.056Z INFO  model-serving [Inference] RequestID=req-1f2c7d4e processed in 52ms model=v4.1.7
+2026-03-25T02:14:35.133Z INFO  model-serving [Cache] Redis miss for user_id=U-661532 prod_id=P-333021 score=0.841
+2026-03-25T02:14:35.210Z INFO  model-serving [Inference] RequestID=req-8b9e5f1d processed in 69ms model=v4.1.7
+2026-03-25T02:14:35.288Z INFO  model-serving [Cache] Redis hit for user_id=U-220887 prod_id=P-662044 score=0.798
+2026-03-25T02:14:35.365Z INFO  model-serving [Inference] RequestID=req-5d1a8f9c processed in 44ms model=v4.1.7
+2026-03-25T02:14:35.442Z INFO  model-serving [Cache] Redis hit for user_id=U-552001 prod_id=P-118077 score=0.871
+2026-03-25T02:14:35.519Z INFO  model-serving [Inference] RequestID=req-3c7f2b6e processed in 57ms model=v4.1.7
+2026-03-25T02:14:35.596Z INFO  model-serving [Cache] Redis miss for user_id=U-880119 prod_id=P-441088 score=0.912
+2026-03-25T02:14:35.673Z INFO  model-serving [Inference] RequestID=req-7e4c6d5a processed in 74ms model=v4.1.7
+2026-03-25T02:14:35.750Z INFO  model-serving [Cache] Redis hit for user_id=U-111230 prod_id=P-884066 score=0.833
+2026-03-25T02:14:35.827Z INFO  model-serving [Inference] RequestID=req-9f8b1c3d processed in 46ms model=v4.1.7
+2026-03-25T02:14:35.904Z INFO  model-serving [Cache] Redis hit for user_id=U-772045 prod_id=P-296033 score=0.894
+2026-03-25T02:14:35.981Z INFO  model-serving [Inference] RequestID=req-4c9d7e2f processed in 50ms model=v4.1.7
+2026-03-25T02:14:36.058Z INFO  model-serving [Cache] Redis miss for user_id=U-440456 prod_id=P-550199 score=0.784
+2026-03-25T02:14:36.135Z INFO  model-serving [Inference] RequestID=req-6f3a8b4c processed in 63ms model=v4.1.7
+2026-03-25T02:14:36.212Z INFO  model-serving [Cache] Redis hit for user_id=U-992113 prod_id=P-773055 score=0.905
+2026-03-25T02:14:36.289Z INFO  model-serving [Inference] RequestID=req-1e5b9c7d processed in 49ms model=v4.1.7
+2026-03-25T02:14:36.366Z INFO  model-serving [Cache] Redis hit for user_id=U-660322 prod_id=P-331088 score=0.852
+2026-03-25T02:14:36.443Z INFO  model-serving [Inference] RequestID=req-8d7c4f3a processed in 54ms model=v4.1.7
+2026-03-25T02:14:36.520Z INFO  model-serving [Cache] Redis miss for user_id=U-221210 prod_id=P-663022 score=0.797
+2026-03-25T02:14:36.597Z INFO  model-serving [Inference] RequestID=req-5f2a8c6e processed in 71ms model=v4.1.7
+2026-03-25T02:14:36.674Z INFO  model-serving [Cache] Redis hit for user_id=U-553004 prod_id=P-117033 score=0.865
+2026-03-25T02:14:36.751Z INFO  model-serving [Inference] RequestID=req-3c4b9d5f processed in 47ms model=v4.1.7
+2026-03-25T02:14:36.828Z INFO  model-serving [Cache] Redis hit for user_id=U-881001 prod_id=P-440011 score=0.903
+2026-03-25T02:14:36.905Z INFO  model-serving [Inference] RequestID=req-7e8c6d2b processed in 51ms model=v4.1.7
+2026-03-25T02:14:36.982Z INFO  model-serving [Cache] Redis miss for user_id=U-110234 prod_id=P-885077 score=0.828
+2026-03-25T02:14:37.059Z INFO  model-serving [Inference] RequestID=req-9f6b7c4d processed in 65ms model=v4.1.7
+2026-03-25T02:14:37.136Z INFO  model-serving [Cache] Redis hit for user_id=U-771055 prod_id=P-297088 score=0.887
+2026-03-25T02:14:37.213Z INFO  model-serving [Inference] RequestID=req-4c5d8e3f processed in 43ms model=v4.1.7
+2026-03-25T02:14:37.290Z INFO  model-serving [Cache] Redis hit for user_id=U-441222 prod_id=P-552009 score=0.771
+2026-03-25T02:14:37.367Z INFO  model-serving [Inference] RequestID=req-6f1a9c5e processed in 56ms model=v4.1.7
+2026-03-25T02:14:37.444Z INFO  model-serving [Cache] Redis miss for user_id=U-991003 prod_id=P-774044 score=0.914
+2026-03-25T02:14:37.521Z INFO  model-serving [Inference] RequestID=req-1e9b5d7c processed in 73ms model=v4.1.7
+2026-03-25T02:14:37.598Z INFO  model-serving [Cache] Redis hit for user_id=U-661231 prod_id=P-332011 score=0.848
+2026-03-25T02:14:37.675Z INFO  model-serving [Inference] RequestID=req-8d4c7f2a processed in 48ms model=v4.1.7
+2026-03-25T02:14:37.752Z INFO  model-serving [Cache] Redis miss for user_id=U-223011 prod_id=P-664055 score=0.793
+2026-03-25T02:14:37.829Z INFO  model-serving [Inference] RequestID=req-5f3b8e6d processed in 68ms model=v4.1.7
+2026-03-25T02:14:37.906Z INFO  model-serving [Cache] Redis hit for user_id=U-550007 prod_id=P-116022 score=0.877
+2026-03-25T02:14:37.983Z INFO  model-serving [Inference] RequestID=req-3c6a9d4f processed in 50ms model=v4.1.7
+2026-03-25T02:14:38.060Z INFO  model-serving [Cache] Redis hit for user_id=U-882009 prod_id=P-441066 score=0.909
+2026-03-25T02:14:38.137Z INFO  model-serving [Inference] RequestID=req-7e7c8d3b processed in 52ms model=v4.1.7
+2026-03-25T02:14:38.214Z INFO  model-serving [Cache] Redis miss for user_id=U-112008 prod_id=P-886088 score=0.821
+2026-03-25T02:14:38.291Z INFO  model-serving [Inference] RequestID=req-9f5b6c5e processed in 67ms model=v4.1.7
+2026-03-25T02:14:38.368Z INFO  model-serving [Cache] Redis hit for user_id=U-770034 prod_id=P-298033 score=0.891
+2026-03-25T02:14:38.445Z INFO  model-serving [Inference] RequestID=req-4c7d9e2f processed in 45ms model=v4.1.7
+2026-03-25T02:14:38.522Z INFO  model-serving [Cache] Redis hit for user_id=U-442111 prod_id=P-551077 score=0.779
+2026-03-25T02:14:38.599Z INFO  model-serving [Inference] RequestID=req-6f4a8c7d processed in 53ms model=v4.1.7
+2026-03-25T02:14:38.676Z INFO  model-serving [Cache] Redis miss for user_id=U-990005 prod_id=P-775011 score=0.917
+2026-03-25T02:14:38.753Z INFO  model-serving [Inference] RequestID=req-1e8b7d6c processed in 75ms model=v4.1.7
+2026-03-25T02:14:38.830Z INFO  model-serving [Cache] Redis hit for user_id=U-662212 prod_id=P-333044 score=0.856
+2026-03-25T02:14:38.907Z INFO  model-serving [Inference] RequestID=req-8d6c9f1a processed in 50ms model=v4.1.7
+2026-03-25T02:14:38.984Z INFO  model-serving [Cache] Redis miss for user_id=U-222019 prod_id=P-665066 score=0.801
+2026-03-25T02:14:39.061Z INFO  model-serving [Inference] RequestID=req-5f5b9e4d processed in 66ms model=v4.1.7
+2026-03-25T02:14:39.138Z INFO  model-serving [Cache] Redis hit for user_id=U-551006 prod_id=P-115033 score=0.872
+2026-03-25T02:14:39.215Z INFO  model-serving [Inference] RequestID=req-3c7a8d5f processed in 49ms model=v4.1.7
+2026-03-25T02:14:39.292Z INFO  model-serving [Cache] Redis hit for user_id=U-880114 prod_id=P-440077 score=0.906
+2026-03-25T02:14:39.369Z INFO  model-serving [Inference] RequestID=req-7e6c7d4b processed in 51ms model=v4.1.7
+2026-03-25T02:14:39.446Z INFO  model-serving [Cache] Redis miss for user_id=U-110117 prod_id=P-887066 score=0.826
+2026-03-25T02:14:39.523Z INFO  model-serving [Inference] RequestID=req-9f4b8c6e processed in 64ms model=v4.1.7
+2026-03-25T02:14:39.600Z INFO  model-serving [Cache] Redis hit for user_id=U-771122 prod_id=P-299099 score=0.885
+2026-03-25T02:14:39.677Z INFO  model-serving [Inference] RequestID=req-4c6d8e3f processed in 44ms model=v4.1.7
+2026-03-25T02:14:39.754Z INFO  model-serving [Cache] Redis hit for user_id=U-443008 prod_id=P-553011 score=0.783
+2026-03-25T02:14:39.831Z INFO  model-serving [Inference] RequestID=req-6f2a9c7d processed in 55ms model=v4.1.7
+2026-03-25T02:14:39.908Z INFO  model-serving [Cache] Redis miss for user_id=U-992021 prod_id=P-776022 score=0.910
+2026-03-25T02:14:39.985Z INFO  model-serving [Inference] RequestID=req-1e7b6d5c processed in 72ms model=v4.1.7
+2026-03-25T02:14:40.062Z INFO  model-serving [Cache] Redis hit for user_id=U-663110 prod_id=P-334055 score=0.849
+2026-03-25T02:14:40.139Z INFO  model-serving [Inference] RequestID=req-8d5c7f4a processed in 47ms model=v4.1.7
+2026-03-25T02:14:40.216Z INFO  model-serving [Cache] Redis miss for user_id=U-224009 prod_id=P-666077 score=0.795
+2026-03-25T02:14:40.293Z INFO  model-serving [Inference] RequestID=req-5f6b8e5d processed in 69ms model=v4.1.7
+2026-03-25T02:14:40.370Z INFO  model-serving [Cache] Redis hit for user_id=U-552002 prod_id=P-114044 score=0.868
+2026-03-25T02:14:40.447Z INFO  model-serving [Inference] RequestID=req-3c5a9d6f processed in 46ms model=v4.1.7
+2026-03-25T02:14:40.524Z INFO  model-serving [Cache] Redis hit for user_id=U-881020 prod_id=P-442088 score=0.904
+2026-03-25T02:14:40.601Z INFO  model-serving [Inference] RequestID=req-7e5c8d3b processed in 50ms model=v4.1.7
+2026-03-25T02:14:40.678Z INFO  model-serving [Cache] Redis miss for user_id=U-111001 prod_id=P-888099 score=0.824
+2026-03-25T02:14:40.755Z INFO  model-serving [Inference] RequestID=req-9f3b7c6e processed in 63ms model=v4.1.7
+2026-03-25T02:14:40.832Z INFO  model-serving [Cache] Redis hit for user_id=U-772015 prod_id=P-290022 score=0.889
+2026-03-25T02:14:40.909Z INFO  model-serving [Inference] RequestID=req-4c8d9e2f processed in 45ms model=v4.1.7
+2026-03-25T02:14:40.986Z INFO  model-serving [Cache] Redis hit for user_id=U-440118 prod_id=P-554055 score=0.777
+2026-03-25T02:14:41.063Z INFO  model-serving [Inference] RequestID=req-6f3a8c7d processed in 54ms model=v4.1.7
+2026-03-25T02:14:41.140Z INFO  model-serving [Cache] Redis miss for user_id=U-990016 prod_id=P-777033 score=0.911
+2026-03-25T02:14:41.217Z INFO  model-serving [Inference] RequestID=req-1e6b5d4c processed in 71ms model=v4.1.7
+2026-03-25T02:14:41.294Z INFO  model-serving [Cache] Redis hit for user_id=U-662104 prod_id=P-335066 score=0.851
+2026-03-25T02:14:41.371Z INFO  model-serving [Inference] RequestID=req-8d7c9f2a processed in 49ms model=v4.1.7
+2026-03-25T02:14:41.448Z INFO  model-serving [Cache] Redis miss for user_id=U-225008 prod_id=P-667088 score=0.799
+2026-03-25T02:14:41.525Z INFO  model-serving [Inference] RequestID=req-5f7b9e4d processed in 67ms model=v4.1.7
+2026-03-25T02:14:41.602Z INFO  model-serving [Cache] Redis hit for user_id=U-553003 prod_id=P-113055 score=0.874
+2026-03-25T02:14:41.679Z INFO  model-serving [Inference] RequestID=req-3c8a9d5f processed in 51ms model=v4.1.7
+2026-03-25T02:14:41.756Z INFO  model-serving [Cache] Redis hit for user_id=U-880017 prod_id=P-443099 score=0.907
+2026-03-25T02:14:41.833Z INFO  model-serving [Inference] RequestID=req-7e4c7d3b processed in 52ms model=v4.1.7
+2026-03-25T02:14:41.910Z INFO  model-serving [Cache] Redis miss for user_id=U-112005 prod_id=P-889077 score=0.822
+2026-03-25T02:14:41.987Z INFO  model-serving [Inference] RequestID=req-9f2b6c6e processed in 65ms model=v4.1.7
+2026-03-25T02:14:42.064Z INFO  model-serving [Cache] Redis hit for user_id=U-770021 prod_id=P-291044 score=0.886
+2026-03-25T02:14:42.141Z INFO  model-serving [Inference] RequestID=req-4c9d8e3f processed in 43ms model=v4.1.7
+2026-03-25T02:14:42.218Z INFO  model-serving [Cache] Redis hit for user_id=U-441207 prod_id=P-555066 score=0.786
+2026-03-25T02:14:42.295Z INFO  model-serving [Inference] RequestID=req-6f1a8c7d processed in 53ms model=v4.1.7
+2026-03-25T02:14:42.372Z INFO  model-serving [Cache] Redis miss for user_id=U-991015 prod_id=P-778044 score=0.913
+2026-03-25T02:14:42.449Z INFO  model-serving [Inference] RequestID=req-1e5b4d5c processed in 70ms model=v4.1.7
+2026-03-25T02:14:42.526Z INFO  model-serving [Cache] Redis hit for user_id=U-663006 prod_id=P-336077 score=0.847
+2026-03-25T02:14:42.603Z INFO  model-serving [Inference] RequestID=req-8d8c9f1a processed in 48ms model=v4.1.7
+2026-03-25T02:14:42.680Z INFO  model-serving [Cache] Redis miss for user_id=U-226007 prod_id=P-668099 score=0.796
+2026-03-25T02:14:42.757Z INFO  model-serving [Inference] RequestID=req-5f8b8e5d processed in 68ms model=v4.1.7
+2026-03-25T02:14:42.834Z INFO  model-serving [Cache] Redis hit for user_id=U-554004 prod_id=P-112066 score=0.875
+2026-03-25T02:14:42.911Z INFO  model-serving [Inference] RequestID=req-3c9a9d6f processed in 50ms model=v4.1.7
+2026-03-25T02:14:42.988Z INFO  model-serving [Cache] Redis hit for user_id=U-881008 prod_id=P-444077 score=0.905
+2026-03-25T02:14:43.065Z INFO  model-serving [Inference] RequestID=req-7e3c8d4b processed in 51ms model=v4.1.7
+2026-03-25T02:14:43.142Z INFO  model-serving [Cache] Redis miss for user_id=U-110009 prod_id=P-880088 score=0.827
+2026-03-25T02:14:43.219Z INFO  model-serving [Inference] RequestID=req-9f1b5c7e processed in 66ms model=v4.1.7
+2026-03-25T02:14:43.296Z INFO  model-serving [Cache] Redis hit for user_id=U-771023 prod_id=P-292055 score=0.890
+2026-03-25T02:14:43.373Z INFO  model-serving [Inference] RequestID=req-4c7d9e3f processed in 44ms model=v4.1.7
+2026-03-25T02:14:43.450Z INFO  model-serving [Cache] Redis hit for user_id=U-442121 prod_id=P-556077 score=0.780
+2026-03-25T02:14:43.52

@@ -1,0 +1,134 @@
+2026-03-28T10:00:00.001Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.17:8883 latency=2ms
+2026-03-28T10:00:00.002Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1122-US session_id=7a3b8c9d
+2026-03-28T10:00:00.003Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.17:8883 client_ip=192.168.10.45
+2026-03-28T10:00:00.004Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.18:8883 latency=3ms
+2026-03-28T10:00:00.005Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1123-CA session_id=8b4c9d0e
+2026-03-28T10:00:00.006Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.18:8883 client_ip=192.168.10.46
+2026-03-28T10:00:00.007Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.19:8883 latency=1ms
+2026-03-28T10:00:00.008Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1124-US session_id=9c5d0e1f
+2026-03-28T10:00:00.009Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.19:8883 client_ip=192.168.10.47
+2026-03-28T10:00:00.010Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.20:8883 latency=2ms
+2026-03-28T10:00:00.011Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1125-CA session_id=a06e1f20
+2026-03-28T10:00:00.012Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.20:8883 client_ip=192.168.10.48
+2026-03-28T10:00:00.013Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.21:8883 latency=3ms
+2026-03-28T10:00:00.014Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1126-US session_id=b17f2031
+2026-03-28T10:00:00.015Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.21:8883 client_ip=192.168.10.49
+2026-03-28T10:00:00.016Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.22:8883 latency=2ms
+2026-03-28T10:00:00.017Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1127-CA session_id=c2803142
+2026-03-28T10:00:00.018Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.22:8883 client_ip=192.168.10.50
+2026-03-28T10:00:00.019Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.23:8883 latency=4ms
+2026-03-28T10:00:00.020Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1128-US session_id=d3914253
+2026-03-28T10:00:00.021Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.23:8883 client_ip=192.168.10.51
+2026-03-28T10:00:00.022Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.24:8883 latency=1ms
+2026-03-28T10:00:00.023Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1129-CA session_id=e4a25364
+2026-03-28T10:00:00.024Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.24:8883 client_ip=192.168.10.52
+2026-03-28T10:00:00.025Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.25:8883 latency=2ms
+2026-03-28T10:00:00.026Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1130-US session_id=f5b36475
+2026-03-28T10:00:00.027Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.25:8883 client_ip=192.168.10.53
+2026-03-28T10:00:00.028Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.26:8883 latency=3ms
+2026-03-28T10:00:00.029Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1131-CA session_id=06c47586
+2026-03-28T10:00:00.030Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.26:8883 client_ip=192.168.10.54
+2026-03-28T10:00:00.031Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.27:8883 latency=2ms
+2026-03-28T10:00:00.032Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1132-US session_id=17d58697
+2026-03-28T10:00:00.033Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.27:8883 client_ip=192.168.10.55
+2026-03-28T10:00:00.034Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.28:8883 latency=4ms
+2026-03-28T10:00:00.035Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1133-CA session_id=28e697a8
+2026-03-28T10:00:00.036Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.28:8883 client_ip=192.168.10.56
+2026-03-28T10:00:00.037Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.29:8883 latency=2ms
+2026-03-28T10:00:00.038Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1134-US session_id=39f7a8b9
+2026-03-28T10:00:00.039Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.29:8883 client_ip=192.168.10.57
+2026-03-28T10:00:00.040Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.30:8883 latency=3ms
+2026-03-28T10:00:00.041Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1135-CA session_id=4ag8b9ca
+2026-03-28T10:00:00.042Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.30:8883 client_ip=192.168.10.58
+2026-03-28T10:00:00.043Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.31:8883 latency=1ms
+2026-03-28T10:00:00.044Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1136-US session_id=5bh9cadb
+2026-03-28T10:00:00.045Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.31:8883 client_ip=192.168.10.59
+2026-03-28T10:00:00.046Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.32:8883 latency=2ms
+2026-03-28T10:00:00.047Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1137-CA session_id=6ciadbec
+2026-03-28T10:00:00.048Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.32:8883 client_ip=192.168.10.60
+2026-03-28T10:00:00.049Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.33:8883 latency=3ms
+2026-03-28T10:00:00.050Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1138-US session_id=7djbecfd
+2026-03-28T10:00:00.051Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.33:8883 client_ip=192.168.10.61
+2026-03-28T10:00:00.052Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.34:8883 latency=2ms
+2026-03-28T10:00:00.053Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1139-CA session_id=8ekcfdge
+2026-03-28T10:00:00.054Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.34:8883 client_ip=192.168.10.62
+2026-03-28T10:00:00.055Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.35:8883 latency=4ms
+2026-03-28T10:00:00.056Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1140-US session_id=9fldegfh
+2026-03-28T10:00:00.057Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.35:8883 client_ip=192.168.10.63
+2026-03-28T10:00:00.058Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.36:8883 latency=1ms
+2026-03-28T10:00:00.059Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1141-CA session_id=0gmehfhi
+2026-03-28T10:00:00.060Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.36:8883 client_ip=192.168.10.64
+2026-03-28T10:00:00.061Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.37:8883 latency=2ms
+2026-03-28T10:00:00.062Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1142-US session_id=1hnifhij
+2026-03-28T10:00:00.063Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.37:8883 client_ip=192.168.10.65
+2026-03-28T10:00:00.064Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.38:8883 latency=3ms
+2026-03-28T10:00:00.065Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1143-CA session_id=2iopgijk
+2026-03-28T10:00:00.066Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.38:8883 client_ip=192.168.10.66
+2026-03-28T10:00:00.067Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.39:8883 latency=2ms
+2026-03-28T10:00:00.068Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1144-US session_id=3jpqhjkl
+2026-03-28T10:00:00.069Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.39:8883 client_ip=192.168.10.67
+2026-03-28T10:00:00.070Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.40:8883 latency=4ms
+2026-03-28T10:00:00.071Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1145-CA session_id=4kqriklm
+2026-03-28T10:00:00.072Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.40:8883 client_ip=192.168.10.68
+2026-03-28T10:00:00.073Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.41:8883 latency=1ms
+2026-03-28T10:00:00.074Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1146-US session_id=5lrsjlmn
+2026-03-28T10:00:00.075Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.41:8883 client_ip=192.168.10.69
+2026-03-28T10:00:00.076Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.42:8883 latency=2ms
+2026-03-28T10:00:00.077Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1147-CA session_id=6mstkmno
+2026-03-28T10:00:00.078Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.42:8883 client_ip=192.168.10.70
+2026-03-28T10:00:00.079Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.43:8883 latency=3ms
+2026-03-28T10:00:00.080Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1148-US session_id=7ntulnop
+2026-03-28T10:00:00.081Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.43:8883 client_ip=192.168.10.71
+2026-03-28T10:00:00.082Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.44:8883 latency=2ms
+2026-03-28T10:00:00.083Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1149-CA session_id=8ouvmopq
+2026-03-28T10:00:00.084Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.44:8883 client_ip=192.168.10.72
+2026-03-28T10:00:00.085Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.45:8883 latency=4ms
+2026-03-28T10:00:00.086Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1150-US session_id=9pvwnpqr
+2026-03-28T10:00:00.087Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.45:8883 client_ip=192.168.10.73
+2026-03-28T10:00:00.088Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.46:8883 latency=1ms
+2026-03-28T10:00:00.089Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1151-CA session_id=aqwxoqrs
+2026-03-28T10:00:00.090Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.46:8883 client_ip=192.168.10.74
+2026-03-28T10:00:00.091Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.47:8883 latency=2ms
+2026-03-28T10:00:00.092Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1152-US session_id=brxyprst
+2026-03-28T10:00:00.093Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.47:8883 client_ip=192.168.10.75
+2026-03-28T10:00:00.094Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.48:8883 latency=3ms
+2026-03-28T10:00:00.095Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1153-CA session_id=cryzqstu
+2026-03-28T10:00:00.096Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.48:8883 client_ip=192.168.10.76
+2026-03-28T10:00:00.097Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.49:8883 latency=2ms
+2026-03-28T10:00:00.098Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1154-US session_id=dszartuv
+2026-03-28T10:00:00.099Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.49:8883 client_ip=192.168.10.77
+2026-03-28T10:00:00.100Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.50:8883 latency=4ms
+2026-03-28T10:00:00.101Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1155-CA session_id=etabuuvw
+2026-03-28T10:00:00.102Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.50:8883 client_ip=192.168.10.78
+2026-03-28T10:00:00.103Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.51:8883 latency=1ms
+2026-03-28T10:00:00.104Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1156-US session_id=fubcvvwx
+2026-03-28T10:00:00.105Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.51:8883 client_ip=192.168.10.79
+2026-03-28T10:00:00.106Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.52:8883 latency=2ms
+2026-03-28T10:00:00.107Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1157-CA session_id=gvcdwxyy
+2026-03-28T10:00:00.108Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.52:8883 client_ip=192.168.10.80
+2026-03-28T10:00:00.109Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.53:8883 latency=3ms
+2026-03-28T10:00:00.110Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1158-US session_id=hwdexyz0
+2026-03-28T10:00:00.111Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.53:8883 client_ip=192.168.10.81
+2026-03-28T10:00:00.112Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.54:8883 latency=2ms
+2026-03-28T10:00:00.113Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1159-CA session_id=iexfyz11
+2026-03-28T10:00:00.114Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.54:8883 client_ip=192.168.10.82
+2026-03-28T10:00:00.115Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.55:8883 latency=4ms
+2026-03-28T10:00:00.116Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1160-US session_id=jfygza22
+2026-03-28T10:00:00.117Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.55:8883 client_ip=192.168.10.83
+2026-03-28T10:00:00.118Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.56:8883 latency=1ms
+2026-03-28T10:00:00.119Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1161-CA session_id=kgzhab33
+2026-03-28T10:00:00.120Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.56:8883 client_ip=192.168.10.84
+2026-03-28T10:00:00.121Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.57:8883 latency=2ms
+2026-03-28T10:00:00.122Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1162-US session_id=lahicb44
+2026-03-28T10:00:00.123Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.57:8883 client_ip=192.168.10.85
+2026-03-28T10:00:00.124Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.58:8883 latency=3ms
+2026-03-28T10:00:00.125Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1163-CA session_id=mbjidc55
+2026-03-28T10:00:00.126Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.58:8883 client_ip=192.168.10.86
+2026-03-28T10:00:00.127Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.59:8883 latency=2ms
+2026-03-28T10:00:00.128Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1164-US session_id=ncjked66
+2026-03-28T10:00:00.129Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.59:8883 client_ip=192.168.10.87
+2026-03-28T10:00:00.130Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.60:8883 latency=4ms
+2026-03-28T10:00:00.131Z INFO  load-balancer [Connection] New client connection established device_id=VSN-1165-CA session_id=odklef77
+2026-03-28T10:00:00.132Z INFO  load-balancer [Flow] Forwarded connection to backend 10.0.1.60:8883 client_ip=192.168.10.88
+2026-03-28T10:00:00.133Z INFO  load-balancer [HealthCheck] TCP probe succeeded for backend 10.0.1.61:8883 latency=1ms
+2026-03-28T10:00:00.134Z INFO  load-balancer [Connection] New client connection established device

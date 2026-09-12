@@ -1,0 +1,155 @@
+2026-03-27T02:14:33.001Z INFO  inventory-service [gRPC] Connection pool initialized with 12 connections, max_idle=300s
+2026-03-27T02:15:02.123Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=187
+2026-03-27T02:15:44.567Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77192 status=200
+2026-03-27T02:16:11.890Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/4482 to inventory-service latency=214ms
+2026-03-27T02:16:48.222Z INFO  inventory-service [gRPC] Connection pool resized to 14 connections, max_idle=300s
+2026-03-27T02:17:05.301Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=194
+2026-03-27T02:17:33.445Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77193 status=200
+2026-03-27T02:18:01.678Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/3317 to inventory-service latency=201ms
+2026-03-27T02:18:29.912Z INFO  inventory-service [gRPC] Connection pool recycled 2 idle connections
+2026-03-27T02:19:07.154Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=178
+2026-03-27T02:19:40.289Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77194 status=200
+2026-03-27T02:20:15.501Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/6645 to inventory-service latency=209ms
+2026-03-27T02:20:48.734Z INFO  inventory-service [gRPC] Connection pool initialized with 12 connections, max_idle=300s
+2026-03-27T02:21:26.967Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=183
+2026-03-27T02:22:00.102Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77195 status=200
+2026-03-27T02:22:34.335Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/1128 to inventory-service latency=197ms
+2026-03-27T02:23:08.568Z INFO  inventory-service [gRPC] Connection pool resized to 13 connections, max_idle=300s
+2026-03-27T02:23:42.791Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=181
+2026-03-27T02:24:17.003Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77196 status=200
+2026-03-27T02:24:50.215Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/5577 to inventory-service latency=205ms
+2026-03-27T03:01:15.446Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T03:01:43.679Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=179
+2026-03-27T03:02:18.912Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77197 status=200
+2026-03-27T03:02:52.145Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/2239 to inventory-service latency=203ms
+2026-03-27T03:03:26.378Z INFO  inventory-service [gRPC] Connection pool recycled 1 idle connection
+2026-03-27T03:04:00.611Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=186
+2026-03-27T03:04:34.844Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77198 status=200
+2026-03-27T03:05:09.077Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/7788 to inventory-service latency=212ms
+2026-03-27T03:05:43.310Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T03:06:17.543Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=177
+2026-03-27T03:06:51.776Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77199 status=200
+2026-03-27T03:07:26.009Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/4403 to inventory-service latency=200ms
+2026-03-27T03:08:00.242Z INFO  inventory-service [gRPC] Connection pool resized to 15 connections, max_idle=300s
+2026-03-27T03:08:34.475Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=184
+2026-03-27T03:09:08.708Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77200 status=200
+2026-03-27T03:09:42.941Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/3382 to inventory-service latency=207ms
+2026-03-27T03:10:17.174Z INFO  inventory-service [gRPC] Connection pool recycled 3 idle connections
+2026-03-27T03:10:51.407Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=189
+2026-03-27T03:11:25.640Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77201 status=200
+2026-03-27T03:11:59.873Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/6691 to inventory-service latency=210ms
+2026-03-27T03:12:34.106Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T03:13:08.339Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=182
+2026-03-27T03:13:42.572Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77202 status=200
+2026-03-27T03:14:16.805Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/2250 to inventory-service latency=198ms
+2026-03-27T03:14:51.038Z INFO  inventory-service [gRPC] Connection pool resized to 14 connections, max_idle=300s
+2026-03-27T03:15:25.271Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=176
+2026-03-27T03:15:59.504Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77203 status=200
+2026-03-27T03:16:33.737Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/5514 to inventory-service latency=206ms
+2026-03-27T03:17:07.970Z INFO  inventory-service [gRPC] Connection pool recycled 2 idle connections
+2026-03-27T03:17:42.203Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=180
+2026-03-27T03:18:16.436Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77204 status=200
+2026-03-27T03:18:50.669Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/7705 to inventory-service latency=208ms
+2026-03-27T03:19:24.902Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T03:19:59.135Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=174
+2026-03-27T03:20:33.368Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77205 status=200
+2026-03-27T03:21:07.601Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/4466 to inventory-service latency=202ms
+2026-03-27T03:21:41.834Z INFO  inventory-service [gRPC] Connection pool resized to 13 connections, max_idle=300s
+2026-03-27T03:22:16.067Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=185
+2026-03-27T03:22:50.300Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77206 status=200
+2026-03-27T03:23:24.533Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/3333 to inventory-service latency=211ms
+2026-03-27T03:23:58.766Z INFO  inventory-service [gRPC] Connection pool recycled 1 idle connection
+2026-03-27T03:24:33.000Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=179
+2026-03-27T03:25:07.233Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77207 status=200
+2026-03-27T03:25:41.466Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/6677 to inventory-service latency=204ms
+2026-03-27T03:26:15.699Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T03:26:50.932Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=183
+2026-03-27T03:27:25.165Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77208 status=200
+2026-03-27T03:27:59.398Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/2211 to inventory-service latency=199ms
+2026-03-27T03:28:33.631Z INFO  inventory-service [gRPC] Connection pool resized to 12 connections, max_idle=300s
+2026-03-27T03:29:07.864Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=187
+2026-03-27T03:29:42.097Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77209 status=200
+2026-03-27T03:30:16.330Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/5555 to inventory-service latency=205ms
+2026-03-27T03:30:50.563Z INFO  inventory-service [gRPC] Connection pool recycled 2 idle connections
+2026-03-27T03:31:24.796Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=181
+2026-03-27T03:31:59.029Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77210 status=200
+2026-03-27T03:32:33.262Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/7722 to inventory-service latency=209ms
+2026-03-27T03:33:07.495Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T03:33:41.728Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=175
+2026-03-27T03:34:15.961Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77211 status=200
+2026-03-27T03:34:50.194Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/4499 to inventory-service latency=201ms
+2026-03-27T03:35:24.427Z INFO  inventory-service [gRPC] Connection pool resized to 14 connections, max_idle=300s
+2026-03-27T03:35:58.660Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=188
+2026-03-27T03:36:32.893Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77212 status=200
+2026-03-27T03:37:07.126Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/3366 to inventory-service latency=207ms
+2026-03-27T03:37:41.359Z INFO  inventory-service [gRPC] Connection pool recycled 3 idle connections
+2026-03-27T03:38:15.592Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=180
+2026-03-27T03:38:49.825Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77213 status=200
+2026-03-27T03:39:24.058Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/6600 to inventory-service latency=213ms
+2026-03-27T03:39:58.291Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T03:40:32.524Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=178
+2026-03-27T03:41:06.757Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77214 status=200
+2026-03-27T03:41:40.990Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/2288 to inventory-service latency=200ms
+2026-03-27T03:42:15.223Z INFO  inventory-service [gRPC] Connection pool resized to 13 connections, max_idle=300s
+2026-03-27T03:42:49.456Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=186
+2026-03-27T03:43:23.689Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77215 status=200
+2026-03-27T03:43:57.922Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/5522 to inventory-service latency=206ms
+2026-03-27T03:44:32.155Z INFO  inventory-service [gRPC] Connection pool recycled 1 idle connection
+2026-03-27T03:45:06.388Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=182
+2026-03-27T03:45:40.621Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77216 status=200
+2026-03-27T03:46:14.854Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/7744 to inventory-service latency=211ms
+2026-03-27T03:46:49.087Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T03:47:23.320Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=177
+2026-03-27T03:47:57.553Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77217 status=200
+2026-03-27T03:48:31.786Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/4455 to inventory-service latency=203ms
+2026-03-27T03:49:06.019Z INFO  inventory-service [gRPC] Connection pool resized to 15 connections, max_idle=300s
+2026-03-27T03:49:40.252Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=184
+2026-03-27T03:50:14.485Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77218 status=200
+2026-03-27T03:50:48.718Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/3377 to inventory-service latency=208ms
+2026-03-27T03:51:22.951Z INFO  inventory-service [gRPC] Connection pool recycled 2 idle connections
+2026-03-27T03:51:57.184Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=179
+2026-03-27T03:52:31.417Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77219 status=200
+2026-03-27T03:53:05.650Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/6666 to inventory-service latency=204ms
+2026-03-27T03:53:39.883Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T03:54:14.116Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=189
+2026-03-27T03:54:48.349Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77220 status=200
+2026-03-27T03:55:22.582Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/2200 to inventory-service latency=199ms
+2026-03-27T03:55:56.815Z INFO  inventory-service [gRPC] Connection pool resized to 14 connections, max_idle=300s
+2026-03-27T03:56:31.048Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=183
+2026-03-27T03:57:05.281Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77221 status=200
+2026-03-27T03:57:39.514Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/5588 to inventory-service latency=207ms
+2026-03-27T03:58:13.747Z INFO  inventory-service [gRPC] Connection pool recycled 3 idle connections
+2026-03-27T03:58:47.980Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=181
+2026-03-27T03:59:22.213Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77222 status=200
+2026-03-27T03:59:56.446Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/7755 to inventory-service latency=210ms
+2026-03-27T04:00:30.679Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T04:01:04.912Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=176
+2026-03-27T04:01:39.145Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77223 status=200
+2026-03-27T04:02:13.378Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/4433 to inventory-service latency=202ms
+2026-03-27T04:02:47.611Z INFO  inventory-service [gRPC] Connection pool resized to 13 connections, max_idle=300s
+2026-03-27T04:03:21.844Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=185
+2026-03-27T04:03:56.077Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77224 status=200
+2026-03-27T04:04:30.310Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/3344 to inventory-service latency=209ms
+2026-03-27T04:05:04.543Z INFO  inventory-service [gRPC] Connection pool recycled 1 idle connection
+2026-03-27T04:05:38.776Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=180
+2026-03-27T04:06:13.009Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77225 status=200
+2026-03-27T04:06:47.242Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/6677 to inventory-service latency=205ms
+2026-03-27T04:07:21.475Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T04:07:55.708Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=182
+2026-03-27T04:08:29.941Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77226 status=200
+2026-03-27T04:09:04.174Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/2299 to inventory-service latency=201ms
+2026-03-27T04:09:38.407Z INFO  inventory-service [gRPC] Connection pool resized to 15 connections, max_idle=300s
+2026-03-27T04:10:12.640Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=188
+2026-03-27T04:10:46.873Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77227 status=200
+2026-03-27T04:11:21.106Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/5511 to inventory-service latency=207ms
+2026-03-27T04:11:55.339Z INFO  inventory-service [gRPC] Connection pool recycled 2 idle connections
+2026-03-27T04:12:29.572Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=184
+2026-03-27T04:13:03.805Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77228 status=200
+2026-03-27T04:13:38.038Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/7788 to inventory-service latency=212ms
+2026-03-27T04:14:12.271Z INFO  inventory-service [gRPC] Connection established to backend: inventory-service.prod.svc.cluster.local:50051
+2026-03-27T04:14:46.504Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-9901-BETA duration_ms=175
+2026-03-27T04:15:20.737Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77229 status=200
+2026-03-27T04:15:54.970Z INFO  api-gateway [Proxy] Forwarded GET /api/v1/products/4466 to inventory-service latency=203ms
+2026-03-27T04:16:29.203Z INFO  inventory-service [gRPC] Connection pool resized to 14 connections, max_idle=300s
+2026-03-27T04:17:03.436Z INFO  order-service [gRPC] Called inventory-service.GetStock item_id=SKU-8821-ALPHA duration_ms=181
+2026-03-27T04:17:37.669Z INFO  payment-service [HTTP] Received POST /v1/charge order_id=ORD-77230 status=200

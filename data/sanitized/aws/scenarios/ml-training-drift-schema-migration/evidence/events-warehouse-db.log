@@ -1,0 +1,127 @@
+2026-03-25T02:14:28.123Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE event_type = 'click' AND timestamp > '2026-03-24T00:00:00Z' — completed in 87ms
+2026-03-25T03:08:45.456Z INFO  events-warehouse-db [Query] SELECT user_id, product_id, COUNT(*) FROM events WHERE event_type = 'purchase' GROUP BY user_id, product_id ORDER BY COUNT(*) DESC LIMIT 100 — completed in 142ms
+2026-03-25T04:22:17.789Z INFO  events-warehouse-db [Connection] New client connected from feature-aggregator-7c9d2e, client_id=conn-8821
+2026-03-25T05:55:33.210Z INFO  events-warehouse-db [Query] INSERT INTO events (user_id, user_id_v2, event_type, timestamp, product_id, metadata) VALUES (1048293, 'a1b2c3d4-e5f6-7890-1234-567890abcdef', 'view', '2026-03-25T05:55:30Z', 'prod-9921', '{"region":"US", "device":"mobile"}') — inserted 1 row
+2026-03-25T06:31:59.888Z INFO  events-warehouse-db [Query] SELECT AVG(price) FROM events e JOIN products p ON e.product_id = p.id WHERE e.user_id = 882931 AND e.event_type = 'purchase' — completed in 63ms
+2026-03-25T07:44:11.333Z INFO  events-warehouse-db [Connection] Idle connection timeout for client_id=conn-8825, duration=1802s
+2026-03-25T08:01:07.555Z INFO  events-warehouse-db [Query] SELECT DISTINCT user_id FROM events WHERE event_type = 'cart_add' AND timestamp > '2026-03-24T22:00:00Z' — returned 128472 rows
+2026-03-25T08:44:12.901Z INFO  events-warehouse-db [Migration] Backfill job backfill-user-id-v2-20260322 status check: 179887421 rows updated, placeholder_uuid='00000000-0000-0000-0000-000000000000' for unmapped legacy rows, completion=100%
+2026-03-25T09:22:55.666Z INFO  events-warehouse-db [Backup] Full snapshot completed: snapshot_id=backup-20260325-0800, size=47.2GB, duration=102m45s
+2026-03-25T10:05:44.111Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id_v2 = '00000000-0000-0000-0000-000000000000' — returned 179887421
+2026-03-25T11:18:33.777Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(*) AS session_count FROM events WHERE timestamp > '2026-03-25T00:00:00Z' GROUP BY user_id HAVING COUNT(*) > 5 — completed in 198ms
+2026-03-25T12:40:19.999Z INFO  events-warehouse-db [Maintenance] VACUUM ANALYZE events completed, reclaimed 12.3GB, rows analyzed: 180203489
+2026-03-25T13:56:22.345Z INFO  events-warehouse-db [Query] SELECT product_id, SUM(price) AS revenue FROM events WHERE user_id_v2 IS NOT NULL AND event_type = 'purchase' GROUP BY product_id ORDER BY revenue DESC LIMIT 10 — completed in 210ms
+2026-03-25T14:23:01.222Z INFO  events-warehouse-db [Connection] Client disconnected: feature-aggregator-7c9d2e, client_id=conn-8821, reason=normal
+2026-03-25T15:08:17.888Z INFO  events-warehouse-db [Query] SELECT COUNT(DISTINCT user_id) FROM events WHERE timestamp > '2026-03-24T00:00:00Z' — returned 154382
+2026-03-25T16:15:44.555Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS event_count FROM events WHERE event_type = 'view' AND timestamp > '2026-03-25T12:00:00Z' GROUP BY user_id_v2 ORDER BY event_count DESC LIMIT 5 — completed in 137ms
+2026-03-25T17:30:11.111Z INFO  events-warehouse-db [Query] SELECT metadata->>'region' AS region, COUNT(*) AS count FROM events WHERE event_type = 'click' GROUP BY region — completed in 89ms
+2026-03-25T18:45:33.444Z INFO  events-warehouse-db [Connection] New client connected from analytics-service-4d9f1a, client_id=conn-8833
+2026-03-25T19:22:10.777Z INFO  events-warehouse-db [Query] SELECT AVG(duration) FROM events WHERE event_type = 'session_start' AND user_id_v2 != '00000000-0000-0000-0000-000000000000' — completed in 162ms
+2026-03-25T20:09:55.333Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(DISTINCT product_id) AS unique_products FROM events WHERE event_type = 'purchase' GROUP BY user_id ORDER BY unique_products DESC LIMIT 10 — completed in 155ms
+2026-03-25T21:12:44.666Z INFO  events-warehouse-db [Backup] Incremental snapshot completed: snapshot_id=backup-20260325-2000, size=2.1GB, duration=18m12s
+2026-03-25T22:37:18.999Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id = 0 — returned 0
+2026-03-25T23:15:00.111Z INFO  events-warehouse-db [Query] SELECT user_id_v2, SUM(price) AS total_spend FROM events WHERE event_type = 'purchase' GROUP BY user_id_v2 HAVING SUM(price) > 1000 — completed in 233ms
+2026-03-26T00:55:22.444Z INFO  events-warehouse-db [Query] SELECT EXTRACT(HOUR FROM timestamp) AS hour, COUNT(*) AS events FROM events WHERE event_type = 'click' GROUP BY hour ORDER BY hour — completed in 121ms
+2026-03-26T01:32:17.777Z INFO  events-warehouse-db [Connection] Idle connection timeout for client_id=conn-8833, duration=1789s
+2026-03-26T02:44:55.888Z INFO  events-warehouse-db [Query] SELECT product_id, COUNT(*) AS click_count FROM events WHERE user_id_v2 = 'a1b2c3d4-e5f6-7890-1234-567890abcdef' GROUP BY product_id ORDER BY click_count DESC LIMIT 5 — completed in 78ms
+2026-03-26T03:58:11.222Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE event_type = 'cart_remove' AND metadata->>'reason' = 'out_of_stock' — returned 8921
+2026-03-26T04:11:33.555Z INFO  events-warehouse-db [Maintenance] REINDEX INDEX idx_events_user_id completed in 42s
+2026-03-26T05:22:44.777Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(*) AS total_events FROM events WHERE timestamp > '2026-03-25T00:00:00Z' GROUP BY user_id HAVING COUNT(*) > 50 — completed in 187ms
+2026-03-26T06:09:10.111Z INFO  events-warehouse-db [Query] SELECT DISTINCT user_id_v2 FROM events WHERE user_id_v2 != '00000000-0000-0000-0000-000000000000' LIMIT 10 — returned 10 rows
+2026-03-26T07:34:21.444Z INFO  events-warehouse-db [Connection] New client connected from analytics-service-4d9f1a, client_id=conn-8839
+2026-03-26T08:01:55.666Z INFO  events-warehouse-db [Query] SELECT user_id_v2, AVG(price) AS avg_spend_per_event FROM events WHERE event_type = 'purchase' GROUP BY user_id_v2 ORDER BY avg_spend_per_event DESC LIMIT 10 — completed in 194ms
+2026-03-26T09:17:33.999Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE event_type = 'review_submit' AND user_id_v2 = '00000000-0000-0000-0000-000000000000' — returned 179887421
+2026-03-26T10:45:22.111Z INFO  events-warehouse-db [Backup] Full snapshot completed: snapshot_id=backup-20260326-0800, size=47.5GB, duration=104m12s
+2026-03-26T11:32:44.555Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(DISTINCT event_type) AS distinct_events FROM events WHERE timestamp > '2026-03-26T00:00:00Z' GROUP BY user_id ORDER BY distinct_events DESC LIMIT 5 — completed in 113ms
+2026-03-26T12:08:17.888Z INFO  events-warehouse-db [Query] SELECT product_id, SUM(price) AS revenue FROM events WHERE user_id = 1048293 GROUP BY product_id — completed in 45ms
+2026-03-26T13:22:55.222Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id_v2 IS NULL — returned 0
+2026-03-26T14:40:11.444Z INFO  events-warehouse-db [Connection] Client disconnected: analytics-service-4d9f1a, client_id=conn-8839, reason=normal
+2026-03-26T15:55:33.777Z INFO  events-warehouse-db [Query] SELECT EXTRACT(DOW FROM timestamp) AS day_of_week, COUNT(*) AS events FROM events WHERE event_type = 'purchase' GROUP BY day_of_week ORDER BY day_of_week — completed in 108ms
+2026-03-26T16:19:44.111Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS events FROM events WHERE event_type = 'view' AND timestamp > '2026-03-26T12:00:00Z' GROUP BY user_id_v2 HAVING COUNT(*) > 100 — completed in 201ms
+2026-03-26T17:34:22.555Z INFO  events-warehouse-db [Query] SELECT COUNT(DISTINCT user_id) FROM events WHERE user_id_v2 = '00000000-0000-0000-0000-000000000000' — returned 179887421
+2026-03-26T18:50:10.888Z INFO  events-warehouse-db [Connection] New client connected from feature-aggregator-7c9d2e, client_id=conn-8845
+2026-03-26T19:22:33.111Z INFO  events-warehouse-db [Query] SELECT user_id, SUM(price) AS total_revenue FROM events WHERE event_type = 'purchase' GROUP BY user_id ORDER BY total_revenue DESC LIMIT 10 — completed in 177ms
+2026-03-26T20:45:11.444Z INFO  events-warehouse-db [Query] SELECT product_id, AVG(price) AS avg_price FROM events WHERE user_id_v2 != '00000000-0000-0000-0000-000000000000' GROUP BY product_id — completed in 132ms
+2026-03-26T21:18:55.666Z INFO  events-warehouse-db [Backup] Incremental snapshot completed: snapshot_id=backup-20260326-2000, size=2.3GB, duration=19m25s
+2026-03-26T22:30:44.999Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS events FROM events WHERE event_type = 'cart_add' AND timestamp > '2026-03-26T18:00:00Z' GROUP BY user_id_v2 ORDER BY events DESC LIMIT 5 — completed in 119ms
+2026-03-26T23:55:22.333Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE event_type = 'search' AND metadata->>'query' ILIKE '%shoes%' — returned 10284
+2026-03-27T00:40:17.777Z INFO  events-warehouse-db [Connection] Idle connection timeout for client_id=conn-8845, duration=1872s
+2026-03-27T01:22:01.111Z INFO  events-warehouse-db [Query] SELECT user_id_v2, SUM(price) AS revenue FROM events WHERE event_type = 'purchase' AND timestamp > '2026-03-26T00:00:00Z' GROUP BY user_id_v2 HAVING SUM(price) > 500 — completed in 189ms
+2026-03-27T02:55:44.555Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id = 1048293 AND event_type = 'view' — returned 78
+2026-03-27T03:18:33.888Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(DISTINCT product_id) AS unique_products FROM events WHERE event_type = 'purchase' GROUP BY user_id_v2 ORDER BY unique_products DESC LIMIT 5 — completed in 155ms
+2026-03-27T04:02:10.222Z INFO  events-warehouse-db [Maintenance] AUTOVACUUM: vacuuming table "events", 12.4% dead tuples, 1478900 rows removed
+2026-03-27T05:44:33.555Z INFO  events-warehouse-db [Query] SELECT EXTRACT(HOUR FROM timestamp) AS hour, COUNT(*) AS events FROM events WHERE event_type = 'purchase' AND user_id_v2 != '00000000-0000-0000-0000-000000000000' GROUP BY hour ORDER BY hour — completed in 114ms
+2026-03-27T06:31:22.888Z INFO  events-warehouse-db [Connection] New client connected from analytics-service-4d9f1a, client_id=conn-8851
+2026-03-27T07:55:11.111Z INFO  events-warehouse-db [Query] SELECT user_id_v2, AVG(duration) AS avg_session_time FROM events WHERE event_type = 'session_start' GROUP BY user_id_v2 ORDER BY avg_session_time DESC LIMIT 10 — completed in 178ms
+2026-03-27T08:22:44.444Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id_v2 = '00000000-0000-0000-0000-000000000000' AND event_type = 'purchase' — returned 179887421
+2026-03-27T09:33:55.777Z INFO  events-warehouse-db [Query] SELECT product_id, COUNT(*) AS purchase_count FROM events WHERE user_id_v2 != '00000000-0000-0000-0000-000000000000' AND event_type = 'purchase' GROUP BY product_id ORDER BY purchase_count DESC LIMIT 10 — completed in 212ms
+2026-03-27T10:15:22.111Z INFO  events-warehouse-db [Backup] Full snapshot completed: snapshot_id=backup-20260327-0800, size=47.8GB, duration=106m08s
+2026-03-27T11:44:33.444Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(*) AS total_views FROM events WHERE event_type = 'view' GROUP BY user_id HAVING COUNT(*) > 100 — completed in 195ms
+2026-03-27T12:21:01.666Z INFO  events-warehouse-db [Query] SELECT user_id_v2, SUM(price) AS revenue FROM events WHERE event_type = 'purchase' AND timestamp > '2026-03-27T00:00:00Z' GROUP BY user_id_v2 ORDER BY revenue DESC LIMIT 10 — completed in 172ms
+2026-03-27T13:30:44.999Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id = 0 AND event_type = 'click' — returned 0
+2026-03-27T14:55:22.333Z INFO  events-warehouse-db [Connection] Client disconnected: analytics-service-4d9f1a, client_id=conn-8851, reason=normal
+2026-03-27T15:18:11.555Z INFO  events-warehouse-db [Query] SELECT metadata->>'device' AS device, COUNT(*) AS count FROM events WHERE event_type = 'view' GROUP BY device — completed in 98ms
+2026-03-27T16:44:55.888Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS events FROM events WHERE event_type = 'cart_remove' GROUP BY user_id_v2 HAVING COUNT(*) > 10 — completed in 167ms
+2026-03-27T17:22:33.111Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE event_type = 'review_submit' AND user_id_v2 != '00000000-0000-0000-0000-000000000000' — returned 0
+2026-03-27T18:55:44.444Z INFO  events-warehouse-db [Connection] New client connected from feature-aggregator-7c9d2e, client_id=conn-8857
+2026-03-27T19:10:01.777Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(DISTINCT event_type) AS distinct_events FROM events WHERE event_type IN ('view', 'click', 'cart_add', 'purchase') GROUP BY user_id ORDER BY distinct_events DESC LIMIT 10 — completed in 183ms
+2026-03-27T20:30:55.111Z INFO  events-warehouse-db [Query] SELECT product_id, AVG(price) AS avg_price FROM events WHERE event_type = 'purchase' GROUP BY product_id ORDER BY avg_price DESC LIMIT 10 — completed in 144ms
+2026-03-27T21:15:33.555Z INFO  events-warehouse-db [Backup] Incremental snapshot completed: snapshot_id=backup-20260327-2000, size=2.5GB, duration=21m11s
+2026-03-27T22:41:22.888Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS events FROM events WHERE event_type = 'session_end' AND timestamp > '2026-03-27T18:00:00Z' GROUP BY user_id_v2 ORDER BY events DESC LIMIT 5 — completed in 110ms
+2026-03-27T23:55:44.222Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE event_type = 'search' AND metadata->>'query' ILIKE '%laptop%' — returned 9155
+2026-03-28T00:30:11.555Z INFO  events-warehouse-db [Connection] Idle connection timeout for client_id=conn-8857, duration=1875s
+2026-03-28T01:22:33.888Z INFO  events-warehouse-db [Query] SELECT user_id_v2, SUM(price) AS revenue FROM events WHERE event_type = 'purchase' AND timestamp > '2026-03-27T00:00:00Z' GROUP BY user_id_v2 HAVING SUM(price) > 100 — completed in 187ms
+2026-03-28T02:44:11.111Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(*) AS total_purchases FROM events WHERE event_type = 'purchase' AND user_id_v2 = '00000000-0000-0000-0000-000000000000' GROUP BY user_id — completed in 162ms
+2026-03-28T03:18:55.444Z INFO  events-warehouse-db [Maintenance] REINDEX INDEX idx_events_user_id_v2 completed in 45s
+2026-03-28T04:33:22.777Z INFO  events-warehouse-db [Query] SELECT EXTRACT(HOUR FROM timestamp) AS hour, COUNT(*) AS events FROM events WHERE event_type = 'purchase' GROUP BY hour ORDER BY hour — completed in 102ms
+2026-03-28T05:55:11.111Z INFO  events-warehouse-db [Connection] New client connected from analytics-service-4d9f1a, client_id=conn-8863
+2026-03-28T06:17:44.555Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS events FROM events WHERE event_type = 'view' AND timestamp > '2026-03-28T00:00:00Z' GROUP BY user_id_v2 HAVING COUNT(*) > 10 — completed in 139ms
+2026-03-28T07:22:33.888Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id_v2 = '00000000-0000-0000-0000-000000000000' AND event_type = 'view' — returned 179887421
+2026-03-28T08:40:10.222Z INFO  events-warehouse-db [Query] SELECT product_id, SUM(price) AS revenue FROM events WHERE user_id_v2 != '00000000-0000-0000-0000-000000000000' AND event_type = 'purchase' GROUP BY product_id ORDER BY revenue DESC LIMIT 10 — completed in 204ms
+2026-03-28T09:15:44.555Z INFO  events-warehouse-db [Backup] Full snapshot completed: snapshot_id=backup-20260328-0800, size=48.1GB, duration=108m33s
+2026-03-28T10:30:22.888Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(*) AS total_views FROM events WHERE event_type = 'view' AND timestamp > '2026-03-28T00:00:00Z' GROUP BY user_id ORDER BY total_views DESC LIMIT 10 — completed in 176ms
+2026-03-28T11:44:11.111Z INFO  events-warehouse-db [Query] SELECT user_id_v2, AVG(price) AS avg_spend FROM events WHERE event_type = 'purchase' AND timestamp > '2026-03-28T00:00:00Z' GROUP BY user_id_v2 ORDER BY avg_spend DESC LIMIT 10 — completed in 192ms
+2026-03-28T12:21:55.444Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id = 1048293 AND event_type = 'purchase' — returned 3
+2026-03-28T13:33:22.777Z INFO  events-warehouse-db [Connection] Client disconnected: analytics-service-4d9f1a, client_id=conn-8863, reason=normal
+2026-03-28T14:18:11.111Z INFO  events-warehouse-db [Query] SELECT metadata->>'region' AS region, COUNT(*) AS count FROM events WHERE event_type = 'purchase' GROUP BY region — completed in 94ms
+2026-03-28T15:44:55.555Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS events FROM events WHERE event_type = 'cart_add' AND timestamp > '2026-03-28T12:00:00Z' GROUP BY user_id_v2 HAVING COUNT(*) > 20 — completed in 148ms
+2026-03-28T16:30:22.888Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id_v2 = '00000000-0000-0000-0000-000000000000' AND event_type = 'cart_add' — returned 179887421
+2026-03-28T17:55:11.222Z INFO  events-warehouse-db [Connection] New client connected from feature-aggregator-7c9d2e, client_id=conn-8869
+2026-03-28T18:32:44.555Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(*) AS total_sessions FROM events WHERE event_type = 'session_start' GROUP BY user_id HAVING COUNT(*) > 5 — completed in 182ms
+2026-03-28T19:44:11.888Z INFO  events-warehouse-db [Query] SELECT product_id, COUNT(*) AS purchase_count FROM events WHERE event_type = 'purchase' GROUP BY product_id ORDER BY purchase_count DESC LIMIT 10 — completed in 200ms
+2026-03-28T20:18:33.222Z INFO  events-warehouse-db [Backup] Incremental snapshot completed: snapshot_id=backup-20260328-2000, size=2.7GB, duration=23m05s
+2026-03-28T21:30:55.666Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS events FROM events WHERE event_type = 'session_end' AND timestamp > '2026-03-28T18:00:00Z' GROUP BY user_id_v2 ORDER BY events DESC LIMIT 5 — completed in 112ms
+2026-03-28T22:45:11.111Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE event_type = 'search' AND metadata->>'query' ILIKE '%headphones%' — returned 8734
+2026-03-28T23:59:33.444Z INFO  events-warehouse-db [Connection] Idle connection timeout for client_id=conn-8869, duration=1880s
+2026-03-29T00:22:55.777Z INFO  events-warehouse-db [Query] SELECT user_id_v2, SUM(price) AS revenue FROM events WHERE event_type = 'purchase' AND timestamp > '2026-03-28T00:00:00Z' GROUP BY user_id_v2 HAVING SUM(price) > 1000 — completed in 195ms
+2026-03-29T01:44:11.111Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(*) AS total_clicks FROM events WHERE event_type = 'click' GROUP BY user_id ORDER BY total_clicks DESC LIMIT 10 — completed in 174ms
+2026-03-29T02:08:33.555Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id_v2 = '00000000-0000-0000-0000-000000000000' AND event_type = 'click' — returned 179887421
+2026-03-29T03:30:22.888Z INFO  events-warehouse-db [Query] SELECT product_id, AVG(price) AS avg_price FROM events WHERE event_type = 'purchase' GROUP BY product_id ORDER BY avg_price DESC LIMIT 10 — completed in 140ms
+2026-03-29T04:17:44.222Z INFO  events-warehouse-db [Maintenance] AUTOVACUUM: vacuuming table "events", 13.1% dead tuples, 1521001 rows removed
+2026-03-29T05:33:11.555Z INFO  events-warehouse-db [Connection] New client connected from analytics-service-4d9f1a, client_id=conn-8875
+2026-03-29T06:45:33.888Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS events FROM events WHERE event_type = 'view' AND timestamp > '2026-03-29T00:00:00Z' GROUP BY user_id_v2 HAVING COUNT(*) > 15 — completed in 143ms
+2026-03-29T07:22:10.111Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id_v2 = '00000000-0000-0000-0000-000000000000' AND event_type = 'purchase' — returned 179887421
+2026-03-29T08:40:44.444Z INFO  events-warehouse-db [Query] SELECT product_id, SUM(price) AS revenue FROM events WHERE user_id_v2 != '00000000-0000-0000-0000-000000000000' AND event_type = 'purchase' GROUP BY product_id ORDER BY revenue DESC LIMIT 10 — completed in 208ms
+2026-03-29T09:15:22.777Z INFO  events-warehouse-db [Backup] Full snapshot completed: snapshot_id=backup-20260329-0800, size=48.4GB, duration=110m15s
+2026-03-29T10:30:11.111Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(*) AS total_purchases FROM events WHERE event_type = 'purchase' AND user_id_v2 = '00000000-0000-0000-0000-000000000000' GROUP BY user_id — completed in 165ms
+2026-03-29T11:44:55.555Z INFO  events-warehouse-db [Query] SELECT user_id_v2, AVG(price) AS avg_spend FROM events WHERE event_type = 'purchase' AND timestamp > '2026-03-29T00:00:00Z' GROUP BY user_id_v2 ORDER BY avg_spend DESC LIMIT 10 — completed in 190ms
+2026-03-29T12:21:33.888Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id = 1048293 AND event_type = 'view' — returned 79
+2026-03-29T13:33:11.222Z INFO  events-warehouse-db [Connection] Client disconnected: analytics-service-4d9f1a, client_id=conn-8875, reason=normal
+2026-03-29T14:18:44.555Z INFO  events-warehouse-db [Query] SELECT metadata->>'device' AS device, COUNT(*) AS count FROM events WHERE event_type = 'view' GROUP BY device — completed in 97ms
+2026-03-29T15:44:22.888Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS events FROM events WHERE event_type = 'cart_add' AND timestamp > '2026-03-29T12:00:00Z' GROUP BY user_id_v2 HAVING COUNT(*) > 25 — completed in 150ms
+2026-03-29T16:30:11.111Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id_v2 = '00000000-0000-0000-0000-000000000000' AND event_type = 'cart_add' — returned 179887421
+2026-03-29T17:55:33.444Z INFO  events-warehouse-db [Connection] New client connected from feature-aggregator-7c9d2e, client_id=conn-8881
+2026-03-29T18:32:10.777Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(*) AS total_sessions FROM events WHERE event_type = 'session_start' GROUP BY user_id HAVING COUNT(*) > 5 — completed in 185ms
+2026-03-29T19:44:44.111Z INFO  events-warehouse-db [Query] SELECT product_id, COUNT(*) AS purchase_count FROM events WHERE event_type = 'purchase' GROUP BY product_id ORDER BY purchase_count DESC LIMIT 10 — completed in 198ms
+2026-03-29T20:18:22.444Z INFO  events-warehouse-db [Backup] Incremental snapshot completed: snapshot_id=backup-20260329-2000, size=2.9GB, duration=24m45s
+2026-03-29T21:30:55.777Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS events FROM events WHERE event_type = 'session_end' AND timestamp > '2026-03-29T18:00:00Z' GROUP BY user_id_v2 ORDER BY events DESC LIMIT 5 — completed in 114ms
+2026-03-29T22:45:11.111Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE event_type = 'search' AND metadata->>'query' ILIKE '%smartphone%' — returned 9932
+2026-03-29T23:59:33.444Z INFO  events-warehouse-db [Connection] Idle connection timeout for client_id=conn-8881, duration=1884s
+2026-03-30T00:22:55.777Z INFO  events-warehouse-db [Query] SELECT user_id_v2, SUM(price) AS revenue FROM events WHERE event_type = 'purchase' AND timestamp > '2026-03-29T00:00:00Z' GROUP BY user_id_v2 HAVING SUM(price) > 1000 — completed in 198ms
+2026-03-30T01:44:11.111Z INFO  events-warehouse-db [Query] SELECT user_id, COUNT(*) AS total_clicks FROM events WHERE event_type = 'click' GROUP BY user_id ORDER BY total_clicks DESC LIMIT 10 — completed in 177ms
+2026-03-30T02:08:33.555Z INFO  events-warehouse-db [Query] SELECT COUNT(*) FROM events WHERE user_id_v2 = '00000000-0000-0000-0000-000000000000' AND event_type = 'click' — returned 179887421
+2026-03-30T03:30:22.888Z INFO  events-warehouse-db [Query] SELECT product_id, AVG(price) AS avg_price FROM events WHERE event_type = 'purchase' GROUP BY product_id ORDER BY avg_price DESC LIMIT 10 — completed in 142ms
+2026-03-30T04:17:44.222Z INFO  events-warehouse-db [Maintenance] AUTOVACUUM: vacuuming table "events", 12.8% dead tuples, 1498012 rows removed
+2026-03-30T05:33:11.555Z INFO  events-warehouse-db [Connection] New client connected from analytics-service-4d9f1a, client_id=conn-8887
+2026-03-30T06:45:33.888Z INFO  events-warehouse-db [Query] SELECT user_id_v2, COUNT(*) AS events FROM events WHERE event_type = 'view' AND timestamp > '2026-03-30T00:00:00Z' GROUP BY user_id_v2 HAVING COUNT(*) > 15 — completed in 146ms
+2026-03-30T07:22:10.111Z INFO  events-

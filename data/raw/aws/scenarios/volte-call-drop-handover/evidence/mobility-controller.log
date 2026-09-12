@@ -1,0 +1,192 @@
+2025-03-25T03:12:44.210Z INFO  mobility-controller [Config] Parameter handover_prep_timer set to 2000ms (default)
+2025-03-25T05:08:17.887Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7742 from cell E-1023 to cell N-2089 elapsed_ms=412
+2025-03-25T06:33:55.103Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-8819 from cell E-1028 to cell E-1031 elapsed_ms=345
+2025-03-25T07:15:22.991Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9041 from cell N-2095 to cell N-2101 elapsed_ms=389
+2025-03-25T08:04:11.556Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1042 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T08:45:33.772Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7203 from cell E-1042 to cell N-2108 elapsed_ms=467
+2025-03-25T09:22:10.114Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-8633 from cell N-2101 to cell N-2103 elapsed_ms=311
+2025-03-25T10:07:55.430Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1050 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T10:19:22.667Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7115 from cell E-1050 to cell N-2115 elapsed_ms=488
+2025-03-25T11:03:44.910Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9527 from cell N-2089 to cell N-2095 elapsed_ms=378
+2025-03-25T11:55:18.332Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1031 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T12:01:05.119Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8002 from cell E-1031 to cell N-2122 elapsed_ms=455
+2025-03-25T12:44:07.881Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-7339 from cell N-2122 to cell N-2125 elapsed_ms=365
+2025-03-25T13:21:22.003Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1045 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T13:35:55.770Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8440 from cell E-1045 to cell N-2130 elapsed_ms=479
+2025-03-25T14:18:43.221Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7555 from cell N-2108 to cell N-2115 elapsed_ms=398
+2025-03-25T15:02:19.677Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1023 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T15:15:33.445Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9128 from cell E-1023 to cell N-2140 elapsed_ms=443
+2025-03-25T15:58:01.110Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-8777 from cell N-2140 to cell N-2143 elapsed_ms=332
+2025-03-25T16:45:55.888Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1052 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T17:02:10.765Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7990 from cell E-1052 to cell N-2148 elapsed_ms=461
+2025-03-25T17:47:22.120Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8111 from cell N-2115 to cell N-2122 elapsed_ms=368
+2025-03-25T18:33:05.003Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1035 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T18:42:18.772Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8333 from cell E-1035 to cell N-2155 elapsed_ms=450
+2025-03-25T19:20:55.441Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9445 from cell N-2155 to cell N-2158 elapsed_ms=321
+2025-03-25T20:05:33.997Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1048 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T20:13:10.665Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7666 from cell E-1048 to cell N-2165 elapsed_ms=472
+2025-03-25T20:57:44.331Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8557 from cell N-2125 to cell N-2130 elapsed_ms=401
+2025-03-25T21:44:11.889Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1038 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T21:52:33.220Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9229 from cell E-1038 to cell N-2172 elapsed_ms=480
+2025-03-25T22:35:55.112Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-8888 from cell N-2172 to cell N-2175 elapsed_ms=355
+2025-03-25T23:19:07.998Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1055 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T23:27:44.666Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7112 from cell E-1055 to cell N-2180 elapsed_ms=468
+2025-03-26T00:10:55.333Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8779 from cell N-2130 to cell N-2135 elapsed_ms=385
+2025-03-26T00:58:22.111Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1027 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T01:06:44.881Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9331 from cell E-1027 to cell N-2188 elapsed_ms=457
+2025-03-26T02:15:33.000Z INFO  mobility-controller [Firmware] Firmware upgrade to version 19.2.4 completed on cell N-2188
+2025-03-26T03:07:11.777Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-7444 from cell N-2188 to cell N-2190 elapsed_ms=328
+2025-03-26T04:02:55.444Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1040 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T04:11:22.663Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8665 from cell E-1040 to cell N-2195 elapsed_ms=477
+2025-03-26T05:00:11.119Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9556 from cell N-2135 to cell N-2140 elapsed_ms=392
+2025-03-26T05:43:44.886Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1053 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T05:52:10.660Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7887 from cell E-1053 to cell N-2202 elapsed_ms=485
+2025-03-26T06:30:55.333Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-8998 from cell N-2202 to cell N-2205 elapsed_ms=349
+2025-03-26T07:18:22.111Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1032 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T07:26:55.887Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7221 from cell E-1032 to cell N-2210 elapsed_ms=466
+2025-03-26T08:15:44.664Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8552 from cell N-2195 to cell N-2200 elapsed_ms=376
+2025-03-26T09:02:11.331Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1046 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T09:11:33.000Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9113 from cell E-1046 to cell N-2217 elapsed_ms=475
+2025-03-26T09:55:55.777Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-7669 from cell N-2217 to cell N-2220 elapsed_ms=358
+2025-03-26T10:40:22.444Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1025 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T10:49:55.111Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8880 from cell E-1025 to cell N-2225 elapsed_ms=482
+2025-03-26T11:34:11.888Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9447 from cell N-2200 to cell N-2205 elapsed_ms=390
+2025-03-26T12:18:44.666Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1051 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T12:27:22.333Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7995 from cell E-1051 to cell N-2232 elapsed_ms=469
+2025-03-26T13:15:55.110Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-8770 from cell N-2232 to cell N-2235 elapsed_ms=340
+2025-03-26T14:02:11.887Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1039 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T14:10:44.664Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9222 from cell E-1039 to cell N-2240 elapsed_ms=478
+2025-03-26T14:55:55.331Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7551 from cell N-2205 to cell N-2210 elapsed_ms=387
+2025-03-26T15:42:22.110Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1043 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T15:51:05.887Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8662 from cell E-1043 to cell N-2247 elapsed_ms=456
+2025-03-26T16:36:44.665Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9553 from cell N-2247 to cell N-2250 elapsed_ms=335
+2025-03-26T17:23:11.332Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1026 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T17:31:44.000Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7774 from cell E-1026 to cell N-2255 elapsed_ms=463
+2025-03-26T18:17:55.777Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8991 from cell N-2210 to cell N-2215 elapsed_ms=396
+2025-03-26T19:04:22.444Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1054 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T19:12:55.111Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7118 from cell E-1054 to cell N-2262 elapsed_ms=479
+2025-03-26T19:58:11.888Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-8885 from cell N-2262 to cell N-2265 elapsed_ms=327
+2025-03-26T20:45:44.666Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1033 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T20:54:11.333Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9226 from cell E-1033 to cell N-2270 elapsed_ms=485
+2025-03-26T21:39:55.000Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7663 from cell N-2215 to cell N-2220 elapsed_ms=380
+2025-03-26T22:26:22.777Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1047 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T22:35:05.444Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8874 from cell E-1047 to cell N-2277 elapsed_ms=467
+2025-03-26T23:20:11.111Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9558 from cell N-2277 to cell N-2280 elapsed_ms=346
+2025-03-26T23:58:44.888Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1024 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T00:07:22.665Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7442 from cell E-1024 to cell N-2285 elapsed_ms=473
+2025-03-27T00:54:55.332Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8223 from cell N-2220 to cell N-2225 elapsed_ms=388
+2025-03-27T01:41:22.000Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1056 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T01:49:55.777Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9114 from cell E-1056 to cell N-2292 elapsed_ms=460
+2025-03-27T02:38:11.444Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-7889 from cell N-2292 to cell N-2295 elapsed_ms=352
+2025-03-27T03:25:44.111Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1034 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T03:34:10.888Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8559 from cell E-1034 to cell N-2300 elapsed_ms=476
+2025-03-27T04:19:55.555Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9440 from cell N-2225 to cell N-2230 elapsed_ms=394
+2025-03-27T05:06:22.222Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1041 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T05:14:55.999Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7771 from cell E-1041 to cell N-2307 elapsed_ms=483
+2025-03-27T06:00:11.666Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-8992 from cell N-2307 to cell N-2310 elapsed_ms=338
+2025-03-27T06:47:44.333Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1028 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T06:56:11.000Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7116 from cell E-1028 to cell N-2315 elapsed_ms=464
+2025-03-27T07:42:55.777Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8883 from cell N-2230 to cell N-2235 elapsed_ms=381
+2025-03-27T08:29:22.444Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1050 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T08:37:55.111Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9224 from cell E-1050 to cell N-2322 elapsed_ms=470
+2025-03-27T09:24:11.888Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-7660 from cell N-2322 to cell N-2325 elapsed_ms=344
+2025-03-27T10:10:44.555Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1036 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T10:19:10.222Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8554 from cell E-1036 to cell N-2330 elapsed_ms=480
+2025-03-27T11:05:55.999Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9446 from cell N-2235 to cell N-2240 elapsed_ms=397
+2025-03-27T11:52:22.666Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1044 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T12:00:55.333Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7885 from cell E-1044 to cell N-2337 elapsed_ms=466
+2025-03-27T12:48:11.000Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-8776 from cell N-2337 to cell N-2340 elapsed_ms=350
+2025-03-27T13:34:44.777Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1029 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T13:43:10.444Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9117 from cell E-1029 to cell N-2345 elapsed_ms=474
+2025-03-27T14:29:55.111Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7448 from cell N-2240 to cell N-2245 elapsed_ms=385
+2025-03-27T15:16:22.888Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1057 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T15:24:55.555Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8667 from cell E-1057 to cell N-2352 elapsed_ms=481
+2025-03-27T16:10:11.222Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9550 from cell N-2352 to cell N-2355 elapsed_ms=342
+2025-03-27T16:57:44.999Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1030 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T17:06:10.666Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7778 from cell E-1030 to cell N-2360 elapsed_ms=469
+2025-03-27T17:52:55.333Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8999 from cell N-2245 to cell N-2250 elapsed_ms=393
+2025-03-27T18:39:22.000Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1049 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T18:47:55.777Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7119 from cell E-1049 to cell N-2367 elapsed_ms=477
+2025-03-27T19:34:11.444Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-8886 from cell N-2367 to cell N-2370 elapsed_ms=339
+2025-03-27T20:20:44.111Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1021 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T20:29:10.888Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9227 from cell E-1021 to cell N-2375 elapsed_ms=484
+2025-03-27T21:15:55.555Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7664 from cell N-2250 to cell N-2255 elapsed_ms=389
+2025-03-27T22:02:22.222Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1058 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T22:10:55.999Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8555 from cell E-1058 to cell N-2382 elapsed_ms=465
+2025-03-27T22:58:11.666Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9449 from cell N-2382 to cell N-2385 elapsed_ms=351
+2025-03-27T23:44:44.333Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1037 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T00:00:00.000Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7996 from cell E-1037 to cell N-2390 elapsed_ms=471
+2025-03-28T00:47:55.000Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8997 from cell N-2255 to cell N-2260 elapsed_ms=386
+2025-03-28T01:34:22.777Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1045 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T01:42:55.444Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7120 from cell E-1045 to cell N-2397 elapsed_ms=479
+2025-03-28T02:29:11.111Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-8887 from cell N-2397 to cell N-2400 elapsed_ms=348
+2025-03-28T03:15:44.888Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1022 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T03:24:11.555Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9228 from cell E-1022 to cell N-2405 elapsed_ms=486
+2025-03-28T04:10:55.222Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7665 from cell N-2260 to cell N-2265 elapsed_ms=395
+2025-03-28T04:57:22.999Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1059 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T05:05:55.666Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8556 from cell E-1059 to cell N-2412 elapsed_ms=462
+2025-03-28T05:53:11.333Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9441 from cell N-2412 to cell N-2415 elapsed_ms=355
+2025-03-28T06:39:44.000Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1031 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T06:48:10.777Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7991 from cell E-1031 to cell N-2420 elapsed_ms=473
+2025-03-28T07:34:55.444Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8888 from cell N-2265 to cell N-2270 elapsed_ms=391
+2025-03-28T08:21:22.111Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1046 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T08:29:55.888Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7121 from cell E-1046 to cell N-2427 elapsed_ms=480
+2025-03-28T09:17:11.555Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9229 from cell N-2427 to cell N-2430 elapsed_ms=358
+2025-03-28T10:03:44.222Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1023 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T10:12:10.999Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8668 from cell E-1023 to cell N-2435 elapsed_ms=476
+2025-03-28T10:59:55.666Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7666 from cell N-2270 to cell N-2275 elapsed_ms=398
+2025-03-28T11:46:22.333Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1052 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T11:54:55.000Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8557 from cell E-1052 to cell N-2442 elapsed_ms=483
+2025-03-28T12:41:11.777Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9113 from cell N-2442 to cell N-2445 elapsed_ms=345
+2025-03-28T13:27:44.444Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1035 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T13:36:10.111Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7992 from cell E-1035 to cell N-2450 elapsed_ms=470
+2025-03-28T14:22:55.888Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8779 from cell N-2275 to cell N-2280 elapsed_ms=384
+2025-03-28T15:09:22.555Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1047 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T15:17:55.222Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9443 from cell E-1047 to cell N-2457 elapsed_ms=488
+2025-03-28T16:05:11.999Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-7122 from cell N-2457 to cell N-2460 elapsed_ms=337
+2025-03-28T16:51:44.666Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1025 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T17:00:10.333Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8669 from cell E-1025 to cell N-2465 elapsed_ms=475
+2025-03-28T17:47:55.000Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7993 from cell N-2280 to cell N-2285 elapsed_ms=390
+2025-03-28T18:34:22.777Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1053 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T18:42:55.444Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8558 from cell E-1053 to cell N-2472 elapsed_ms=486
+2025-03-28T19:29:11.111Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9225 from cell N-2472 to cell N-2475 elapsed_ms=349
+2025-03-28T20:15:44.888Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1038 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T20:24:10.555Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7667 from cell E-1038 to cell N-2480 elapsed_ms=478
+2025-03-28T21:11:55.222Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8775 from cell N-2285 to cell N-2290 elapsed_ms=387
+2025-03-28T21:58:22.999Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1048 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T22:06:55.666Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9115 from cell E-1048 to cell N-2487 elapsed_ms=467
+2025-03-28T22:54:11.333Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-7123 from cell N-2487 to cell N-2490 elapsed_ms=353
+2025-03-28T23:40:44.000Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1026 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-29T00:00:00.000Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8889 from cell E-1026 to cell N-2495 elapsed_ms=472
+2025-03-29T00:48:55.777Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7668 from cell N-2290 to cell N-2295 elapsed_ms=394
+2025-03-29T01:35:22.444Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1055 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-29T01:43:55.111Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8559 from cell E-1055 to cell N-2502 elapsed_ms=481
+2025-03-29T02:31:11.888Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9221 from cell N-2502 to cell N-2505 elapsed_ms=346
+2025-03-29T03:17:44.555Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1039 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-29T03:26:10.222Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7994 from cell E-1039 to cell N-2510 elapsed_ms=474
+2025-03-29T04:12:55.999Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8771 from cell N-2295 to cell N-2300 elapsed_ms=383
+2025-03-29T04:59:22.666Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1042 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-29T05:07:55.333Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7124 from cell E-1042 to cell N-2517 elapsed_ms=480
+2025-03-29T05:55:11.000Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9444 from cell N-2517 to cell N-2520 elapsed_ms=350
+2025-03-29T06:41:44.777Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1024 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-29T06:50:10.444Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8664 from cell E-1024 to cell N-2525 elapsed_ms=477
+2025-03-29T07:37:55.111Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7669 from cell N-2300 to cell N-2305 elapsed_ms=396
+2025-03-29T08:24:22.888Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1051 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-29T08:32:55.555Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8560 from cell E-1051 to cell N-2532 elapsed_ms=485
+2025-03-29T09:20:11.222Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9220 from cell N-2532 to cell N-2535 elapsed_ms=344
+2025-03-29T09:59:55.999Z INFO  mobility-controller [Config] Parameter handover_prep_timer updated to 500ms (previous: 2000) by user:net-ops-team reason:"capacity optimization"
+2025-03-29T10:07:11.666Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7995 from cell N-2305 to cell N-2310 elapsed_ms=468
+2025-03-29T10:54:44.333Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1033 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-29T11:03:10.000Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8663 from cell E-1033 to cell N-2540 elapsed_ms=479
+2025-03-29T11:50:55.777Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-9112 from cell N-2540 to cell N-2543 elapsed_ms=352
+2025-03-29T12:37:22.444Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1044 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-29T12:45:55.111Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7125 from cell E-1044 to cell N-2550 elapsed_ms=487
+2025-03-29T13:33:11.888Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8772 from cell N-2310 to cell N-2315 elapsed_ms=389
+2025-03-29T14:19:44.555Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1027 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-29T14:28:10.222Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9223 from cell E-1027 to cell N-2557 elapsed_ms=471
+2025-03-29T15:15:55.999Z INFO  mobility-controller [Handover] Successful X2 handover for UE UE-7670 from cell N-2557 to cell N-2560 elapsed_ms=347
+2025-03-29T16:02:22.666Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1056 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-29T16:10:55.333Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8665 from cell E-1056 to cell N-2565 elapsed_ms=483
+2025-03-29T16:58:11.000Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7996 from cell N-2315 to cell N-2320 elapsed_ms=391
+2025-03-29T17:44:44.777Z INFO  mobility-controller [Handover] X2 handover request rejected from source_cell=E-1034 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-29T17:53:10.444Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8561 from cell E

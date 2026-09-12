@@ -1,0 +1,121 @@
+2026-03-27T01:12:03.145Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194321 session_id=SESS-394821
+2026-03-27T01:12:03.187Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=42ms request_id=REQ-782194321 session_id=SESS-394821
+2026-03-27T01:12:03.201Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:03.248Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194322 session_id=SESS-394822
+2026-03-27T01:12:03.289Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=41ms request_id=REQ-782194322 session_id=SESS-394822
+2026-03-27T01:12:03.312Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:03.354Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194323 session_id=SESS-394823
+2026-03-27T01:12:03.395Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=41ms request_id=REQ-782194323 session_id=SESS-394823
+2026-03-27T01:12:03.421Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:03.463Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194324 session_id=SESS-394824
+2026-03-27T01:12:03.506Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194324 session_id=SESS-394824
+2026-03-27T01:12:03.541Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:03.582Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194325 session_id=SESS-394825
+2026-03-27T01:12:03.624Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=42ms request_id=REQ-782194325 session_id=SESS-394825
+2026-03-27T01:12:03.658Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:03.701Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194326 session_id=SESS-394826
+2026-03-27T01:12:03.742Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=41ms request_id=REQ-782194326 session_id=SESS-394826
+2026-03-27T01:12:03.778Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:03.819Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194327 session_id=SESS-394827
+2026-03-27T01:12:03.862Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194327 session_id=SESS-394827
+2026-03-27T01:12:03.897Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:03.939Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194328 session_id=SESS-394828
+2026-03-27T01:12:03.981Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=42ms request_id=REQ-782194328 session_id=SESS-394828
+2026-03-27T01:12:04.015Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:04.058Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194329 session_id=SESS-394829
+2026-03-27T01:12:04.101Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194329 session_id=SESS-394829
+2026-03-27T01:12:04.137Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:04.179Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194330 session_id=SESS-394830
+2026-03-27T01:12:04.223Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=44ms request_id=REQ-782194330 session_id=SESS-394830
+2026-03-27T01:12:04.259Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:04.301Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194331 session_id=SESS-394831
+2026-03-27T01:12:04.343Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=42ms request_id=REQ-782194331 session_id=SESS-394831
+2026-03-27T01:12:04.381Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:04.424Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194332 session_id=SESS-394832
+2026-03-27T01:12:04.465Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=41ms request_id=REQ-782194332 session_id=SESS-394832
+2026-03-27T01:12:04.502Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:04.543Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194333 session_id=SESS-394833
+2026-03-27T01:12:04.584Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=41ms request_id=REQ-782194333 session_id=SESS-394833
+2026-03-27T01:12:04.623Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:04.665Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194334 session_id=SESS-394834
+2026-03-27T01:12:04.708Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194334 session_id=SESS-394834
+2026-03-27T01:12:04.745Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:04.787Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194335 session_id=SESS-394835
+2026-03-27T01:12:04.830Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194335 session_id=SESS-394835
+2026-03-27T01:12:04.866Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:04.908Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194336 session_id=SESS-394836
+2026-03-27T01:12:04.951Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194336 session_id=SESS-394836
+2026-03-27T01:12:04.989Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:05.032Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194337 session_id=SESS-394837
+2026-03-27T01:12:05.075Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194337 session_id=SESS-394837
+2026-03-27T01:12:05.112Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:05.155Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194338 session_id=SESS-394838
+2026-03-27T01:12:05.197Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=42ms request_id=REQ-782194338 session_id=SESS-394838
+2026-03-27T01:12:05.234Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:05.277Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194339 session_id=SESS-394839
+2026-03-27T01:12:05.319Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=42ms request_id=REQ-782194339 session_id=SESS-394839
+2026-03-27T01:12:05.356Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:05.398Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194340 session_id=SESS-394840
+2026-03-27T01:12:05.442Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=44ms request_id=REQ-782194340 session_id=SESS-394840
+2026-03-27T01:12:05.478Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:05.521Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194341 session_id=SESS-394841
+2026-03-27T01:12:05.564Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194341 session_id=SESS-394841
+2026-03-27T01:12:05.602Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:05.645Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194342 session_id=SESS-394842
+2026-03-27T01:12:05.688Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194342 session_id=SESS-394842
+2026-03-27T01:12:05.725Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:05.768Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194343 session_id=SESS-394843
+2026-03-27T01:12:05.811Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194343 session_id=SESS-394843
+2026-03-27T01:12:05.849Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:05.891Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194344 session_id=SESS-394844
+2026-03-27T01:12:05.934Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194344 session_id=SESS-394844
+2026-03-27T01:12:05.972Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:06.015Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194345 session_id=SESS-394845
+2026-03-27T01:12:06.058Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194345 session_id=SESS-394845
+2026-03-27T01:12:06.096Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:06.139Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194346 session_id=SESS-394846
+2026-03-27T01:12:06.182Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194346 session_id=SESS-394846
+2026-03-27T01:12:06.220Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:06.263Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194347 session_id=SESS-394847
+2026-03-27T01:12:06.306Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194347 session_id=SESS-394847
+2026-03-27T01:12:06.344Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:06.387Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194348 session_id=SESS-394848
+2026-03-27T01:12:06.429Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=42ms request_id=REQ-782194348 session_id=SESS-394848
+2026-03-27T01:12:06.467Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:06.509Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194349 session_id=SESS-394849
+2026-03-27T01:12:06.551Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=42ms request_id=REQ-782194349 session_id=SESS-394849
+2026-03-27T01:12:06.589Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:06.632Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194350 session_id=SESS-394850
+2026-03-27T01:12:06.675Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194350 session_id=SESS-394850
+2026-03-27T01:12:06.713Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:06.756Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194351 session_id=SESS-394851
+2026-03-27T01:12:06.799Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194351 session_id=SESS-394851
+2026-03-27T01:12:06.837Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:06.880Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194352 session_id=SESS-394852
+2026-03-27T01:12:06.924Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=44ms request_id=REQ-782194352 session_id=SESS-394852
+2026-03-27T01:12:06.962Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:07.005Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194353 session_id=SESS-394853
+2026-03-27T01:12:07.047Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=42ms request_id=REQ-782194353 session_id=SESS-394853
+2026-03-27T01:12:07.085Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:07.128Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194354 session_id=SESS-394854
+2026-03-27T01:12:07.171Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194354 session_id=SESS-394854
+2026-03-27T01:12:07.209Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:07.252Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194355 session_id=SESS-394855
+2026-03-27T01:12:07.295Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194355 session_id=SESS-394855
+2026-03-27T01:12:07.333Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:07.376Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194356 session_id=SESS-394856
+2026-03-27T01:12:07.420Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=44ms request_id=REQ-782194356 session_id=SESS-394856
+2026-03-27T01:12:07.458Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:07.501Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194357 session_id=SESS-394857
+2026-03-27T01:12:07.544Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194357 session_id=SESS-394857
+2026-03-27T01:12:07.582Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:07.625Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194358 session_id=SESS-394858
+2026-03-27T01:12:07.668Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194358 session_id=SESS-394858
+2026-03-27T01:12:07.706Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:07.749Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194359 session_id=SESS-394859
+2026-03-27T01:12:07.792Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194359 session_id=SESS-394859
+2026-03-27T01:12:07.830Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:07.873Z INFO  order-service [gRPC] Call initiated to inventory-service /inventory.GetStock method=request_id=REQ-782194360 session_id=SESS-394860
+2026-03-27T01:12:07.916Z INFO  order-service [gRPC] Call completed to inventory-service /inventory.GetStock latency=43ms request_id=REQ-782194360 session_id=SESS-394860
+2026-03-27T01:12:07.954Z INFO  order-service [Connection] gRPC stream opened to inventory-service cluster=inventory-service-prod endpoint=10.24.3.18:9090
+2026-03-27T01:12:08.000Z INFO  order-service [gRPC]

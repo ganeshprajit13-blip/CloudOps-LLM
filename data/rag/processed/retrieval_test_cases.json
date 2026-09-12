@@ -1,0 +1,52 @@
+[
+  {
+    "test_id": "TC-001",
+    "query": "Why is HTTPS traffic blocked?",
+    "expected_service": "security_group",
+    "expected_topics": [
+      "Security Group",
+      "port 443",
+      "inbound rule"
+    ]
+  },
+  {
+    "test_id": "TC-002",
+    "query": "Why is my ALB target unhealthy?",
+    "expected_service": "alb",
+    "expected_topics": [
+      "ALB",
+      "health check",
+      "target group"
+    ]
+  },
+  {
+    "test_id": "TC-003",
+    "query": "Why can't my private subnet reach the internet?",
+    "expected_service": "vpc",
+    "expected_topics": [
+      "NAT Gateway",
+      "route table",
+      "private subnet"
+    ]
+  },
+  {
+    "test_id": "TC-004",
+    "query": "Who changed my AWS security configuration?",
+    "expected_service": "cloudtrail",
+    "expected_topics": [
+      "CloudTrail",
+      "API call",
+      "userIdentity"
+    ]
+  },
+  {
+    "test_id": "TC-005",
+    "query": "How do I troubleshoot high EC2 CPU?",
+    "expected_service": "ec2",
+    "expected_topics": [
+      "CPUUtilization",
+      "top",
+      "processes"
+    ]
+  }
+]

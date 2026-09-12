@@ -1,0 +1,130 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+!deployment/**/lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# AWS CDK
+cdk.out/
+
+# Customer data - DO NOT COMMIT
+*.csv
+*.xlsx
+*.xls
+data/
+customer_data/
+*.json
+!package.json
+!tsconfig.json
+
+# Environment variables and secrets
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Logs (but keep demo evidence files)
+logs/
+!scenarios/**/*.log
+
+# Auto-generated CloudWatch incident reports
+scenarios/**/incident_cloudwatch.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ASH security scanner (config + output)
+.ash/
+
+# DSR security scan output (generated, not user-facing)
+.dsr/
+
+# Test outputs
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Scratch/test files (keep tests in tests/ directory)
+quick_test*.py
+test_*.py
+!tests/test_*.py
+!scripts/test_*.py
+
+# Archived scenarios (moved out of scenarios/)
+archived-scenarios/
+
+# Scenario generation tooling (internal, not user-facing)
+scenarios/generate_scenarios.py
+scenarios/[0-9][0-9]-*.md
+
+# Claude Code harness (internal dev tooling, not user-facing)
+CLAUDE.md
+.claude/
+
+# Legacy git hooks (managed by .pre-commit-config.yaml)
+.githooks/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Ruff cache
+.ruff_cache/
+
+# SQLite checkpoint databases (runtime artifacts)
+*.db
+*.db-shm
+*.db-wal
+
+# Model outputs and caches
+.cache/
+models/
+*.pkl
+*.pickle

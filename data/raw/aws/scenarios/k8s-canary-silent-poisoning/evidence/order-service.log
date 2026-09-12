@@ -1,0 +1,313 @@
+2026-03-27T01:14:22.012Z INFO  order-service [Processing] Started checkout for order_id=ORD-789421, user_id=USR-33882, idempotency_key=ik-7f3a9b2e1c4d
+2026-03-27T01:14:22.154Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-8812, quantity=3
+2026-03-27T01:14:22.157Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=147, latency=3ms
+2026-03-27T01:14:22.301Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789421, amount=299.99, currency=USD
+2026-03-27T01:14:22.305Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-7f3a9b2e1c4d
+2026-03-27T01:14:22.308Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T01:14:22.310Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789421
+2026-03-27T01:15:03.876Z INFO  order-service [Processing] Started checkout for order_id=ORD-789422, user_id=USR-41029, idempotency_key=ik-1d8e5f7c9b2a
+2026-03-27T01:15:03.921Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-7734, quantity=1
+2026-03-27T01:15:03.924Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=23, latency=2ms
+2026-03-27T01:15:04.067Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789422, amount=89.50, currency=USD
+2026-03-27T01:15:04.071Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-1d8e5f7c9b2a
+2026-03-27T01:15:04.074Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T01:15:04.076Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789422
+2026-03-27T01:16:17.443Z INFO  order-service [Processing] Started checkout for order_id=ORD-789423, user_id=USR-10923, idempotency_key=ik-5c4a7b9e1d2f
+2026-03-27T01:16:17.587Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-1122, quantity=2
+2026-03-27T01:16:17.591Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=89, latency=3ms
+2026-03-27T01:16:17.732Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789423, amount=149.00, currency=USD
+2026-03-27T01:16:17.735Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-5c4a7b9e1d2f
+2026-03-27T01:16:17.738Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T01:16:17.740Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789423
+2026-03-27T01:17:09.112Z INFO  order-service [Processing] Started checkout for order_id=ORD-789424, user_id=USR-55031, idempotency_key=ik-8f2b6c3d4e5a
+2026-03-27T01:17:09.255Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-9945, quantity=5
+2026-03-27T01:17:09.258Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=203, latency=2ms
+2026-03-27T01:17:09.401Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789424, amount=499.99, currency=USD
+2026-03-27T01:17:09.405Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-8f2b6c3d4e5a
+2026-03-27T01:17:09.409Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T01:17:09.411Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789424
+2026-03-27T01:18:33.665Z INFO  order-service [Processing] Started checkout for order_id=ORD-789425, user_id=USR-20198, idempotency_key=ik-3a1d9f8c5e7b
+2026-03-27T01:18:33.708Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-6657, quantity=1
+2026-03-27T01:18:33.711Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=12, latency=2ms
+2026-03-27T01:18:33.863Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789425, amount=79.99, currency=USD
+2026-03-27T01:18:33.866Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-3a1d9f8c5e7b
+2026-03-27T01:18:33.870Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T01:18:33.872Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789425
+2026-03-27T02:01:11.209Z INFO  order-service [Processing] Started checkout for order_id=ORD-789426, user_id=USR-77345, idempotency_key=ik-6d4a1b8f2c9e
+2026-03-27T02:01:11.352Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-3319, quantity=4
+2026-03-27T02:01:11.355Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=156, latency=2ms
+2026-03-27T02:01:11.498Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789426, amount=399.00, currency=USD
+2026-03-27T02:01:11.501Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-6d4a1b8f2c9e
+2026-03-27T02:01:11.505Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T02:01:11.507Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789426
+2026-03-27T02:02:44.781Z INFO  order-service [Processing] Started checkout for order_id=ORD-789427, user_id=USR-11293, idempotency_key=ik-9b7c5f1e3d8a
+2026-03-27T02:02:44.825Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-5581, quantity=2
+2026-03-27T02:02:44.828Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=78, latency=2ms
+2026-03-27T02:02:44.971Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789427, amount=199.98, currency=USD
+2026-03-27T02:02:44.974Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-9b7c5f1e3d8a
+2026-03-27T02:02:44.977Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T02:02:44.979Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789427
+2026-03-27T02:04:16.552Z INFO  order-service [Processing] Started checkout for order_id=ORD-789428, user_id=USR-88451, idempotency_key=ik-4d2f8a7b1c5e
+2026-03-27T02:04:16.696Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-7742, quantity=6
+2026-03-27T02:04:16.699Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=211, latency=2ms
+2026-03-27T02:04:16.842Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789428, amount=599.94, currency=USD
+2026-03-27T02:04:16.845Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-4d2f8a7b1c5e
+2026-03-27T02:04:16.848Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T02:04:16.850Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789428
+2026-03-27T02:05:58.903Z INFO  order-service [Processing] Started checkout for order_id=ORD-789429, user_id=USR-33207, idempotency_key=ik-8e3a5f9c2d7b
+2026-03-27T02:05:59.047Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-2236, quantity=1
+2026-03-27T02:05:59.050Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=45, latency=2ms
+2026-03-27T02:05:59.193Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789429, amount=119.99, currency=USD
+2026-03-27T02:05:59.196Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-8e3a5f9c2d7b
+2026-03-27T02:05:59.199Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T02:05:59.201Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789429
+2026-03-27T02:07:30.112Z INFO  order-service [Processing] Started checkout for order_id=ORD-789430, user_id=USR-66198, idempotency_key=ik-7a1d4f8c5e9b
+2026-03-27T02:07:30.255Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-4458, quantity=3
+2026-03-27T02:07:30.258Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=102, latency=2ms
+2026-03-27T02:07:30.401Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789430, amount=299.97, currency=USD
+2026-03-27T02:07:30.404Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-7a1d4f8c5e9b
+2026-03-27T02:07:30.407Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T02:07:30.409Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789430
+2026-03-27T03:01:18.331Z INFO  order-service [Processing] Started checkout for order_id=ORD-789431, user_id=USR-22375, idempotency_key=ik-3b5f8c1d7e9a
+2026-03-27T03:01:18.474Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-6692, quantity=2
+2026-03-27T03:01:18.477Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=88, latency=2ms
+2026-03-27T03:01:18.620Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789431, amount=199.98, currency=USD
+2026-03-27T03:01:18.623Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-3b5f8c1d7e9a
+2026-03-27T03:01:18.627Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T03:01:18.629Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789431
+2026-03-27T03:02:50.215Z INFO  order-service [Processing] Started checkout for order_id=ORD-789432, user_id=USR-44190, idempotency_key=ik-6d8f2b9c4e7a
+2026-03-27T03:02:50.358Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-1187, quantity=1
+2026-03-27T03:02:50.361Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=34, latency=2ms
+2026-03-27T03:02:50.504Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789432, amount=89.99, currency=USD
+2026-03-27T03:02:50.507Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-6d8f2b9c4e7a
+2026-03-27T03:02:50.510Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T03:02:50.512Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789432
+2026-03-27T03:04:22.091Z INFO  order-service [Processing] Started checkout for order_id=ORD-789433, user_id=USR-55013, idempotency_key=ik-9c3a7f8e1d5b
+2026-03-27T03:04:22.234Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-8823, quantity=5
+2026-03-27T03:04:22.237Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=187, latency=2ms
+2026-03-27T03:04:22.380Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789433, amount=499.95, currency=USD
+2026-03-27T03:04:22.383Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-9c3a7f8e1d5b
+2026-03-27T03:04:22.386Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T03:04:22.388Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789433
+2026-03-27T03:05:55.472Z INFO  order-service [Processing] Started checkout for order_id=ORD-789434, user_id=USR-11392, idempotency_key=ik-5f2d8c9a4b7e
+2026-03-27T03:05:55.615Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-5549, quantity=2
+2026-03-27T03:05:55.618Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=66, latency=2ms
+2026-03-27T03:05:55.761Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789434, amount=199.98, currency=USD
+2026-03-27T03:05:55.765Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-5f2d8c9a4b7e
+2026-03-27T03:05:55.768Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T03:05:55.770Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789434
+2026-03-27T03:07:27.352Z INFO  order-service [Processing] Started checkout for order_id=ORD-789435, user_id=USR-77028, idempotency_key=ik-8b4f1a7d9c5e
+2026-03-27T03:07:27.495Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-3364, quantity=1
+2026-03-27T03:07:27.498Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=51, latency=2ms
+2026-03-27T03:07:27.641Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789435, amount=119.99, currency=USD
+2026-03-27T03:07:27.644Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-8b4f1a7d9c5e
+2026-03-27T03:07:27.647Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T03:07:27.649Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789435
+2026-03-27T04:01:49.883Z INFO  order-service [Processing] Started checkout for order_id=ORD-789436, user_id=USR-33124, idempotency_key=ik-7c1d9f5e8b3a
+2026-03-27T04:01:49.927Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-9947, quantity=4
+2026-03-27T04:01:49.930Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=192, latency=2ms
+2026-03-27T04:01:50.073Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789436, amount=399.96, currency=USD
+2026-03-27T04:01:50.076Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-7c1d9f5e8b3a
+2026-03-27T04:01:50.079Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T04:01:50.081Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789436
+2026-03-27T04:03:21.765Z INFO  order-service [Processing] Started checkout for order_id=ORD-789437, user_id=USR-55291, idempotency_key=ik-9d5f3b8c2e7a
+2026-03-27T04:03:21.908Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-6678, quantity=3
+2026-03-27T04:03:21.911Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=114, latency=2ms
+2026-03-27T04:03:22.054Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789437, amount=299.97, currency=USD
+2026-03-27T04:03:22.057Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-9d5f3b8c2e7a
+2026-03-27T04:03:22.060Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T04:03:22.062Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789437
+2026-03-27T04:04:53.647Z INFO  order-service [Processing] Started checkout for order_id=ORD-789438, user_id=USR-22087, idempotency_key=ik-4e7a1c8f5b3d
+2026-03-27T04:04:53.790Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-4421, quantity=2
+2026-03-27T04:04:53.793Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=87, latency=2ms
+2026-03-27T04:04:53.936Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789438, amount=199.98, currency=USD
+2026-03-27T04:04:53.939Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-4e7a1c8f5b3d
+2026-03-27T04:04:53.942Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T04:04:53.944Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789438
+2026-03-27T04:06:25.530Z INFO  order-service [Processing] Started checkout for order_id=ORD-789439, user_id=USR-44103, idempotency_key=ik-8f3d9c6a1b5e
+2026-03-27T04:06:25.673Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-7755, quantity=1
+2026-03-27T04:06:25.676Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=29, latency=2ms
+2026-03-27T04:06:25.819Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789439, amount=89.99, currency=USD
+2026-03-27T04:06:25.822Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-8f3d9c6a1b5e
+2026-03-27T04:06:25.825Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T04:06:25.827Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789439
+2026-03-27T04:07:57.412Z INFO  order-service [Processing] Started checkout for order_id=ORD-789440, user_id=USR-66019, idempotency_key=ik-5d1f8b7c9e4a
+2026-03-27T04:07:57.555Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-1193, quantity=5
+2026-03-27T04:07:57.558Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=178, latency=2ms
+2026-03-27T04:07:57.701Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789440, amount=499.95, currency=USD
+2026-03-27T04:07:57.704Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-5d1f8b7c9e4a
+2026-03-27T04:07:57.707Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T04:07:57.709Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789440
+2026-03-27T05:01:12.345Z INFO  order-service [Processing] Started checkout for order_id=ORD-789441, user_id=USR-11205, idempotency_key=ik-9e4a7c5f1d8b
+2026-03-27T05:01:12.488Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-3381, quantity=2
+2026-03-27T05:01:12.491Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=76, latency=2ms
+2026-03-27T05:01:12.634Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789441, amount=199.98, currency=USD
+2026-03-27T05:01:12.637Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-9e4a7c5f1d8b
+2026-03-27T05:01:12.640Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T05:01:12.642Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789441
+2026-03-27T05:02:44.227Z INFO  order-service [Processing] Started checkout for order_id=ORD-789442, user_id=USR-33372, idempotency_key=ik-6b3d9f8c4a7e
+2026-03-27T05:02:44.370Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-5567, quantity=1
+2026-03-27T05:02:44.373Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=42, latency=2ms
+2026-03-27T05:02:44.516Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789442, amount=89.99, currency=USD
+2026-03-27T05:02:44.519Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-6b3d9f8c4a7e
+2026-03-27T05:02:44.522Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T05:02:44.524Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789442
+2026-03-27T05:04:16.109Z INFO  order-service [Processing] Started checkout for order_id=ORD-789443, user_id=USR-55219, idempotency_key=ik-8c2f5a7d9e4b
+2026-03-27T05:04:16.252Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-8833, quantity=4
+2026-03-27T05:04:16.255Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=191, latency=2ms
+2026-03-27T05:04:16.398Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789443, amount=399.96, currency=USD
+2026-03-27T05:04:16.401Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-8c2f5a7d9e4b
+2026-03-27T05:04:16.404Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T05:04:16.406Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789443
+2026-03-27T05:05:48.091Z INFO  order-service [Processing] Started checkout for order_id=ORD-789444, user_id=USR-22128, idempotency_key=ik-7d5e1b9f4a8c
+2026-03-27T05:05:48.234Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-6614, quantity=3
+2026-03-27T05:05:48.237Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=111, latency=2ms
+2026-03-27T05:05:48.380Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789444, amount=299.97, currency=USD
+2026-03-27T05:05:48.383Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-7d5e1b9f4a8c
+2026-03-27T05:05:48.386Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T05:05:48.388Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789444
+2026-03-27T05:07:19.973Z INFO  order-service [Processing] Started checkout for order_id=ORD-789445, user_id=USR-44045, idempotency_key=ik-9f3a8c7d5b1e
+2026-03-27T05:07:20.116Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-4459, quantity=1
+2026-03-27T05:07:20.119Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=35, latency=2ms
+2026-03-27T05:07:20.262Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789445, amount=119.99, currency=USD
+2026-03-27T05:07:20.265Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-9f3a8c7d5b1e
+2026-03-27T05:07:20.268Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T05:07:20.270Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789445
+2026-03-27T06:01:34.812Z INFO  order-service [Processing] Started checkout for order_id=ORD-789446, user_id=USR-66061, idempotency_key=ik-4e1f7c8a9d5b
+2026-03-27T06:01:34.955Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-9950, quantity=2
+2026-03-27T06:01:34.958Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=76, latency=2ms
+2026-03-27T06:01:35.101Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789446, amount=199.98, currency=USD
+2026-03-27T06:01:35.104Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-4e1f7c8a9d5b
+2026-03-27T06:01:35.107Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T06:01:35.109Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789446
+2026-03-27T06:03:06.695Z INFO  order-service [Processing] Started checkout for order_id=ORD-789447, user_id=USR-11289, idempotency_key=ik-8d3a5f9c7b1e
+2026-03-27T06:03:06.838Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-7739, quantity=5
+2026-03-27T06:03:06.841Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=193, latency=2ms
+2026-03-27T06:03:06.984Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789447, amount=499.95, currency=USD
+2026-03-27T06:03:06.987Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-8d3a5f9c7b1e
+2026-03-27T06:03:06.990Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T06:03:06.992Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789447
+2026-03-27T06:04:38.577Z INFO  order-service [Processing] Started checkout for order_id=ORD-789448, user_id=USR-33306, idempotency_key=ik-6b4f1c8d9e2a
+2026-03-27T06:04:38.720Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-5512, quantity=3
+2026-03-27T06:04:38.723Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=108, latency=2ms
+2026-03-27T06:04:38.866Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789448, amount=299.97, currency=USD
+2026-03-27T06:04:38.869Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-6b4f1c8d9e2a
+2026-03-27T06:04:38.872Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T06:04:38.874Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789448
+2026-03-27T06:06:10.462Z INFO  order-service [Processing] Started checkout for order_id=ORD-789449, user_id=USR-55223, idempotency_key=ik-9f3a7b8c5d1e
+2026-03-27T06:06:10.605Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-3366, quantity=1
+2026-03-27T06:06:10.608Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=45, latency=2ms
+2026-03-27T06:06:10.751Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789449, amount=89.99, currency=USD
+2026-03-27T06:06:10.754Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-9f3a7b8c5d1e
+2026-03-27T06:06:10.757Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T06:06:10.759Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789449
+2026-03-27T06:07:42.344Z INFO  order-service [Processing] Started checkout for order_id=ORD-789450, user_id=USR-22140, idempotency_key=ik-5c1f8d7a9b4e
+2026-03-27T06:07:42.487Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-8841, quantity=2
+2026-03-27T06:07:42.490Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=77, latency=2ms
+2026-03-27T06:07:42.633Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789450, amount=199.98, currency=USD
+2026-03-27T06:07:42.636Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-5c1f8d7a9b4e
+2026-03-27T06:07:42.639Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T06:07:42.641Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789450
+2026-03-27T07:01:57.123Z INFO  order-service [Processing] Started checkout for order_id=ORD-789451, user_id=USR-44057, idempotency_key=ik-8d3f9c4a7e5b
+2026-03-27T07:01:57.266Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-6625, quantity=4
+2026-03-27T07:01:57.269Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=182, latency=2ms
+2026-03-27T07:01:57.412Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789451, amount=399.96, currency=USD
+2026-03-27T07:01:57.415Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-8d3f9c4a7e5b
+2026-03-27T07:01:57.418Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T07:01:57.420Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789451
+2026-03-27T07:03:29.007Z INFO  order-service [Processing] Started checkout for order_id=ORD-789452, user_id=USR-66073, idempotency_key=ik-6b4c7f8e1d9a
+2026-03-27T07:03:29.150Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-4438, quantity=1
+2026-03-27T07:03:29.153Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=32, latency=2ms
+2026-03-27T07:03:29.296Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789452, amount=89.99, currency=USD
+2026-03-27T07:03:29.299Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-6b4c7f8e1d9a
+2026-03-27T07:03:29.302Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T07:03:29.304Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789452
+2026-03-27T07:05:00.892Z INFO  order-service [Processing] Started checkout for order_id=ORD-789453, user_id=USR-11265, idempotency_key=ik-9f3a5c8d7e4b
+2026-03-27T07:05:01.035Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-9952, quantity=5
+2026-03-27T07:05:01.038Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=194, latency=2ms
+2026-03-27T07:05:01.181Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789453, amount=499.95, currency=USD
+2026-03-27T07:05:01.184Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-9f3a5c8d7e4b
+2026-03-27T07:05:01.187Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T07:05:01.189Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789453
+2026-03-27T14:00:12.301Z INFO  order-service [Processing] Started checkout for order_id=ORD-789454, user_id=USR-88102, idempotency_key=ik-3c7f2a9d1e8b
+2026-03-27T14:00:12.444Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-8812, quantity=2
+2026-03-27T14:00:12.447Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=147, latency=3ms
+2026-03-27T14:00:12.590Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789454, amount=199.98, currency=USD
+2026-03-27T14:00:12.593Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-3c7f2a9d1e8b
+2026-03-27T14:00:12.596Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T14:00:12.598Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789454
+2026-03-27T14:01:03.876Z INFO  order-service [Processing] Started checkout for order_id=ORD-789455, user_id=USR-41029, idempotency_key=ik-8e1d5f7c9b2a
+2026-03-27T14:01:03.921Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-7734, quantity=1
+2026-03-27T14:01:04.022Z ERROR order-service [gRPC] deadline exceeded calling inventory-service.GetStock: context deadline exceeded after 100ms, product_id=PROD-7734, order_id=ORD-789455
+2026-03-27T14:01:04.025Z WARN  order-service [Processing] Checkout failed for order_id=ORD-789455: upstream request timeout: deadline exceeded (100ms), retrying with idempotency_key=ik-8e1d5f7c9b2a
+2026-03-27T14:01:04.128Z INFO  order-service [gRPC] Retry calling inventory-service.GetStock for order_id=ORD-789455, attempt=2, idempotency_key=ik-8e1d5f7c9b2a
+2026-03-27T14:01:04.131Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=23, latency=3ms
+2026-03-27T14:01:04.274Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789455, amount=89.50, currency=USD
+2026-03-27T14:01:04.277Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-8e1d5f7c9b2a
+2026-03-27T14:01:04.280Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T14:01:04.282Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789455 (after retry)
+2026-03-27T14:02:17.443Z INFO  order-service [Processing] Started checkout for order_id=ORD-789456, user_id=USR-10923, idempotency_key=ik-5c4a7b9e1d3f
+2026-03-27T14:02:17.587Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-1122, quantity=3
+2026-03-27T14:02:17.590Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=89, latency=2ms
+2026-03-27T14:02:17.733Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789456, amount=149.00, currency=USD
+2026-03-27T14:02:17.736Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-5c4a7b9e1d3f
+2026-03-27T14:02:17.739Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T14:02:17.741Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789456
+2026-03-27T14:03:09.112Z INFO  order-service [Processing] Started checkout for order_id=ORD-789457, user_id=USR-55031, idempotency_key=ik-9f2b6c3d4e5a
+2026-03-27T14:03:09.255Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-9945, quantity=5
+2026-03-27T14:03:09.258Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=203, latency=2ms
+2026-03-27T14:03:09.401Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789457, amount=499.99, currency=USD
+2026-03-27T14:03:09.404Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-9f2b6c3d4e5a
+2026-03-27T14:03:09.407Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T14:03:09.409Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789457
+2026-03-27T14:04:33.665Z INFO  order-service [Processing] Started checkout for order_id=ORD-789458, user_id=USR-20198, idempotency_key=ik-4a1d9f8c5e7b
+2026-03-27T14:04:33.708Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-6657, quantity=1
+2026-03-27T14:04:33.809Z ERROR order-service [gRPC] deadline exceeded calling inventory-service.GetStock: context deadline exceeded after 100ms, product_id=PROD-6657, order_id=ORD-789458
+2026-03-27T14:04:33.812Z WARN  order-service [Processing] Checkout failed for order_id=ORD-789458: upstream request timeout: deadline exceeded (100ms), retrying with idempotency_key=ik-4a1d9f8c5e7b
+2026-03-27T14:04:33.915Z INFO  order-service [gRPC] Retry calling inventory-service.GetStock for order_id=ORD-789458, attempt=2, idempotency_key=ik-4a1d9f8c5e7b
+2026-03-27T14:04:33.918Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=12, latency=2ms
+2026-03-27T14:04:34.061Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789458, amount=79.99, currency=USD
+2026-03-27T14:04:34.064Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-4a1d9f8c5e7b
+2026-03-27T14:04:34.067Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T14:04:34.069Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789458 (after retry)
+2026-03-27T14:05:11.209Z INFO  order-service [Processing] Started checkout for order_id=ORD-789459, user_id=USR-77345, idempotency_key=ik-7d4a1b8f2c9e
+2026-03-27T14:05:11.352Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-3319, quantity=4
+2026-03-27T14:05:11.355Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=156, latency=2ms
+2026-03-27T14:05:11.498Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789459, amount=399.00, currency=USD
+2026-03-27T14:05:11.501Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-7d4a1b8f2c9e
+2026-03-27T14:05:11.504Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T14:05:11.506Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789459
+2026-03-27T14:06:44.781Z INFO  order-service [Processing] Started checkout for order_id=ORD-789460, user_id=USR-11293, idempotency_key=ik-2b7c5f1e3d8a
+2026-03-27T14:06:44.825Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-5581, quantity=2
+2026-03-27T14:06:44.828Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=78, latency=2ms
+2026-03-27T14:06:44.971Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789460, amount=199.98, currency=USD
+2026-03-27T14:06:44.974Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-2b7c5f1e3d8a
+2026-03-27T14:06:44.977Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T14:06:44.979Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789460
+2026-03-27T14:08:16.552Z INFO  order-service [Processing] Started checkout for order_id=ORD-789461, user_id=USR-88451, idempotency_key=ik-5d2f8a7b1c5e
+2026-03-27T14:08:16.696Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-7742, quantity=6
+2026-03-27T14:08:16.797Z ERROR order-service [gRPC] deadline exceeded calling inventory-service.GetStock: context deadline exceeded after 100ms, product_id=PROD-7742, order_id=ORD-789461
+2026-03-27T14:08:16.800Z WARN  order-service [Processing] Checkout failed for order_id=ORD-789461: upstream request timeout: deadline exceeded (100ms), retrying with idempotency_key=ik-5d2f8a7b1c5e
+2026-03-27T14:08:16.903Z INFO  order-service [gRPC] Retry calling inventory-service.GetStock for order_id=ORD-789461, attempt=2, idempotency_key=ik-5d2f8a7b1c5e
+2026-03-27T14:08:16.906Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=211, latency=2ms
+2026-03-27T14:08:17.049Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789461, amount=599.94, currency=USD
+2026-03-27T14:08:17.052Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-5d2f8a7b1c5e
+2026-03-27T14:08:17.055Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T14:08:17.057Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789461 (after retry)
+2026-03-27T14:09:58.903Z INFO  order-service [Processing] Started checkout for order_id=ORD-789462, user_id=USR-33207, idempotency_key=ik-1e3a5f9c2d7b
+2026-03-27T14:09:59.047Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-2236, quantity=1
+2026-03-27T14:09:59.050Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=45, latency=2ms
+2026-03-27T14:09:59.193Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789462, amount=119.99, currency=USD
+2026-03-27T14:09:59.196Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-1e3a5f9c2d7b
+2026-03-27T14:09:59.199Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T14:09:59.201Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789462
+2026-03-27T14:11:30.112Z INFO  order-service [Processing] Started checkout for order_id=ORD-789463, user_id=USR-66198, idempotency_key=ik-8a1d4f8c5e9b
+2026-03-27T14:11:30.255Z INFO  order-service [gRPC] Calling inventory-service.GetStock for product_id=PROD-4458, quantity=3
+2026-03-27T14:11:30.356Z ERROR order-service [gRPC] deadline exceeded calling inventory-service.GetStock: context deadline exceeded after 100ms, product_id=PROD-4458, order_id=ORD-789463
+2026-03-27T14:11:30.359Z WARN  order-service [Processing] Checkout failed for order_id=ORD-789463: upstream request timeout: deadline exceeded (100ms), retrying with idempotency_key=ik-8a1d4f8c5e9b
+2026-03-27T14:11:30.462Z INFO  order-service [gRPC] Retry calling inventory-service.GetStock for order_id=ORD-789463, attempt=2, idempotency_key=ik-8a1d4f8c5e9b
+2026-03-27T14:11:30.465Z INFO  order-service [gRPC] Successfully received stock response from inventory-service, available=102, latency=3ms
+2026-03-27T14:11:30.608Z INFO  order-service [Payment] Initializing payment for order_id=ORD-789463, amount=299.97, currency=USD
+2026-03-27T14:11:30.611Z INFO  order-service [gRPC] Calling payment-service.Charge with idempotency_key=ik-8a1d4f8c5e9b
+2026-03-27T14:11:30.614Z INFO  order-service [Payment] Payment request queued, awaiting confirmation
+2026-03-27T14:11:30.616Z INFO  order-service [Processing] Checkout completed successfully for order_id=ORD-789463 (after retry)

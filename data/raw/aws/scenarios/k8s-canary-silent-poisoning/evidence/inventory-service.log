@@ -1,0 +1,267 @@
+2026-03-25T02:14:03.123Z INFO  inventory-service [Config] Loaded configuration from etcd: max_connections=200, idle_timeout=30s, enable_deadline_propagation=true
+2026-03-25T02:14:04.456Z INFO  inventory-service [gRPC] Server listening on :50051, gRPC version=1.53.0, max_concurrent_streams=1000
+2026-03-25T02:14:05.789Z INFO  inventory-service [Database] Connected to inventory-db postgres://prod-inventory-db:5432/inventory?sslmode=disable
+2026-03-25T02:14:06.234Z INFO  inventory-service [Metrics] p50_latency=42ms p95_latency=175ms p99_latency=210ms requests_total=1203 errors_total=0
+2026-03-25T02:15:01.001Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-7a8b2c9d, product_id=SKU-88472, tenant_id=tenant-042
+2026-03-25T02:15:01.045Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.12:49201, trace_id=trc-7a8b2c9d
+2026-03-25T02:15:01.048Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-7a8b2c9d, duration=47ms, status=200, inventory_level=82
+2026-03-25T02:15:02.112Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-9e3f4a5b, product_id=SKU-11239, tenant_id=tenant-042
+2026-03-25T02:15:02.155Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50123, trace_id=trc-9e3f4a5b
+2026-03-25T02:15:02.158Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-9e3f4a5b, duration=46ms, status=200, reserved_quantity=5
+2026-03-25T02:15:03.201Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-1f2a3b4c, product_id=SKU-77889, tenant_id=tenant-045
+2026-03-25T02:15:03.242Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.18:48992, trace_id=trc-1f2a3b4c
+2026-03-25T02:15:03.245Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-1f2a3b4c, duration=44ms, status=200, inventory_level=14
+2026-03-25T02:15:04.310Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-5d6e7f8a, product_id=SKU-33445, tenant_id=tenant-047
+2026-03-25T02:15:04.357Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.11:50001, trace_id=trc-5d6e7f8a
+2026-03-25T02:15:04.360Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-5d6e7f8a, duration=50ms, status=200, released_quantity=3
+2026-03-25T02:15:05.421Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-8b9c0d1e, product_id=SKU-99221, tenant_id=tenant-042
+2026-03-25T02:15:05.464Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.14:49443, trace_id=trc-8b9c0d1e
+2026-03-25T02:15:05.467Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-8b9c0d1e, duration=46ms, status=200, inventory_level=77
+2026-03-25T02:15:06.502Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-2a3b4c5d, product_id=SKU-55667, tenant_id=tenant-049
+2026-03-25T02:15:06.545Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.20:50211, trace_id=trc-2a3b4c5d
+2026-03-25T02:15:06.549Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-2a3b4c5d, duration=47ms, status=200, reserved_quantity=2
+2026-03-25T02:15:07.611Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-4f5a6b7c, product_id=SKU-11889, tenant_id=tenant-043
+2026-03-25T02:15:07.652Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.17:49105, trace_id=trc-4f5a6b7c
+2026-03-25T02:15:07.655Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-4f5a6b7c, duration=44ms, status=200, inventory_level=91
+2026-03-25T02:15:08.701Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-6c7d8e9f, product_id=SKU-77334, tenant_id=tenant-041
+2026-03-25T02:15:08.744Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.13:49555, trace_id=trc-6c7d8e9f
+2026-03-25T02:15:08.747Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-6c7d8e9f, duration=46ms, status=200, reserved_quantity=8
+2026-03-25T02:15:09.810Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-8e9f0a1b, product_id=SKU-22556, tenant_id=tenant-046
+2026-03-25T02:15:09.852Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.19:48807, trace_id=trc-8e9f0a1b
+2026-03-25T02:15:09.855Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-8e9f0a1b, duration=45ms, status=200, inventory_level=63
+2026-03-25T02:15:10.903Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-0b1c2d3e, product_id=SKU-44778, tenant_id=tenant-048
+2026-03-25T02:15:10.945Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.16:49678, trace_id=trc-0b1c2d3e
+2026-03-25T02:15:10.948Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-0b1c2d3e, duration=45ms, status=200, released_quantity=1
+2026-03-25T02:15:12.011Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-2c3d4e5f, product_id=SKU-88112, tenant_id=tenant-042
+2026-03-25T02:15:12.053Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.12:49210, trace_id=trc-2c3d4e5f
+2026-03-25T02:15:12.056Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-2c3d4e5f, duration=43ms, status=200, inventory_level=76
+2026-03-25T02:15:13.102Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-4d5e6f7a, product_id=SKU-55889, tenant_id=tenant-045
+2026-03-25T02:15:13.144Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50132, trace_id=trc-4d5e6f7a
+2026-03-25T02:15:13.147Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-4d5e6f7a, duration=45ms, status=200, reserved_quantity=4
+2026-03-25T02:15:14.201Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-6e7f8a9b, product_id=SKU-33667, tenant_id=tenant-047
+2026-03-25T02:15:14.243Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.18:49001, trace_id=trc-6e7f8a9b
+2026-03-25T02:15:14.246Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-6e7f8a9b, duration=43ms, status=200, inventory_level=25
+2026-03-25T02:15:15.302Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-8f9a0b1c, product_id=SKU-99445, tenant_id=tenant-042
+2026-03-25T02:15:15.345Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.11:50015, trace_id=trc-8f9a0b1c
+2026-03-25T02:15:15.348Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-8f9a0b1c, duration=46ms, status=200, released_quantity=2
+2026-03-25T02:15:16.401Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-0a1b2c3d, product_id=SKU-11778, tenant_id=tenant-049
+2026-03-25T02:15:16.444Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.20:50223, trace_id=trc-0a1b2c3d
+2026-03-25T02:15:16.447Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-0a1b2c3d, duration=43ms, status=200, inventory_level=89
+2026-03-25T02:15:17.501Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-2b3c4d5e, product_id=SKU-66991, tenant_id=tenant-043
+2026-03-25T02:15:17.543Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.17:49112, trace_id=trc-2b3c4d5e
+2026-03-25T02:15:17.546Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-2b3c4d5e, duration=45ms, status=200, reserved_quantity=6
+2026-03-25T02:15:18.602Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-4c5d6e7f, product_id=SKU-44223, tenant_id=tenant-041
+2026-03-25T02:15:18.644Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.13:49564, trace_id=trc-4c5d6e7f
+2026-03-25T02:15:18.647Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-4c5d6e7f, duration=43ms, status=200, inventory_level=112
+2026-03-25T02:15:19.701Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-6d7e8f9a, product_id=SKU-88552, tenant_id=tenant-046
+2026-03-25T02:15:19.744Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.19:48814, trace_id=trc-6d7e8f9a
+2026-03-25T02:15:19.747Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-6d7e8f9a, duration=46ms, status=200, reserved_quantity=3
+2026-03-25T02:15:20.802Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-8e9f0a1b, product_id=SKU-11334, tenant_id=tenant-048
+2026-03-25T02:15:20.845Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.16:49689, trace_id=trc-8e9f0a1b
+2026-03-25T02:15:20.848Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-8e9f0a1b, duration=46ms, status=200, inventory_level=54
+2026-03-25T02:15:21.901Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-0b1c2d3e, product_id=SKU-77665, tenant_id=tenant-042
+2026-03-25T02:15:21.943Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.12:49218, trace_id=trc-0b1c2d3e
+2026-03-25T02:15:21.946Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-0b1c2d3e, duration=45ms, status=200, released_quantity=7
+2026-03-25T02:15:23.001Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-2c3d4e5f, product_id=SKU-99773, tenant_id=tenant-045
+2026-03-25T02:15:23.043Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50141, trace_id=trc-2c3d4e5f
+2026-03-25T02:15:23.046Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-2c3d4e5f, duration=43ms, status=200, inventory_level=101
+2026-03-25T02:15:24.102Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-4d5e6f7a, product_id=SKU-55118, tenant_id=tenant-047
+2026-03-25T02:15:24.145Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.18:49012, trace_id=trc-4d5e6f7a
+2026-03-25T02:15:24.148Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-4d5e6f7a, duration=46ms, status=200, reserved_quantity=1
+2026-03-25T02:15:25.201Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-6e7f8a9b, product_id=SKU-33994, tenant_id=tenant-042
+2026-03-25T02:15:25.244Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.11:50027, trace_id=trc-6e7f8a9b
+2026-03-25T02:15:25.247Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-6e7f8a9b, duration=43ms, status=200, inventory_level=87
+2026-03-25T02:15:26.301Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-8f9a0b1c, product_id=SKU-77226, tenant_id=tenant-049
+2026-03-25T02:15:26.343Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.20:50234, trace_id=trc-8f9a0b1c
+2026-03-25T02:15:26.346Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-8f9a0b1c, duration=45ms, status=200, released_quantity=4
+2026-03-25T02:15:27.402Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-0a1b2c3d, product_id=SKU-11557, tenant_id=tenant-043
+2026-03-25T02:15:27.445Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.17:49121, trace_id=trc-0a1b2c3d
+2026-03-25T02:15:27.448Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-0a1b2c3d, duration=43ms, status=200, inventory_level=66
+2026-03-25T02:15:28.501Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-2b3c4d5e, product_id=SKU-88441, tenant_id=tenant-041
+2026-03-25T02:15:28.544Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.13:49573, trace_id=trc-2b3c4d5e
+2026-03-25T02:15:28.547Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-2b3c4d5e, duration=46ms, status=200, reserved_quantity=9
+2026-03-25T02:15:29.601Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-4c5d6e7f, product_id=SKU-66882, tenant_id=tenant-046
+2026-03-25T02:15:29.643Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.19:48822, trace_id=trc-4c5d6e7f
+2026-03-25T02:15:29.646Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-4c5d6e7f, duration=43ms, status=200, inventory_level=104
+2026-03-25T02:15:30.701Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-6d7e8f9a, product_id=SKU-22113, tenant_id=tenant-048
+2026-03-25T02:15:30.744Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.16:49700, trace_id=trc-6d7e8f9a
+2026-03-25T02:15:30.747Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-6d7e8f9a, duration=46ms, status=200, reserved_quantity=5
+2026-03-25T02:15:31.802Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-8e9f0a1b, product_id=SKU-99554, tenant_id=tenant-042
+2026-03-25T02:15:31.845Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.12:49227, trace_id=trc-8e9f0a1b
+2026-03-25T02:15:31.848Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-8e9f0a1b, duration=44ms, status=200, inventory_level=38
+2026-03-25T02:15:32.901Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-0b1c2d3e, product_id=SKU-44667, tenant_id=tenant-045
+2026-03-25T02:15:32.943Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50150, trace_id=trc-0b1c2d3e
+2026-03-25T02:15:32.946Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-0b1c2d3e, duration=45ms, status=200, released_quantity=3
+2026-03-25T02:15:34.001Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-2c3d4e5f, product_id=SKU-88338, tenant_id=tenant-047
+2026-03-25T02:15:34.044Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.18:49021, trace_id=trc-2c3d4e5f
+2026-03-25T02:15:34.047Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-2c3d4e5f, duration=43ms, status=200, inventory_level=79
+2026-03-25T02:15:35.102Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-4d5e6f7a, product_id=SKU-55779, tenant_id=tenant-042
+2026-03-25T02:15:35.145Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.11:50038, trace_id=trc-4d5e6f7a
+2026-03-25T02:15:35.148Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-4d5e6f7a, duration=46ms, status=200, reserved_quantity=7
+2026-03-25T02:15:36.201Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-6e7f8a9b, product_id=SKU-33221, tenant_id=tenant-049
+2026-03-25T02:15:36.244Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.20:50245, trace_id=trc-6e7f8a9b
+2026-03-25T02:15:36.247Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-6e7f8a9b, duration=43ms, status=200, inventory_level=118
+2026-03-25T02:15:37.302Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-8f9a0b1c, product_id=SKU-77442, tenant_id=tenant-043
+2026-03-25T02:15:37.344Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.17:49130, trace_id=trc-8f9a0b1c
+2026-03-25T02:15:37.347Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-8f9a0b1c, duration=45ms, status=200, released_quantity=6
+2026-03-25T02:15:38.401Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-0a1b2c3d, product_id=SKU-11995, tenant_id=tenant-041
+2026-03-25T02:15:38.443Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.13:49582, trace_id=trc-0a1b2c3d
+2026-03-25T02:15:38.446Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-0a1b2c3d, duration=43ms, status=200, inventory_level=47
+2026-03-25T02:15:39.502Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-2b3c4d5e, product_id=SKU-88663, tenant_id=tenant-046
+2026-03-25T02:15:39.545Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.19:48831, trace_id=trc-2b3c4d5e
+2026-03-25T02:15:39.548Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-2b3c4d5e, duration=46ms, status=200, reserved_quantity=2
+2026-03-25T02:15:40.601Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-4c5d6e7f, product_id=SKU-55114, tenant_id=tenant-048
+2026-03-25T02:15:40.644Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.16:49711, trace_id=trc-4c5d6e7f
+2026-03-25T02:15:40.647Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-4c5d6e7f, duration=43ms, status=200, inventory_level=131
+2026-03-25T02:15:41.701Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-6d7e8f9a, product_id=SKU-99775, tenant_id=tenant-042
+2026-03-25T02:15:41.744Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.12:49236, trace_id=trc-6d7e8f9a
+2026-03-25T02:15:41.747Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-6d7e8f9a, duration=46ms, status=200, reserved_quantity=4
+2026-03-25T02:15:42.802Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-8e9f0a1b, product_id=SKU-44886, tenant_id=tenant-045
+2026-03-25T02:15:42.845Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50159, trace_id=trc-8e9f0a1b
+2026-03-25T02:15:42.848Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-8e9f0a1b, duration=44ms, status=200, inventory_level=92
+2026-03-25T02:15:43.901Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-0b1c2d3e, product_id=SKU-66227, tenant_id=tenant-047
+2026-03-25T02:15:43.944Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.18:49030, trace_id=trc-0b1c2d3e
+2026-03-25T02:15:43.947Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-0b1c2d3e, duration=46ms, status=200, released_quantity=1
+2026-03-25T02:15:45.001Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-2c3d4e5f, product_id=SKU-11448, tenant_id=tenant-042
+2026-03-25T02:15:45.043Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.11:50049, trace_id=trc-2c3d4e5f
+2026-03-25T02:15:45.046Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-2c3d4e5f, duration=43ms, status=200, inventory_level=68
+2026-03-25T02:15:46.102Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-4d5e6f7a, product_id=SKU-88119, tenant_id=tenant-049
+2026-03-25T02:15:46.145Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.20:50256, trace_id=trc-4d5e6f7a
+2026-03-25T02:15:46.148Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-4d5e6f7a, duration=46ms, status=200, reserved_quantity=5
+2026-03-25T02:15:47.201Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-6e7f8a9b, product_id=SKU-55331, tenant_id=tenant-043
+2026-03-25T02:15:47.244Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.17:49139, trace_id=trc-6e7f8a9b
+2026-03-25T02:15:47.247Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-6e7f8a9b, duration=43ms, status=200, inventory_level=108
+2026-03-25T02:15:48.302Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-8f9a0b1c, product_id=SKU-77552, tenant_id=tenant-041
+2026-03-25T02:15:48.345Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.13:49591, trace_id=trc-8f9a0b1c
+2026-03-25T02:15:48.348Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-8f9a0b1c, duration=46ms, status=200, released_quantity=3
+2026-03-25T02:15:49.401Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-0a1b2c3d, product_id=SKU-33664, tenant_id=tenant-046
+2026-03-25T02:15:49.443Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.19:48840, trace_id=trc-0a1b2c3d
+2026-03-25T02:15:49.446Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-0a1b2c3d, duration=43ms, status=200, inventory_level=71
+2026-03-25T02:15:50.501Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-2b3c4d5e, product_id=SKU-99885, tenant_id=tenant-048
+2026-03-25T02:15:50.544Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.16:49720, trace_id=trc-2b3c4d5e
+2026-03-25T02:15:50.547Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-2b3c4d5e, duration=46ms, status=200, reserved_quantity=8
+2026-03-25T02:15:51.602Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-4c5d6e7f, product_id=SKU-11226, tenant_id=tenant-042
+2026-03-25T02:15:51.645Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.12:49245, trace_id=trc-4c5d6e7f
+2026-03-25T02:15:51.648Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-4c5d6e7f, duration=44ms, status=200, inventory_level=126
+2026-03-25T02:15:52.701Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-6d7e8f9a, product_id=SKU-88447, tenant_id=tenant-045
+2026-03-25T02:15:52.743Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50168, trace_id=trc-6d7e8f9a
+2026-03-25T02:15:52.746Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-6d7e8f9a, duration=45ms, status=200, reserved_quantity=6
+2026-03-25T02:15:53.802Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-8e9f0a1b, product_id=SKU-55668, tenant_id=tenant-047
+2026-03-25T02:15:53.844Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.18:49039, trace_id=trc-8e9f0a1b
+2026-03-25T02:15:53.847Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-8e9f0a1b, duration=43ms, status=200, inventory_level=85
+2026-03-25T02:15:54.901Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-0b1c2d3e, product_id=SKU-77991, tenant_id=tenant-042
+2026-03-25T02:15:54.944Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.11:50060, trace_id=trc-0b1c2d3e
+2026-03-25T02:15:54.947Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-0b1c2d3e, duration=46ms, status=200, released_quantity=4
+2026-03-25T02:15:56.001Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-2c3d4e5f, product_id=SKU-33112, tenant_id=tenant-049
+2026-03-25T02:15:56.042Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.20:50267, trace_id=trc-2c3d4e5f
+2026-03-25T02:15:56.045Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-2c3d4e5f, duration=43ms, status=200, inventory_level=97
+2026-03-25T02:15:57.102Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-4d5e6f7a, product_id=SKU-99553, tenant_id=tenant-043
+2026-03-25T02:15:57.145Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.17:49148, trace_id=trc-4d5e6f7a
+2026-03-25T02:15:57.148Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-4d5e6f7a, duration=46ms, status=200, reserved_quantity=5
+2026-03-25T02:15:58.201Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-6e7f8a9b, product_id=SKU-66774, tenant_id=tenant-041
+2026-03-25T02:15:58.244Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.13:49600, trace_id=trc-6e7f8a9b
+2026-03-25T02:15:58.247Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-6e7f8a9b, duration=43ms, status=200, inventory_level=145
+2026-03-25T02:15:59.301Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-8f9a0b1c, product_id=SKU-44335, tenant_id=tenant-046
+2026-03-25T02:15:59.344Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.19:48849, trace_id=trc-8f9a0b1c
+2026-03-25T02:15:59.347Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-8f9a0b1c, duration=46ms, status=200, released_quantity=2
+2026-03-25T02:16:00.401Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-0a1b2c3d, product_id=SKU-88776, tenant_id=tenant-048
+2026-03-25T02:16:00.443Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.16:49729, trace_id=trc-0a1b2c3d
+2026-03-25T02:16:00.446Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-0a1b2c3d, duration=43ms, status=200, inventory_level=103
+2026-03-25T02:16:01.501Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-2b3c4d5e, product_id=SKU-22887, tenant_id=tenant-042
+2026-03-25T02:16:01.544Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.12:49254, trace_id=trc-2b3c4d5e
+2026-03-25T02:16:01.547Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-2b3c4d5e, duration=46ms, status=200, reserved_quantity=3
+2026-03-25T02:16:02.602Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-4c5d6e7f, product_id=SKU-99118, tenant_id=tenant-045
+2026-03-25T02:16:02.645Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50177, trace_id=trc-4c5d6e7f
+2026-03-25T02:16:02.648Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-4c5d6e7f, duration=44ms, status=200, inventory_level=75
+2026-03-25T02:16:03.701Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-6d7e8f9a, product_id=SKU-55999, tenant_id=tenant-047
+2026-03-25T02:16:03.743Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.18:49048, trace_id=trc-6d7e8f9a
+2026-03-25T02:16:03.746Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-6d7e8f9a, duration=45ms, status=200, reserved_quantity=7
+2026-03-25T02:16:04.802Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-8e9f0a1b, product_id=SKU-77331, tenant_id=tenant-042
+2026-03-25T02:16:04.845Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.11:50071, trace_id=trc-8e9f0a1b
+2026-03-25T02:16:04.848Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-8e9f0a1b, duration=43ms, status=200, inventory_level=59
+2026-03-25T02:16:05.901Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-0b1c2d3e, product_id=SKU-11442, tenant_id=tenant-049
+2026-03-25T02:16:05.944Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.20:50278, trace_id=trc-0b1c2d3e
+2026-03-25T02:16:05.947Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-0b1c2d3e, duration=46ms, status=200, released_quantity=1
+2026-03-25T02:16:07.001Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-2c3d4e5f, product_id=SKU-88663, tenant_id=tenant-043
+2026-03-25T02:16:07.043Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.17:49157, trace_id=trc-2c3d4e5f
+2026-03-25T02:16:07.046Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-2c3d4e5f, duration=43ms, status=200, inventory_level=112
+2026-03-25T02:16:08.102Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-4d5e6f7a, product_id=SKU-44774, tenant_id=tenant-041
+2026-03-25T02:16:08.145Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.13:49609, trace_id=trc-4d5e6f7a
+2026-03-25T02:16:08.148Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-4d5e6f7a, duration=46ms, status=200, reserved_quantity=9
+2026-03-25T02:16:09.201Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-6e7f8a9b, product_id=SKU-99225, tenant_id=tenant-046
+2026-03-25T02:16:09.244Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.19:48858, trace_id=trc-6e7f8a9b
+2026-03-25T02:16:09.247Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-6e7f8a9b, duration=43ms, status=200, inventory_level=66
+2026-03-25T02:16:10.301Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-8f9a0b1c, product_id=SKU-66556, tenant_id=tenant-048
+2026-03-25T02:16:10.344Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.16:49738, trace_id=trc-8f9a0b1c
+2026-03-25T02:16:10.347Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-8f9a0b1c, duration=46ms, status=200, released_quantity=5
+2026-03-25T02:16:11.401Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-0a1b2c3d, product_id=SKU-11887, tenant_id=tenant-042
+2026-03-25T02:16:11.443Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.12:49263, trace_id=trc-0a1b2c3d
+2026-03-25T02:16:11.446Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-0a1b2c3d, duration=43ms, status=200, inventory_level=83
+2026-03-25T02:16:12.501Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-2b3c4d5e, product_id=SKU-88448, tenant_id=tenant-045
+2026-03-25T02:16:12.544Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50186, trace_id=trc-2b3c4d5e
+2026-03-25T02:16:12.547Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-2b3c4d5e, duration=46ms, status=200, reserved_quantity=4
+2026-03-25T02:16:13.601Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-7a2b3c4d, product_id=SKU-44559, tenant_id=tenant-042
+2026-03-25T02:16:13.644Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50195, trace_id=trc-7a2b3c4d
+2026-03-25T02:16:13.647Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-7a2b3c4d, duration=46ms, status=200, inventory_level=94
+2026-03-27T13:45:01.102Z INFO  inventory-service [Deploy] Version upgraded: v2.1.3 → v2.1.4, image=inventory-service:v2.1.4-sha-a8f3c2d
+2026-03-27T13:45:01.215Z INFO  inventory-service [Config] Reloaded configuration from etcd: max_connections=200, idle_timeout=30s, enable_deadline_propagation=true
+2026-03-27T13:45:01.318Z INFO  inventory-service [gRPC] Server restarted on :50051, gRPC version=1.56.2, max_concurrent_streams=1000
+2026-03-27T13:45:02.401Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-aa1b2c3d, product_id=SKU-88472, tenant_id=tenant-042
+2026-03-27T13:45:02.445Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.12:49301, trace_id=trc-aa1b2c3d
+2026-03-27T13:45:02.448Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-aa1b2c3d, duration=47ms, status=200, inventory_level=82
+2026-03-27T13:45:03.512Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-bb2c3d4e, product_id=SKU-11239, tenant_id=tenant-045
+2026-03-27T13:45:03.555Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50201, trace_id=trc-bb2c3d4e
+2026-03-27T13:45:03.558Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-bb2c3d4e, duration=46ms, status=200, reserved_quantity=5
+2026-03-27T13:45:04.621Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-cc3d4e5f, product_id=SKU-77889, tenant_id=tenant-049
+2026-03-27T13:45:04.664Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.20:50312, trace_id=trc-cc3d4e5f
+2026-03-27T13:45:04.667Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-cc3d4e5f, duration=43ms, status=200, inventory_level=14
+2026-03-27T13:45:05.731Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-dd4e5f6a, product_id=SKU-33445, tenant_id=tenant-042
+2026-03-27T13:45:05.774Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=100ms, client_addr=10.24.1.11:50044, trace_id=trc-dd4e5f6a connection_pool_id=pool-17
+2026-03-27T13:45:05.777Z DEBUG inventory-service [gRPC] Connection pool slot initialized: pool_id=pool-17 interceptor_chain=[auth,logging,deadline] deadline_propagation=context_not_set fallback=default
+2026-03-27T13:45:05.780Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-dd4e5f6a, duration=45ms, status=200, inventory_level=71
+2026-03-27T13:45:06.841Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-ee5f6a7b, product_id=SKU-99221, tenant_id=tenant-043
+2026-03-27T13:45:06.884Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.17:49201, trace_id=trc-ee5f6a7b
+2026-03-27T13:45:06.887Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-ee5f6a7b, duration=46ms, status=200, reserved_quantity=8
+2026-03-27T13:45:07.951Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-ff6a7b8c, product_id=SKU-55667, tenant_id=tenant-047
+2026-03-27T13:45:07.994Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.18:49102, trace_id=trc-ff6a7b8c
+2026-03-27T13:45:07.997Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-ff6a7b8c, duration=44ms, status=200, inventory_level=91
+2026-03-27T13:45:09.061Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-a17b8c9d, product_id=SKU-44778, tenant_id=tenant-041
+2026-03-27T13:45:09.104Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.13:49611, trace_id=trc-a17b8c9d
+2026-03-27T13:45:09.107Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-a17b8c9d, duration=46ms, status=200, inventory_level=54
+2026-03-27T13:45:10.171Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-b28c9d0e, product_id=SKU-88112, tenant_id=tenant-046
+2026-03-27T13:45:10.214Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.19:48901, trace_id=trc-b28c9d0e
+2026-03-27T13:45:10.217Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-b28c9d0e, duration=43ms, status=200, released_quantity=3
+2026-03-27T13:45:11.281Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-c39d0e1f, product_id=SKU-11334, tenant_id=tenant-048
+2026-03-27T13:45:11.324Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=100ms, client_addr=10.24.1.16:49755, trace_id=trc-c39d0e1f connection_pool_id=pool-17
+2026-03-27T13:45:11.327Z DEBUG inventory-service [gRPC] Connection pool slot initialized: pool_id=pool-17 interceptor_chain=[auth,logging,deadline] deadline_propagation=context_not_set fallback=default
+2026-03-27T13:45:11.330Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-c39d0e1f, duration=49ms, status=200, inventory_level=38
+2026-03-27T13:45:12.391Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-d40e1f2a, product_id=SKU-77665, tenant_id=tenant-042
+2026-03-27T13:45:12.434Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.12:49310, trace_id=trc-d40e1f2a
+2026-03-27T13:45:12.437Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-d40e1f2a, duration=46ms, status=200, reserved_quantity=7
+2026-03-27T13:45:13.501Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-e51f2a3b, product_id=SKU-99773, tenant_id=tenant-045
+2026-03-27T13:45:13.544Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50210, trace_id=trc-e51f2a3b
+2026-03-27T13:45:13.547Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-e51f2a3b, duration=43ms, status=200, inventory_level=101
+2026-03-27T13:45:14.611Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-f62a3b4c, product_id=SKU-66882, tenant_id=tenant-043
+2026-03-27T13:45:14.654Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.17:49210, trace_id=trc-f62a3b4c
+2026-03-27T13:45:14.657Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-f62a3b4c, duration=43ms, status=200, inventory_level=108
+2026-03-27T13:45:15.721Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-a73b4c5d, product_id=SKU-22113, tenant_id=tenant-049
+2026-03-27T13:45:15.764Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=100ms, client_addr=10.24.1.20:50323, trace_id=trc-a73b4c5d connection_pool_id=pool-17
+2026-03-27T13:45:15.767Z DEBUG inventory-service [gRPC] Connection pool slot initialized: pool_id=pool-17 interceptor_chain=[auth,logging,deadline] deadline_propagation=context_not_set fallback=default
+2026-03-27T13:45:15.770Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-a73b4c5d, duration=49ms, status=200, reserved_quantity=5
+2026-03-27T13:45:16.831Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-b84c5d6e, product_id=SKU-55331, tenant_id=tenant-041
+2026-03-27T13:45:16.874Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.13:49620, trace_id=trc-b84c5d6e
+2026-03-27T13:45:16.877Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-b84c5d6e, duration=43ms, status=200, inventory_level=66
+2026-03-27T13:45:17.941Z INFO  inventory-service [gRPC] Request received: method=ReleaseStock, request_id=req-c95d6e7f, product_id=SKU-77552, tenant_id=tenant-046
+2026-03-27T13:45:17.984Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.19:48910, trace_id=trc-c95d6e7f
+2026-03-27T13:45:17.987Z INFO  inventory-service [gRPC] Request completed: method=ReleaseStock, request_id=req-c95d6e7f, duration=46ms, status=200, released_quantity=4
+2026-03-27T13:45:19.051Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-d06e7f8a, product_id=SKU-88441, tenant_id=tenant-048
+2026-03-27T13:45:19.094Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.16:49764, trace_id=trc-d06e7f8a
+2026-03-27T13:45:19.097Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-d06e7f8a, duration=43ms, status=200, inventory_level=126
+2026-03-27T13:45:20.161Z INFO  inventory-service [gRPC] Request received: method=GetStock, request_id=req-e17f8a9b, product_id=SKU-33664, tenant_id=tenant-042
+2026-03-27T13:45:20.204Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=100ms, client_addr=10.24.1.12:49319, trace_id=trc-e17f8a9b connection_pool_id=pool-17
+2026-03-27T13:45:20.207Z DEBUG inventory-service [gRPC] Connection pool slot initialized: pool_id=pool-17 interceptor_chain=[auth,logging,deadline] deadline_propagation=context_not_set fallback=default
+2026-03-27T13:45:20.210Z INFO  inventory-service [gRPC] Request completed: method=GetStock, request_id=req-e17f8a9b, duration=49ms, status=200, inventory_level=83
+2026-03-27T13:45:21.271Z INFO  inventory-service [gRPC] Request received: method=ReserveStock, request_id=req-f28a9b0c, product_id=SKU-99885, tenant_id=tenant-045
+2026-03-27T13:45:21.314Z DEBUG inventory-service [gRPC] gRPC interceptor initialized with deadline=5000ms, client_addr=10.24.1.15:50219, trace_id=trc-f28a9b0c
+2026-03-27T13:45:21.317Z INFO  inventory-service [gRPC] Request completed: method=ReserveStock, request_id=req-f28a9b0c, duration=46ms, status=200, reserved_quantity=9
+2026-03-27T13:45:22.381Z INFO  inventory-service [Metrics] p50_latency=45ms p95_latency=178ms p99_latency=205ms requests_total=14892 errors_total=0

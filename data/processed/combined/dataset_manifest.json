@@ -1,0 +1,25 @@
+{
+  "dataset_name": "CloudOps Combined RCA Dataset",
+  "version": "1.0.0",
+  "created_date": "2026-09-11",
+  "target_model": "Qwen2.5-3B-Instruct QLoRA",
+  "random_seed": 42,
+  "total_usable_cases": 871,
+  "source_breakdown": {
+    "CloudOps": 406,
+    "RCAEval": 465
+  },
+  "split_counts": {
+    "train": 712,
+    "validation": 74,
+    "test": 85
+  },
+  "scenario_family_count": 283,
+  "rejected_cases_count": 0,
+  "files": {
+    "all_cases": "data/processed/combined\\all_cases.jsonl",
+    "train": "data/processed/combined\\train.jsonl",
+    "validation": "data/processed/combined\\validation.jsonl",
+    "test": "data/processed/combined\\test.jsonl"
+  }
+}

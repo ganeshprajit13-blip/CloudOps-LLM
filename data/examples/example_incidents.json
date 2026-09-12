@@ -1,0 +1,135 @@
+[
+  {
+    "category": "Security Groups",
+    "instruction": "Analyze this AWS infrastructure incident and determine the probable root cause.",
+    "input": "EC2 instance i-0a1b2c3d4e5f67890 is running. CPU utilization is 31%. Application process is active. Inbound TCP port 443 is missing from Security Group sg-0987654321fedcba0. Users report website is unreachable over HTTPS.",
+    "output": {
+      "problem": "Website is unreachable over HTTPS",
+      "probable_root_cause": "Security Group sg-0987654321fedcba0 is likely blocking inbound HTTPS traffic on TCP port 443",
+      "evidence": [
+        "EC2 instance i-0a1b2c3d4e5f67890 is in running state",
+        "CPU utilization is normal at 31%",
+        "Inbound TCP port 443 is missing from Security Group sg-0987654321fedcba0"
+      ],
+      "impact": "Users are unable to establish secure HTTPS connections to the application",
+      "recommendation": "Review Security Group sg-0987654321fedcba0 inbound rules and allow TCP port 443 from expected source CIDRs if HTTPS traffic is intended",
+      "confidence": 0.94
+    }
+  },
+  {
+    "category": "EC2",
+    "instruction": "Identify the probable root cause for the high latency and response failure.",
+    "input": "EC2 instance i-0246813579abcdef0 CPU utilization is 98.5% sustained for 20 minutes. CloudWatch CPUAlarm triggered. Web service response times exceed timeout limits.",
+    "output": {
+      "problem": "Application response timeout and server unresponsiveness",
+      "probable_root_cause": "The EC2 instance is experiencing severe CPU saturation, leading to processing bottlenecks",
+      "evidence": [
+        "EC2 instance i-0246813579abcdef0 CPU utilization is at 98.5%",
+        "High CPU utilization has been sustained for 20 minutes",
+        "CloudWatch CPUAlarm is in ALARM state"
+      ],
+      "impact": "Application requests are queuing or timing out, causing severe performance degradation",
+      "recommendation": "Inspect running instance processes to identify CPU-intensive tasks, scale out additional instances behind a load balancer, or evaluate upgrading instance type",
+      "confidence": 0.92
+    }
+  },
+  {
+    "category": "Load Balancer",
+    "instruction": "Diagnose the ALB health check failure.",
+    "input": "Application Load Balancer prod-alb reports all target EC2 instances in target group web-tg as unhealthy. Health check path is configured as /healthz. EC2 application logs show endpoints /api/health returning HTTP 200.",
+    "output": {
+      "problem": "Application Load Balancer targets reported as unhealthy",
+      "probable_root_cause": "A health check path mismatch exists between the ALB configuration (/healthz) and the application endpoint (/api/health)",
+      "evidence": [
+        "ALB target group web-tg reports all instances as unhealthy",
+        "ALB health check path is configured as /healthz",
+        "Application returns HTTP 200 on /api/health"
+      ],
+      "impact": "ALB routes no traffic to instances, causing complete 502 Bad Gateway responses for end users",
+      "recommendation": "Update the Target Group health check path configuration from /healthz to /api/health and verify HTTP 200 responses",
+      "confidence": 0.95
+    }
+  },
+  {
+    "category": "Networking",
+    "instruction": "Analyze the loss of internet connectivity for instances in public subnet.",
+    "input": "EC2 instances in public subnet-01234 cannot access external APIs. Route Table rtb-09876 contains local route 10.0.0.0/16 but lacks a destination route 0.0.0.0/0 to Internet Gateway igw-0abcd.",
+    "output": {
+      "problem": "Outbound internet connectivity failure in public subnet",
+      "probable_root_cause": "Route Table rtb-09876 is missing a default route (0.0.0.0/0) pointing to Internet Gateway igw-0abcd",
+      "evidence": [
+        "Route Table rtb-09876 contains only local VPC route 10.0.0.0/16",
+        "Destination route 0.0.0.0/0 to Internet Gateway igw-0abcd is absent"
+      ],
+      "impact": "Instances in subnet-01234 are unable to transmit or receive traffic outside the local VPC",
+      "recommendation": "Review Route Table rtb-09876 and add a route with destination 0.0.0.0/0 targeting Internet Gateway igw-0abcd",
+      "confidence": 0.96
+    }
+  },
+  {
+    "category": "CloudTrail & Multi-Signal",
+    "instruction": "Investigate sudden application failure after maintenance window.",
+    "input": "Users report SSH connection failure to i-011223344. CloudTrail event RevokeSecurityGroupIngress was recorded 10 minutes ago by user dev-admin affecting sg-05566. Port 22 inbound rule was removed.",
+    "output": {
+      "problem": "SSH administrative access blocked",
+      "probable_root_cause": "Recent CloudTrail event RevokeSecurityGroupIngress removed the inbound TCP port 22 rule from Security Group sg-05566",
+      "evidence": [
+        "SSH connections to i-011223344 are timing out",
+        "CloudTrail event RevokeSecurityGroupIngress executed by dev-admin 10 minutes ago",
+        "Inbound TCP port 22 rule is missing from Security Group sg-05566"
+      ],
+      "impact": "Administrators cannot establish SSH management sessions to instance i-011223344",
+      "recommendation": "Review Security Group sg-05566 inbound rules and re-add TCP 22 for authorized bastion or administrative IP addresses",
+      "confidence": 0.95
+    }
+  },
+  {
+    "category": "IAM",
+    "instruction": "Troubleshoot application log push error.",
+    "input": "Application container logs report AccessDenied error when attempting to write metrics to CloudWatch. EC2 instance profile IAM role lacks cloudwatch:PutMetricData permission policy.",
+    "output": {
+      "problem": "CloudWatch metric ingestion failure",
+      "probable_root_cause": "The IAM instance profile role attached to the EC2 instance lacks permission for cloudwatch:PutMetricData action",
+      "evidence": [
+        "Application log records AccessDenied error on CloudWatch API call",
+        "Attached IAM role policy does not include cloudwatch:PutMetricData action"
+      ],
+      "impact": "Custom application metrics and logs fail to stream to CloudWatch Dashboards",
+      "recommendation": "Review the IAM role policy attached to the instance and attach an IAM policy granting cloudwatch:PutMetricData permission",
+      "confidence": 0.93
+    }
+  },
+  {
+    "category": "Uncertainty",
+    "instruction": "Analyze this degraded application report.",
+    "input": "Administrators report slow database response times. EC2 database instance CPU is 40%. CloudWatch metrics for DiskReadOps and Memory readouts are unavailable. No recent CloudTrail events found.",
+    "output": {
+      "problem": "Database query performance degradation",
+      "probable_root_cause": "The available telemetry is insufficient to determine a conclusive root cause",
+      "evidence": [
+        "Database CPU utilization is normal at 40%",
+        "Memory utilization and Disk IOPS metrics are currently unavailable",
+        "No relevant recent CloudTrail configuration events were recorded"
+      ],
+      "impact": "Users experience query latency, but exact system bottleneck cannot be confirmed",
+      "recommendation": "Enable CloudWatch Memory and Disk IOPS telemetry, inspect database slow query logs, and monitor connection pool status before taking corrective action",
+      "confidence": 0.35
+    }
+  },
+  {
+    "category": "Safety / Advisory",
+    "instruction": "Recommend remediation for high memory and swap usage.",
+    "input": "EC2 instance i-0998877 Memory utilization is 96% with active swap swapping. Web app worker processes are incurring garbage collection pauses.",
+    "output": {
+      "problem": "Memory exhaustion and swap thrashing",
+      "probable_root_cause": "The instance is experiencing memory pressure exceeding available physical RAM",
+      "evidence": [
+        "Physical memory utilization is 96%",
+        "Active swap memory usage indicates RAM exhaustion"
+      ],
+      "impact": "Web application workers suffer long latency spikes due to memory swapping",
+      "recommendation": "Analyze application memory consumption for leaks, adjust process worker pool limits, or manually upgrade to a larger instance class with higher memory allocation",
+      "confidence": 0.90
+    }
+  }
+]

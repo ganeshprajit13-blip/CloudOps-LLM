@@ -1,0 +1,62 @@
+scenario_id: care-transcript-supply-chain
+display_name: Misclassified Complaints Masking Defect
+domain: Supply Chain
+difficulty: hard
+description: "Customer care transcript defect classification failing to identify supplier component change as root cause of device thermal failures. 40% manual misclassification rate masks the true pattern — complaints spread across connectivity_issue, sensor_drift, and hardware_failure when the actual cause is thermal_management."
+plain_english_summary: "Customer complaints about a smart home sensor product line have surged 240%, but the company can't figure out why. Their defect classification system — both manual and automated — keeps labeling complaints in different categories, making it impossible to see the real pattern. A supplier quietly changed a thermal interface component, causing devices to overheat and malfunction in warm climates."
+hitl_scenario: true
+hitl_clarification_type: scope
+hitl_flow:
+  1_vague_report: "Our ProSensor Hub defect classifications are all over the place — complaints up 240% since around March 18, spread across connectivity_issue, sensor_drift, and hardware_failure. Corrective actions aren't working."
+  2_clarification: "Which product lines and zones show the highest volume? Any supplier or manufacturing changes in the past 30 days?"
+  3_user_response: "ProSensor Hub only. The spike is concentrated in Southeast and Southwest US. Several things happened in the past month — firmware update, a supplier component swap, antenna diagnostic program — but the team hasn't been able to tie anything to the complaint volume."
+  4_focused_investigation: "Agent searches classification logs, recent change events, and geographic distribution data to understand why complaints are clustering and being categorized differently."
+  5_correct_root_cause: "SOP classification rule for thermal_management requires explicit thermal keywords, but customers describe symptoms. Supplier thermal pad change on March 15 caused thermal throttling in warm-climate installations."
+root_cause:
+  service: defect-classifier
+  issue: SOP classification rule recall gap
+  details: "The thermal_management SOP rule requires customers to explicitly mention 'overheating', 'hot', 'heat', or 'temperature'. But 69% of customers with thermal-related complaints describe symptoms ('device stops responding', 'readings are erratic', 'keeps shutting down', 'WiFi keeps dropping') rather than the thermal cause itself. Combined with a supplier switch to lower-conductivity thermal pads on March 15, this created a systematic misclassification of thermal failures into connectivity_issue, sensor_drift, and hardware_failure categories."
+evidence_keywords:
+  - "thermal_management"
+  - "SOP_RULE_MATCH"
+  - "confidence_score"
+  - "warm-climate"
+  - "ProSensor Hub"
+  - "supplier_component_change"
+  - "thermal_pad"
+red_herrings:
+  - "Firmware rollback to v3.1.2 (March 20) — coincidental timing, no causal link to thermal failures"
+  - "WiFi antenna diagnostic program — all hardware passed inspection, connectivity drops are a symptom not a cause"
+  - "Warehouse handling review — all procedures within spec, problem is post-installation not pre-shipment"
+  - "DynamoDB throttling in batch scheduler — brief processing delays, no classification impact"
+  - "NLP extraction model version update (March 12) — improved accuracy, not degraded"
+contributing_factors:
+  - "40% baseline error rate in manual classification normalizes inaccuracy"
+  - "SOP rule for thermal_management has high precision (0.92) but low recall (0.31)"
+  - "3-day manufacturing+shipping lag masks correlation with component change date"
+  - "Multiple plausible classification categories per SOP allow defensible misclassification"
+verification_steps:
+  - "Analyze transcript clusters by geography — expect warm-climate zone concentration"
+  - "Correlate complaint spike with March 15 supplier component change date"
+  - "Review SOP rule triggers — check thermal_management recall vs hardware_failure/connectivity_issue"
+  - "Compare thermal_management rule keyword list against actual customer transcript language"
+  - "Check defect-classifier confidence scores — low confidence on misclassified transcripts"
+causation_chain:
+  - step: "Supplier switches to polymer thermal interface pads"
+    service: supply-chain-events
+  - step: "Devices thermally throttle in warm-climate installations"
+    service: delivery-logistics
+  - step: "Customers experience failures, contact care"
+    service: care-transcript-pipeline
+  - step: "SOP rules misclassify 69% of thermal complaints"
+    service: defect-classifier
+  - step: "Ops team sees noise across 3 categories, not signal in 1"
+    service: ops-insights-dashboard
+  - step: "Corrective actions target wrong root causes"
+    service: ops-insights-dashboard
+fix_recommendations:
+  - "Update thermal_management SOP rule to include symptom-based triggers (shuts down, stops responding, erratic readings, drops connection intermittently)"
+  - "Escalate supplier component change — revert to ceramic thermal pads or source equivalent conductivity"
+  - "Add geographic and temporal clustering analysis to classification pipeline"
+  - "Implement confidence-based review queue — low-confidence classifications flagged for human review"
+  - "Add supplier change correlation alerts to ops dashboard"

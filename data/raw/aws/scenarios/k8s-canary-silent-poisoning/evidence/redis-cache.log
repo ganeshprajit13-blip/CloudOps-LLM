@@ -1,0 +1,138 @@
+2026-03-25T02:14:18.231Z INFO  redis-cache [Stats] HitRate=87.4% MissRate=12.6% TotalRequests=143201 CacheSize=20480
+2026-03-25T02:15:22.456Z INFO  redis-cache [Stats] HitRate=86.9% MissRate=13.1% TotalRequests=144503 CacheSize=20480
+2026-03-25T02:16:28.112Z INFO  redis-cache [Stats] HitRate=87.1% MissRate=12.9% TotalRequests=145107 CacheSize=20480
+2026-03-25T02:17:34.789Z INFO  redis-cache [Stats] HitRate=87.6% MissRate=12.4% TotalRequests=146002 CacheSize=20480
+2026-03-25T02:18:40.543Z INFO  redis-cache [Stats] HitRate=87.3% MissRate=12.7% TotalRequests=146899 CacheSize=20480
+2026-03-25T02:19:46.321Z INFO  redis-cache [Stats] HitRate=86.8% MissRate=13.2% TotalRequests=147788 CacheSize=20480
+2026-03-25T02:20:52.109Z INFO  redis-cache [Stats] HitRate=87.0% MissRate=13.0% TotalRequests=148605 CacheSize=20480
+2026-03-25T02:21:58.987Z INFO  redis-cache [Stats] HitRate=87.5% MissRate=12.5% TotalRequests=149432 CacheSize=20480
+2026-03-25T02:23:04.675Z INFO  redis-cache [Stats] HitRate=87.2% MissRate=12.8% TotalRequests=150219 CacheSize=20480
+2026-03-25T02:24:10.412Z INFO  redis-cache [Stats] HitRate=86.7% MissRate=13.3% TotalRequests=151007 CacheSize=20480
+2026-03-25T02:25:16.890Z INFO  redis-cache [Stats] HitRate=87.1% MissRate=12.9% TotalRequests=151891 CacheSize=20480
+2026-03-25T02:26:22.345Z INFO  redis-cache [Stats] HitRate=87.4% MissRate=12.6% TotalRequests=152704 CacheSize=20480
+2026-03-25T02:27:28.777Z INFO  redis-cache [Stats] HitRate=87.0% MissRate=13.0% TotalRequests=153520 CacheSize=20480
+2026-03-25T02:28:34.123Z INFO  redis-cache [Stats] HitRate=86.9% MissRate=13.1% TotalRequests=154301 CacheSize=20480
+2026-03-25T02:29:40.567Z INFO  redis-cache [Stats] HitRate=87.3% MissRate=12.7% TotalRequests=155102 CacheSize=20480
+2026-03-25T02:30:46.901Z INFO  redis-cache [Stats] HitRate=87.6% MissRate=12.4% TotalRequests=155987 CacheSize=20480
+2026-03-25T02:31:52.289Z INFO  redis-cache [Stats] HitRate=87.1% MissRate=12.9% TotalRequests=156803 CacheSize=20480
+2026-03-25T02:32:58.765Z INFO  redis-cache [Stats] HitRate=86.8% MissRate=13.2% TotalRequests=157611 CacheSize=20480
+2026-03-25T02:34:04.432Z INFO  redis-cache [Stats] HitRate=87.2% MissRate=12.8% TotalRequests=158420 CacheSize=20480
+2026-03-25T02:35:10.891Z INFO  redis-cache [Stats] HitRate=87.5% MissRate=12.5% TotalRequests=159228 CacheSize=20480
+2026-03-25T03:01:18.345Z INFO  redis-cache [Eviction] Evicted key: order:1287492:inventory:status reason=TTL expired
+2026-03-25T03:02:24.789Z INFO  redis-cache [Eviction] Evicted key: user:55321:cart:session reason=memory pressure
+2026-03-25T03:03:30.123Z INFO  redis-cache [Eviction] Evicted key: product:78945:price:latest reason=TTL expired
+2026-03-25T03:04:36.567Z INFO  redis-cache [Eviction] Evicted key: order:1287501:inventory:status reason=memory pressure
+2026-03-25T03:05:42.901Z INFO  redis-cache [Eviction] Evicted key: user:55325:preferences:theme reason=TTL expired
+2026-03-25T03:06:48.432Z INFO  redis-cache [Eviction] Evicted key: product:78946:availability:region reason=memory pressure
+2026-03-25T03:07:54.891Z INFO  redis-cache [Eviction] Evicted key: order:1287510:inventory:status reason=TTL expired
+2026-03-25T03:09:00.289Z INFO  redis-cache [Eviction] Evicted key: user:55330:cart:session reason=memory pressure
+2026-03-25T03:10:06.765Z INFO  redis-cache [Eviction] Evicted key: product:78947:price:latest reason=TTL expired
+2026-03-25T03:11:12.123Z INFO  redis-cache [Eviction] Evicted key: order:1287521:inventory:status reason=memory pressure
+2026-03-25T03:12:18.567Z INFO  redis-cache [Eviction] Evicted key: user:55335:preferences:theme reason=TTL expired
+2026-03-25T03:13:24.901Z INFO  redis-cache [Eviction] Evicted key: product:78948:availability:region reason=memory pressure
+2026-03-25T03:14:30.432Z INFO  redis-cache [Eviction] Evicted key: order:1287532:inventory:status reason=TTL expired
+2026-03-25T03:15:36.891Z INFO  redis-cache [Eviction] Evicted key: user:55340:cart:session reason=memory pressure
+2026-03-25T03:16:42.289Z INFO  redis-cache [Eviction] Evicted key: product:78949:price:latest reason=TTL expired
+2026-03-25T03:17:48.765Z INFO  redis-cache [Eviction] Evicted key: order:1287543:inventory:status reason=memory pressure
+2026-03-25T03:18:54.123Z INFO  redis-cache [Eviction] Evicted key: user:55345:preferences:theme reason=TTL expired
+2026-03-25T03:20:00.567Z INFO  redis-cache [Eviction] Evicted key: product:78950:availability:region reason=memory pressure
+2026-03-25T03:21:06.901Z INFO  redis-cache [Eviction] Evicted key: order:1287554:inventory:status reason=TTL expired
+2026-03-25T03:22:12.432Z INFO  redis-cache [Eviction] Evicted key: user:55350:cart:session reason=memory pressure
+2026-03-25T03:23:18.891Z INFO  redis-cache [Stats] HitRate=87.0% MissRate=13.0% TotalRequests=167209 CacheSize=20480
+2026-03-25T03:24:24.289Z INFO  redis-cache [Stats] HitRate=87.3% MissRate=12.7% TotalRequests=168015 CacheSize=20480
+2026-03-25T03:25:30.765Z INFO  redis-cache [Stats] HitRate=86.8% MissRate=13.2% TotalRequests=168822 CacheSize=20480
+2026-03-25T03:26:36.123Z INFO  redis-cache [Stats] HitRate=87.1% MissRate=12.9% TotalRequests=169631 CacheSize=20480
+2026-03-25T03:27:42.567Z INFO  redis-cache [Stats] HitRate=87.5% MissRate=12.5% TotalRequests=170440 CacheSize=20480
+2026-03-25T03:28:48.901Z INFO  redis-cache [Stats] HitRate=87.2% MissRate=12.8% TotalRequests=171255 CacheSize=20480
+2026-03-25T03:29:54.432Z INFO  redis-cache [Stats] HitRate=86.9% MissRate=13.1% TotalRequests=172068 CacheSize=20480
+2026-03-25T03:31:00.891Z INFO  redis-cache [Stats] HitRate=87.4% MissRate=12.6% TotalRequests=172879 CacheSize=20480
+2026-03-25T03:32:06.289Z INFO  redis-cache [Stats] HitRate=87.0% MissRate=13.0% TotalRequests=173692 CacheSize=20480
+2026-03-25T03:33:12.765Z INFO  redis-cache [Stats] HitRate=87.3% MissRate=12.7% TotalRequests=174507 CacheSize=20480
+2026-03-25T03:34:18.123Z INFO  redis-cache [Stats] HitRate=86.7% MissRate=13.3% TotalRequests=175316 CacheSize=20480
+2026-03-25T03:35:24.567Z INFO  redis-cache [Stats] HitRate=87.1% MissRate=12.9% TotalRequests=176129 CacheSize=20480
+2026-03-25T03:36:30.901Z INFO  redis-cache [Stats] HitRate=87.5% MissRate=12.5% TotalRequests=176941 CacheSize=20480
+2026-03-25T03:37:36.432Z INFO  redis-cache [Stats] HitRate=87.2% MissRate=12.8% TotalRequests=177758 CacheSize=20480
+2026-03-25T03:38:42.891Z INFO  redis-cache [Stats] HitRate=86.9% MissRate=13.1% TotalRequests=178572 CacheSize=20480
+2026-03-25T03:39:48.289Z INFO  redis-cache [Stats] HitRate=87.4% MissRate=12.6% TotalRequests=179385 CacheSize=20480
+2026-03-25T03:40:54.765Z INFO  redis-cache [Stats] HitRate=87.0% MissRate=13.0% TotalRequests=180200 CacheSize=20480
+2026-03-25T03:42:00.123Z INFO  redis-cache [Stats] HitRate=87.3% MissRate=12.7% TotalRequests=181017 CacheSize=20480
+2026-03-25T03:43:06.567Z INFO  redis-cache [Stats] HitRate=86.8% MissRate=13.2% TotalRequests=181833 CacheSize=20480
+2026-03-25T03:44:12.901Z INFO  redis-cache [Stats] HitRate=87.1% MissRate=12.9% TotalRequests=182650 CacheSize=20480
+2026-03-25T04:01:18.345Z INFO  redis-cache [Eviction] Evicted key: order:1287565:inventory:status reason=TTL expired
+2026-03-25T04:02:24.789Z INFO  redis-cache [Eviction] Evicted key: user:55355:cart:session reason=memory pressure
+2026-03-25T04:03:30.123Z INFO  redis-cache [Eviction] Evicted key: product:78951:price:latest reason=TTL expired
+2026-03-25T04:04:36.567Z INFO  redis-cache [Eviction] Evicted key: order:1287576:inventory:status reason=memory pressure
+2026-03-25T04:05:42.901Z INFO  redis-cache [Eviction] Evicted key: user:55360:preferences:theme reason=TTL expired
+2026-03-25T04:06:48.432Z INFO  redis-cache [Eviction] Evicted key: product:78952:availability:region reason=memory pressure
+2026-03-25T04:07:54.891Z INFO  redis-cache [Eviction] Evicted key: order:1287587:inventory:status reason=TTL expired
+2026-03-25T04:09:00.289Z INFO  redis-cache [Eviction] Evicted key: user:55365:cart:session reason=memory pressure
+2026-03-25T04:10:06.765Z INFO  redis-cache [Eviction] Evicted key: product:78953:price:latest reason=TTL expired
+2026-03-25T04:11:12.123Z INFO  redis-cache [Eviction] Evicted key: order:1287598:inventory:status reason=memory pressure
+2026-03-25T04:12:18.567Z INFO  redis-cache [Eviction] Evicted key: user:55370:preferences:theme reason=TTL expired
+2026-03-25T04:13:24.901Z INFO  redis-cache [Eviction] Evicted key: product:78954:availability:region reason=memory pressure
+2026-03-25T04:14:30.432Z INFO  redis-cache [Eviction] Evicted key: order:1287609:inventory:status reason=TTL expired
+2026-03-25T04:15:36.891Z INFO  redis-cache [Eviction] Evicted key: user:55375:cart:session reason=memory pressure
+2026-03-25T04:16:42.289Z INFO  redis-cache [Eviction] Evicted key: product:78955:price:latest reason=TTL expired
+2026-03-25T04:17:48.765Z INFO  redis-cache [Eviction] Evicted key: order:1287620:inventory:status reason=memory pressure
+2026-03-25T04:18:54.123Z INFO  redis-cache [Eviction] Evicted key: user:55380:preferences:theme reason=TTL expired
+2026-03-25T04:20:00.567Z INFO  redis-cache [Eviction] Evicted key: product:78956:availability:region reason=memory pressure
+2026-03-25T04:21:06.901Z INFO  redis-cache [Eviction] Evicted key: order:1287631:inventory:status reason=TTL expired
+2026-03-25T04:22:12.432Z INFO  redis-cache [Eviction] Evicted key: user:55385:cart:session reason=memory pressure
+2026-03-25T04:23:18.891Z INFO  redis-cache [Stats] HitRate=87.0% MissRate=13.0% TotalRequests=189302 CacheSize=20480
+2026-03-25T04:24:24.289Z INFO  redis-cache [Stats] HitRate=87.3% MissRate=12.7% TotalRequests=190115 CacheSize=20480
+2026-03-25T04:25:30.765Z INFO  redis-cache [Stats] HitRate=86.8% MissRate=13.2% TotalRequests=190930 CacheSize=20480
+2026-03-25T04:26:36.123Z INFO  redis-cache [Stats] HitRate=87.1% MissRate=12.9% TotalRequests=191747 CacheSize=20480
+2026-03-25T04:27:42.567Z INFO  redis-cache [Stats] HitRate=87.5% MissRate=12.5% TotalRequests=192562 CacheSize=20480
+2026-03-25T04:28:48.901Z INFO  redis-cache [Stats] HitRate=87.2% MissRate=12.8% TotalRequests=193379 CacheSize=20480
+2026-03-25T04:29:54.432Z INFO  redis-cache [Stats] HitRate=86.9% MissRate=13.1% TotalRequests=194196 CacheSize=20480
+2026-03-25T04:31:00.891Z INFO  redis-cache [Stats] HitRate=87.4% MissRate=12.6% TotalRequests=195015 CacheSize=20480
+2026-03-25T04:32:06.289Z INFO  redis-cache [Stats] HitRate=87.0% MissRate=13.0% TotalRequests=195833 CacheSize=20480
+2026-03-25T04:33:12.765Z INFO  redis-cache [Stats] HitRate=87.3% MissRate=12.7% TotalRequests=196651 CacheSize=20480
+2026-03-25T04:34:18.123Z INFO  redis-cache [Stats] HitRate=86.7% MissRate=13.3% TotalRequests=197470 CacheSize=20480
+2026-03-25T04:35:24.567Z INFO  redis-cache [Stats] HitRate=87.1% MissRate=12.9% TotalRequests=198289 CacheSize=20480
+2026-03-25T04:36:30.901Z INFO  redis-cache [Stats] HitRate=87.5% MissRate=12.5% TotalRequests=199110 CacheSize=20480
+2026-03-25T04:37:36.432Z INFO  redis-cache [Stats] HitRate=87.2% MissRate=12.8% TotalRequests=199930 CacheSize=20480
+2026-03-25T04:38:42.891Z INFO  redis-cache [Stats] HitRate=86.9% MissRate=13.1% TotalRequests=200752 CacheSize=20480
+2026-03-25T04:39:48.289Z INFO  redis-cache [Stats] HitRate=87.4% MissRate=12.6% TotalRequests=201575 CacheSize=20480
+2026-03-25T04:40:54.765Z INFO  redis-cache [Stats] HitRate=87.0% MissRate=13.0% TotalRequests=202398 CacheSize=20480
+2026-03-25T04:42:00.123Z INFO  redis-cache [Stats] HitRate=87.3% MissRate=12.7% TotalRequests=203220 CacheSize=20480
+2026-03-25T04:43:06.567Z INFO  redis-cache [Stats] HitRate=86.8% MissRate=13.2% TotalRequests=204045 CacheSize=20480
+2026-03-25T04:44:12.901Z INFO  redis-cache [Stats] HitRate=87.1% MissRate=12.9% TotalRequests=204870 CacheSize=20480
+2026-03-25T05:01:18.345Z INFO  redis-cache [Eviction] Evicted key: order:1287642:inventory:status reason=TTL expired
+2026-03-25T05:02:24.789Z INFO  redis-cache [Eviction] Evicted key: user:55390:cart:session reason=memory pressure
+2026-03-25T05:03:30.123Z INFO  redis-cache [Eviction] Evicted key: product:78957:price:latest reason=TTL expired
+2026-03-25T05:04:36.567Z INFO  redis-cache [Eviction] Evicted key: order:1287653:inventory:status reason=memory pressure
+2026-03-25T05:05:42.901Z INFO  redis-cache [Eviction] Evicted key: user:55395:preferences:theme reason=TTL expired
+2026-03-25T05:06:48.432Z INFO  redis-cache [Eviction] Evicted key: product:78958:availability:region reason=memory pressure
+2026-03-25T05:07:54.891Z INFO  redis-cache [Eviction] Evicted key: order:1287664:inventory:status reason=TTL expired
+2026-03-25T05:09:00.289Z INFO  redis-cache [Eviction] Evicted key: user:55400:cart:session reason=memory pressure
+2026-03-25T05:10:06.765Z INFO  redis-cache [Eviction] Evicted key: product:78959:price:latest reason=TTL expired
+2026-03-25T05:11:12.123Z INFO  redis-cache [Eviction] Evicted key: order:1287675:inventory:status reason=memory pressure
+2026-03-25T05:12:18.567Z INFO  redis-cache [Eviction] Evicted key: user:55405:preferences:theme reason=TTL expired
+2026-03-25T05:13:24.901Z INFO  redis-cache [Eviction] Evicted key: product:78960:availability:region reason=memory pressure
+2026-03-25T05:14:30.432Z INFO  redis-cache [Eviction] Evicted key: order:1287686:inventory:status reason=TTL expired
+2026-03-25T05:15:36.891Z INFO  redis-cache [Eviction] Evicted key: user:55410:cart:session reason=memory pressure
+2026-03-25T05:16:42.289Z INFO  redis-cache [Eviction] Evicted key: product:78961:price:latest reason=TTL expired
+2026-03-25T05:17:48.765Z INFO  redis-cache [Eviction] Evicted key: order:1287697:inventory:status reason=memory pressure
+2026-03-25T05:18:54.123Z INFO  redis-cache [Eviction] Evicted key: user:55415:preferences:theme reason=TTL expired
+2026-03-25T05:20:00.567Z INFO  redis-cache [Eviction] Evicted key: product:78962:availability:region reason=memory pressure
+2026-03-25T05:21:06.901Z INFO  redis-cache [Eviction] Evicted key: order:1287708:inventory:status reason=TTL expired
+2026-03-25T05:22:12.432Z INFO  redis-cache [Eviction] Evicted key: user:55420:cart:session reason=memory pressure
+2026-03-25T05:23:18.891Z INFO  redis-cache [Stats] HitRate=87.0% MissRate=13.0% TotalRequests=211652 CacheSize=20480
+2026-03-25T05:24:24.289Z INFO  redis-cache [Stats] HitRate=87.3% MissRate=12.7% TotalRequests=212475 CacheSize=20480
+2026-03-25T05:25:30.765Z INFO  redis-cache [Stats] HitRate=86.8% MissRate=13.2% TotalRequests=213298 CacheSize=20480
+2026-03-25T05:26:36.123Z INFO  redis-cache [Stats] HitRate=87.1% MissRate=12.9% TotalRequests=214123 CacheSize=20480
+2026-03-25T05:27:42.567Z INFO  redis-cache [Stats] HitRate=87.5% MissRate=12.5% TotalRequests=214948 CacheSize=20480
+2026-03-25T05:28:48.901Z INFO  redis-cache [Stats] HitRate=87.2% MissRate=12.8% TotalRequests=215774 CacheSize=20480
+2026-03-25T05:29:54.432Z INFO  redis-cache [Stats] HitRate=86.9% MissRate=13.1% TotalRequests=216601 CacheSize=20480
+2026-03-25T05:31:00.891Z INFO  redis-cache [Stats] HitRate=87.4% MissRate=12.6% TotalRequests=217429 CacheSize=20480
+2026-03-25T05:32:06.289Z INFO  redis-cache [Stats] HitRate=87.0% MissRate=13.0% TotalRequests=218258 CacheSize=20480
+2026-03-25T05:33:12.765Z INFO  redis-cache [Stats] HitRate=87.3% MissRate=12.7% TotalRequests=219088 CacheSize=20480
+2026-03-25T05:34:18.123Z INFO  redis-cache [Stats] HitRate=86.7% MissRate=13.3% TotalRequests=219919 CacheSize=20480
+2026-03-25T05:35:24.567Z INFO  redis-cache [Stats] HitRate=87.1% MissRate=12.9% TotalRequests=220751 CacheSize=20480
+2026-03-25T05:36:30.901Z INFO  redis-cache [Stats] HitRate=87.5% MissRate=12.5% TotalRequests=221585 CacheSize=20480
+2026-03-25T05:37:36.432Z INFO  redis-cache [Stats] HitRate=87.2% MissRate=12.8% TotalRequests=222420 CacheSize=20480
+2026-03-25T05:38:42.891Z INFO  redis-cache [Stats] HitRate=86.9% MissRate=13.1% TotalRequests=223256 CacheSize=20480
+2026-03-25T05:39:48.289Z INFO  redis-cache [Stats] HitRate=87.4% MissRate=12.6% TotalRequests=224093 CacheSize=20480
+2026-03-25T05:40:54.765Z INFO  redis-cache [Stats] HitRate=87.0% MissRate=13.0% TotalRequests=224931 CacheSize=20480
+2026-03-25T05:42:00.123Z INFO

@@ -1,0 +1,136 @@
+2025-03-25T01:02:18.456Z INFO  mobility-controller [Config] Parameter handover_prep_timer set to 2000ms (default)
+2025-03-25T02:17:33.123Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8842 source_cell=EC-047 target_cell=EC-051 elapsed_ms=387
+2025-03-25T03:45:22.789Z INFO  cell-tower-a [Handover] X2 handover initiated for UE UE-9012 to target_cell=NK-112
+2025-03-25T03:45:23.110Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-047 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T03:45:23.112Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-9012
+2025-03-25T03:45:24.001Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-9012 target_cell=NK-112 elapsed_ms=489
+2025-03-25T04:12:05.987Z INFO  cell-tower-a [Radio] RSRP=-98dBm for UE UE-8842 cell=EC-047
+2025-03-25T04:33:16.222Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7731 source_cell=EC-051 target_cell=NK-109 elapsed_ms=412
+2025-03-25T05:09:44.567Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-047 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T05:09:44.569Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-7422
+2025-03-25T05:09:45.301Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-7422 target_cell=NK-109 elapsed_ms=432
+2025-03-25T06:18:55.771Z INFO  cell-tower-a [Radio] RSRP=-102dBm for UE UE-7731 cell=EC-051
+2025-03-25T07:22:11.334Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8190 source_cell=NK-109 target_cell=EC-055 elapsed_ms=356
+2025-03-25T08:05:19.888Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-055 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T08:05:19.890Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-8190
+2025-03-25T08:05:20.566Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-8190 target_cell=NK-112 elapsed_ms=476
+2025-03-25T09:14:02.221Z INFO  cell-tower-a [Radio] RSRP=-108dBm for UE UE-7422 cell=EC-047
+2025-03-25T10:27:34.789Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9503 source_cell=EC-055 target_cell=NK-115 elapsed_ms=401
+2025-03-25T11:01:17.345Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-055 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T11:01:17.347Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-9503
+2025-03-25T11:01:18.102Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-9503 target_cell=NK-115 elapsed_ms=455
+2025-03-25T12:15:44.678Z INFO  cell-tower-a [Radio] RSRP=-110dBm for UE UE-8190 cell=EC-055
+2025-03-25T13:49:55.123Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8341 source_cell=NK-115 target_cell=EC-049 elapsed_ms=392
+2025-03-25T14:22:19.876Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-049 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T14:22:19.878Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-8341
+2025-03-25T14:22:20.664Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-8341 target_cell=NK-118 elapsed_ms=486
+2025-03-25T15:38:02.445Z INFO  cell-tower-a [Radio] RSRP=-115dBm for UE UE-9503 cell=EC-055
+2025-03-25T16:55:11.991Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7220 source_cell=EC-049 target_cell=NK-118 elapsed_ms=333
+2025-03-25T17:23:46.555Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-049 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T17:23:46.557Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-7220
+2025-03-25T17:23:47.210Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-7220 target_cell=NK-118 elapsed_ms=353
+2025-03-25T18:40:22.876Z INFO  cell-tower-a [Radio] RSRP=-120dBm for UE UE-8341 cell=EC-049
+2025-03-25T19:55:33.111Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8667 source_cell=NK-118 target_cell=EC-051 elapsed_ms=421
+2025-03-25T20:12:55.667Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-051 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T20:12:55.669Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-8667
+2025-03-25T20:12:56.401Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-8667 target_cell=NK-112 elapsed_ms=432
+2025-03-25T21:33:22.987Z INFO  cell-tower-a [Radio] RSRP=-125dBm for UE UE-7220 cell=EC-049
+2025-03-25T22:47:10.234Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7731 source_cell=EC-051 target_cell=NK-115 elapsed_ms=378
+2025-03-25T23:59:55.778Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-051 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-25T23:59:55.780Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-7731
+2025-03-26T00:00:00.102Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-7731 target_cell=NK-115 elapsed_ms=422
+2025-03-26T01:12:44.556Z INFO  cell-tower-a [Radio] RSRP=-128dBm for UE UE-8667 cell=EC-051
+2025-03-26T02:15:33.000Z INFO  cell-tower-b [Firmware] Firmware upgrade to version 19.2.4 completed successfully
+2025-03-26T03:08:19.667Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9012 source_cell=NK-115 target_cell=EC-055 elapsed_ms=398
+2025-03-26T04:21:30.123Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-055 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T04:21:30.125Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-9012
+2025-03-26T04:21:30.987Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-9012 target_cell=NK-112 elapsed_ms=462
+2025-03-26T05:44:22.778Z INFO  cell-tower-a [Radio] RSRP=-112dBm for UE UE-7731 cell=EC-051
+2025-03-26T06:55:01.345Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8842 source_cell=EC-055 target_cell=NK-118 elapsed_ms=365
+2025-03-26T08:09:17.559Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-055 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T08:09:17.561Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-8842
+2025-03-26T08:09:18.402Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-8842 target_cell=NK-118 elapsed_ms=441
+2025-03-26T09:18:55.767Z INFO  cell-tower-a [Radio] RSRP=-118dBm for UE UE-9012 cell=EC-055
+2025-03-26T10:32:11.123Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7422 source_cell=NK-118 target_cell=EC-047 elapsed_ms=409
+2025-03-26T11:45:00.987Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-047 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T11:45:00.989Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-7422
+2025-03-26T11:45:01.801Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-7422 target_cell=NK-115 elapsed_ms=412
+2025-03-26T12:59:44.556Z INFO  cell-tower-a [Radio] RSRP=-122dBm for UE UE-8842 cell=EC-055
+2025-03-26T14:12:33.887Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9503 source_cell=EC-047 target_cell=NK-112 elapsed_ms=377
+2025-03-26T15:27:45.112Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-047 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T15:27:45.114Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-9503
+2025-03-26T15:27:45.901Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-9503 target_cell=NK-112 elapsed_ms=487
+2025-03-26T16:41:22.667Z INFO  cell-tower-a [Radio] RSRP=-125dBm for UE UE-7422 cell=EC-047
+2025-03-26T17:55:07.334Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8341 source_cell=NK-112 target_cell=EC-051 elapsed_ms=356
+2025-03-26T19:08:45.778Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-051 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T19:08:45.780Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-8341
+2025-03-26T19:08:46.512Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-8341 target_cell=NK-118 elapsed_ms=432
+2025-03-26T20:20:11.991Z INFO  cell-tower-a [Radio] RSRP=-128dBm for UE UE-9503 cell=EC-047
+2025-03-26T21:37:45.123Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7220 source_cell=EC-051 target_cell=NK-115 elapsed_ms=389
+2025-03-26T22:51:03.667Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-051 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-26T22:51:03.669Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-7220
+2025-03-26T22:51:04.502Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-7220 target_cell=NK-115 elapsed_ms=433
+2025-03-26T23:59:59.778Z INFO  cell-tower-a [Radio] RSRP=-120dBm for UE UE-8341 cell=EC-051
+2025-03-27T01:12:34.445Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8667 source_cell=NK-115 target_cell=EC-049 elapsed_ms=371
+2025-03-27T02:27:19.887Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-049 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T02:27:19.889Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-8667
+2025-03-27T02:27:20.701Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-8667 target_cell=NK-118 elapsed_ms=412
+2025-03-27T03:44:02.221Z INFO  cell-tower-a [Radio] RSRP=-115dBm for UE UE-7220 cell=EC-051
+2025-03-27T05:01:17.345Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9012 source_cell=EC-049 target_cell=NK-112 elapsed_ms=395
+2025-03-27T06:18:55.767Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-049 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T06:18:55.769Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-9012
+2025-03-27T06:18:56.522Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-9012 target_cell=NK-112 elapsed_ms=453
+2025-03-27T07:30:44.556Z INFO  cell-tower-a [Radio] RSRP=-108dBm for UE UE-8667 cell=EC-049
+2025-03-27T08:45:22.778Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7731 source_cell=NK-112 target_cell=EC-055 elapsed_ms=383
+2025-03-27T09:58:11.123Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-055 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T09:58:11.125Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-7731
+2025-03-27T09:58:11.987Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-7731 target_cell=NK-118 elapsed_ms=462
+2025-03-27T11:09:44.667Z INFO  cell-tower-a [Radio] RSRP=-112dBm for UE UE-9012 cell=EC-055
+2025-03-27T12:21:33.887Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8842 source_cell=EC-055 target_cell=NK-115 elapsed_ms=367
+2025-03-27T13:34:55.112Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-055 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T13:34:55.114Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-8842
+2025-03-27T13:34:55.901Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-8842 target_cell=NK-115 elapsed_ms=487
+2025-03-27T14:47:22.667Z INFO  cell-tower-a [Radio] RSRP=-120dBm for UE UE-7731 cell=EC-055
+2025-03-27T16:00:11.991Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7422 source_cell=NK-115 target_cell=EC-047 elapsed_ms=378
+2025-03-27T17:13:03.667Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-047 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T17:13:03.669Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-7422
+2025-03-27T17:13:04.502Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-7422 target_cell=NK-112 elapsed_ms=433
+2025-03-27T18:25:11.991Z INFO  cell-tower-a [Radio] RSRP=-125dBm for UE UE-8842 cell=EC-047
+2025-03-27T19:37:45.123Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9503 source_cell=EC-047 target_cell=NK-118 elapsed_ms=391
+2025-03-27T20:49:55.767Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-047 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-27T20:49:55.769Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-9503
+2025-03-27T20:49:56.522Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-9503 target_cell=NK-118 elapsed_ms=453
+2025-03-27T22:00:44.556Z INFO  cell-tower-a [Radio] RSRP=-128dBm for UE UE-7422 cell=EC-047
+2025-03-27T23:12:33.887Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8341 source_cell=NK-118 target_cell=EC-051 elapsed_ms=384
+2025-03-28T00:25:11.123Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-051 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T00:25:11.125Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-8341
+2025-03-28T00:25:11.987Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-8341 target_cell=NK-115 elapsed_ms=462
+2025-03-28T01:36:44.667Z INFO  cell-tower-a [Radio] RSRP=-112dBm for UE UE-9503 cell=EC-051
+2025-03-28T02:48:11.991Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7220 source_cell=EC-051 target_cell=NK-112 elapsed_ms=395
+2025-03-28T04:00:03.667Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-051 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T04:00:03.669Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-7220
+2025-03-28T04:00:04.502Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-7220 target_cell=NK-112 elapsed_ms=433
+2025-03-28T05:11:55.767Z INFO  cell-tower-a [Radio] RSRP=-118dBm for UE UE-8341 cell=EC-051
+2025-03-28T06:23:44.556Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8667 source_cell=NK-112 target_cell=EC-049 elapsed_ms=371
+2025-03-28T07:35:11.123Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-049 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T07:35:11.125Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-8667
+2025-03-28T07:35:11.987Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-8667 target_cell=NK-118 elapsed_ms=462
+2025-03-28T08:47:44.667Z INFO  cell-tower-a [Radio] RSRP=-120dBm for UE UE-7220 cell=EC-049
+2025-03-28T09:59:11.991Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-9012 source_cell=EC-049 target_cell=NK-115 elapsed_ms=395
+2025-03-28T11:10:03.667Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-049 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T11:10:03.669Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-9012
+2025-03-28T11:10:04.502Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-9012 target_cell=NK-115 elapsed_ms=433
+2025-03-28T12:22:55.767Z INFO  cell-tower-a [Radio] RSRP=-125dBm for UE UE-8667 cell=EC-049
+2025-03-28T13:34:44.556Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7731 source_cell=NK-115 target_cell=EC-055 elapsed_ms=383
+2025-03-28T14:46:11.123Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-055 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T14:46:11.125Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-7731
+2025-03-28T14:46:11.987Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-7731 target_cell=NK-118 elapsed_ms=462
+2025-03-28T15:58:44.667Z INFO  cell-tower-a [Radio] RSRP=-128dBm for UE UE-9012 cell=EC-055
+2025-03-28T17:10:11.991Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-8842 source_cell=EC-055 target_cell=NK-112 elapsed_ms=378
+2025-03-28T18:22:03.667Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-055 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T18:22:03.669Z INFO  cell-tower-a [Handover] X2 handover failed, initiating S1 handover for UE UE-8842
+2025-03-28T18:22:04.502Z INFO  mobility-controller [Handover] S1 handover preparation complete for UE UE-8842 target_cell=NK-112 elapsed_ms=433
+2025-03-28T19:34:55.767Z INFO  cell-tower-a [Radio] RSRP=-120dBm for UE UE-7731 cell=EC-055
+2025-03-28T20:46:44.556Z INFO  mobility-controller [Handover] Successful S1 handover for UE UE-7422 source_cell=NK-112 target_cell=EC-047 elapsed_ms=378
+2025-03-28T21:58:11.123Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=EC-047 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-28T21:58:11.125Z INFO  cell-tower-a [Handover

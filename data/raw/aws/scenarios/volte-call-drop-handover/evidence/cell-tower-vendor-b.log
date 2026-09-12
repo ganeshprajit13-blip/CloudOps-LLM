@@ -1,0 +1,109 @@
+2025-03-20T01:02:15.123Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-784, target_cell=NOK-CELL-201, ue_id=UE-88321, reason=load_balancing
+2025-03-20T01:03:44.567Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-784, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-88321
+2025-03-20T01:05:22.890Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 42%, Downlink PRB utilization: 38%, active_users=112
+2025-03-20T01:07:10.234Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-801, target_cell=NOK-CELL-201, ue_id=UE-90456, reason=handover_decision
+2025-03-20T01:07:11.412Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-801, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-90456
+2025-03-20T01:08:55.778Z INFO  cell-tower-vendor-b [Radio] RSRP=-98dBm, SINR=12.3dB, cell_id=NOK-CELL-201, ue_id=UE-90456
+2025-03-20T01:10:03.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 39%, Downlink PRB utilization: 41%, active_users=109
+2025-03-20T01:12:44.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-792, target_cell=NOK-CELL-201, ue_id=UE-87654, reason=handover_decision
+2025-03-20T01:12:45.501Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-792, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-87654
+2025-03-20T01:14:12.667Z INFO  cell-tower-vendor-b [Radio] RSRP=-101dBm, SINR=10.8dB, cell_id=NOK-CELL-201, ue_id=UE-87654
+2025-03-20T01:16:05.999Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 40%, Downlink PRB utilization: 37%, active_users=111
+2025-03-20T01:18:22.112Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-775, target_cell=NOK-CELL-201, ue_id=UE-86432, reason=load_balancing
+2025-03-20T01:18:23.445Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-775, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-86432
+2025-03-20T01:20:34.778Z INFO  cell-tower-vendor-b [Radio] RSRP=-95dBm, SINR=14.1dB, cell_id=NOK-CELL-201, ue_id=UE-86432
+2025-03-20T01:22:50.001Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 44%, Downlink PRB utilization: 40%, active_users=115
+2025-03-20T01:24:18.222Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-768, target_cell=NOK-CELL-201, ue_id=UE-92345, reason=handover_decision
+2025-03-20T01:24:19.555Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-768, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-92345
+2025-03-20T01:26:07.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-107dBm, SINR=9.5dB, cell_id=NOK-CELL-201, ue_id=UE-92345
+2025-03-20T01:28:15.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 38%, Downlink PRB utilization: 43%, active_users=110
+2025-03-20T01:30:22.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-789, target_cell=NOK-CELL-201, ue_id=UE-85567, reason=load_balancing
+2025-03-20T01:30:23.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-789, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-85567
+2025-03-20T01:32:40.999Z INFO  cell-tower-vendor-b [Radio] RSRP=-103dBm, SINR=11.2dB, cell_id=NOK-CELL-201, ue_id=UE-85567
+2025-03-20T01:34:55.222Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 41%, Downlink PRB utilization: 39%, active_users=113
+2025-03-20T01:36:11.444Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-776, target_cell=NOK-CELL-201, ue_id=UE-93456, reason=handover_decision
+2025-03-20T01:36:12.777Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-776, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-93456
+2025-03-20T01:38:00.000Z INFO  cell-tower-vendor-b [Radio] RSRP=-110dBm, SINR=8.7dB, cell_id=NOK-CELL-201, ue_id=UE-93456
+2025-03-20T01:40:25.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 45%, Downlink PRB utilization: 36%, active_users=117
+2025-03-20T01:42:33.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-782, target_cell=NOK-CELL-201, ue_id=UE-84567, reason=load_balancing
+2025-03-20T01:42:34.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-782, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-84567
+2025-03-20T01:44:50.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-99dBm, SINR=13.0dB, cell_id=NOK-CELL-201, ue_id=UE-84567
+2025-03-20T01:46:55.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 42%, Downlink PRB utilization: 40%, active_users=114
+2025-03-20T01:48:03.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-779, target_cell=NOK-CELL-201, ue_id=UE-83456, reason=handover_decision
+2025-03-20T01:48:04.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-779, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-83456
+2025-03-20T01:50:12.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-105dBm, SINR=10.1dB, cell_id=NOK-CELL-201, ue_id=UE-83456
+2025-03-20T01:52:20.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 39%, Downlink PRB utilization: 41%, active_users=110
+2025-03-20T01:54:35.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-787, target_cell=NOK-CELL-201, ue_id=UE-96543, reason=load_balancing
+2025-03-20T01:54:36.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-787, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-96543
+2025-03-20T01:56:44.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-115dBm, SINR=7.8dB, cell_id=NOK-CELL-201, ue_id=UE-96543
+2025-03-20T01:58:50.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 40%, Downlink PRB utilization: 38%, active_users=111
+2025-03-20T02:00:58.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-777, target_cell=NOK-CELL-201, ue_id=UE-85678, reason=handover_decision
+2025-03-20T02:00:59.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-777, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-85678
+2025-03-20T02:03:06.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-108dBm, SINR=9.2dB, cell_id=NOK-CELL-201, ue_id=UE-85678
+2025-03-20T02:05:15.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 43%, Downlink PRB utilization: 42%, active_users=116
+2025-03-20T02:07:22.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-786, target_cell=NOK-CELL-201, ue_id=UE-94567, reason=load_balancing
+2025-03-20T02:07:23.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-786, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-94567
+2025-03-20T02:09:30.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-97dBm, SINR=12.5dB, cell_id=NOK-CELL-201, ue_id=UE-94567
+2025-03-20T02:11:40.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 37%, Downlink PRB utilization: 40%, active_users=109
+2025-03-20T02:13:48.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-778, target_cell=NOK-CELL-201, ue_id=UE-86789, reason=handover_decision
+2025-03-20T02:13:49.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-778, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-86789
+2025-03-20T02:15:57.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-112dBm, SINR=8.3dB, cell_id=NOK-CELL-201, ue_id=UE-86789
+2025-03-20T02:18:05.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 41%, Downlink PRB utilization: 39%, active_users=113
+2025-03-20T02:20:12.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-785, target_cell=NOK-CELL-201, ue_id=UE-95678, reason=load_balancing
+2025-03-20T02:20:13.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-785, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-95678
+2025-03-20T02:22:20.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-100dBm, SINR=11.8dB, cell_id=NOK-CELL-201, ue_id=UE-95678
+2025-03-20T02:24:28.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 40%, Downlink PRB utilization: 43%, active_users=112
+2025-03-20T02:26:35.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-790, target_cell=NOK-CELL-201, ue_id=UE-87890, reason=handover_decision
+2025-03-20T02:26:36.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-790, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-87890
+2025-03-20T02:28:44.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-106dBm, SINR=9.9dB, cell_id=NOK-CELL-201, ue_id=UE-87890
+2025-03-20T02:30:51.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 38%, Downlink PRB utilization: 40%, active_users=110
+2025-03-20T02:33:00.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-774, target_cell=NOK-CELL-201, ue_id=UE-88901, reason=load_balancing
+2025-03-20T02:33:01.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-774, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-88901
+2025-03-20T02:35:08.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-118dBm, SINR=6.5dB, cell_id=NOK-CELL-201, ue_id=UE-88901
+2025-03-20T02:37:15.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 42%, Downlink PRB utilization: 37%, active_users=114
+2025-03-20T02:39:22.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-788, target_cell=NOK-CELL-201, ue_id=UE-99012, reason=handover_decision
+2025-03-20T02:39:23.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-788, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-99012
+2025-03-20T02:41:30.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-111dBm, SINR=8.9dB, cell_id=NOK-CELL-201, ue_id=UE-99012
+2025-03-20T02:43:38.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 44%, Downlink PRB utilization: 41%, active_users=118
+2025-03-20T02:45:45.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-773, target_cell=NOK-CELL-201, ue_id=UE-80123, reason=load_balancing
+2025-03-20T02:45:46.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-773, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-80123
+2025-03-20T02:47:53.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-94dBm, SINR=13.5dB, cell_id=NOK-CELL-201, ue_id=UE-80123
+2025-03-20T02:50:00.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 39%, Downlink PRB utilization: 38%, active_users=111
+2025-03-20T02:52:07.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-791, target_cell=NOK-CELL-201, ue_id=UE-81234, reason=handover_decision
+2025-03-20T02:52:08.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-791, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-81234
+2025-03-20T02:54:15.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-102dBm, SINR=10.4dB, cell_id=NOK-CELL-201, ue_id=UE-81234
+2025-03-20T02:56:23.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 40%, Downlink PRB utilization: 42%, active_users=115
+2025-03-20T02:58:30.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-783, target_cell=NOK-CELL-201, ue_id=UE-82345, reason=load_balancing
+2025-03-20T02:58:31.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-783, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-82345
+2025-03-20T03:00:38.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-109dBm, SINR=9.1dB, cell_id=NOK-CELL-201, ue_id=UE-82345
+2025-03-20T03:02:45.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 41%, Downlink PRB utilization: 39%, active_users=113
+2025-03-20T03:04:52.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-793, target_cell=NOK-CELL-201, ue_id=UE-83456, reason=handover_decision
+2025-03-20T03:04:53.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-793, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-83456
+2025-03-20T03:07:00.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-113dBm, SINR=8.0dB, cell_id=NOK-CELL-201, ue_id=UE-83456
+2025-03-20T03:09:07.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 45%, Downlink PRB utilization: 36%, active_users=117
+2025-03-20T03:11:14.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-780, target_cell=NOK-CELL-201, ue_id=UE-84567, reason=load_balancing
+2025-03-20T03:11:15.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-780, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-84567
+2025-03-20T03:13:22.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-96dBm, SINR=12.8dB, cell_id=NOK-CELL-201, ue_id=UE-84567
+2025-03-20T03:15:30.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 40%, Downlink PRB utilization: 40%, active_users=112
+2025-03-20T03:17:37.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-772, target_cell=NOK-CELL-201, ue_id=UE-85678, reason=handover_decision
+2025-03-20T03:17:38.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-772, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-85678
+2025-03-20T03:19:45.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-104dBm, SINR=10.0dB, cell_id=NOK-CELL-201, ue_id=UE-85678
+2025-03-20T03:21:53.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 43%, Downlink PRB utilization: 38%, active_users=116
+2025-03-20T03:24:00.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-781, target_cell=NOK-CELL-201, ue_id=UE-86789, reason=load_balancing
+2025-03-20T03:24:01.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-781, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-86789
+2025-03-20T03:26:08.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-107dBm, SINR=9.7dB, cell_id=NOK-CELL-201, ue_id=UE-86789
+2025-03-20T03:28:15.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 41%, Downlink PRB utilization: 41%, active_users=114
+2025-03-20T03:30:22.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-769, target_cell=NOK-CELL-201, ue_id=UE-87890, reason=handover_decision
+2025-03-20T03:30:23.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-769, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-87890
+2025-03-20T03:32:30.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-110dBm, SINR=8.6dB, cell_id=NOK-CELL-201, ue_id=UE-87890
+2025-03-20T03:34:38.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 42%, Downlink PRB utilization: 37%, active_users=115
+2025-03-20T03:36:45.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-770, target_cell=NOK-CELL-201, ue_id=UE-88901, reason=load_balancing
+2025-03-20T03:36:46.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-770, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-88901
+2025-03-20T03:38:53.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-114dBm, SINR=7.5dB, cell_id=NOK-CELL-201, ue_id=UE-88901
+2025-03-20T03:41:00.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 44%, Downlink PRB utilization: 39%, active_users=118
+2025-03-20T03:43:07.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-771, target_cell=NOK-CELL-201, ue_id=UE-89012, reason=handover_decision
+2025-03-20T03:43:08.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-771, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-89012
+2025-03-20T03:45:15.888Z INFO  cell-tower-vendor-b [Radio] RSRP=-95dBm, SINR=12.9dB, cell_id=NOK-CELL-201, ue_id=UE-89012
+2025-03-20T03:47:22.111Z INFO  cell-tower-vendor-b [Resource] Uplink PRB utilization: 40%, Downlink PRB utilization: 40%, active_users=111
+2025-03-20T03:49:29.333Z INFO  cell-tower-vendor-b [Handover] X2 handover request received from source_cell=ERI-CELL-784, target_cell=NOK-CELL-201, ue_id=UE-90123, reason=load_balancing
+2025-03-20T03:49:30.666Z INFO  cell-tower-vendor-b [Handover] X2 handover request rejected from source_cell=ERI-CELL-784, reason="resource_unavailable" (vendor_interop_known_issue), ue_id=UE-90123

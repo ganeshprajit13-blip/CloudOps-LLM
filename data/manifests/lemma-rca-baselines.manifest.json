@@ -1,0 +1,62 @@
+{
+  "dataset_name": "LEMMA-RCA-baselines",
+  "source_url": "https://github.com/KnowledgeDiscovery/rca_baselines",
+  "source_organization": "KnowledgeDiscovery (academic research group). Dataset paper: LEMMA-RCA. Data hosted on HuggingFace: https://huggingface.co/datasets/LEMMA-RCA",
+  "license": "CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0). Permits sharing and adapting with attribution. DOES NOT PERMIT commercial use or training for commercial products.",
+  "download_date": "2026-09-11",
+  "original_file_name": [
+    "lemma-rca-baselines-main.zip"
+  ],
+  "original_size_bytes": 1792968,
+  "extracted_size_bytes": null,
+  "checksum": {
+    "lemma-rca-baselines-main.zip": "sha256:781074D49DA7B04F4992AB2B9631AE63FC7ECAEE22D91376780A97232D7A8CD5"
+  },
+  "record_count": null,
+  "data_types": [
+    "metrics",
+    "logs",
+    "traces",
+    "incidents"
+  ],
+  "cloud_provider": "Multi-cloud / On-Premise (microservice benchmarks)",
+  "services": [
+    "microservices",
+    "Prometheus metrics",
+    "distributed tracing",
+    "log analysis",
+    "AIOPS",
+    "causal discovery",
+    "water treatment industrial systems"
+  ],
+  "provenance": "Academic research repository providing baseline implementations for the LEMMA-RCA benchmark. Downloaded from official GitHub repository https://github.com/KnowledgeDiscovery/rca_baselines (main branch, commit as of 2026-09-11). The REPOSITORY itself contains code/baselines only. The actual dataset (raw data files: metrics, logs, traces) is hosted separately on HuggingFace at https://huggingface.co/datasets/LEMMA-RCA and was NOT downloaded.",
+  "processing_status": "extracted",
+  "sanitization_status": "unverified",
+  "notes": "IMPORTANT LICENSE RESTRICTION: CC BY-NC 4.0 does NOT permit commercial use. If this project is commercial or will generate revenue, this dataset CANNOT be used for training. The downloaded ZIP contains only baseline code (Python), not the raw sensor/metrics data.",
+  "audit": {
+    "audit_date": "2026-09-11",
+    "audit_step": "step3-license-provenance",
+    "license_verified": true,
+    "license_source": "LICENSE file inside downloaded ZIP archive (rca_baselines-main/LICENSE) - confirmed CC BY-NC 4.0 text",
+    "license_name": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+    "training_eligibility": "TRAINING_NOT_ALLOWED",
+    "rag_eligibility": "RAG_NOT_ALLOWED",
+    "attribution_required": true,
+    "attribution_note": "Attribution required per CC BY-NC 4.0; commercial use prohibited",
+    "provenance_verified": true,
+    "content_type": [
+      "source_code",
+      "configurations",
+      "documentation"
+    ],
+    "real_vs_synthetic": "code_only_downloaded",
+    "human_review_required": true,
+    "raw_data_downloaded": false,
+    "raw_data_location": "https://huggingface.co/datasets/LEMMA-RCA",
+    "secondary_license_note": "rca_baselines-main/Baseline/Offline/Nezha/LICENSE is MIT (Copyright 2023 IntelligentDDS) - covers only Nezha code, not the overall dataset",
+    "audit_notes": "CC BY-NC 4.0 confirmed from ZIP archive. Commercial use prohibited. Raw data not downloaded (code only in ZIP). Excluded from training and RAG pending human review of commercial status.",
+    "checksum_verified": true,
+    "sha256": "781074D49DA7B04F4992AB2B9631AE63FC7ECAEE22D91376780A97232D7A8CD5"
+  }
+}

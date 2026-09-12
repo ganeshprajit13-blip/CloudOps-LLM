@@ -1,0 +1,72 @@
+{
+  "dataset_name": "aws-sample-rca-deep-investigations",
+  "source_url": "https://github.com/aws-samples/sample-rca-deep-investigations",
+  "source_organization": "Amazon Web Services (AWS) - aws-samples organization",
+  "license": "MIT No Attribution (MIT-0). Copyright Amazon.com, Inc. or its affiliates. No attribution required. Permits use, modification, distribution, sublicensing, commercial use, and training use without any conditions.",
+  "download_date": "2026-09-11",
+  "original_file_name": [
+    "aws-sample-rca-deep-investigations-main.zip"
+  ],
+  "original_size_bytes": 571350,
+  "extracted_size_bytes": null,
+  "checksum": {
+    "aws-sample-rca-deep-investigations-main.zip": "sha256:5D126D755185A5415BD6901414268175BB775CC85633295E656B603A12C5CD7D"
+  },
+  "record_count": null,
+  "data_types": [
+    "incidents",
+    "logs"
+  ],
+  "cloud_provider": "AWS",
+  "services": [
+    "EC2",
+    "EKS",
+    "Kubernetes",
+    "IoT",
+    "VoLTE",
+    "Lambda",
+    "CloudWatch",
+    "X-Ray",
+    "CloudTrail",
+    "AWS services",
+    "LLM-based RCA",
+    "RAG workflows"
+  ],
+  "provenance": "Official AWS sample repository published by Amazon Web Services under the aws-samples GitHub organization. Contains multiple real-world-inspired AWS incident investigation scenarios including VoLTE call drops, Kubernetes canary failures, and IoT disconnections. Each scenario includes structured incident reports, evidence logs, context files, and ground truth for evaluation. Downloaded from GitHub on 2026-09-11 (main branch). License: MIT-0.",
+  "processing_status": "extracted",
+  "sanitization_status": "unverified",
+  "notes": "Contains scenarios/ directory with structured incident investigation data. Designed to test RAG and LLM-based RCA workflows. MIT-0 license is the most permissive possible: permits training, redistribution, modification with zero conditions.",
+  "audit": {
+    "audit_date": "2026-09-11",
+    "audit_step": "step3-license-provenance",
+    "license_verified": true,
+    "license_source": "LICENSE file inside downloaded ZIP archive (sample-rca-deep-investigations-main/LICENSE)",
+    "license_name": "MIT-0",
+    "license_url": "https://github.com/aws-samples/sample-rca-deep-investigations/blob/main/LICENSE",
+    "training_eligibility": "TRAINING_ALLOWED",
+    "rag_eligibility": "RAG_ALLOWED",
+    "attribution_required": false,
+    "attribution_note": "MIT-0 explicitly waives attribution requirement",
+    "provenance_verified": true,
+    "content_type": [
+      "incidents",
+      "logs",
+      "configurations",
+      "documentation",
+      "rca_labels"
+    ],
+    "real_vs_synthetic": "synthetic_curated",
+    "human_review_required": false,
+    "scenario_count": 5,
+    "scenario_names": [
+      "care-transcript-supply-chain",
+      "iot-fleet-disconnect-cascade",
+      "k8s-canary-silent-poisoning",
+      "ml-training-drift-schema-migration",
+      "volte-call-drop-handover"
+    ],
+    "audit_notes": "MIT-0 license confirmed from ZIP archive. Checksums verified. 5 AWS-curated scenarios with ground truth. No restrictions. Highest priority dataset for training and RAG.",
+    "checksum_verified": true,
+    "sha256": "5D126D755185A5415BD6901414268175BB775CC85633295E656B603A12C5CD7D"
+  }
+}

@@ -1,0 +1,102 @@
+2025-03-25T03:12:44.012Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567890, msisdn=+447700900123, auth_type=AKA
+2025-03-25T04:08:19.234Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567891: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-25T05:22:11.888Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567892, msisdn=+447700900124, auth_type=AKA
+2025-03-25T06:45:33.101Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567893: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-25T07:19:56.445Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567894, msisdn=+447700900125, auth_type=AKA
+2025-03-25T08:03:21.777Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567895: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-25T09:17:44.333Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567896, msisdn=+447700900126, auth_type=AKA
+2025-03-25T10:30:59.111Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567897: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-25T11:44:22.555Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567898, msisdn=+447700900127, auth_type=AKA
+2025-03-25T12:58:10.999Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567899: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-25T14:12:03.222Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567900, msisdn=+447700900128, auth_type=AKA
+2025-03-25T15:26:45.777Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567901: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-25T16:40:18.444Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567902, msisdn=+447700900129, auth_type=AKA
+2025-03-25T17:54:31.666Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567903: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-25T19:08:05.888Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567904, msisdn=+447700900130, auth_type=AKA
+2025-03-25T20:22:17.111Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567905: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-25T21:36:49.333Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567906, msisdn=+447700900131, auth_type=AKA
+2025-03-25T22:50:22.555Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567907: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-25T23:44:11.777Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567908, msisdn=+447700900132, auth_type=AKA
+2025-03-26T00:58:44.999Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567909: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-26T02:15:33.000Z INFO  mobility-controller [Config] Parameter handover_prep_timer updated to 500ms
+2025-03-26T04:02:15.222Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567910, msisdn=+447700900133, auth_type=AKA
+2025-03-26T05:17:08.444Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567911: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-26T06:31:59.666Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567912, msisdn=+447700900134, auth_type=AKA
+2025-03-26T07:46:33.888Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567913: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-26T09:01:12.111Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567914, msisdn=+447700900135, auth_type=AKA
+2025-03-26T10:15:45.333Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567915: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-26T11:30:28.555Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567916, msisdn=+447700900136, auth_type=AKA
+2025-03-26T12:45:11.777Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567917: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-26T14:00:03.999Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567918, msisdn=+447700900137, auth_type=AKA
+2025-03-26T15:14:47.222Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567919: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-26T16:29:30.444Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567920, msisdn=+447700900138, auth_type=AKA
+2025-03-26T17:44:13.666Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567921: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-26T18:58:57.888Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567922, msisdn=+447700900139, auth_type=AKA
+2025-03-26T20:13:41.111Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567923: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-26T21:28:25.333Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567924, msisdn=+447700900140, auth_type=AKA
+2025-03-26T22:43:09.555Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567925: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-26T23:57:53.777Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567926, msisdn=+447700900141, auth_type=AKA
+2025-03-27T01:12:37.999Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567927: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-27T02:27:22.222Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567928, msisdn=+447700900142, auth_type=AKA
+2025-03-27T03:42:06.444Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567929: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-27T04:56:50.666Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567930, msisdn=+447700900143, auth_type=AKA
+2025-03-27T06:11:34.888Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567931: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-27T07:26:19.111Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567932, msisdn=+447700900144, auth_type=AKA
+2025-03-27T08:41:03.333Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567933: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-27T09:55:47.555Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567934, msisdn=+447700900145, auth_type=AKA
+2025-03-27T11:10:31.777Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567935: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-27T12:25:16.999Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567936, msisdn=+447700900146, auth_type=AKA
+2025-03-27T13:40:01.222Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567937: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-27T14:54:46.444Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567938, msisdn=+447700900147, auth_type=AKA
+2025-03-27T16:09:31.666Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567939: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-27T17:24:16.888Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567940, msisdn=+447700900148, auth_type=AKA
+2025-03-27T18:39:02.111Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567941: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-27T19:53:47.333Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567942, msisdn=+447700900149, auth_type=AKA
+2025-03-27T21:08:32.555Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567943: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-27T22:23:18.777Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567944, msisdn=+447700900150, auth_type=AKA
+2025-03-27T23:38:04.999Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567945: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-28T00:52:50.222Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567946, msisdn=+447700900151, auth_type=AKA
+2025-03-28T02:07:36.444Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567947: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-28T03:22:22.666Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567948, msisdn=+447700900152, auth_type=AKA
+2025-03-28T04:37:08.888Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567949: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-28T05:51:55.111Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567950, msisdn=+447700900153, auth_type=AKA
+2025-03-28T07:06:41.333Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567951: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-28T08:21:28.555Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567952, msisdn=+447700900154, auth_type=AKA
+2025-03-28T09:36:15.777Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567953: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-28T10:51:03.999Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567954, msisdn=+447700900155, auth_type=AKA
+2025-03-28T12:05:51.222Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567955: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-28T13:20:40.444Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567956, msisdn=+447700900156, auth_type=AKA
+2025-03-28T14:35:29.666Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567957: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-28T15:50:18.888Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567958, msisdn=+447700900157, auth_type=AKA
+2025-03-28T17:05:08.111Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567959: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-28T18:19:58.333Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567960, msisdn=+447700900158, auth_type=AKA
+2025-03-28T19:34:48.555Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567961: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-28T20:49:38.777Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567962, msisdn=+447700900159, auth_type=AKA
+2025-03-28T22:04:29.999Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567963: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-28T23:19:20.222Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567964, msisdn=+447700900160, auth_type=AKA
+2025-03-29T00:34:11.444Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567965: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-29T01:49:03.666Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567966, msisdn=+447700900161, auth_type=AKA
+2025-03-29T03:03:55.888Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567967: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-29T04:18:48.111Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567968, msisdn=+447700900162, auth_type=AKA
+2025-03-29T05:33:41.333Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567969: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-29T06:48:35.555Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567970, msisdn=+447700900163, auth_type=AKA
+2025-03-29T08:03:29.777Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567971: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-29T09:18:24.999Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567972, msisdn=+447700900164, auth_type=AKA
+2025-03-29T10:33:19.222Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567973: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-29T11:48:15.444Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567974, msisdn=+447700900165, auth_type=AKA
+2025-03-29T13:03:11.666Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567975: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-29T14:18:07.888Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567976, msisdn=+447700900166, auth_type=AKA
+2025-03-29T15:33:04.111Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567977: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-29T16:48:01.333Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567978, msisdn=+447700900167, auth_type=AKA
+2025-03-29T18:02:58.555Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567979: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-29T19:17:55.777Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567980, msisdn=+447700900168, auth_type=AKA
+2025-03-29T20:32:53.999Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567981: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-29T21:47:51.222Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567982, msisdn=+447700900169, auth_type=AKA
+2025-03-29T23:02:50.444Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567983: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-30T00:17:49.666Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567984, msisdn=+447700900170, auth_type=AKA
+2025-03-30T01:32:48.888Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567985: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-30T02:47:48.111Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567986, msisdn=+447700900171, auth_type=AKA
+2025-03-30T04:02:48.333Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567987: qos_profile=VoLTE-Standard, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-30T05:17:49.555Z INFO  subscriber-database [Auth] User authenticated: imsi=234101234567988, msisdn=+447700900172, auth_type=AKA
+2025-03-30T06:32:50.777Z INFO  subscriber-database [Profile] Profile query for imsi=234101234567989: qos_profile=VoLTE-Premium, apn=internet.mnc010.mcc234.gprs, vops_enabled=true
+2025-03-30T07:47:52.999Z INFO  subscriber-database [Auth] User authenticated: imsi=2341012345

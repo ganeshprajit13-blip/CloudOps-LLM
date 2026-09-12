@@ -1,0 +1,189 @@
+{
+  "region": "ap-south-1",
+  "timestamp": "2026-09-08T11:00:00+00:00",
+  "ec2": [
+    {
+      "instance_id": "i-0a1b2c3d4e5f67890",
+      "state": "running",
+      "instance_type": "t3.medium",
+      "private_ip": "10.0.1.25",
+      "public_ip": "13.233.10.45",
+      "availability_zone": "ap-south-1a",
+      "subnet_id": "subnet-0123456789abcdef0",
+      "vpc_id": "vpc-0fe0dcba987654321",
+      "security_group_ids": [
+        "sg-0987654321fedcba0"
+      ],
+      "ami_id": "ami-0123456789abcdef0",
+      "launch_time": "2026-09-08T08:30:00+00:00",
+      "tags": {
+        "Name": "Production-WebServer-1",
+        "Environment": "Production"
+      }
+    }
+  ],
+  "cloudwatch": [
+    {
+      "metric_name": "CPUUtilization",
+      "resource_id": "i-0a1b2c3d4e5f67890",
+      "timestamp": "2026-09-08T10:55:00+00:00",
+      "average": 31.5,
+      "maximum": 42.0,
+      "unit": "Percent"
+    },
+    {
+      "metric_name": "NetworkIn",
+      "resource_id": "i-0a1b2c3d4e5f67890",
+      "timestamp": "2026-09-08T10:55:00+00:00",
+      "average": 1048576,
+      "maximum": 2097152,
+      "unit": "Bytes"
+    }
+  ],
+  "cloudtrail": [
+    {
+      "event_id": "evt-1234567890",
+      "event_time": "2026-09-08T10:45:00+00:00",
+      "event_name": "AuthorizeSecurityGroupIngress",
+      "event_source": "ec2.amazonaws.com",
+      "username": "admin-devops",
+      "resources": [
+        {
+          "resource_type": "AWS::EC2::SecurityGroup",
+          "resource_name": "sg-0987654321fedcba0"
+        }
+      ],
+      "aws_region": "ap-south-1",
+      "access_key_id": "AKIAIOSFODNN7EXAMPLE"
+    }
+  ],
+  "vpc": {
+    "vpcs": [
+      {
+        "vpc_id": "vpc-0fe0dcba987654321",
+        "cidr_block": "10.0.0.0/16",
+        "is_default": false,
+        "state": "available",
+        "tags": {
+          "Name": "Prod-VPC"
+        }
+      }
+    ],
+    "subnets": [
+      {
+        "subnet_id": "subnet-0123456789abcdef0",
+        "vpc_id": "vpc-0fe0dcba987654321",
+        "cidr_block": "10.0.1.0/24",
+        "availability_zone": "ap-south-1a",
+        "available_ip_address_count": 250,
+        "map_public_ip_on_launch": true,
+        "tags": {
+          "Name": "Public-Subnet-1"
+        }
+      }
+    ],
+    "route_tables": [
+      {
+        "route_table_id": "rtb-0123456789abcdef0",
+        "vpc_id": "vpc-0fe0dcba987654321",
+        "routes": [
+          {
+            "destination_cidr_block": "10.0.0.0/16",
+            "gateway_id": "local",
+            "instance_id": null,
+            "nat_gateway_id": null,
+            "state": "active"
+          },
+          {
+            "destination_cidr_block": "0.0.0.0/0",
+            "gateway_id": "igw-0123456789abcdef0",
+            "instance_id": null,
+            "nat_gateway_id": null,
+            "state": "active"
+          }
+        ],
+        "associations": [
+          {
+            "subnet_id": "subnet-0123456789abcdef0",
+            "main": true
+          }
+        ]
+      }
+    ],
+    "internet_gateways": [
+      {
+        "internet_gateway_id": "igw-0123456789abcdef0",
+        "attachments": [
+          {
+            "vpc_id": "vpc-0fe0dcba987654321",
+            "state": "available"
+          }
+        ]
+      }
+    ],
+    "nat_gateways": []
+  },
+  "security_groups": [
+    {
+      "group_id": "sg-0987654321fedcba0",
+      "name": "web-security-group",
+      "description": "Security Group for Web Servers",
+      "vpc_id": "vpc-0fe0dcba987654321",
+      "inbound_rules": [
+        {
+          "protocol": "tcp",
+          "from_port": 80,
+          "to_port": 80,
+          "sources": [
+            "0.0.0.0/0"
+          ]
+        }
+      ],
+      "outbound_rules": [
+        {
+          "protocol": "-1",
+          "from_port": null,
+          "to_port": null,
+          "sources": [
+            "0.0.0.0/0"
+          ]
+        }
+      ]
+    }
+  ],
+  "load_balancers": [
+    {
+      "load_balancer_arn": "arn:aws:elasticloadbalancing:ap-south-1:123456789012:loadbalancer/app/prod-alb/1122334455667788",
+      "name": "prod-alb",
+      "type": "application",
+      "state": "active",
+      "dns_name": "prod-alb-11223344.ap-south-1.elb.amazonaws.com",
+      "vpc_id": "vpc-0fe0dcba987654321",
+      "availability_zones": [
+        "ap-south-1a",
+        "ap-south-1b"
+      ],
+      "target_groups": [
+        {
+          "target_group_arn": "arn:aws:elasticloadbalancing:ap-south-1:123456789012:targetgroup/web-targets/aabbccddeeff",
+          "target_group_name": "web-targets",
+          "protocol": "HTTP",
+          "port": 80,
+          "vpc_id": "vpc-0fe0dcba987654321",
+          "health_check_protocol": "HTTP",
+          "health_check_port": "80",
+          "health_check_path": "/health",
+          "target_health": [
+            {
+              "target_id": "i-0a1b2c3d4e5f67890",
+              "port": 80,
+              "health_state": "unhealthy",
+              "reason": "Target.FailedHealthChecks",
+              "description": "Health check failed with 502 Bad Gateway"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

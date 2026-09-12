@@ -1,0 +1,122 @@
+2025-03-20T03:12:18.456Z INFO  mobility-controller [Config] Parameter handover_prep_timer set to 2000ms (default)
+2025-03-20T04:05:33.112Z INFO  cell-tower-ericsson [Handover] X2 handover successful for UE UE-8821 from cell E-104 to E-105, elapsed_ms=321
+2025-03-20T04:17:59.887Z INFO  cell-tower-nokia [Signal] RSRP=-88dBm, RSRQ=-10.2dB for UE UE-9015, cell N-203
+2025-03-20T05:02:11.234Z INFO  mobility-controller [Handover] S1 handover initiated for UE UE-7743 from cell E-112 to N-218, cause=load_balance
+2025-03-20T05:18:44.567Z INFO  cell-tower-ericsson [Handover] X2 handover request rejected from source_cell=E-109 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T06:03:22.901Z INFO  cell-tower-nokia [Handover] X2 handover successful for UE UE-8120 from cell N-215 to N-216, elapsed_ms=289
+2025-03-20T06:45:17.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9456, source_cell=E-117, target_cell=N-221, elapsed_ms=412
+2025-03-20T07:30:05.333Z INFO  cell-tower-ericsson [Signal] RSRP=-92dBm, RSRQ=-11.5dB for UE UE-6671, cell E-102
+2025-03-20T08:12:55.111Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-7349, source_cell=N-208, target_cell=E-110, elapsed_ms=458
+2025-03-20T08:59:40.555Z INFO  cell-tower-nokia [Handover] X2 handover request rejected from source_cell=N-219 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T09:22:13.789Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8502, source_cell=E-106, target_cell=N-225, elapsed_ms=375
+2025-03-20T10:05:27.222Z INFO  cell-tower-ericsson [Signal] RSRP=-98dBm, RSRQ=-12.1dB for UE UE-7133, cell E-114
+2025-03-20T10:41:16.666Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9901, source_cell=N-220, target_cell=E-108, elapsed_ms=391
+2025-03-20T11:18:34.999Z INFO  cell-tower-nokia [Handover] X2 handover successful for UE UE-6412 from cell N-217 to N-218, elapsed_ms=312
+2025-03-20T12:03:55.123Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8774, source_cell=E-103, target_cell=N-222, elapsed_ms=401
+2025-03-20T12:45:08.444Z INFO  cell-tower-ericsson [Handover] X2 handover request rejected from source_cell=E-111 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T13:22:17.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9230, source_cell=N-216, target_cell=E-107, elapsed_ms=433
+2025-03-20T14:09:33.333Z INFO  cell-tower-nokia [Signal] RSRP=-101dBm, RSRQ=-11.8dB for UE UE-7568, cell N-223
+2025-03-20T14:51:04.555Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8005, source_cell=E-115, target_cell=N-224, elapsed_ms=388
+2025-03-20T15:34:22.888Z INFO  cell-tower-ericsson [Handover] X2 handover successful for UE UE-6889 from cell E-101 to E-102, elapsed_ms=298
+2025-03-20T16:17:56.111Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9552, source_cell=N-214, target_cell=E-113, elapsed_ms=467
+2025-03-20T17:03:44.444Z INFO  cell-tower-nokia [Handover] X2 handover request rejected from source_cell=N-212 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T17:45:12.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-7677, source_cell=E-116, target_cell=N-226, elapsed_ms=399
+2025-03-20T18:22:03.999Z INFO  cell-tower-ericsson [Signal] RSRP=-104dBm, RSRQ=-12.4dB for UE UE-8331, cell E-105
+2025-03-20T19:05:35.222Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9110, source_cell=N-221, target_cell=E-109, elapsed_ms=420
+2025-03-20T19:51:11.666Z INFO  cell-tower-nokia [Handover] X2 handover successful for UE UE-7007 from cell N-209 to N-210, elapsed_ms=305
+2025-03-20T20:34:48.888Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8668, source_cell=E-112, target_cell=N-227, elapsed_ms=415
+2025-03-20T21:18:22.111Z INFO  cell-tower-ericsson [Handover] X2 handover request rejected from source_cell=E-104 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T22:02:55.555Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9773, source_cell=N-218, target_cell=E-106, elapsed_ms=377
+2025-03-20T22:50:17.999Z INFO  cell-tower-nokia [Signal] RSRP=-99dBm, RSRQ=-10.9dB for UE UE-6554, cell N-228
+2025-03-20T23:35:40.333Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8442, source_cell=E-110, target_cell=N-229, elapsed_ms=408
+2025-03-21T00:14:22.666Z INFO  cell-tower-ericsson [Handover] X2 handover successful for UE UE-7999 from cell E-107 to E-108, elapsed_ms=344
+2025-03-21T01:01:59.999Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9335, source_cell=N-225, target_cell=E-111, elapsed_ms=445
+2025-03-21T01:47:33.222Z INFO  cell-tower-nokia [Handover] X2 handover request rejected from source_cell=N-220 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T02:32:17.555Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8113, source_cell=E-114, target_cell=N-230, elapsed_ms=369
+2025-03-21T03:16:44.888Z INFO  cell-tower-ericsson [Signal] RSRP=-106dBm, RSRQ=-13.0dB for UE UE-6992, cell E-115
+2025-03-21T04:05:22.111Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9666, source_cell=N-217, target_cell=E-103, elapsed_ms=451
+2025-03-21T04:51:09.444Z INFO  cell-tower-nokia [Handover] X2 handover successful for UE UE-7888 from cell N-219 to N-220, elapsed_ms=311
+2025-03-21T05:37:47.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8551, source_cell=E-101, target_cell=N-221, elapsed_ms=403
+2025-03-21T06:23:21.000Z INFO  cell-tower-ericsson [Handover] X2 handover request rejected from source_cell=E-109 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T07:08:55.333Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9447, source_cell=N-215, target_cell=E-105, elapsed_ms=427
+2025-03-21T07:54:38.666Z INFO  cell-tower-nokia [Signal] RSRP=-102dBm, RSRQ=-11.6dB for UE UE-7665, cell N-222
+2025-03-21T08:40:12.999Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8224, source_cell=E-113, target_cell=N-223, elapsed_ms=395
+2025-03-21T09:26:45.222Z INFO  cell-tower-ericsson [Handover] X2 handover successful for UE UE-7110 from cell E-106 to E-107, elapsed_ms=309
+2025-03-21T10:12:19.555Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9889, source_cell=N-224, target_cell=E-112, elapsed_ms=442
+2025-03-21T10:58:53.888Z INFO  cell-tower-nokia [Handover] X2 handover request rejected from source_cell=N-226 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T11:44:27.111Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8770, source_cell=E-117, target_cell=N-225, elapsed_ms=411
+2025-03-21T12:31:00.444Z INFO  cell-tower-ericsson [Signal] RSRP=-108dBm, RSRQ=-13.5dB for UE UE-6443, cell E-104
+2025-03-21T13:16:34.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9556, source_cell=N-216, target_cell=E-108, elapsed_ms=380
+2025-03-21T14:03:08.000Z INFO  cell-tower-nokia [Handover] X2 handover successful for UE UE-7337 from cell N-214 to N-215, elapsed_ms=325
+2025-03-21T14:48:42.333Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8661, source_cell=E-110, target_cell=N-227, elapsed_ms=406
+2025-03-21T15:35:15.666Z INFO  cell-tower-ericsson [Handover] X2 handover request rejected from source_cell=E-111 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T16:21:49.999Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9775, source_cell=N-228, target_cell=E-102, elapsed_ms=430
+2025-03-21T17:07:23.222Z INFO  cell-tower-nokia [Signal] RSRP=-110dBm, RSRQ=-13.8dB for UE UE-7558, cell N-229
+2025-03-21T17:53:57.555Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8449, source_cell=E-105, target_cell=N-230, elapsed_ms=389
+2025-03-21T18:40:31.888Z INFO  cell-tower-ericsson [Handover] X2 handover successful for UE UE-7001 from cell E-103 to E-104, elapsed_ms=317
+2025-03-21T19:26:05.111Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9332, source_cell=N-221, target_cell=E-106, elapsed_ms=418
+2025-03-21T20:12:39.444Z INFO  cell-tower-nokia [Handover] X2 handover request rejected from source_cell=N-222 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T20:58:13.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8228, source_cell=E-115, target_cell=N-218, elapsed_ms=397
+2025-03-21T21:44:47.000Z INFO  cell-tower-ericsson [Signal] RSRP=-112dBm, RSRQ=-14.1dB for UE UE-6887, cell E-116
+2025-03-21T22:31:21.333Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9663, source_cell=N-213, target_cell=E-109, elapsed_ms=449
+2025-03-21T23:17:55.666Z INFO  cell-tower-nokia [Handover] X2 handover successful for UE UE-7771 from cell N-217 to N-218, elapsed_ms=303
+2025-03-22T00:04:29.999Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8555, source_cell=E-108, target_cell=N-220, elapsed_ms=387
+2025-03-22T00:51:03.222Z INFO  cell-tower-ericsson [Handover] X2 handover request rejected from source_cell=E-107 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T01:37:37.555Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9441, source_cell=N-223, target_cell=E-110, elapsed_ms=425
+2025-03-22T02:23:11.888Z INFO  cell-tower-nokia [Signal] RSRP=-115dBm, RSRQ=-14.5dB for UE UE-7114, cell N-224
+2025-03-22T03:09:46.111Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8339, source_cell=E-112, target_cell=N-225, elapsed_ms=400
+2025-03-22T03:56:20.444Z INFO  cell-tower-ericsson [Handover] X2 handover successful for UE UE-7995 from cell E-101 to E-102, elapsed_ms=326
+2025-03-22T04:42:54.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9885, source_cell=N-226, target_cell=E-111, elapsed_ms=412
+2025-03-22T05:29:28.000Z INFO  cell-tower-nokia [Handover] X2 handover request rejected from source_cell=N-227 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T06:16:02.333Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8779, source_cell=E-114, target_cell=N-228, elapsed_ms=393
+2025-03-22T07:02:36.666Z INFO  cell-tower-ericsson [Signal] RSRP=-118dBm, RSRQ=-15.0dB for UE UE-6447, cell E-115
+2025-03-22T07:49:10.999Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9553, source_cell=N-215, target_cell=E-103, elapsed_ms=438
+2025-03-22T08:35:44.222Z INFO  cell-tower-nokia [Handover] X2 handover successful for UE UE-7669 from cell N-219 to N-220, elapsed_ms=313
+2025-03-22T09:22:18.555Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8665, source_cell=E-106, target_cell=N-221, elapsed_ms=405
+2025-03-22T10:08:52.888Z INFO  cell-tower-ericsson [Handover] X2 handover request rejected from source_cell=E-113 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T10:55:27.111Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9777, source_cell=N-229, target_cell=E-105, elapsed_ms=419
+2025-03-22T11:42:01.444Z INFO  cell-tower-nokia [Signal] RSRP=-120dBm, RSRQ=-15.2dB for UE UE-7881, cell N-222
+2025-03-22T12:28:35.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8558, source_cell=E-104, target_cell=N-223, elapsed_ms=396
+2025-03-22T13:15:10.000Z INFO  cell-tower-ericsson [Handover] X2 handover successful for UE UE-7003 from cell E-102 to E-103, elapsed_ms=319
+2025-03-22T14:01:44.333Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9443, source_cell=N-224, target_cell=E-112, elapsed_ms=423
+2025-03-22T14:48:18.666Z INFO  cell-tower-nokia [Handover] X2 handover request rejected from source_cell=N-225 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T15:34:52.999Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8333, source_cell=E-110, target_cell=N-226, elapsed_ms=407
+2025-03-22T16:21:27.222Z INFO  cell-tower-ericsson [Signal] RSRP=-122dBm, RSRQ=-15.8dB for UE UE-6776, cell E-117
+2025-03-22T17:08:01.555Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9667, source_cell=N-218, target_cell=E-107, elapsed_ms=440
+2025-03-22T17:54:35.888Z INFO  cell-tower-nokia [Handover] X2 handover successful for UE UE-7552 from cell N-227 to N-228, elapsed_ms=299
+2025-03-22T18:41:10.111Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8444, source_cell=E-109, target_cell=N-229, elapsed_ms=385
+2025-03-22T19:27:44.444Z INFO  cell-tower-ericsson [Handover] X2 handover request rejected from source_cell=E-101 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T20:14:18.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9559, source_cell=N-216, target_cell=E-108, elapsed_ms=415
+2025-03-22T21:00:53.000Z INFO  cell-tower-nokia [Signal] RSRP=-124dBm, RSRQ=-16.0dB for UE UE-7991, cell N-230
+2025-03-22T21:47:27.333Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8334, source_cell=E-116, target_cell=N-217, elapsed_ms=402
+2025-03-22T22:34:01.666Z INFO  cell-tower-ericsson [Handover] X2 handover successful for UE UE-7116 from cell E-105 to E-106, elapsed_ms=323
+2025-03-22T23:20:35.999Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9883, source_cell=N-221, target_cell=E-111, elapsed_ms=428
+2025-03-23T00:07:10.222Z INFO  cell-tower-nokia [Handover] X2 handover request rejected from source_cell=N-222 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T00:53:44.555Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8772, source_cell=E-114, target_cell=N-223, elapsed_ms=398
+2025-03-23T01:40:18.888Z INFO  cell-tower-ericsson [Signal] RSRP=-126dBm, RSRQ=-16.5dB for UE UE-6665, cell E-115
+2025-03-23T02:26:53.111Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9661, source_cell=N-224, target_cell=E-104, elapsed_ms=435
+2025-03-23T03:13:27.444Z INFO  cell-tower-nokia [Handover] X2 handover successful for UE UE-7887 from cell N-225 to N-226, elapsed_ms=310
+2025-03-23T04:00:01.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8550, source_cell=E-107, target_cell=N-227, elapsed_ms=404
+2025-03-23T04:46:36.000Z INFO  cell-tower-ericsson [Handover] X2 handover request rejected from source_cell=E-103 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T05:33:10.333Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9445, source_cell=N-228, target_cell=E-113, elapsed_ms=420
+2025-03-23T06:19:44.666Z INFO  cell-tower-nokia [Signal] RSRP=-128dBm, RSRQ=-17.0dB for UE UE-7118, cell N-229
+2025-03-23T07:06:18.999Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8336, source_cell=E-111, target_cell=N-230, elapsed_ms=394
+2025-03-23T07:52:53.222Z INFO  cell-tower-ericsson [Handover] X2 handover successful for UE UE-7997 from cell E-102 to E-103, elapsed_ms=315
+2025-03-23T08:39:27.555Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9778, source_cell=N-217, target_cell=E-105, elapsed_ms=411
+2025-03-23T09:26:01.888Z INFO  cell-tower-nokia [Handover] X2 handover request rejected from source_cell=N-218 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T10:12:36.111Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8662, source_cell=E-115, target_cell=N-219, elapsed_ms=387
+2025-03-23T10:59:10.444Z INFO  cell-tower-ericsson [Signal] RSRP=-127dBm, RSRQ=-16.8dB for UE UE-6449, cell E-116
+2025-03-23T11:45:44.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9557, source_cell=N-220, target_cell=E-109, elapsed_ms=433
+2025-03-23T12:32:19.000Z INFO  cell-tower-nokia [Handover] X2 handover successful for UE UE-7554 from cell N-221 to N-222, elapsed_ms=308
+2025-03-23T13:18:53.333Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8446, source_cell=E-108, target_cell=N-223, elapsed_ms=399
+2025-03-23T14:05:27.666Z INFO  cell-tower-ericsson [Handover] X2 handover request rejected from source_cell=E-106 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T14:52:01.999Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9881, source_cell=N-224, target_cell=E-110, elapsed_ms=421
+2025-03-23T15:38:36.222Z INFO  cell-tower-nokia [Signal] RSRP=-125dBm, RSRQ=-16.2dB for UE UE-7773, cell N-225
+2025-03-23T16:25:10.555Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8775, source_cell=E-113, target_cell=N-226, elapsed_ms=392
+2025-03-23T17:11:44.888Z INFO  cell-tower-ericsson [Handover] X2 handover successful for UE UE-7009 from cell E-104 to E-105, elapsed_ms=327
+2025-03-23T17:58:19.111Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9664, source_cell=N-227, target_cell=E-107, elapsed_ms=441
+2025-03-23T18:44:53.444Z INFO  cell-tower-nokia [Handover] X2 handover request rejected from source_cell=N-228 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-23T19:31:27.777Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-8553, source_cell=E-111, target_cell=N-229, elapsed_ms=396
+2025-03-23T20:18:02.000Z INFO  cell-tower-ericsson [Signal] RSRP=-123dBm, RSRQ=-15.7dB for UE UE-6994, cell E-117
+2025-03-23T21:04:36.333Z INFO  mobility-controller [Handover] Handover preparation completed for UE UE-9448, source_cell=N-219, target_cell=E-106, elapsed_ms=429
+2025-03-23T21:51:10.666Z INFO  cell-tower-nokia [Handover] X2 handover successful for

@@ -1,0 +1,119 @@
+2026-03-25T02:14:18.021Z INFO  payment-service [Idempotency] Processing idempotency key: idk-7f3a9e2b-4c1d-4f8e-9b2a-1e8c5f7d3a1b for order ID: ord-88219345
+2026-03-25T02:14:18.109Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292341 amount=24500 currency=USD
+2026-03-25T02:14:18.215Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234892, order ID: ord-88219345
+2026-03-25T02:14:20.112Z INFO  payment-service [Idempotency] Processing idempotency key: idk-1b8d4c5f-9e2a-3d7f-8c1b-5f3e9a2d7b4c for order ID: ord-88219346
+2026-03-25T02:14:20.198Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292342 amount=18700 currency=USD
+2026-03-25T02:14:20.302Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234893, order ID: ord-88219346
+2026-03-25T02:14:22.055Z INFO  payment-service [Idempotency] Processing idempotency key: idk-5c3a9f1e-8b2d-4a7f-9c1e-6d2f8a4b9c5d for order ID: ord-88219347
+2026-03-25T02:14:22.131Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292343 amount=29900 currency=USD
+2026-03-25T02:14:22.240Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234894, order ID: ord-88219347
+2026-03-25T02:14:24.008Z INFO  payment-service [Idempotency] Processing idempotency key: idk-7e2b9d4f-1c8a-3e9f-5b2d-8f1c4a7e9d2f for order ID: ord-88219348
+2026-03-25T02:14:24.087Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292344 amount=15200 currency=USD
+2026-03-25T02:14:24.195Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234895, order ID: ord-88219348
+2026-03-25T02:14:26.023Z INFO  payment-service [Idempotency] Processing idempotency key: idk-9f1c8a4b-3d7e-5f2a-8c4e-1b6d9e3f5c8a for order ID: ord-88219349
+2026-03-25T02:14:26.101Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292345 amount=31200 currency=USD
+2026-03-25T02:14:26.210Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234896, order ID: ord-88219349
+2026-03-25T02:14:28.077Z INFO  payment-service [Idempotency] Processing idempotency key: idk-6a4d2f8c-1e9b-3d7f-8c4a-5f2b9e1d7c3f for order ID: ord-88219350
+2026-03-25T02:14:28.156Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292346 amount=20300 currency=USD
+2026-03-25T02:14:28.264Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234897, order ID: ord-88219350
+2026-03-25T02:14:30.044Z INFO  payment-service [Idempotency] Processing idempotency key: idk-8b3e9f5d-2c7a-4e1f-9d3b-6f4a8c2e1d9f for order ID: ord-88219351
+2026-03-25T02:14:30.123Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292347 amount=17600 currency=USD
+2026-03-25T02:14:30.231Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234898, order ID: ord-88219351
+2026-03-25T02:14:32.018Z INFO  payment-service [Idempotency] Processing idempotency key: idk-5d7f1c8a-4b3e-9f2d-7c1a-8e4f6b9d2c5f for order ID: ord-88219352
+2026-03-25T02:14:32.096Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292348 amount=24100 currency=USD
+2026-03-25T02:14:32.204Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234899, order ID: ord-88219352
+2026-03-25T02:14:34.055Z INFO  payment-service [Idempotency] Processing idempotency key: idk-3a9f2d7c-8e1b-5f4d-9c2a-7d6f1e8b4c9f for order ID: ord-88219353
+2026-03-25T02:14:34.132Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292349 amount=30500 currency=USD
+2026-03-25T02:14:34.241Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234900, order ID: ord-88219353
+2026-03-25T02:14:36.033Z INFO  payment-service [Idempotency] Processing idempotency key: idk-7f4b8d2c-1e9a-4f3d-8c5b-6a2f9e1d7c4e for order ID: ord-88219354
+2026-03-25T02:14:36.112Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292350 amount=22800 currency=USD
+2026-03-25T02:14:36.220Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234901, order ID: ord-88219354
+2026-03-25T02:14:38.019Z INFO  payment-service [Idempotency] Processing idempotency key: idk-9c3a7e5f-2d8b-4f1c-6e4a-8d2f9b1c5e7f for order ID: ord-88219355
+2026-03-25T02:14:38.097Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292351 amount=16400 currency=USD
+2026-03-25T02:14:38.205Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234902, order ID: ord-88219355
+2026-03-25T02:14:40.062Z INFO  payment-service [Idempotency] Processing idempotency key: idk-4e8b2f9a-5c3d-7e1f-8b4a-6d2f8c9e1b5f for order ID: ord-88219356
+2026-03-25T02:14:40.141Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292352 amount=27500 currency=USD
+2026-03-25T02:14:40.249Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234903, order ID: ord-88219356
+2026-03-25T02:14:42.028Z INFO  payment-service [Idempotency] Processing idempotency key: idk-6b2f9c7a-4e1d-8f3c-9b5a-7d2f8e1c4a9f for order ID: ord-88219357
+2026-03-25T02:14:42.107Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292353 amount=19800 currency=USD
+2026-03-25T02:14:42.215Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234904, order ID: ord-88219357
+2026-03-25T02:14:44.044Z INFO  payment-service [Idempotency] Processing idempotency key: idk-8f3c9e1d-5b2a-7f4c-9a6e-4d1f8c2e7b5f for order ID: ord-88219358
+2026-03-25T02:14:44.123Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292354 amount=23700 currency=USD
+2026-03-25T02:14:44.231Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234905, order ID: ord-88219358
+2026-03-25T02:14:46.017Z INFO  payment-service [Idempotency] Processing idempotency key: idk-5d7a1c8f-3e9b-6f2d-8c4a-7d2f9e1b5c8f for order ID: ord-88219359
+2026-03-25T02:14:46.096Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292355 amount=18200 currency=USD
+2026-03-25T02:14:46.204Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234906, order ID: ord-88219359
+2026-03-25T02:14:48.065Z INFO  payment-service [Idempotency] Processing idempotency key: idk-7e4b9d2f-1c8a-5f3d-9b4e-6d2f8c1e7a5f for order ID: ord-88219360
+2026-03-25T02:14:48.143Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292356 amount=25100 currency=USD
+2026-03-25T02:14:48.251Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234907, order ID: ord-88219360
+2026-03-25T02:14:50.038Z INFO  payment-service [Idempotency] Processing idempotency key: idk-9c3f8d7a-2e1b-6f4d-8c5a-7d1f9e2b4c8f for order ID: ord-88219361
+2026-03-25T02:14:50.117Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292357 amount=20900 currency=USD
+2026-03-25T02:14:50.225Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234908, order ID: ord-88219361
+2026-03-25T02:14:52.021Z INFO  payment-service [Idempotency] Processing idempotency key: idk-6a4e2f9c-5b3d-7e1f-8c4a-9d2f8e1b5c7f for order ID: ord-88219362
+2026-03-25T02:14:52.099Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292358 amount=17300 currency=USD
+2026-03-25T02:14:52.207Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234909, order ID: ord-88219362
+2026-03-25T02:14:54.054Z INFO  payment-service [Idempotency] Processing idempotency key: idk-8f5c9e3a-4d1b-7f2c-9b6e-5d2f8c1e7a4f for order ID: ord-88219363
+2026-03-25T02:14:54.133Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292359 amount=24800 currency=USD
+2026-03-25T02:14:54.241Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234910, order ID: ord-88219363
+2026-03-25T02:14:56.032Z INFO  payment-service [Idempotency] Processing idempotency key: idk-5d7f1c8e-3e9b-6f2d-8c5a-7d2f9e1b4c8f for order ID: ord-88219364
+2026-03-25T02:14:56.111Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292360 amount=19100 currency=USD
+2026-03-25T02:14:56.219Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234911, order ID: ord-88219364
+2026-03-25T02:14:58.048Z INFO  payment-service [Idempotency] Processing idempotency key: idk-7e4b9d2f-1c8a-5f3d-9b4e-6d2f8c1e7a5f for order ID: ord-88219365
+2026-03-25T02:14:58.127Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292361 amount=26700 currency=USD
+2026-03-25T02:14:58.235Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234912, order ID: ord-88219365
+2026-03-25T02:15:00.025Z INFO  payment-service [Idempotency] Processing idempotency key: idk-9c3f8d7a-2e1b-6f4d-8c5a-7d1f9e2b4c8f for order ID: ord-88219366
+2026-03-25T02:15:00.104Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292362 amount=20100 currency=USD
+2026-03-25T02:15:00.212Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234913, order ID: ord-88219366
+2026-03-25T02:15:02.019Z INFO  payment-service [Idempotency] Processing idempotency key: idk-6a4e2f9c-5b3d-7e1f-8c4a-9d2f8e1b5c7f for order ID: ord-88219367
+2026-03-25T02:15:02.097Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292363 amount=18800 currency=USD
+2026-03-25T02:15:02.205Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234914, order ID: ord-88219367
+2026-03-25T02:15:04.052Z INFO  payment-service [Idempotency] Processing idempotency key: idk-8f5c9e3a-4d1b-7f2c-9b6e-5d2f8c1e7a4f for order ID: ord-88219368
+2026-03-25T02:15:04.131Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292364 amount=23400 currency=USD
+2026-03-25T02:15:04.239Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234915, order ID: ord-88219368
+2026-03-25T02:15:06.028Z INFO  payment-service [Idempotency] Processing idempotency key: idk-5d7f1c8e-3e9b-6f2d-8c5a-7d2f9e1b4c8f for order ID: ord-88219369
+2026-03-25T02:15:06.107Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292365 amount=19600 currency=USD
+2026-03-25T02:15:06.215Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234916, order ID: ord-88219369
+2026-03-25T02:15:08.045Z INFO  payment-service [Idempotency] Processing idempotency key: idk-7e4b9d2f-1c8a-5f3d-9b4e-6d2f8c1e7a5f for order ID: ord-88219370
+2026-03-25T02:15:08.124Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292366 amount=25800 currency=USD
+2026-03-25T02:15:08.232Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234917, order ID: ord-88219370
+2026-03-25T02:15:10.031Z INFO  payment-service [Idempotency] Processing idempotency key: idk-9c3f8d7a-2e1b-6f4d-8c5a-7d1f9e2b4c8f for order ID: ord-88219371
+2026-03-25T02:15:10.110Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292367 amount=20700 currency=USD
+2026-03-25T02:15:10.218Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234918, order ID: ord-88219371
+2026-03-25T02:15:12.022Z INFO  payment-service [Idempotency] Processing idempotency key: idk-6a4e2f9c-5b3d-7e1f-8c4a-9d2f8e1b5c7f for order ID: ord-88219372
+2026-03-25T02:15:12.100Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292368 amount=18400 currency=USD
+2026-03-25T02:15:12.208Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234919, order ID: ord-88219372
+2026-03-25T02:15:14.057Z INFO  payment-service [Idempotency] Processing idempotency key: idk-8f5c9e3a-4d1b-7f2c-9b6e-5d2f8c1e7a4f for order ID: ord-88219373
+2026-03-25T02:15:14.136Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292369 amount=23900 currency=USD
+2026-03-25T02:15:14.244Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234920, order ID: ord-88219373
+2026-03-25T02:15:16.030Z INFO  payment-service [Idempotency] Processing idempotency key: idk-5d7f1c8e-3e9b-6f2d-8c5a-7d2f9e1b4c8f for order ID: ord-88219374
+2026-03-25T02:15:16.109Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292370 amount=19800 currency=USD
+2026-03-25T02:15:16.217Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234921, order ID: ord-88219374
+2026-03-25T02:15:18.043Z INFO  payment-service [Idempotency] Processing idempotency key: idk-7e4b9d2f-1c8a-5f3d-9b4e-6d2f8c1e7a5f for order ID: ord-88219375
+2026-03-25T02:15:18.122Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292371 amount=25400 currency=USD
+2026-03-25T02:15:18.230Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234922, order ID: ord-88219375
+2026-03-25T02:15:20.027Z INFO  payment-service [Idempotency] Processing idempotency key: idk-9c3f8d7a-2e1b-6f4d-8c5a-7d1f9e2b4c8f for order ID: ord-88219376
+2026-03-25T02:15:20.106Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292372 amount=21200 currency=USD
+2026-03-25T02:15:20.214Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234923, order ID: ord-88219376
+2026-03-25T02:15:22.018Z INFO  payment-service [Idempotency] Processing idempotency key: idk-6a4e2f9c-5b3d-7e1f-8c4a-9d2f8e1b5c7f for order ID: ord-88219377
+2026-03-25T02:15:22.096Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292373 amount=18600 currency=USD
+2026-03-25T02:15:22.204Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234924, order ID: ord-88219377
+2026-03-25T02:15:24.053Z INFO  payment-service [Idempotency] Processing idempotency key: idk-8f5c9e3a-4d1b-7f2c-9b6e-5d2f8c1e7a4f for order ID: ord-88219378
+2026-03-25T02:15:24.132Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292374 amount=24500 currency=USD
+2026-03-25T02:15:24.240Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234925, order ID: ord-88219378
+2026-03-25T02:15:26.025Z INFO  payment-service [Idempotency] Processing idempotency key: idk-5d7f1c8e-3e9b-6f2d-8c5a-7d2f9e1b4c8f for order ID: ord-88219379
+2026-03-25T02:15:26.104Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292375 amount=19400 currency=USD
+2026-03-25T02:15:26.212Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234926, order ID: ord-88219379
+2026-03-25T02:15:28.040Z INFO  payment-service [Idempotency] Processing idempotency key: idk-7e4b9d2f-1c8a-5f3d-9b4e-6d2f8c1e7a5f for order ID: ord-88219380
+2026-03-25T02:15:28.119Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292376 amount=26100 currency=USD
+2026-03-25T02:15:28.227Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234927, order ID: ord-88219380
+2026-03-25T02:15:30.021Z INFO  payment-service [Idempotency] Processing idempotency key: idk-9c3f8d7a-2e1b-6f4d-8c5a-7d1f9e2b4c8f for order ID: ord-88219381
+2026-03-25T02:15:30.099Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292377 amount=20300 currency=USD
+2026-03-25T02:15:30.207Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234928, order ID: ord-88219381
+2026-03-25T02:15:32.046Z INFO  payment-service [Idempotency] Processing idempotency key: idk-6a4e2f9c-5b3d-7e1f-8c4a-9d2f8e1b5c7f for order ID: ord-88219382
+2026-03-25T02:15:32.125Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292378 amount=18900 currency=USD
+2026-03-25T02:15:32.233Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234929, order ID: ord-88219382
+2026-03-25T02:15:34.030Z INFO  payment-service [Idempotency] Processing idempotency key: idk-8f5c9e3a-4d1b-7f2c-9b6e-5d2f8c1e7a4f for order ID: ord-88219383
+2026-03-25T02:15:34.109Z INFO  payment-service [Stripe] API request initiated: charge_create for customer cust_48292379 amount=24200 currency=USD
+2026-03-25T02:15:34.217Z INFO  payment-service [Processing] Charge succeeded: charge_ch_84923489234930, order ID: ord-88219383
+2026-03-25T02:15:36.042Z INFO  payment-service [Idempotency] Processing idempotency key: idk-5d7f1c8e-3e9b-6f2d-8c5a-7d2f9e1b4c8f for order ID: ord-88219384
+2026-03-25T02:15:36.121Z INFO  payment-service [Stripe] API request initiated: charge

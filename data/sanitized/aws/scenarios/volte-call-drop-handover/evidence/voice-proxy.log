@@ -1,0 +1,131 @@
+2025-03-20T03:12:45.123Z INFO  mobility-controller [Config] Parameter handover_prep_timer set to 2000ms (default)
+2025-03-20T04:05:33.456Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782193, caller=+14155550123, callee=+14155550456, codec=AMR-WB
+2025-03-20T04:05:41.789Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782193, duration=8s, cause=normal-clearing
+2025-03-20T05:22:17.333Z INFO  mobility-controller [Handover] Successful X2 handover: UE=UE-8842, source_cell=ERS-771, target_cell=ERS-772, elapsed_ms=312
+2025-03-20T06:15:08.901Z INFO  cell-tower-a [Radio] RSRP=-92dBm, RSRQ=-10.1dB, UE=UE-8842, cell=ERS-772
+2025-03-20T07:03:55.222Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782194, caller=+14155550789, callee=+14155550321, codec=AMR-WB
+2025-03-20T07:04:03.000Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782194, duration=7s, cause=normal-clearing
+2025-03-20T08:17:44.555Z INFO  mobility-controller [Handover] Successful S1 handover: UE=UE-9901, source_cell=NOK-114, target_cell=NOK-115, elapsed_ms=650
+2025-03-20T09:02:30.111Z INFO  cell-tower-b [Handover] X2 handover request received from source_cell=ERS-771, target_cell=NOK-114, ue_id=UE-9901
+2025-03-20T09:02:30.122Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-771 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T09:02:30.133Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-9901, source_cell=ERS-771, target_cell=NOK-114
+2025-03-20T09:02:31.288Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-9901, elapsed_ms=650
+2025-03-20T10:44:12.666Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782195, caller=+14155551122, callee=+14155553344, codec=AMR-WB
+2025-03-20T10:44:20.888Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782195, duration=8s, cause=normal-clearing
+2025-03-20T11:55:09.999Z INFO  cell-tower-a [Radio] RSRP=-102dBm, RSRQ=-11.5dB, UE=UE-1001, cell=ERS-788
+2025-03-20T11:55:11.111Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1001, source_cell=ERS-788, target_cell=NOK-120, elapsed_ms=210
+2025-03-20T11:55:11.122Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-788 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T11:55:11.133Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1001, source_cell=ERS-788, target_cell=NOK-120
+2025-03-20T11:55:11.788Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1001, elapsed_ms=655
+2025-03-20T12:30:15.444Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782196, caller=+14155555566, callee=+14155557788, codec=AMR-WB
+2025-03-20T12:30:23.666Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782196, duration=8s, cause=normal-clearing
+2025-03-20T13:18:07.777Z INFO  mobility-controller [Handover] Successful X2 handover: UE=UE-1002, source_cell=NOK-121, target_cell=NOK-122, elapsed_ms=389
+2025-03-20T14:02:58.888Z INFO  cell-tower-a [Radio] RSRP=-110dBm, RSRQ=-12.3dB, UE=UE-1003, cell=ERS-790
+2025-03-20T14:02:59.999Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1003, source_cell=ERS-790, target_cell=NOK-125, elapsed_ms=410
+2025-03-20T14:03:00.011Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-790 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T14:03:00.022Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1003, source_cell=ERS-790, target_cell=NOK-125
+2025-03-20T14:03:00.888Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1003, elapsed_ms=866
+2025-03-20T15:22:11.111Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782197, caller=+14155559900, callee=+14155551122, codec=AMR-WB
+2025-03-20T15:22:19.333Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782197, duration=8s, cause=normal-clearing
+2025-03-20T16:44:55.555Z INFO  mobility-controller [Handover] Successful X2 handover: UE=UE-1004, source_cell=ERS-792, target_cell=ERS-793, elapsed_ms=298
+2025-03-20T17:33:07.666Z INFO  cell-tower-a [Radio] RSRP=-98dBm, RSRQ=-9.8dB, UE=UE-1005, cell=ERS-793
+2025-03-20T17:33:08.777Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1005, source_cell=ERS-793, target_cell=NOK-127, elapsed_ms=520
+2025-03-20T17:33:08.788Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-793 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T17:33:08.799Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1005, source_cell=ERS-793, target_cell=NOK-127
+2025-03-20T17:33:09.344Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1005, elapsed_ms=535
+2025-03-20T18:11:22.222Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782198, caller=+14155552233, callee=+14155554455, codec=AMR-WB
+2025-03-20T18:11:30.444Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782198, duration=8s, cause=normal-clearing
+2025-03-20T19:05:44.555Z INFO  mobility-controller [Handover] Successful S1 handover: UE=UE-1006, source_cell=NOK-128, target_cell=NOK-129, elapsed_ms=620
+2025-03-20T20:33:18.666Z INFO  cell-tower-a [Radio] RSRP=-105dBm, RSRQ=-11.1dB, UE=UE-1007, cell=ERS-795
+2025-03-20T20:33:19.777Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1007, source_cell=ERS-795, target_cell=NOK-130, elapsed_ms=430
+2025-03-20T20:33:19.788Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-795 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T20:33:19.799Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1007, source_cell=ERS-795, target_cell=NOK-130
+2025-03-20T20:33:20.355Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1007, elapsed_ms=556
+2025-03-20T21:15:33.777Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782199, caller=+14155556677, callee=+14155558899, codec=AMR-WB
+2025-03-20T21:15:41.999Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782199, duration=8s, cause=normal-clearing
+2025-03-20T22:42:10.111Z INFO  mobility-controller [Handover] Successful X2 handover: UE=UE-1008, source_cell=ERS-796, target_cell=ERS-797, elapsed_ms=330
+2025-03-20T23:55:25.222Z INFO  cell-tower-a [Radio] RSRP=-115dBm, RSRQ=-12.8dB, UE=UE-1009, cell=ERS-797
+2025-03-20T23:55:26.333Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1009, source_cell=ERS-797, target_cell=NOK-132, elapsed_ms=560
+2025-03-20T23:55:26.344Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-797 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-20T23:55:26.355Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1009, source_cell=ERS-797, target_cell=NOK-132
+2025-03-20T23:55:27.111Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1009, elapsed_ms=756
+2025-03-21T01:03:15.444Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782200, caller=+14155550011, callee=+14155552233, codec=AMR-WB
+2025-03-21T01:03:23.666Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782200, duration=8s, cause=normal-clearing
+2025-03-21T02:45:55.777Z INFO  mobility-controller [Handover] Successful S1 handover: UE=UE-1010, source_cell=NOK-133, target_cell=NOK-134, elapsed_ms=580
+2025-03-21T04:22:11.888Z INFO  cell-tower-a [Radio] RSRP=-120dBm, RSRQ=-13.5dB, UE=UE-1011, cell=ERS-799
+2025-03-21T04:22:12.999Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1011, source_cell=ERS-799, target_cell=NOK-135, elapsed_ms=480
+2025-03-21T04:22:13.011Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-799 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T04:22:13.022Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1011, source_cell=ERS-799, target_cell=NOK-135
+2025-03-21T04:22:13.677Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1011, elapsed_ms=655
+2025-03-21T05:55:00.111Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782201, caller=+14155554455, callee=+14155556677, codec=AMR-WB
+2025-03-21T05:55:08.333Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782201, duration=8s, cause=normal-clearing
+2025-03-21T07:12:45.222Z INFO  mobility-controller [Handover] Successful X2 handover: UE=UE-1012, source_cell=ERS-800, target_cell=ERS-801, elapsed_ms=360
+2025-03-21T08:33:09.444Z INFO  cell-tower-a [Radio] RSRP=-108dBm, RSRQ=-11.7dB, UE=UE-1013, cell=ERS-801
+2025-03-21T08:33:10.555Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1013, source_cell=ERS-801, target_cell=NOK-137, elapsed_ms=500
+2025-03-21T08:33:10.566Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-801 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T08:33:10.577Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1013, source_cell=ERS-801, target_cell=NOK-137
+2025-03-21T08:33:11.122Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1013, elapsed_ms=545
+2025-03-21T09:44:21.666Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782202, caller=+14155558899, callee=+14155550011, codec=AMR-WB
+2025-03-21T09:44:29.888Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782202, duration=8s, cause=normal-clearing
+2025-03-21T11:05:33.999Z INFO  mobility-controller [Handover] Successful S1 handover: UE=UE-1014, source_cell=NOK-138, target_cell=NOK-139, elapsed_ms=590
+2025-03-21T12:22:15.111Z INFO  cell-tower-a [Radio] RSRP=-118dBm, RSRQ=-12.5dB, UE=UE-1015, cell=ERS-803
+2025-03-21T12:22:16.222Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1015, source_cell=ERS-803, target_cell=NOK-140, elapsed_ms=470
+2025-03-21T12:22:16.233Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-803 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T12:22:16.244Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1015, source_cell=ERS-803, target_cell=NOK-140
+2025-03-21T12:22:16.899Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1015, elapsed_ms=655
+2025-03-21T13:45:10.333Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782203, caller=+14155552233, callee=+14155554455, codec=AMR-WB
+2025-03-21T13:45:18.555Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782203, duration=8s, cause=normal-clearing
+2025-03-21T15:03:55.666Z INFO  mobility-controller [Handover] Successful X2 handover: UE=UE-1016, source_cell=ERS-804, target_cell=ERS-805, elapsed_ms=290
+2025-03-21T16:21:04.777Z INFO  cell-tower-a [Radio] RSRP=-122dBm, RSRQ=-14.0dB, UE=UE-1017, cell=ERS-805
+2025-03-21T16:21:05.888Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1017, source_cell=ERS-805, target_cell=NOK-142, elapsed_ms=510
+2025-03-21T16:21:05.899Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-805 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T16:21:05.910Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1017, source_cell=ERS-805, target_cell=NOK-142
+2025-03-21T16:21:06.566Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1017, elapsed_ms=656
+2025-03-21T17:33:44.111Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782204, caller=+14155556677, callee=+14155558899, codec=AMR-WB
+2025-03-21T17:33:52.333Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782204, duration=8s, cause=normal-clearing
+2025-03-21T18:45:22.444Z INFO  mobility-controller [Handover] Successful S1 handover: UE=UE-1018, source_cell=NOK-143, target_cell=NOK-144, elapsed_ms=610
+2025-03-21T20:10:33.555Z INFO  cell-tower-a [Radio] RSRP=-125dBm, RSRQ=-14.8dB, UE=UE-1019, cell=ERS-807
+2025-03-21T20:10:34.666Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1019, source_cell=ERS-807, target_cell=NOK-145, elapsed_ms=530
+2025-03-21T20:10:34.677Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-807 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-21T20:10:34.688Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1019, source_cell=ERS-807, target_cell=NOK-145
+2025-03-21T20:10:35.344Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1019, elapsed_ms=656
+2025-03-21T21:34:22.777Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782205, caller=+14155550011, callee=+14155552233, codec=AMR-WB
+2025-03-21T21:34:30.999Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782205, duration=8s, cause=normal-clearing
+2025-03-21T22:55:11.111Z INFO  mobility-controller [Handover] Successful X2 handover: UE=UE-1020, source_cell=ERS-808, target_cell=ERS-809, elapsed_ms=310
+2025-03-22T00:12:45.222Z INFO  cell-tower-a [Radio] RSRP=-128dBm, RSRQ=-15.2dB, UE=UE-1021, cell=ERS-809
+2025-03-22T00:12:46.333Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1021, source_cell=ERS-809, target_cell=NOK-147, elapsed_ms=550
+2025-03-22T00:12:46.344Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-809 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T00:12:46.355Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1021, source_cell=ERS-809, target_cell=NOK-147
+2025-03-22T00:12:47.011Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1021, elapsed_ms=656
+2025-03-22T01:33:44.444Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782206, caller=+14155554455, callee=+14155556677, codec=AMR-WB
+2025-03-22T01:33:52.666Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782206, duration=8s, cause=normal-clearing
+2025-03-22T02:55:33.777Z INFO  mobility-controller [Handover] Successful S1 handover: UE=UE-1022, source_cell=NOK-148, target_cell=NOK-149, elapsed_ms=600
+2025-03-22T04:12:11.888Z INFO  cell-tower-a [Radio] RSRP=-120dBm, RSRQ=-13.9dB, UE=UE-1023, cell=ERS-811
+2025-03-22T04:12:12.999Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1023, source_cell=ERS-811, target_cell=NOK-150, elapsed_ms=490
+2025-03-22T04:12:13.011Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-811 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T04:12:13.022Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1023, source_cell=ERS-811, target_cell=NOK-150
+2025-03-22T04:12:13.677Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1023, elapsed_ms=655
+2025-03-22T05:34:21.111Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782207, caller=+14155558899, callee=+14155550011, codec=AMR-WB
+2025-03-22T05:34:29.333Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782207, duration=8s, cause=normal-clearing
+2025-03-22T06:55:00.444Z INFO  mobility-controller [Handover] Successful X2 handover: UE=UE-1024, source_cell=ERS-812, target_cell=ERS-813, elapsed_ms=300
+2025-03-22T08:12:15.555Z INFO  cell-tower-a [Radio] RSRP=-112dBm, RSRQ=-12.3dB, UE=UE-1025, cell=ERS-813
+2025-03-22T08:12:16.666Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1025, source_cell=ERS-813, target_cell=NOK-152, elapsed_ms=510
+2025-03-22T08:12:16.677Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-813 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T08:12:16.688Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1025, source_cell=ERS-813, target_cell=NOK-152
+2025-03-22T08:12:17.344Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1025, elapsed_ms=656
+2025-03-22T09:33:55.777Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782208, caller=+14155552233, callee=+14155554455, codec=AMR-WB
+2025-03-22T09:34:03.999Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782208, duration=8s, cause=normal-clearing
+2025-03-22T10:55:22.111Z INFO  mobility-controller [Handover] Successful S1 handover: UE=UE-1026, source_cell=NOK-153, target_cell=NOK-154, elapsed_ms=590
+2025-03-22T12:12:45.222Z INFO  cell-tower-a [Radio] RSRP=-108dBm, RSRQ=-11.8dB, UE=UE-1027, cell=ERS-815
+2025-03-22T12:12:46.333Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1027, source_cell=ERS-815, target_cell=NOK-155, elapsed_ms=480
+2025-03-22T12:12:46.344Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-815 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T12:12:46.355Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1027, source_cell=ERS-815, target_cell=NOK-155
+2025-03-22T12:12:47.011Z INFO  mobility-controller [Handover] Handover preparation completed: UE=UE-1027, elapsed_ms=656
+2025-03-22T13:34:11.444Z INFO  voice-proxy [SIP] Session initiated: session_id=SIP-782209, caller=+14155556677, callee=+14155558899, codec=AMR-WB
+2025-03-22T13:34:19.666Z INFO  voice-proxy [SIP] Session terminated: session_id=SIP-782209, duration=8s, cause=normal-clearing
+2025-03-22T14:55:33.777Z INFO  mobility-controller [Handover] Successful X2 handover: UE=UE-1028, source_cell=ERS-816, target_cell=ERS-817, elapsed_ms=320
+2025-03-22T16:12:15.888Z INFO  cell-tower-a [Radio] RSRP=-116dBm, RSRQ=-13.0dB, UE=UE-1029, cell=ERS-817
+2025-03-22T16:12:16.999Z INFO  mobility-controller [Handover] X2 handover attempt: UE=UE-1029, source_cell=ERS-817, target_cell=NOK-158, elapsed_ms=540
+2025-03-22T16:12:17.011Z INFO  cell-tower-b [Handover] X2 handover request rejected from source_cell=ERS-817 reason="resource_unavailable" (vendor_interop_known_issue)
+2025-03-22T16:12:17.022Z INFO  mobility-controller [Handover] Fallback S1 handover initiated for UE=UE-1029, source_cell=ERS-817, target_cell=NOK-158
+2025-03-22T1

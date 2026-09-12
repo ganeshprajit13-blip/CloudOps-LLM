@@ -1,0 +1,129 @@
+2026-03-28T10:00:00.000Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1102-UK, serial=SN-77482, firmware_version=2.3.1
+2026-03-28T10:00:01.234Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1102-UK, key_type=ECDSA_P256
+2026-03-28T10:00:01.456Z INFO  provisioning-service [RegistryUpdate] Device VSN-1102-UK registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:01.678Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1102-UK, size=12.4MB, sha256=a1b2c3d4e5
+2026-03-28T10:00:02.112Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1103-FR, serial=SN-77483, firmware_version=2.3.1
+2026-03-28T10:00:02.345Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1103-FR, key_type=ECDSA_P256
+2026-03-28T10:00:02.567Z INFO  provisioning-service [RegistryUpdate] Device VSN-1103-FR registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:02.789Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1103-FR, size=12.4MB, sha256=b2c3d4e5f6
+2026-03-28T10:00:03.010Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1104-JP, serial=SN-77484, firmware_version=2.3.1
+2026-03-28T10:00:03.231Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1104-JP, key_type=ECDSA_P256
+2026-03-28T10:00:03.452Z INFO  provisioning-service [RegistryUpdate] Device VSN-1104-JP registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:03.673Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1104-JP, size=12.4MB, sha256=c3d4e5f6g7
+2026-03-28T10:00:04.005Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1105-DE, serial=SN-77485, firmware_version=2.3.1
+2026-03-28T10:00:04.226Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1105-DE, key_type=ECDSA_P256
+2026-03-28T10:00:04.447Z INFO  provisioning-service [RegistryUpdate] Device VSN-1105-DE registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:04.668Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1105-DE, size=12.4MB, sha256=d4e5f6g7h8
+2026-03-28T10:00:05.001Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1106-AU, serial=SN-77486, firmware_version=2.3.1
+2026-03-28T10:00:05.222Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1106-AU, key_type=ECDSA_P256
+2026-03-28T10:00:05.443Z INFO  provisioning-service [RegistryUpdate] Device VSN-1106-AU registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:05.664Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1106-AU, size=12.4MB, sha256=e5f6g7h8i9
+2026-03-28T10:00:06.007Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1107-BR, serial=SN-77487, firmware_version=2.3.1
+2026-03-28T10:00:06.228Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1107-BR, key_type=ECDSA_P256
+2026-03-28T10:00:06.449Z INFO  provisioning-service [RegistryUpdate] Device VSN-1107-BR registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:06.670Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1107-BR, size=12.4MB, sha256=f6g7h8i9j0
+2026-03-28T10:00:07.002Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1108-IN, serial=SN-77488, firmware_version=2.3.1
+2026-03-28T10:00:07.223Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1108-IN, key_type=ECDSA_P256
+2026-03-28T10:00:07.444Z INFO  provisioning-service [RegistryUpdate] Device VSN-1108-IN registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:07.665Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1108-IN, size=12.4MB, sha256=g7h8i9j0k1
+2026-03-28T10:00:08.008Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1109-US, serial=SN-77489, firmware_version=2.3.1
+2026-03-28T10:00:08.229Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1109-US, key_type=ECDSA_P256
+2026-03-28T10:00:08.450Z INFO  provisioning-service [RegistryUpdate] Device VSN-1109-US registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:08.671Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1109-US, size=12.4MB, sha256=h8i9j0k1l2
+2026-03-28T10:00:09.003Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1110-CA, serial=SN-77490, firmware_version=2.3.1
+2026-03-28T10:00:09.224Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1110-CA, key_type=ECDSA_P256
+2026-03-28T10:00:09.445Z INFO  provisioning-service [RegistryUpdate] Device VSN-1110-CA registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:09.666Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1110-CA, size=12.4MB, sha256=i9j0k1l2m3
+2026-03-28T10:00:10.009Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1111-NL, serial=SN-77491, firmware_version=2.3.1
+2026-03-28T10:00:10.230Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1111-NL, key_type=ECDSA_P256
+2026-03-28T10:00:10.451Z INFO  provisioning-service [RegistryUpdate] Device VSN-1111-NL registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:10.672Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1111-NL, size=12.4MB, sha256=j0k1l2m3n4
+2026-03-28T10:00:11.004Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1112-SE, serial=SN-77492, firmware_version=2.3.1
+2026-03-28T10:00:11.225Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1112-SE, key_type=ECDSA_P256
+2026-03-28T10:00:11.446Z INFO  provisioning-service [RegistryUpdate] Device VSN-1112-SE registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:11.667Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1112-SE, size=12.4MB, sha256=k1l2m3n4o5
+2026-03-28T10:00:12.000Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1113-IT, serial=SN-77493, firmware_version=2.3.1
+2026-03-28T10:00:12.221Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1113-IT, key_type=ECDSA_P256
+2026-03-28T10:00:12.442Z INFO  provisioning-service [RegistryUpdate] Device VSN-1113-IT registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:12.663Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1113-IT, size=12.4MB, sha256=l2m3n4o5p6
+2026-03-28T10:00:13.005Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1114-ES, serial=SN-77494, firmware_version=2.3.1
+2026-03-28T10:00:13.226Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1114-ES, key_type=ECDSA_P256
+2026-03-28T10:00:13.447Z INFO  provisioning-service [RegistryUpdate] Device VSN-1114-ES registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:13.668Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1114-ES, size=12.4MB, sha256=m3n4o5p6q7
+2026-03-28T10:00:14.001Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1115-PL, serial=SN-77495, firmware_version=2.3.1
+2026-03-28T10:00:14.222Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1115-PL, key_type=ECDSA_P256
+2026-03-28T10:00:14.443Z INFO  provisioning-service [RegistryUpdate] Device VSN-1115-PL registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:14.664Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1115-PL, size=12.4MB, sha256=n4o5p6q7r8
+2026-03-28T10:00:15.006Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1116-CH, serial=SN-77496, firmware_version=2.3.1
+2026-03-28T10:00:15.227Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1116-CH, key_type=ECDSA_P256
+2026-03-28T10:00:15.448Z INFO  provisioning-service [RegistryUpdate] Device VSN-1116-CH registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:15.669Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1116-CH, size=12.4MB, sha256=o5p6q7r8s9
+2026-03-28T10:00:16.002Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1117-NZ, serial=SN-77497, firmware_version=2.3.1
+2026-03-28T10:00:16.223Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1117-NZ, key_type=ECDSA_P256
+2026-03-28T10:00:16.444Z INFO  provisioning-service [RegistryUpdate] Device VSN-1117-NZ registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:16.665Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1117-NZ, size=12.4MB, sha256=p6q7r8s9t0
+2026-03-28T10:00:17.007Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1118-AR, serial=SN-77498, firmware_version=2.3.1
+2026-03-28T10:00:17.228Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1118-AR, key_type=ECDSA_P256
+2026-03-28T10:00:17.449Z INFO  provisioning-service [RegistryUpdate] Device VSN-1118-AR registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:17.670Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1118-AR, size=12.4MB, sha256=q7r8s9t0u1
+2026-03-28T10:00:18.003Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1119-MX, serial=SN-77499, firmware_version=2.3.1
+2026-03-28T10:00:18.224Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1119-MX, key_type=ECDSA_P256
+2026-03-28T10:00:18.445Z INFO  provisioning-service [RegistryUpdate] Device VSN-1119-MX registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:18.666Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1119-MX, size=12.4MB, sha256=r8s9t0u1v2
+2026-03-28T10:00:19.008Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1120-SG, serial=SN-77500, firmware_version=2.3.1
+2026-03-28T10:00:19.229Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1120-SG, key_type=ECDSA_P256
+2026-03-28T10:00:19.450Z INFO  provisioning-service [RegistryUpdate] Device VSN-1120-SG registered in device-registry, tenant_id=tenant-559
+2026-03-28T10:00:19.671Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1120-SG, size=12.4MB, sha256=s9t0u1v2w3
+2026-03-28T11:00:00.000Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1121-US, serial=SN-77501, firmware_version=2.3.1
+2026-03-28T11:00:01.234Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1121-US, key_type=ECDSA_P256
+2026-03-28T11:00:01.456Z INFO  provisioning-service [RegistryUpdate] Device VSN-1121-US registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:01.678Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1121-US, size=12.4MB, sha256=t0u1v2w3x4
+2026-03-28T11:00:02.112Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1122-CA, serial=SN-77502, firmware_version=2.3.1
+2026-03-28T11:00:02.345Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1122-CA, key_type=ECDSA_P256
+2026-03-28T11:00:02.567Z INFO  provisioning-service [RegistryUpdate] Device VSN-1122-CA registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:02.789Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1122-CA, size=12.4MB, sha256=u1v2w3x4y5
+2026-03-28T11:00:03.010Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1123-UK, serial=SN-77503, firmware_version=2.3.1
+2026-03-28T11:00:03.231Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1123-UK, key_type=ECDSA_P256
+2026-03-28T11:00:03.452Z INFO  provisioning-service [RegistryUpdate] Device VSN-1123-UK registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:03.673Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1123-UK, size=12.4MB, sha256=v2w3x4y5z6
+2026-03-28T11:00:04.005Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1124-FR, serial=SN-77504, firmware_version=2.3.1
+2026-03-28T11:00:04.226Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1124-FR, key_type=ECDSA_P256
+2026-03-28T11:00:04.447Z INFO  provisioning-service [RegistryUpdate] Device VSN-1124-FR registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:04.668Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1124-FR, size=12.4MB, sha256=w3x4y5z6a7
+2026-03-28T11:00:05.001Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1125-JP, serial=SN-77505, firmware_version=2.3.1
+2026-03-28T11:00:05.222Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1125-JP, key_type=ECDSA_P256
+2026-03-28T11:00:05.443Z INFO  provisioning-service [RegistryUpdate] Device VSN-1125-JP registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:05.664Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1125-JP, size=12.4MB, sha256=x4y5z6a7b8
+2026-03-28T11:00:06.007Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1126-DE, serial=SN-77506, firmware_version=2.3.1
+2026-03-28T11:00:06.228Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1126-DE, key_type=ECDSA_P256
+2026-03-28T11:00:06.449Z INFO  provisioning-service [RegistryUpdate] Device VSN-1126-DE registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:06.670Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1126-DE, size=12.4MB, sha256=y5z6a7b8c9
+2026-03-28T11:00:07.002Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1127-AU, serial=SN-77507, firmware_version=2.3.1
+2026-03-28T11:00:07.223Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1127-AU, key_type=ECDSA_P256
+2026-03-28T11:00:07.444Z INFO  provisioning-service [RegistryUpdate] Device VSN-1127-AU registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:07.665Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1127-AU, size=12.4MB, sha256=z6a7b8c9d0
+2026-03-28T11:00:08.008Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1128-BR, serial=SN-77508, firmware_version=2.3.1
+2026-03-28T11:00:08.229Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1128-BR, key_type=ECDSA_P256
+2026-03-28T11:00:08.450Z INFO  provisioning-service [RegistryUpdate] Device VSN-1128-BR registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:08.671Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1128-BR, size=12.4MB, sha256=a7b8c9d0e1
+2026-03-28T11:00:09.003Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1129-IN, serial=SN-77509, firmware_version=2.3.1
+2026-03-28T11:00:09.224Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1129-IN, key_type=ECDSA_P256
+2026-03-28T11:00:09.445Z INFO  provisioning-service [RegistryUpdate] Device VSN-1129-IN registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:09.666Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1129-IN, size=12.4MB, sha256=b8c9d0e1f2
+2026-03-28T11:00:10.009Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1130-US, serial=SN-77510, firmware_version=2.3.1
+2026-03-28T11:00:10.230Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1130-US, key_type=ECDSA_P256
+2026-03-28T11:00:10.451Z INFO  provisioning-service [RegistryUpdate] Device VSN-1130-US registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:10.672Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1130-US, size=12.4MB, sha256=c9d0e1f2g3
+2026-03-28T11:00:11.004Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1131-CA, serial=SN-77511, firmware_version=2.3.1
+2026-03-28T11:00:11.225Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1131-CA, key_type=ECDSA_P256
+2026-03-28T11:00:11.446Z INFO  provisioning-service [RegistryUpdate] Device VSN-1131-CA registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:11.667Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1131-CA, size=12.4MB, sha256=d0e1f2g3h4
+2026-03-28T11:00:12.001Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1132-NL, serial=SN-77512, firmware_version=2.3.1
+2026-03-28T11:00:12.222Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1132-NL, key_type=ECDSA_P256
+2026-03-28T11:00:12.443Z INFO  provisioning-service [RegistryUpdate] Device VSN-1132-NL registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:12.664Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1132-NL, size=12.4MB, sha256=e1f2g3h4i5
+2026-03-28T11:00:13.005Z INFO  provisioning-service [DeviceActivation] New device detected: VSN-1133-SE, serial=SN-77513, firmware_version=2.3.1
+2026-03-28T11:00:13.226Z INFO  provisioning-service [CertIssuance] Generating CSR for device VSN-1133-SE, key_type=ECDSA_P256
+2026-03-28T11:00:13.447Z INFO  provisioning-service [RegistryUpdate] Device VSN-1133-SE registered in device-registry, tenant_id=tenant-559
+2026-03-28T11:00:13.668Z INFO  provisioning-service [FirmwarePush] Pushing firmware v2.3.1 to VSN-1133-SE, size=12.4MB, sha256=f2g3h4i5j6
+2026-03-28T11:00:14.

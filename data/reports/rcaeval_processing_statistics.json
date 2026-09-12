@@ -1,0 +1,36 @@
+{
+  "dataset_name": "RCAEval",
+  "processing_date": "2026-09-11",
+  "total_indexed_cases": 735,
+  "total_local_telemetry_found": 465,
+  "successfully_processed_cases": 465,
+  "failed_cases_count": 0,
+  "skipped_cases_count": 270,
+  "re1_processed_count": 375,
+  "re3_processed_count": 90,
+  "telemetry_sources_availability": {
+    "metrics": 465,
+    "logs": 90,
+    "traces": 60
+  },
+  "total_records_processed": {
+    "metric_rows": 602904,
+    "log_rows": 6021307,
+    "trace_rows": 8907766,
+    "total_telemetry_rows": 15531977
+  },
+  "output_sizes_bytes": {
+    "normalized_cases_jsonl": 3755607,
+    "rca_training_cases_jsonl": 473486
+  },
+  "quality_checks": {
+    "duplicate_count": 0,
+    "missing_ground_truth_count": 0,
+    "credential_findings": 0,
+    "corrupted_parquet_count": 0,
+    "timestamp_inconsistencies": 0
+  },
+  "skipped_reason_summary": {
+    "telemetry_not_downloaded_locally": 270
+  }
+}

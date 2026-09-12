@@ -1,0 +1,161 @@
+2026-03-28T10:00:00.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1023-US session_id=7a9f2b1c-8e3d-4f5a-bc11-2d5e6f7a8b9c protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:00.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1023-US topic=sensors/vibration payload_size=128 qos=1 retained=false
+2026-03-28T10:00:00.005Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1024-US session_id=8b1c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:00.007Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1024-US topic=sensors/temperature payload_size=96 qos=1 retained=false
+2026-03-28T10:00:00.010Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1025-CA session_id=9c2d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:00.012Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1025-CA topic=sensors/pressure payload_size=112 qos=1 retained=false
+2026-03-28T10:00:00.015Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1026-US session_id=ad3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f7a protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:00.017Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1026-US topic=sensors/vibration payload_size=132 qos=1 retained=false
+2026-03-28T10:00:00.020Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1027-CA session_id=be4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:00.022Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1027-CA topic=sensors/temperature payload_size=98 qos=1 retained=false
+2026-03-28T10:00:00.025Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1028-US session_id=cf5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:00.027Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1028-US topic=sensors/pressure payload_size=120 qos=1 retained=false
+2026-03-28T10:00:00.030Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1029-CA session_id=df6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:00.032Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1029-CA topic=sensors/vibration payload_size=118 qos=1 retained=false
+2026-03-28T10:00:00.035Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1030-US session_id=ef7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:00.037Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1030-US topic=sensors/temperature payload_size=100 qos=1 retained=false
+2026-03-28T10:00:00.040Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1031-CA session_id=af8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:00.042Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1031-CA topic=sensors/pressure payload_size=114 qos=1 retained=false
+2026-03-28T10:00:00.045Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1032-US session_id=bf9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:00.047Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1032-US topic=sensors/vibration payload_size=126 qos=1 retained=false
+2026-03-28T10:00:05.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1033-US session_id=cf0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:05.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1033-US topic=sensors/temperature payload_size=102 qos=1 retained=false
+2026-03-28T10:00:05.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1034-CA session_id=df1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:05.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1034-CA topic=sensors/pressure payload_size=116 qos=1 retained=false
+2026-03-28T10:00:05.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1035-US session_id=ef2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:05.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1035-US topic=sensors/vibration payload_size=124 qos=1 retained=false
+2026-03-28T10:00:05.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1036-CA session_id=af3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:05.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1036-CA topic=sensors/temperature payload_size=99 qos=1 retained=false
+2026-03-28T10:00:05.021Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1037-US session_id=bf4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:05.023Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1037-US topic=sensors/pressure payload_size=118 qos=1 retained=false
+2026-03-28T10:00:05.026Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1038-CA session_id=cf5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:05.028Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1038-CA topic=sensors/vibration payload_size=122 qos=1 retained=false
+2026-03-28T10:00:10.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1039-US session_id=df6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:10.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1039-US topic=sensors/temperature payload_size=101 qos=1 retained=false
+2026-03-28T10:00:10.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1040-CA session_id=ef7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:10.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1040-CA topic=sensors/pressure payload_size=120 qos=1 retained=false
+2026-03-28T10:00:10.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1041-US session_id=af8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:10.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1041-US topic=sensors/vibration payload_size=130 qos=1 retained=false
+2026-03-28T10:00:10.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1042-CA session_id=bf9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:10.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1042-CA topic=sensors/temperature payload_size=103 qos=1 retained=false
+2026-03-28T10:00:10.021Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1043-US session_id=cfad1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4f protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:10.023Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1043-US topic=sensors/pressure payload_size=119 qos=1 retained=false
+2026-03-28T10:00:10.026Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1044-CA session_id=dfbe2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:10.028Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1044-CA topic=sensors/vibration payload_size=128 qos=1 retained=false
+2026-03-28T10:00:15.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1045-US session_id=efcf3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:15.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1045-US topic=sensors/temperature payload_size=104 qos=1 retained=false
+2026-03-28T10:00:15.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1046-CA session_id=afde4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:15.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1046-CA topic=sensors/pressure payload_size=115 qos=1 retained=false
+2026-03-28T10:00:15.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1047-US session_id=bfee5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:15.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1047-US topic=sensors/vibration payload_size=131 qos=1 retained=false
+2026-03-28T10:00:15.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1048-CA session_id=cff06d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:15.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1048-CA topic=sensors/temperature payload_size=105 qos=1 retained=false
+2026-03-28T10:00:15.021Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1049-US session_id=df017e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:15.023Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1049-US topic=sensors/pressure payload_size=121 qos=1 retained=false
+2026-03-28T10:00:15.026Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1050-CA session_id=ef128f9a-0b1c-2d3e-4f5a-6b7c8d9e0f1a protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:15.028Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1050-CA topic=sensors/vibration payload_size=127 qos=1 retained=false
+2026-03-28T10:00:20.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1051-US session_id=af239g0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:20.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1051-US topic=sensors/temperature payload_size=106 qos=1 retained=false
+2026-03-28T10:00:20.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1052-CA session_id=bf34ah1c-2d3e-4f5a-6b7c-8d9e0f1a2b3c protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:20.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1052-CA topic=sensors/pressure payload_size=117 qos=1 retained=false
+2026-03-28T10:00:20.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1053-US session_id=cf45bi2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:20.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1053-US topic=sensors/vibration payload_size=129 qos=1 retained=false
+2026-03-28T10:00:20.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1054-CA session_id=df56cj3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:20.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1054-CA topic=sensors/temperature payload_size=107 qos=1 retained=false
+2026-03-28T10:00:20.021Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1055-US session_id=ef67dk4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:20.023Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1055-US topic=sensors/pressure payload_size=122 qos=1 retained=false
+2026-03-28T10:00:20.026Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1056-CA session_id=af78el5g-6b7c-8d9e-0f1a-2b3c4d5e6f7a protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:20.028Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1056-CA topic=sensors/vibration payload_size=125 qos=1 retained=false
+2026-03-28T10:00:25.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1057-US session_id=bf89fm6h-7c8d-9e0f-1a2b-3c4d5e6f7a8b protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:25.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1057-US topic=sensors/temperature payload_size=108 qos=1 retained=false
+2026-03-28T10:00:25.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1058-CA session_id=cf9agn7i-8d9e-0f1a-2b3c-4d5e6f7a8b9c protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:25.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1058-CA topic=sensors/pressure payload_size=113 qos=1 retained=false
+2026-03-28T10:00:25.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1059-US session_id=dfafoh8j-9e0f-1a2b-3c4d-5e6f7a8b9c0d protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:25.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1059-US topic=sensors/vibration payload_size=133 qos=1 retained=false
+2026-03-28T10:00:25.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1060-CA session_id=efbgpi9k-0f1a-2b3c-4d5e-6f7a8b9c0d1e protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:25.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1060-CA topic=sensors/temperature payload_size=109 qos=1 retained=false
+2026-03-28T10:00:25.021Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1061-US session_id=afchqjal-1b2c-3d4e-5f6a-7b8c9d0e1f2a protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:25.023Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1061-US topic=sensors/pressure payload_size=123 qos=1 retained=false
+2026-03-28T10:00:25.026Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1062-CA session_id=bfdirkbm-2c3d-4e5f-6a7b-8c9d0e1f2a3b protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:25.028Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1062-CA topic=sensors/vibration payload_size=126 qos=1 retained=false
+2026-03-28T10:00:30.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1063-US session_id=cfekslcn-3d4e-5f6a-7b8c-9d0e1f2a3b4c protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:30.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1063-US topic=sensors/temperature payload_size=110 qos=1 retained=false
+2026-03-28T10:00:30.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1064-CA session_id=dffltmdo-4e5f-6a7b-8c9d-0e1f2a3b4c5d protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:30.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1064-CA topic=sensors/pressure payload_size=111 qos=1 retained=false
+2026-03-28T10:00:30.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1065-US session_id=efgmunep-5f6a-7b8c-9d0e-1f2a3b4c5d6e protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:30.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1065-US topic=sensors/vibration payload_size=134 qos=1 retained=false
+2026-03-28T10:00:30.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1066-CA session_id=afhvnqfq-6a7b-8c9d-0e1f-2a3b4c5d6e7f protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:30.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1066-CA topic=sensors/temperature payload_size=112 qos=1 retained=false
+2026-03-28T10:00:30.021Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1067-US session_id=bfiworgr-7b8c-9d0e-1f2a-3b4c5d6e7f8a protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:30.023Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1067-US topic=sensors/pressure payload_size=124 qos=1 retained=false
+2026-03-28T10:00:30.026Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1068-CA session_id=cfjxpshs-8c9d-0e1f-2a3b-4c5d6e7f8a9b protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:30.028Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1068-CA topic=sensors/vibration payload_size=128 qos=1 retained=false
+2026-03-28T10:00:35.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1069-US session_id=dfkyptit-9d0e-1f2a-3b4c-5d6e7f8a9b0c protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:35.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1069-US topic=sensors/temperature payload_size=113 qos=1 retained=false
+2026-03-28T10:00:35.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1070-CA session_id=eflzqjuj-0e1f-2a3b-4c5d-6e7f8a9b0c1d protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:35.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1070-CA topic=sensors/pressure payload_size=119 qos=1 retained=false
+2026-03-28T10:00:35.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1071-US session_id=afma rkvk-1f2a-3b4c-5d6e-7f8a9b0c1d2e protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:35.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1071-US topic=sensors/vibration payload_size=135 qos=1 retained=false
+2026-03-28T10:00:35.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1072-CA session_id=bfnb slwl-2a3b-4c5d-6e7f-8a9b0c1d2e3f protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:35.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1072-CA topic=sensors/temperature payload_size=114 qos=1 retained=false
+2026-03-28T10:00:35.021Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1073-US session_id=cfoctmxm-3b4c-5d6e-7f8a-9b0c1d2e3f4a protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:35.023Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1073-US topic=sensors/pressure payload_size=125 qos=1 retained=false
+2026-03-28T10:00:35.026Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1074-CA session_id=dfpgunyn-4c5d-6e7f-8a9b-0c1d2e3f4a5b protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:35.028Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1074-CA topic=sensors/vibration payload_size=127 qos=1 retained=false
+2026-03-28T10:00:40.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1075-US session_id=efqhvozo-5d6e-7f8a-9b0c-1d2e3f4a5b6c protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:40.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1075-US topic=sensors/temperature payload_size=115 qos=1 retained=false
+2026-03-28T10:00:40.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1076-CA session_id=afriwpap-6e7f-8a9b-0c1d-2e3f4a5b6c7d protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:40.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1076-CA topic=sensors/pressure payload_size=116 qos=1 retained=false
+2026-03-28T10:00:40.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1077-US session_id=bfsjxqbq-7f8a-9b0c-1d2e-3f4a5b6c7d8e protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:40.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1077-US topic=sensors/vibration payload_size=136 qos=1 retained=false
+2026-03-28T10:00:40.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1078-CA session_id=cftkyrcr-8a9b-0c1d-2e3f-4a5b6c7d8e9f protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:40.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1078-CA topic=sensors/temperature payload_size=116 qos=1 retained=false
+2026-03-28T10:00:40.021Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1079-US session_id=dfulzsds-9b0c-1d2e-3f4a-5b6c7d8e9f0a protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:40.023Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1079-US topic=sensors/pressure payload_size=126 qos=1 retained=false
+2026-03-28T10:00:40.026Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1080-CA session_id=efvmatet-a0c1-d2e3-f4a5-b6c7d8e9f0a1 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:40.028Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1080-CA topic=sensors/vibration payload_size=129 qos=1 retained=false
+2026-03-28T10:00:45.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1081-US session_id=afwnbuvf-b1d2-e3f4-a5b6-c7d8e9f0a1b2 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:45.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1081-US topic=sensors/temperature payload_size=117 qos=1 retained=false
+2026-03-28T10:00:45.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1082-CA session_id=bfxoqwvg-c2e3-f4a5-b6c7-d8e9f0a1b2c3 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:45.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1082-CA topic=sensors/pressure payload_size=118 qos=1 retained=false
+2026-03-28T10:00:45.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1083-US session_id=cfypxrwh-d3f4-a5b6-c7d8-e9f0a1b2c3d4 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:45.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1083-US topic=sensors/vibration payload_size=137 qos=1 retained=false
+2026-03-28T10:00:45.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1084-CA session_id=dfzqysxi-e4a5-b6c7-d8e9-f0a1b2c3d4e5 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:45.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1084-CA topic=sensors/temperature payload_size=118 qos=1 retained=false
+2026-03-28T10:00:45.021Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1085-US session_id=efarztzj-f5b6-c7d8-e9f0-a1b2c3d4e5f6 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:45.023Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1085-US topic=sensors/pressure payload_size=127 qos=1 retained=false
+2026-03-28T10:00:45.026Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1086-CA session_id=afbsauak-g6c7-d8e9-f0a1-b2c3d4e5f6a7 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:45.028Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1086-CA topic=sensors/vibration payload_size=130 qos=1 retained=false
+2026-03-28T10:00:50.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1087-US session_id=bfctbvbl-h7d8-e9f0-a1b2-c3d4e5f6a7b8 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:50.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1087-US topic=sensors/temperature payload_size=119 qos=1 retained=false
+2026-03-28T10:00:50.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1088-CA session_id=cfducwcm-i8e9-f0a1-b2c3-d4e5f6a7b8c9 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:50.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1088-CA topic=sensors/pressure payload_size=114 qos=1 retained=false
+2026-03-28T10:00:50.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1089-US session_id=dfevdxdn-j9f0-a1b2-c3d4-e5f6a7b8c9d0 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:50.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1089-US topic=sensors/vibration payload_size=138 qos=1 retained=false
+2026-03-28T10:00:50.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1090-CA session_id=effweyeo-k0a1-b2c3-d4e5-f6a7b8c9d0e1 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:50.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1090-CA topic=sensors/temperature payload_size=120 qos=1 retained=false
+2026-03-28T10:00:50.021Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1091-US session_id=afgxgzfp-l1b2-c3d4-e5f6-a7b8c9d0e1f2 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:50.023Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1091-US topic=sensors/pressure payload_size=128 qos=1 retained=false
+2026-03-28T10:00:50.026Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1092-CA session_id=bfhyhagq-m2c3-d4e5-f6a7-b8c9d0e1f2a3 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:50.028Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1092-CA topic=sensors/vibration payload_size=131 qos=1 retained=false
+2026-03-28T10:00:55.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1093-US session_id=cfizibhr-n3d4-e5f6-a7b8-c9d0e1f2a3b4 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:55.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1093-US topic=sensors/temperature payload_size=121 qos=1 retained=false
+2026-03-28T10:00:55.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1094-CA session_id=dfjajcis-o4e5-f6a7-b8c9-d0e1f2a3b4c5 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:55.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1094-CA topic=sensors/pressure payload_size=115 qos=1 retained=false
+2026-03-28T10:00:55.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1095-US session_id=efkbkdjt-p5f6-a7b8-c9d0-e1f2a3b4c5d6 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:55.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1095-US topic=sensors/vibration payload_size=139 qos=1 retained=false
+2026-03-28T10:00:55.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1096-CA session_id=aflcleku-q6g7-h8i9-j0k1-l2m3n4o5p6q7 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:55.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1096-CA topic=sensors/temperature payload_size=122 qos=1 retained=false
+2026-03-28T10:00:55.021Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1097-US session_id=bfmdmfkv-r7h8-i9j0-k1l2-m3n4o5p6q7r8 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:55.023Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1097-US topic=sensors/pressure payload_size=129 qos=1 retained=false
+2026-03-28T10:00:55.026Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1098-CA session_id=cfnenflw-s8i9-j0k1-l2m3-n4o5p6q7r8s9 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:00:55.028Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1098-CA topic=sensors/vibration payload_size=132 qos=1 retained=false
+2026-03-28T10:01:00.001Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1099-US session_id=dfofogmx-t9j0-k1l2-m3n4-o5p6q7r8s9t0 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:01:00.003Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1099-US topic=sensors/temperature payload_size=123 qos=1 retained=false
+2026-03-28T10:01:00.006Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1100-CA session_id=efpgphny-u0k1-l2m3-n4o5-p6q7r8s9t0u1 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:01:00.008Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1100-CA topic=sensors/pressure payload_size=116 qos=1 retained=false
+2026-03-28T10:01:00.011Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1101-US session_id=afqhqiob-v1l2-m3n4-o5p6-q7r8s9t0u1v2 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:01:00.013Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1101-US topic=sensors/vibration payload_size=140 qos=1 retained=false
+2026-03-28T10:01:00.016Z INFO  device-gateway [Connection] CLIENT_CONNECT device_id=VSN-1102-CA session_id=bfrirjpc-w2m3-n4o5-p6q7-r8s9t0u1v2w3 protocol=mqtt5 tls_version=tls1.3
+2026-03-28T10:01:00.018Z INFO  device-gateway [Message] PUBLISH device_id=VSN-1102-CA topic=sensors/temperature payload_size=124 qos=1 retained=false
+2026-03-28T10:01:00.

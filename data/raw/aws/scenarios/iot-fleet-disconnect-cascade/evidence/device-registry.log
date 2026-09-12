@@ -1,0 +1,150 @@
+2026-03-28T10:00:00.001Z INFO  device-registry [Query] SELECT device_id, firmware_version, customer_id, region FROM devices WHERE provisioning_status='active' AND last_seen > NOW() - INTERVAL '24 hours' returned 48213 rows
+2026-03-28T10:00:00.002Z INFO  device-registry [Sync] Batch updated 1,204 devices with latest metadata from device-gateway
+2026-03-28T10:00:00.003Z INFO  device-registry [Cache] Redis cache hit for device VSN-8834-US: 12ms latency
+2026-03-28T10:00:00.004Z INFO  device-registry [Query] SELECT customer_name, contract_end_date FROM customers WHERE customer_id='CUST-7721' returned 1 row
+2026-03-28T10:00:00.005Z INFO  device-registry [Sync] Synced 897 device provisioning states from external inventory
+2026-03-28T10:00:00.006Z INFO  device-registry [Cache] Redis cache miss for device VSN-9012-CA: 43ms latency
+2026-03-28T10:00:00.007Z INFO  device-registry [Query] UPDATE devices SET last_seen=NOW(), firmware_version='2.1.7' WHERE device_id='VSN-8834-US' returned 1 row
+2026-03-28T10:00:00.008Z INFO  device-registry [Query] SELECT COUNT(*) FROM devices WHERE region='us-west' AND provisioning_status='active' returned 14201
+2026-03-28T10:00:00.009Z INFO  device-registry [Cache] Redis cache hit for customer CUST-7721: 9ms latency
+2026-03-28T10:00:00.010Z INFO  device-registry [Sync] Processed 321 device provisioning requests in batch
+2026-03-28T10:00:00.011Z INFO  device-registry [Query] SELECT device_id, region FROM devices WHERE firmware_version < '2.1.5' AND provisioning_status='active' returned 1892 rows
+2026-03-28T10:00:00.012Z INFO  device-registry [Cache] Redis cache miss for device VSN-7723-US: 38ms latency
+2026-03-28T10:00:00.013Z INFO  device-registry [Query] INSERT INTO device_events (device_id, event_type, metadata) VALUES ('VSN-8834-US', 'telemetry_received', '{"temp":23.4,"vibration":0.15}') returned 1 row
+2026-03-28T10:00:00.014Z INFO  device-registry [Sync] Refreshed 1,024 customer mappings from CRM integration
+2026-03-28T10:00:00.015Z INFO  device-registry [Query] SELECT region, COUNT(*) FROM devices WHERE provisioning_status='pending' GROUP BY region returned 4 rows
+2026-03-28T10:00:00.016Z INFO  device-registry [Cache] Redis cache hit for device VSN-9105-CA: 11ms latency
+2026-03-28T10:00:00.017Z INFO  device-registry [Query] UPDATE devices SET provisioning_status='active' WHERE device_id IN (SELECT device_id FROM provisioning_queue WHERE status='completed') returned 789 rows
+2026-03-28T10:00:00.018Z INFO  device-registry [Sync] Batch processed 543 device firmware update requests
+2026-03-28T10:00:00.019Z INFO  device-registry [Cache] Redis cache miss for customer CUST-8810: 41ms latency
+2026-03-28T10:00:00.020Z INFO  device-registry [Query] SELECT device_id, last_seen FROM devices WHERE last_seen < NOW() - INTERVAL '1 hour' AND provisioning_status='active' returned 198 rows
+2026-03-28T10:00:00.021Z INFO  device-registry [Sync] Updated 204 device locations from GPS telemetry
+2026-03-28T10:00:00.022Z INFO  device-registry [Query] SELECT customer_id, COUNT(*) as device_count FROM devices GROUP BY customer_id HAVING COUNT(*) > 100 ORDER BY device_count DESC LIMIT 10 returned 10 rows
+2026-03-28T10:00:00.023Z INFO  device-registry [Cache] Redis cache hit for device VSN-8001-US: 8ms latency
+2026-03-28T10:00:00.024Z INFO  device-registry [Query] INSERT INTO audit_log (user_id, action, target, timestamp) VALUES ('admin-007', 'device_view', 'VSN-8834-US', NOW()) returned 1 row
+2026-03-28T10:00:00.025Z INFO  device-registry [Sync] Synchronized 1,567 device tags from tag-service
+2026-03-28T10:00:00.026Z INFO  device-registry [Query] SELECT device_id, region, firmware_version FROM devices WHERE provisioning_status='active' AND region='ca-east' returned 2103 rows
+2026-03-28T10:00:00.027Z INFO  device-registry [Cache] Redis cache miss for device VSN-9988-CA: 45ms latency
+2026-03-28T10:00:00.028Z INFO  device-registry [Query] UPDATE device_settings SET power_mode='low' WHERE device_id='VSN-9012-CA' AND setting_key='battery_optimization' returned 1 row
+2026-03-28T10:00:00.029Z INFO  device-registry [Sync] Processed 442 device decommissioning requests
+2026-03-28T10:00:00.030Z INFO  device-registry [Query] SELECT COUNT(*) FROM device_events WHERE event_type='connection_failed' AND timestamp > NOW() - INTERVAL '1 hour' returned 2
+2026-03-28T10:00:00.031Z INFO  device-registry [Cache] Redis cache hit for customer CUST-9922: 10ms latency
+2026-03-28T10:00:00.032Z INFO  device-registry [Query] SELECT device_id, region FROM devices WHERE firmware_version='2.1.7' AND last_seen > NOW() - INTERVAL '30 minutes' returned 12674 rows
+2026-03-28T10:00:00.033Z INFO  device-registry [Sync] Updated 889 device maintenance schedules
+2026-03-28T10:00:00.034Z INFO  device-registry [Query] SELECT customer_id, SUM(metric_value) as total_telemetry FROM device_metrics WHERE metric_name='data_points' AND timestamp > NOW() - INTERVAL '24 hours' GROUP BY customer_id ORDER BY total_telemetry DESC LIMIT 5 returned 5 rows
+2026-03-28T10:00:00.035Z INFO  device-registry [Cache] Redis cache miss for device VSN-7701-US: 39ms latency
+2026-03-28T10:00:00.036Z INFO  device-registry [Query] INSERT INTO device_health (device_id, score, timestamp) VALUES ('VSN-8834-US', 97.2, NOW()) returned 1 row
+2026-03-28T10:00:00.037Z INFO  device-registry [Sync] Processed 211 device firmware rollback requests
+2026-03-28T10:00:00.038Z INFO  device-registry [Query] SELECT device_id, region, provisioning_status FROM devices WHERE provisioning_status IN ('pending', 'failed') AND created_at > NOW() - INTERVAL '7 days' returned 304 rows
+2026-03-28T10:00:00.039Z INFO  device-registry [Cache] Redis cache hit for device VSN-9022-CA: 13ms latency
+2026-03-28T10:00:00.040Z INFO  device-registry [Query] UPDATE devices SET last_config_sync=NOW() WHERE device_id IN (SELECT device_id FROM config_queue WHERE status='sent' AND ack_received=true) returned 912 rows
+2026-03-28T10:00:00.041Z INFO  device-registry [Sync] Synchronized 1,103 device locations from third-party geolocation service
+2026-03-28T10:00:00.042Z INFO  device-registry [Query] SELECT region, COUNT(*) as active_count FROM devices WHERE provisioning_status='active' GROUP BY region ORDER BY active_count DESC returned 6 rows
+2026-03-28T10:00:00.043Z INFO  device-registry [Cache] Redis cache miss for customer CUST-7788: 42ms latency
+2026-03-28T10:00:00.044Z INFO  device-registry [Query] SELECT device_id, firmware_version FROM devices WHERE firmware_version LIKE '2.1.%' AND provisioning_status='active' returned 32103 rows
+2026-03-28T10:00:00.045Z INFO  device-registry [Sync] Updated 598 device access permissions
+2026-03-28T10:00:00.046Z INFO  device-registry [Query] INSERT INTO device_alerts (device_id, severity, message, timestamp) VALUES ('VSN-9012-CA', 'warning', 'Battery level below 15%', NOW()) returned 1 row
+2026-03-28T10:00:00.047Z INFO  device-registry [Cache] Redis cache hit for device VSN-8111-US: 10ms latency
+2026-03-28T10:00:00.048Z INFO  device-registry [Query] SELECT customer_id, region, COUNT(*) FROM devices WHERE provisioning_status='active' GROUP BY customer_id, region HAVING COUNT(*) > 500 ORDER BY COUNT(*) DESC LIMIT 15 returned 15 rows
+2026-03-28T10:00:00.049Z INFO  device-registry [Sync] Processed 387 device re-provisioning requests
+2026-03-28T10:00:00.050Z INFO  device-registry [Query] SELECT device_id, last_seen FROM devices WHERE last_seen < NOW() - INTERVAL '4 hours' AND provisioning_status='active' returned 47 rows
+2026-03-28T10:00:00.051Z INFO  device-registry [Cache] Redis cache miss for device VSN-9901-CA: 40ms latency
+2026-03-28T10:00:00.052Z INFO  device-registry [Query] UPDATE device_settings SET alert_threshold='high' WHERE device_id='VSN-8834-US' AND setting_key='vibration_alert' returned 1 row
+2026-03-28T10:00:00.053Z INFO  device-registry [Sync] Refreshed 1,342 device metadata from asset management system
+2026-03-28T10:00:00.054Z INFO  device-registry [Query] SELECT COUNT(*) FROM devices WHERE region='us-central' AND firmware_version='2.1.7' returned 15789
+2026-03-28T10:00:00.055Z INFO  device-registry [Cache] Redis cache hit for customer CUST-9955: 9ms latency
+2026-03-28T10:00:00.056Z INFO  device-registry [Query] INSERT INTO device_events (device_id, event_type, metadata) VALUES ('VSN-7723-US', 'config_applied', '{"config_id":"cfg-8810","version":"v2.1.7"}') returned 1 row
+2026-03-28T10:00:00.057Z INFO  device-registry [Sync] Processed 411 device firmware update acknowledgments
+2026-03-28T10:00:00.058Z INFO  device-registry [Query] SELECT device_id, region FROM devices WHERE provisioning_status='active' AND customer_id='CUST-7721' returned 198 rows
+2026-03-28T10:00:00.059Z INFO  device-registry [Cache] Redis cache miss for device VSN-8055-US: 44ms latency
+2026-03-28T10:00:00.060Z INFO  device-registry [Query] UPDATE devices SET last_maintenance=NOW() WHERE device_id IN (SELECT device_id FROM maintenance_queue WHERE status='completed') returned 623 rows
+2026-03-28T10:00:00.061Z INFO  device-registry [Sync] Updated 765 device compliance statuses
+2026-03-28T10:00:00.062Z INFO  device-registry [Query] SELECT region, AVG(metric_value) as avg_telemetry FROM device_metrics WHERE metric_name='data_points' AND timestamp > NOW() - INTERVAL '1 hour' GROUP BY region returned 6 rows
+2026-03-28T10:00:00.063Z INFO  device-registry [Cache] Redis cache hit for device VSN-9122-CA: 11ms latency
+2026-03-28T10:00:00.064Z INFO  device-registry [Query] SELECT device_id, firmware_version FROM devices WHERE provisioning_status='active' AND firmware_version < '2.1.6' ORDER BY last_seen ASC LIMIT 100 returned 100 rows
+2026-03-28T10:00:00.065Z INFO  device-registry [Sync] Processed 534 device location updates
+2026-03-28T10:00:00.066Z INFO  device-registry [Query] INSERT INTO device_health (device_id, score, timestamp) VALUES ('VSN-9012-CA', 98.1, NOW()) returned 1 row
+2026-03-28T10:00:00.067Z INFO  device-registry [Cache] Redis cache miss for customer CUST-8844: 43ms latency
+2026-03-28T10:00:00.068Z INFO  device-registry [Query] SELECT customer_id, COUNT(*) as device_count FROM devices WHERE region='us-west' GROUP BY customer_id HAVING COUNT(*) > 10 ORDER BY device_count DESC LIMIT 20 returned 20 rows
+2026-03-28T10:00:00.069Z INFO  device-registry [Sync] Updated 911 device access tokens
+2026-03-28T10:00:00.070Z INFO  device-registry [Query] SELECT device_id, region FROM devices WHERE provisioning_status='active' AND last_seen > NOW() - INTERVAL '5 minutes' returned 11873 rows
+2026-03-28T10:00:00.071Z INFO  device-registry [Cache] Redis cache hit for device VSN-7755-US: 12ms latency
+2026-03-28T10:00:00.072Z INFO  device-registry [Query] UPDATE devices SET provisioning_status='failed' WHERE device_id='VSN-8834-US' AND provisioning_status='pending' AND last_updated < NOW() - INTERVAL '1 day' returned 0 rows
+2026-03-28T10:00:00.073Z INFO  device-registry [Sync] Processed 298 device decommissioned status confirmations
+2026-03-28T10:00:00.074Z INFO  device-registry [Query] SELECT COUNT(*) FROM device_events WHERE event_type='firmware_update_failed' AND timestamp > NOW() - INTERVAL '24 hours' returned 1
+2026-03-28T10:00:00.075Z INFO  device-registry [Cache] Redis cache miss for device VSN-9021-CA: 37ms latency
+2026-03-28T10:00:00.076Z INFO  device-registry [Query] INSERT INTO audit_log (user_id, action, target, timestamp) VALUES ('system', 'auto_sync', 'device_registry', NOW()) returned 1 row
+2026-03-28T10:00:00.077Z INFO  device-registry [Sync] Refreshed 1,155 device configuration templates
+2026-03-28T10:00:00.078Z INFO  device-registry [Query] SELECT region, COUNT(*) FROM devices WHERE provisioning_status='active' AND firmware_version='2.1.7' GROUP BY region ORDER BY COUNT(*) DESC returned 6 rows
+2026-03-28T10:00:00.079Z INFO  device-registry [Cache] Redis cache hit for customer CUST-7721: 8ms latency
+2026-03-28T10:00:00.080Z INFO  device-registry [Query] SELECT device_id, last_seen FROM devices WHERE provisioning_status='active' AND last_seen < NOW() - INTERVAL '2 hours' AND region='us-east' returned 103 rows
+2026-03-28T10:00:00.081Z INFO  device-registry [Sync] Processed 422 device telemetry ingestion acknowledgments
+2026-03-28T10:00:00.082Z INFO  device-registry [Query] UPDATE device_settings SET alert_threshold='medium' WHERE device_id='VSN-9012-CA' AND setting_key='temperature_alert' returned 1 row
+2026-03-28T10:00:00.083Z INFO  device-registry [Cache] Redis cache miss for device VSN-8899-US: 46ms latency
+2026-03-28T10:00:00.084Z INFO  device-registry [Query] SELECT customer_id, region, SUM(metric_value) as total_data FROM device_metrics WHERE metric_name='data_points' AND timestamp > NOW() - INTERVAL '7 days' GROUP BY customer_id, region HAVING SUM(metric_value) > 1000000 ORDER BY total_data DESC LIMIT 10 returned 10 rows
+2026-03-28T10:00:00.085Z INFO  device-registry [Sync] Updated 687 device maintenance logs
+2026-03-28T10:00:00.086Z INFO  device-registry [Query] INSERT INTO device_events (device_id, event_type, metadata) VALUES ('VSN-7723-US', 'connection_established', '{"duration_ms":3589}') returned 1 row
+2026-03-28T10:00:00.087Z INFO  device-registry [Cache] Redis cache hit for device VSN-9012-CA: 10ms latency
+2026-03-28T10:00:00.088Z INFO  device-registry [Query] SELECT device_id, firmware_version FROM devices WHERE firmware_version='2.1.7' AND region='ca-west' returned 1842 rows
+2026-03-28T10:00:00.089Z INFO  device-registry [Sync] Processed 309 device firmware rollback confirmations
+2026-03-28T10:00:00.090Z INFO  device-registry [Query] SELECT COUNT(*) FROM devices WHERE provisioning_status='active' AND last_seen < NOW() - INTERVAL '6 hours' returned 32
+2026-03-28T10:00:00.091Z INFO  device-registry [Cache] Redis cache miss for customer CUST-9922: 41ms latency
+2026-03-28T10:00:00.092Z INFO  device-registry [Query] UPDATE devices SET last_config_sync=NOW() WHERE device_id='VSN-8834-US' AND last_config_sync < NOW() - INTERVAL '1 hour' returned 1 row
+2026-03-28T10:00:00.093Z INFO  device-registry [Sync] Updated 1,088 device compliance records
+2026-03-28T10:00:00.094Z INFO  device-registry [Query] SELECT region, AVG(last_seen) as avg_last_seen FROM devices WHERE provisioning_status='active' GROUP BY region returned 6 rows
+2026-03-28T10:00:00.095Z INFO  device-registry [Cache] Redis cache hit for device VSN-8111-US: 9ms latency
+2026-03-28T10:00:00.096Z INFO  device-registry [Query] INSERT INTO device_alerts (device_id, severity, message, timestamp) VALUES ('VSN-9012-CA', 'info', 'Firmware update queued', NOW()) returned 1 row
+2026-03-28T10:00:00.097Z INFO  device-registry [Sync] Processed 466 device metadata patches
+2026-03-28T10:00:00.098Z INFO  device-registry [Query] SELECT device_id, region FROM devices WHERE provisioning_status='active' AND customer_id='CUST-8810' returned 217 rows
+2026-03-28T10:00:00.099Z INFO  device-registry [Cache] Redis cache miss for device VSN-7701-US: 42ms latency
+2026-03-28T10:00:00.100Z INFO  device-registry [Query] UPDATE device_settings SET power_mode='normal' WHERE device_id='VSN-9012-CA' AND setting_key='battery_optimization' returned 1 row
+2026-03-28T10:00:00.101Z INFO  device-registry [Sync] Refreshed 1,224 device tags from external source
+2026-03-28T10:00:00.102Z INFO  device-registry [Query] SELECT COUNT(*) FROM devices WHERE provisioning_status='active' AND region='us-central' returned 15902
+2026-03-28T10:00:00.103Z INFO  device-registry [Cache] Redis cache hit for customer CUST-7788: 10ms latency
+2026-03-28T10:00:00.104Z INFO  device-registry [Query] INSERT INTO device_events (device_id, event_type, metadata) VALUES ('VSN-8055-US', 'telemetry_received', '{"temp":24.1,"pressure":101.3}') returned 1 row
+2026-03-28T10:00:00.105Z INFO  device-registry [Sync] Processed 587 device firmware update batches
+2026-03-28T10:00:00.106Z INFO  device-registry [Query] SELECT device_id, last_seen FROM devices WHERE provisioning_status='active' AND last_seen < NOW() - INTERVAL '1 hour' AND region='ca-east' returned 187 rows
+2026-03-28T10:00:00.107Z INFO  device-registry [Cache] Redis cache miss for device VSN-9988-CA: 47ms latency
+2026-03-28T10:00:00.108Z INFO  device-registry [Query] UPDATE devices SET provisioning_status='active' WHERE device_id='VSN-8834-US' AND provisioning_status='pending' AND last_updated > NOW() - INTERVAL '1 day' returned 1 row
+2026-03-28T10:00:00.109Z INFO  device-registry [Sync] Updated 733 device access permissions
+2026-03-28T10:00:00.110Z INFO  device-registry [Query] SELECT region, COUNT(*) as active_count FROM devices WHERE provisioning_status='active' AND firmware_version='2.1.7' GROUP BY region ORDER BY active_count DESC returned 6 rows
+2026-03-28T10:00:00.111Z INFO  device-registry [Cache] Redis cache hit for device VSN-9022-CA: 12ms latency
+2026-03-28T10:00:00.112Z INFO  device-registry [Query] SELECT customer_id, COUNT(*) as device_count FROM devices WHERE region='ca-west' GROUP BY customer_id HAVING COUNT(*) > 50 ORDER BY device_count DESC LIMIT 10 returned 10 rows
+2026-03-28T10:00:00.113Z INFO  device-registry [Sync] Processed 312 device decommissioning validations
+2026-03-28T10:00:00.114Z INFO  device-registry [Query] SELECT COUNT(*) FROM device_events WHERE event_type='connection_failed' AND timestamp > NOW() - INTERVAL '1 hour' returned 1
+2026-03-28T10:00:00.115Z INFO  device-registry [Cache] Redis cache miss for customer CUST-9955: 39ms latency
+2026-03-28T10:00:00.116Z INFO  device-registry [Query] INSERT INTO audit_log (user_id, action, target, timestamp) VALUES ('api-gateway', 'device_query', 'VSN-7723-US', NOW()) returned 1 row
+2026-03-28T10:00:00.117Z INFO  device-registry [Sync] Updated 889 device maintenance schedules
+2026-03-28T10:00:00.118Z INFO  device-registry [Query] SELECT device_id, region FROM devices WHERE provisioning_status='active' AND last_seen > NOW() - INTERVAL '5 minutes' returned 11901 rows
+2026-03-28T10:00:00.119Z INFO  device-registry [Cache] Redis cache hit for device VSN-8899-US: 10ms latency
+2026-03-28T10:00:00.120Z INFO  device-registry [Query] UPDATE devices SET last_config_sync=NOW() WHERE device_id IN (SELECT device_id FROM config_queue WHERE status='sent' AND ack_received=true) returned 921 rows
+2026-03-28T10:00:00.121Z INFO  device-registry [Sync] Synchronized 1,045 device locations from GPS telemetry
+2026-03-28T10:00:00.122Z INFO  device-registry [Query] SELECT region, AVG(metric_value) as avg_telemetry FROM device_metrics WHERE metric_name='data_points' AND timestamp > NOW() - INTERVAL '1 hour' GROUP BY region returned 6 rows
+2026-03-28T10:00:00.123Z INFO  device-registry [Cache] Redis cache miss for device VSN-9122-CA: 40ms latency
+2026-03-28T10:00:00.124Z INFO  device-registry [Query] SELECT device_id, firmware_version FROM devices WHERE provisioning_status='active' AND firmware_version < '2.1.6' ORDER BY last_seen ASC LIMIT 100 returned 100 rows
+2026-03-28T10:00:00.125Z INFO  device-registry [Sync] Processed 502 device location updates
+2026-03-28T10:00:00.126Z INFO  device-registry [Query] INSERT INTO device_health (device_id, score, timestamp) VALUES ('VSN-7723-US', 96.8, NOW()) returned 1 row
+2026-03-28T10:00:00.127Z INFO  device-registry [Cache] Redis cache hit for customer CUST-8844: 9ms latency
+2026-03-28T10:00:00.128Z INFO  device-registry [Query] SELECT customer_id, region, COUNT(*) FROM devices WHERE provisioning_status='active' GROUP BY customer_id, region HAVING COUNT(*) > 500 ORDER BY COUNT(*) DESC LIMIT 15 returned 15 rows
+2026-03-28T10:00:00.129Z INFO  device-registry [Sync] Updated 641 device access tokens
+2026-03-28T10:00:00.130Z INFO  device-registry [Query] SELECT device_id, region FROM devices WHERE provisioning_status='active' AND last_seen > NOW() - INTERVAL '5 minutes' returned 11892 rows
+2026-03-28T10:00:00.131Z INFO  device-registry [Cache] Redis cache miss for device VSN-7755-US: 43ms latency
+2026-03-28T10:00:00.132Z INFO  device-registry [Query] UPDATE devices SET provisioning_status='failed' WHERE device_id='VSN-9012-CA' AND provisioning_status='pending' AND last_updated < NOW() - INTERVAL '1 day' returned 0 rows
+2026-03-28T10:00:00.133Z INFO  device-registry [Sync] Processed 356 device decommissioned status confirmations
+2026-03-28T10:00:00.134Z INFO  device-registry [Query] SELECT COUNT(*) FROM device_events WHERE event_type='firmware_update_failed' AND timestamp > NOW() - INTERVAL '24 hours' returned 1
+2026-03-28T10:00:00.135Z INFO  device-registry [Cache] Redis cache hit for device VSN-9021-CA: 11ms latency
+2026-03-28T10:00:00.136Z INFO  device-registry [Query] INSERT INTO audit_log (user_id, action, target, timestamp) VALUES ('system', 'auto_sync', 'device_registry', NOW()) returned 1 row
+2026-03-28T10:00:00.137Z INFO  device-registry [Sync] Refreshed 1,178 device configuration templates
+2026-03-28T10:00:00.138Z INFO  device-registry [Query] SELECT region, COUNT(*) FROM devices WHERE provisioning_status='active' AND firmware_version='2.1.7' GROUP BY region ORDER BY COUNT(*) DESC returned 6 rows
+2026-03-28T10:00:00.139Z INFO  device-registry [Cache] Redis cache hit for customer CUST-7721: 9ms latency
+2026-03-28T10:00:00.140Z INFO  device-registry [Query] SELECT device_id, last_seen FROM devices WHERE provisioning_status='active' AND last_seen < NOW() - INTERVAL '2 hours' AND region='us-east' returned 101 rows
+2026-03-28T10:00:00.141Z INFO  device-registry [Sync] Processed 418 device telemetry ingestion acknowledgments
+2026-03-28T10:00:00.142Z INFO  device-registry [Query] UPDATE device_settings SET alert_threshold='medium' WHERE device_id='VSN-9012-CA' AND setting_key='temperature_alert' returned 1 row
+2026-03-28T10:00:00.143Z INFO  device-registry [Cache] Redis cache miss for device VSN-8834-US: 45ms latency
+2026-03-28T10:00:00.144Z INFO  device-registry [Query] SELECT customer_id, region, SUM(metric_value) as total_data FROM device_metrics WHERE metric_name='data_points' AND timestamp > NOW() - INTERVAL '7 days' GROUP BY customer_id, region HAVING SUM(metric_value) > 1000000 ORDER BY total_data DESC LIMIT 10 returned 10 rows
+2026-03-28T10:00:00.145Z INFO  device-registry [Sync] Updated 719 device maintenance logs
+2026-03-28T10:00:00.146Z INFO  device-registry [Query] INSERT INTO device_events (device_id, event_type, metadata) VALUES ('VSN-8055-US', 'connection_established', '{"duration_ms":3602}') returned 1 row
+2026-03-28T10:00:00.147Z INFO  device-registry [Cache] Redis cache hit for device VSN-9012-CA: 10ms latency
+2026-03-28T10:00:00.148Z INFO  device-registry [Query] SELECT device_id, firmware_version FROM devices WHERE firmware_version='2.1.7' AND region='ca-west' returned 1839 rows
+2026-03-28T10:00:00.149Z INFO  device-registry [Sync] Processed 301 device firmware rollback confirmations
+2026-03-28T10:00:00.150Z INFO  device

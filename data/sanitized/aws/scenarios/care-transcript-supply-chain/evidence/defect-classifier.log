@@ -1,0 +1,220 @@
+2026-03-10T02:14:22.111Z INFO  defect-classifier [Process] Processing transcript ID: TX-88421-773 for device ProSensor Hub, customer region: Pacific Northwest
+2026-03-10T02:14:22.112Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "restarts every 2 hours" — confidence: 0.78
+2026-03-10T02:14:22.113Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.78 for TX-88421-773
+2026-03-10T02:14:22.114Z INFO  defect-classifier [Process] Transcript TX-88421-773 processed in 13ms
+2026-03-10T02:14:22.201Z INFO  defect-classifier [Process] Processing transcript ID: TX-88422-774 for device ProSensor Hub, customer region: Arizona
+2026-03-10T02:14:22.202Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "readings jump around" — confidence: 0.69
+2026-03-10T02:14:22.203Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.69 for TX-88422-774
+2026-03-10T02:14:22.204Z INFO  defect-classifier [Process] Transcript TX-88422-774 processed in 12ms
+2026-03-10T02:14:22.299Z INFO  defect-classifier [Process] Processing transcript ID: TX-88423-775 for device ProSensor Hub, customer region: Texas
+2026-03-10T02:14:22.300Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "loses connection frequently" — confidence: 0.71
+2026-03-10T02:14:22.301Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.71 for TX-88423-775
+2026-03-10T02:14:22.302Z INFO  defect-classifier [Process] Transcript TX-88423-775 processed in 13ms
+2026-03-10T02:14:22.398Z INFO  defect-classifier [Process] Processing transcript ID: TX-88424-776 for device ProSensor Hub, customer region: Florida
+2026-03-10T02:14:22.399Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "shuts off without warning" — confidence: 0.64
+2026-03-10T02:14:22.400Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.64 for TX-88424-776
+2026-03-10T02:14:22.401Z INFO  defect-classifier [Process] Transcript TX-88424-776 processed in 13ms
+2026-03-10T02:14:22.497Z INFO  defect-classifier [Process] Processing transcript ID: TX-88425-777 for device ProSensor Hub, customer region: California
+2026-03-10T02:14:22.498Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "humidity readings are wrong" — confidence: 0.73
+2026-03-10T02:14:22.499Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.73 for TX-88425-777
+2026-03-10T02:14:22.500Z INFO  defect-classifier [Process] Transcript TX-88425-777 processed in 12ms
+2026-03-10T02:14:22.596Z INFO  defect-classifier [Process] Processing transcript ID: TX-88426-778 for device ProSensor Hub, customer region: Georgia
+2026-03-10T02:14:22.597Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "can't stay connected to app" — confidence: 0.68
+2026-03-10T02:14:22.598Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.68 for TX-88426-778
+2026-03-10T02:14:22.599Z INFO  defect-classifier [Process] Transcript TX-88426-778 processed in 12ms
+2026-03-10T02:14:22.695Z INFO  defect-classifier [Process] Processing transcript ID: TX-88427-779 for device ProSensor Hub, customer region: Nevada
+2026-03-10T02:14:22.696Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "turns off when I leave it in the garage" — confidence: 0.62
+2026-03-10T02:14:22.697Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.62 for TX-88427-779
+2026-03-10T02:14:22.698Z INFO  defect-classifier [Process] Transcript TX-88427-779 processed in 13ms
+2026-03-10T02:14:22.794Z INFO  defect-classifier [Process] Processing transcript ID: TX-88428-780 for device ProSensor Hub, customer region: Arizona
+2026-03-10T02:14:22.795Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "temperature seems off by 10 degrees" — confidence: 0.70
+2026-03-10T02:14:22.796Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.70 for TX-88428-780
+2026-03-10T02:14:22.797Z INFO  defect-classifier [Process] Transcript TX-88428-780 processed in 12ms
+2026-03-10T02:14:22.893Z INFO  defect-classifier [Process] Processing transcript ID: TX-88429-781 for device ProSensor Hub, customer region: Texas
+2026-03-10T02:14:22.894Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "app disconnects every 15 minutes" — confidence: 0.74
+2026-03-10T02:14:22.895Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.74 for TX-88429-781
+2026-03-10T02:14:22.896Z INFO  defect-classifier [Process] Transcript TX-88429-781 processed in 12ms
+2026-03-10T02:14:22.992Z INFO  defect-classifier [Process] Processing transcript ID: TX-88430-782 for device ProSensor Hub, customer region: Florida
+2026-03-10T02:14:22.993Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "device shuts down at noon every day" — confidence: 0.66
+2026-03-10T02:14:22.994Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.66 for TX-88430-782
+2026-03-10T02:14:22.995Z INFO  defect-classifier [Process] Transcript TX-88430-782 processed in 13ms
+2026-03-10T03:01:15.101Z INFO  defect-classifier [Process] Processing transcript ID: TX-88431-783 for device ProSensor Hub, customer region: Arizona
+2026-03-10T03:01:15.102Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "thermostat shows 98F but it feels hotter" — confidence: 0.75
+2026-03-10T03:01:15.103Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.75 for TX-88431-783
+2026-03-10T03:01:15.104Z INFO  defect-classifier [Process] Transcript TX-88431-783 processed in 11ms
+2026-03-10T03:01:15.200Z INFO  defect-classifier [Process] Processing transcript ID: TX-88432-784 for device ProSensor Hub, customer region: Texas
+2026-03-10T03:01:15.201Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "keeps losing Wi-Fi when I’m outside" — confidence: 0.67
+2026-03-10T03:01:15.202Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.67 for TX-88432-784
+2026-03-10T03:01:15.203Z INFO  defect-classifier [Process] Transcript TX-88432-784 processed in 12ms
+2026-03-10T03:01:15.299Z INFO  defect-classifier [Process] Processing transcript ID: TX-88433-785 for device ProSensor Hub, customer region: Florida
+2026-03-10T03:01:15.300Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "it just dies during the afternoon" — confidence: 0.63
+2026-03-10T03:01:15.301Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.63 for TX-88433-785
+2026-03-10T03:01:15.302Z INFO  defect-classifier [Process] Transcript TX-88433-785 processed in 13ms
+2026-03-10T03:01:15.398Z INFO  defect-classifier [Process] Processing transcript ID: TX-88434-786 for device ProSensor Hub, customer region: Nevada
+2026-03-10T03:01:15.399Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "sensor won’t stabilize even after reboot" — confidence: 0.72
+2026-03-10T03:01:15.400Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.72 for TX-88434-786
+2026-03-10T03:01:15.401Z INFO  defect-classifier [Process] Transcript TX-88434-786 processed in 12ms
+2026-03-10T03:01:15.497Z INFO  defect-classifier [Process] Processing transcript ID: TX-88435-787 for device ProSensor Hub, customer region: Georgia
+2026-03-10T03:01:15.498Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "connection drops when it’s over 85F" — confidence: 0.69
+2026-03-10T03:01:15.499Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.69 for TX-88435-787
+2026-03-10T03:01:15.500Z INFO  defect-classifier [Process] Transcript TX-88435-787 processed in 12ms
+2026-03-10T03:01:15.596Z INFO  defect-classifier [Process] Processing transcript ID: TX-88436-788 for device ProSensor Hub, customer region: Arizona
+2026-03-10T03:01:15.597Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "device freezes and turns off after an hour" — confidence: 0.61
+2026-03-10T03:01:15.598Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.61 for TX-88436-788
+2026-03-10T03:01:15.599Z INFO  defect-classifier [Process] Transcript TX-88436-788 processed in 13ms
+2026-03-10T03:01:15.695Z INFO  defect-classifier [Process] Processing transcript ID: TX-88437-789 for device ProSensor Hub, customer region: California
+2026-03-10T03:01:15.696Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "reading jumps from 72F to 105F instantly" — confidence: 0.76
+2026-03-10T03:01:15.697Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.76 for TX-88437-789
+2026-03-10T03:01:15.698Z INFO  defect-classifier [Process] Transcript TX-88437-789 processed in 12ms
+2026-03-10T03:01:15.794Z INFO  defect-classifier [Process] Processing transcript ID: TX-88438-790 for device ProSensor Hub, customer region: Texas
+2026-03-10T03:01:15.795Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "can’t access device remotely when it’s hot" — confidence: 0.70
+2026-03-10T03:01:15.796Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.70 for TX-88438-790
+2026-03-10T03:01:15.797Z INFO  defect-classifier [Process] Transcript TX-88438-790 processed in 12ms
+2026-03-10T03:01:15.893Z INFO  defect-classifier [Process] Processing transcript ID: TX-88439-791 for device ProSensor Hub, customer region: Florida
+2026-03-10T03:01:15.894Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "it shuts off when I’m in the sunroom" — confidence: 0.65
+2026-03-10T03:01:15.895Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.65 for TX-88439-791
+2026-03-10T03:01:15.896Z INFO  defect-classifier [Process] Transcript TX-88439-791 processed in 13ms
+2026-03-10T03:01:15.992Z INFO  defect-classifier [Process] Processing transcript ID: TX-88440-792 for device ProSensor Hub, customer region: Nevada
+2026-03-10T03:01:15.993Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "temp sensor reads 110F in shade" — confidence: 0.74
+2026-03-10T03:01:15.994Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.74 for TX-88440-792
+2026-03-10T03:01:15.995Z INFO  defect-classifier [Process] Transcript TX-88440-792 processed in 12ms
+2026-03-10T03:45:00.101Z INFO  defect-classifier [Process] Processing transcript ID: TX-88441-793 for device ProSensor Hub, customer region: Georgia
+2026-03-10T03:45:00.102Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "device disappears from app after 2 hours in garage" — confidence: 0.68
+2026-03-10T03:45:00.103Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.68 for TX-88441-793
+2026-03-10T03:45:00.104Z INFO  defect-classifier [Process] Transcript TX-88441-793 processed in 12ms
+2026-03-10T03:45:00.200Z INFO  defect-classifier [Process] Processing transcript ID: TX-88442-794 for device ProSensor Hub, customer region: Arizona
+2026-03-10T03:45:00.201Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "it stops working right after noon" — confidence: 0.64
+2026-03-10T03:45:00.202Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.64 for TX-88442-794
+2026-03-10T03:45:00.203Z INFO  defect-classifier [Process] Transcript TX-88442-794 processed in 13ms
+2026-03-10T03:45:00.299Z INFO  defect-classifier [Process] Processing transcript ID: TX-88443-795 for device ProSensor Hub, customer region: Texas
+2026-03-10T03:45:00.300Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "humidity sensor shows 90% but it’s dry" — confidence: 0.71
+2026-03-10T03:45:00.301Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.71 for TX-88443-795
+2026-03-10T03:45:00.302Z INFO  defect-classifier [Process] Transcript TX-88443-795 processed in 12ms
+2026-03-10T03:45:00.398Z INFO  defect-classifier [Process] Processing transcript ID: TX-88444-796 for device ProSensor Hub, customer region: Florida
+2026-03-10T03:45:00.399Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "device dies in the sun on the porch" — confidence: 0.62
+2026-03-10T03:45:00.400Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.62 for TX-88444-796
+2026-03-10T03:45:00.401Z INFO  defect-classifier [Process] Transcript TX-88444-796 processed in 13ms
+2026-03-10T03:45:00.497Z INFO  defect-classifier [Process] Processing transcript ID: TX-88445-797 for device ProSensor Hub, customer region: Nevada
+2026-03-10T03:45:00.498Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "sensor goes wild when it’s warm" — confidence: 0.75
+2026-03-10T03:45:00.499Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.75 for TX-88445-797
+2026-03-10T03:45:00.500Z INFO  defect-classifier [Process] Transcript TX-88445-797 processed in 12ms
+2026-03-10T03:45:00.596Z INFO  defect-classifier [Process] Processing transcript ID: TX-88446-798 for device ProSensor Hub, customer region: Georgia
+2026-03-10T03:45:00.597Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "app says device offline when it’s hot" — confidence: 0.69
+2026-03-10T03:45:00.598Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.69 for TX-88446-798
+2026-03-10T03:45:00.599Z INFO  defect-classifier [Process] Transcript TX-88446-798 processed in 12ms
+2026-03-10T03:45:00.695Z INFO  defect-classifier [Process] Processing transcript ID: TX-88447-799 for device ProSensor Hub, customer region: Arizona
+2026-03-10T03:45:00.696Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "shuts down every time temperature hits 90F" — confidence: 0.66
+2026-03-10T03:45:00.697Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.66 for TX-88447-799
+2026-03-10T03:45:00.698Z INFO  defect-classifier [Process] Transcript TX-88447-799 processed in 13ms
+2026-03-10T03:45:00.794Z INFO  defect-classifier [Process] Processing transcript ID: TX-88448-800 for device ProSensor Hub, customer region: California
+2026-03-10T03:45:00.795Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "reading is off by 15 degrees after a few hours" — confidence: 0.73
+2026-03-10T03:45:00.796Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.73 for TX-88448-800
+2026-03-10T03:45:00.797Z INFO  defect-classifier [Process] Transcript TX-88448-800 processed in 12ms
+2026-03-10T03:45:00.893Z INFO  defect-classifier [Process] Processing transcript ID: TX-88449-801 for device ProSensor Hub, customer region: Texas
+2026-03-10T03:45:00.894Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "can’t access device remotely when it’s hot outside" — confidence: 0.71
+2026-03-10T03:45:00.895Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.71 for TX-88449-801
+2026-03-10T03:45:00.896Z INFO  defect-classifier [Process] Transcript TX-88449-801 processed in 12ms
+2026-03-10T03:45:00.992Z INFO  defect-classifier [Process] Processing transcript ID: TX-88450-802 for device ProSensor Hub, customer region: Florida
+2026-03-10T03:45:00.993Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "it just dies in the sunroom" — confidence: 0.63
+2026-03-10T03:45:00.994Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.63 for TX-88450-802
+2026-03-10T03:45:00.995Z INFO  defect-classifier [Process] Transcript TX-88450-802 processed in 13ms
+2026-03-10T04:20:05.101Z INFO  defect-classifier [Process] Processing transcript ID: TX-88451-803 for device ProSensor Hub, customer region: Nevada
+2026-03-10T04:20:05.102Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "sensor gives false highs" — confidence: 0.77
+2026-03-10T04:20:05.103Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.77 for TX-88451-803
+2026-03-10T04:20:05.104Z INFO  defect-classifier [Process] Transcript TX-88451-803 processed in 11ms
+2026-03-10T04:20:05.200Z INFO  defect-classifier [Process] Processing transcript ID: TX-88452-804 for device ProSensor Hub, customer region: Georgia
+2026-03-10T04:20:05.201Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "device vanishes from app in the heat" — confidence: 0.68
+2026-03-10T04:20:05.202Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.68 for TX-88452-804
+2026-03-10T04:20:05.203Z INFO  defect-classifier [Process] Transcript TX-88452-804 processed in 12ms
+2026-03-10T04:20:05.299Z INFO  defect-classifier [Process] Processing transcript ID: TX-88453-805 for device ProSensor Hub, customer region: Arizona
+2026-03-10T04:20:05.300Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "stops working at 92F" — confidence: 0.65
+2026-03-10T04:20:05.301Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.65 for TX-88453-805
+2026-03-10T04:20:05.302Z INFO  defect-classifier [Process] Transcript TX-88453-805 processed in 13ms
+2026-03-10T04:20:05.398Z INFO  defect-classifier [Process] Processing transcript ID: TX-88454-806 for device ProSensor Hub, customer region: Texas
+2026-03-10T04:20:05.399Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "readings are all over the place when it’s warm" — confidence: 0.76
+2026-03-10T04:20:05.400Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.76 for TX-88454-806
+2026-03-10T04:20:05.401Z INFO  defect-classifier [Process] Transcript TX-88454-806 processed in 12ms
+2026-03-10T04:20:05.497Z INFO  defect-classifier [Process] Processing transcript ID: TX-88455-807 for device ProSensor Hub, customer region: Florida
+2026-03-10T04:20:05.498Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "device shuts down in the sun" — confidence: 0.64
+2026-03-10T04:20:05.499Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.64 for TX-88455-807
+2026-03-10T04:20:05.500Z INFO  defect-classifier [Process] Transcript TX-88455-807 processed in 13ms
+2026-03-10T04:20:05.596Z INFO  defect-classifier [Process] Processing transcript ID: TX-88456-808 for device ProSensor Hub, customer region: Nevada
+2026-03-10T04:20:05.597Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "it thinks it’s 120F in the garage" — confidence: 0.70
+2026-03-10T04:20:05.598Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.70 for TX-88456-808
+2026-03-10T04:20:05.599Z INFO  defect-classifier [Process] Transcript TX-88456-808 processed in 12ms
+2026-03-10T04:20:05.695Z INFO  defect-classifier [Process] Processing transcript ID: TX-88457-809 for device ProSensor Hub, customer region: Georgia
+2026-03-10T04:20:05.696Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "connects only when it’s cool" — confidence: 0.67
+2026-03-10T04:20:05.697Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.67 for TX-88457-809
+2026-03-10T04:20:05.698Z INFO  defect-classifier [Process] Transcript TX-88457-809 processed in 12ms
+2026-03-10T04:20:05.794Z INFO  defect-classifier [Process] Processing transcript ID: TX-88458-810 for device ProSensor Hub, customer region: Arizona
+2026-03-10T04:20:05.795Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "device won’t stay on past 11AM" — confidence: 0.63
+2026-03-10T04:20:05.796Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.63 for TX-88458-810
+2026-03-10T04:20:05.797Z INFO  defect-classifier [Process] Transcript TX-88458-810 processed in 13ms
+2026-03-10T04:20:05.893Z INFO  defect-classifier [Process] Processing transcript ID: TX-88459-811 for device ProSensor Hub, customer region: California
+2026-03-10T04:20:05.894Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "temperature reading is wrong by 20 degrees" — confidence: 0.74
+2026-03-10T04:20:05.895Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.74 for TX-88459-811
+2026-03-10T04:20:05.896Z INFO  defect-classifier [Process] Transcript TX-88459-811 processed in 12ms
+2026-03-10T04:20:05.992Z INFO  defect-classifier [Process] Processing transcript ID: TX-88460-812 for device ProSensor Hub, customer region: Texas
+2026-03-10T04:20:05.993Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "app says disconnected when it’s hot outside" — confidence: 0.72
+2026-03-10T04:20:05.994Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.72 for TX-88460-812
+2026-03-10T04:20:05.995Z INFO  defect-classifier [Process] Transcript TX-88460-812 processed in 12ms
+2026-03-10T04:20:06.091Z INFO  defect-classifier [Process] Processing transcript ID: TX-88461-813 for device ProSensor Hub, customer region: Florida
+2026-03-10T04:20:06.092Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "shuts down when the sun hits the device" — confidence: 0.69
+2026-03-10T04:20:06.093Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.69 for TX-88461-813
+2026-03-10T04:20:06.094Z INFO  defect-classifier [Process] Transcript TX-88461-813 processed in 13ms
+2026-03-10T04:55:00.101Z INFO  defect-classifier [Process] Processing transcript ID: TX-88462-814 for device ProSensor Hub, customer region: Nevada
+2026-03-10T04:55:00.102Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "sensor goes haywire in high temps" — confidence: 0.78
+2026-03-10T04:55:00.103Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.78 for TX-88462-814
+2026-03-10T04:55:00.104Z INFO  defect-classifier [Process] Transcript TX-88462-814 processed in 11ms
+2026-03-10T04:55:00.200Z INFO  defect-classifier [Process] Processing transcript ID: TX-88463-815 for device ProSensor Hub, customer region: Georgia
+2026-03-10T04:55:00.201Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "device drops off network when hot" — confidence: 0.66
+2026-03-10T04:55:00.202Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.66 for TX-88463-815
+2026-03-10T04:55:00.203Z INFO  defect-classifier [Process] Transcript TX-88463-815 processed in 12ms
+2026-03-10T04:55:00.299Z INFO  defect-classifier [Process] Processing transcript ID: TX-88464-816 for device ProSensor Hub, customer region: Arizona
+2026-03-10T04:55:00.300Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "it powers off at 88F" — confidence: 0.62
+2026-03-10T04:55:00.301Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.62 for TX-88464-816
+2026-03-10T04:55:00.302Z INFO  defect-classifier [Process] Transcript TX-88464-816 processed in 13ms
+2026-03-10T04:55:00.398Z INFO  defect-classifier [Process] Processing transcript ID: TX-88465-817 for device ProSensor Hub, customer region: Texas
+2026-03-10T04:55:00.399Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "readings are erratic in the heat" — confidence: 0.75
+2026-03-10T04:55:00.400Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.75 for TX-88465-817
+2026-03-10T04:55:00.401Z INFO  defect-classifier [Process] Transcript TX-88465-817 processed in 12ms
+2026-03-10T04:55:00.497Z INFO  defect-classifier [Process] Processing transcript ID: TX-88466-818 for device ProSensor Hub, customer region: Florida
+2026-03-10T04:55:00.498Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "stops working when the sun is high" — confidence: 0.64
+2026-03-10T04:55:00.499Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.64 for TX-88466-818
+2026-03-10T04:55:00.500Z INFO  defect-classifier [Process] Transcript TX-88466-818 processed in 13ms
+2026-03-10T04:55:00.596Z INFO  defect-classifier [Process] Processing transcript ID: TX-88467-819 for device ProSensor Hub, customer region: Nevada
+2026-03-10T04:55:00.597Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "it thinks it’s 115F in the garage" — confidence: 0.71
+2026-03-10T04:55:00.598Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.71 for TX-88467-819
+2026-03-10T04:55:00.599Z INFO  defect-classifier [Process] Transcript TX-88467-819 processed in 12ms
+2026-03-10T04:55:00.695Z INFO  defect-classifier [Process] Processing transcript ID: TX-88468-820 for device ProSensor Hub, customer region: Georgia
+2026-03-10T04:55:00.696Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "device goes offline when overheated" — confidence: 0.68
+2026-03-10T04:55:00.697Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.68 for TX-88468-820
+2026-03-10T04:55:00.698Z INFO  defect-classifier [Process] Transcript TX-88468-820 processed in 12ms
+2026-03-10T04:55:00.794Z INFO  defect-classifier [Process] Processing transcript ID: TX-88469-821 for device ProSensor Hub, customer region: Arizona
+2026-03-10T04:55:00.795Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "it dies at noon every day" — confidence: 0.65
+2026-03-10T04:55:00.796Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.65 for TX-88469-821
+2026-03-10T04:55:00.797Z INFO  defect-classifier [Process] Transcript TX-88469-821 processed in 13ms
+2026-03-10T04:55:00.893Z INFO  defect-classifier [Process] Processing transcript ID: TX-88470-822 for device ProSensor Hub, customer region: California
+2026-03-10T04:55:00.894Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "sensor gives false readings in warm rooms" — confidence: 0.76
+2026-03-10T04:55:00.895Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.76 for TX-88470-822
+2026-03-10T04:55:00.896Z INFO  defect-classifier [Process] Transcript TX-88470-822 processed in 12ms
+2026-03-10T04:55:00.992Z INFO  defect-classifier [Process] Processing transcript ID: TX-88471-823 for device ProSensor Hub, customer region: Texas
+2026-03-10T04:55:00.993Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "app says device is unreachable when it’s hot" — confidence: 0.73
+2026-03-10T04:55:00.994Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.73 for TX-88471-823
+2026-03-10T04:55:00.995Z INFO  defect-classifier [Process] Transcript TX-88471-823 processed in 12ms
+2026-03-10T04:55:01.091Z INFO  defect-classifier [Process] Processing transcript ID: TX-88472-824 for device ProSensor Hub, customer region: Florida
+2026-03-10T04:55:01.092Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "device shuts off in direct sunlight" — confidence: 0.67
+2026-03-10T04:55:01.093Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.67 for TX-88472-824
+2026-03-10T04:55:01.094Z INFO  defect-classifier [Process] Transcript TX-88472-824 processed in 13ms
+2026-03-10T05:30:00.101Z INFO  defect-classifier [Process] Processing transcript ID: TX-88473-825 for device ProSensor Hub, customer region: Nevada
+2026-03-10T05:30:00.102Z INFO  defect-classifier [SOP] Rule 'sensor_drift' matched: customer mentioned "reading is 30 degrees too high" — confidence: 0.79
+2026-03-10T05:30:00.103Z INFO  defect-classifier [Classification] Assigned label: sensor_drift with confidence 0.79 for TX-88473-825
+2026-03-10T05:30:00.104Z INFO  defect-classifier [Process] Transcript TX-88473-825 processed in 11ms
+2026-03-10T05:30:00.200Z INFO  defect-classifier [Process] Processing transcript ID: TX-88474-826 for device ProSensor Hub, customer region: Georgia
+2026-03-10T05:30:00.201Z INFO  defect-classifier [SOP] Rule 'wifi_disconnect' matched: customer mentioned "device disconnects when temperature rises" — confidence: 0.69
+2026-03-10T05:30:00.202Z INFO  defect-classifier [Classification] Assigned label: wifi_disconnect with confidence 0.69 for TX-88474-826
+2026-03-10T05:30:00.203Z INFO  defect-classifier [Process] Transcript TX-88474-826 processed in 12ms
+2026-03-10T05:30:00.299Z INFO  defect-classifier [Process] Processing transcript ID: TX-88475-827 for device ProSensor Hub, customer region: Arizona
+2026-03-10T05:30:00.300Z INFO  defect-classifier [SOP] Rule 'power_cycle' matched: customer mentioned "it turns off when the attic gets hot" — confidence: 0.63
+2026-03-10T05:30:00.301Z INFO  defect-classifier [Classification] Assigned label: power_cycle with confidence 0.63 for TX-88475-827
+2026-03-10T05:30:00.302Z INFO  defect-class

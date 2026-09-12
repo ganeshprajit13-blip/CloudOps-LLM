@@ -1,0 +1,171 @@
+2026-03-28T10:00:00.001Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:00:00.002Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,891 messages from topic telemetry-inbound-07
+2026-03-28T10:00:00.003Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/001.parquet (size=3.2MB)
+2026-03-28T10:00:00.004Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 142ms, throughput=175,000 msg/sec
+2026-03-28T10:00:00.005Z INFO  telemetry-ingestion [MessageValidator] Validated 24,891 messages: 0 invalid, 0 malformed
+2026-03-28T10:00:30.123Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:00:30.124Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,012 messages from topic telemetry-inbound-11
+2026-03-28T10:00:30.125Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/002.parquet (size=3.3MB)
+2026-03-28T10:00:30.126Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 148ms, throughput=169,000 msg/sec
+2026-03-28T10:00:30.127Z INFO  telemetry-ingestion [MessageValidator] Validated 25,012 messages: 0 invalid, 0 malformed
+2026-03-28T10:01:00.234Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:01:00.235Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,987 messages from topic telemetry-inbound-07
+2026-03-28T10:01:00.236Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/003.parquet (size=3.2MB)
+2026-03-28T10:01:00.237Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 139ms, throughput=179,000 msg/sec
+2026-03-28T10:01:00.238Z INFO  telemetry-ingestion [MessageValidator] Validated 24,987 messages: 0 invalid, 0 malformed
+2026-03-28T10:01:30.345Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:01:30.346Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,045 messages from topic telemetry-inbound-11
+2026-03-28T10:01:30.347Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/004.parquet (size=3.3MB)
+2026-03-28T10:01:30.348Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 141ms, throughput=177,000 msg/sec
+2026-03-28T10:01:30.349Z INFO  telemetry-ingestion [MessageValidator] Validated 25,045 messages: 0 invalid, 0 malformed
+2026-03-28T10:02:00.456Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:02:00.457Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,912 messages from topic telemetry-inbound-07
+2026-03-28T10:02:00.458Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/005.parquet (size=3.2MB)
+2026-03-28T10:02:00.459Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 144ms, throughput=173,000 msg/sec
+2026-03-28T10:02:00.460Z INFO  telemetry-ingestion [MessageValidator] Validated 24,912 messages: 0 invalid, 0 malformed
+2026-03-28T10:02:30.567Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:02:30.568Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,078 messages from topic telemetry-inbound-11
+2026-03-28T10:02:30.569Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/006.parquet (size=3.3MB)
+2026-03-28T10:02:30.570Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 147ms, throughput=170,000 msg/sec
+2026-03-28T10:02:30.571Z INFO  telemetry-ingestion [MessageValidator] Validated 25,078 messages: 0 invalid, 0 malformed
+2026-03-28T10:03:00.678Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:03:00.679Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,855 messages from topic telemetry-inbound-07
+2026-03-28T10:03:00.680Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/007.parquet (size=3.2MB)
+2026-03-28T10:03:00.681Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 145ms, throughput=171,000 msg/sec
+2026-03-28T10:03:00.682Z INFO  telemetry-ingestion [MessageValidator] Validated 24,855 messages: 0 invalid, 0 malformed
+2026-03-28T10:03:30.789Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:03:30.790Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,102 messages from topic telemetry-inbound-11
+2026-03-28T10:03:30.791Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/008.parquet (size=3.3MB)
+2026-03-28T10:03:30.792Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 146ms, throughput=171,000 msg/sec
+2026-03-28T10:03:30.793Z INFO  telemetry-ingestion [MessageValidator] Validated 25,102 messages: 0 invalid, 0 malformed
+2026-03-28T10:04:00.890Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:04:00.891Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,933 messages from topic telemetry-inbound-07
+2026-03-28T10:04:00.892Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/009.parquet (size=3.2MB)
+2026-03-28T10:04:00.893Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 140ms, throughput=178,000 msg/sec
+2026-03-28T10:04:00.894Z INFO  telemetry-ingestion [MessageValidator] Validated 24,933 messages: 0 invalid, 0 malformed
+2026-03-28T10:04:30.995Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:04:30.996Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,066 messages from topic telemetry-inbound-11
+2026-03-28T10:04:30.997Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/010.parquet (size=3.3MB)
+2026-03-28T10:04:30.998Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 143ms, throughput=175,000 msg/sec
+2026-03-28T10:04:30.999Z INFO  telemetry-ingestion [MessageValidator] Validated 25,066 messages: 0 invalid, 0 malformed
+2026-03-28T10:05:00.100Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:05:00.101Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,877 messages from topic telemetry-inbound-07
+2026-03-28T10:05:00.102Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/011.parquet (size=3.2MB)
+2026-03-28T10:05:00.103Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 141ms, throughput=176,000 msg/sec
+2026-03-28T10:05:00.104Z INFO  telemetry-ingestion [MessageValidator] Validated 24,877 messages: 0 invalid, 0 malformed
+2026-03-28T10:05:30.210Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:05:30.211Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,091 messages from topic telemetry-inbound-11
+2026-03-28T10:05:30.212Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/012.parquet (size=3.3MB)
+2026-03-28T10:05:30.213Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 142ms, throughput=176,000 msg/sec
+2026-03-28T10:05:30.214Z INFO  telemetry-ingestion [MessageValidator] Validated 25,091 messages: 0 invalid, 0 malformed
+2026-03-28T10:06:00.320Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:06:00.321Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,920 messages from topic telemetry-inbound-07
+2026-03-28T10:06:00.322Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/013.parquet (size=3.2MB)
+2026-03-28T10:06:00.323Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 147ms, throughput=169,000 msg/sec
+2026-03-28T10:06:00.324Z INFO  telemetry-ingestion [MessageValidator] Validated 24,920 messages: 0 invalid, 0 malformed
+2026-03-28T10:06:30.430Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:06:30.431Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,034 messages from topic telemetry-inbound-11
+2026-03-28T10:06:30.432Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/014.parquet (size=3.3MB)
+2026-03-28T10:06:30.433Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 144ms, throughput=173,000 msg/sec
+2026-03-28T10:06:30.434Z INFO  telemetry-ingestion [MessageValidator] Validated 25,034 messages: 0 invalid, 0 malformed
+2026-03-28T10:07:00.540Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:07:00.541Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,899 messages from topic telemetry-inbound-07
+2026-03-28T10:07:00.542Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/015.parquet (size=3.2MB)
+2026-03-28T10:07:00.543Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 140ms, throughput=178,000 msg/sec
+2026-03-28T10:07:00.544Z INFO  telemetry-ingestion [MessageValidator] Validated 24,899 messages: 0 invalid, 0 malformed
+2026-03-28T10:07:30.650Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:07:30.651Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,077 messages from topic telemetry-inbound-11
+2026-03-28T10:07:30.652Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/016.parquet (size=3.3MB)
+2026-03-28T10:07:30.653Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 145ms, throughput=172,000 msg/sec
+2026-03-28T10:07:30.654Z INFO  telemetry-ingestion [MessageValidator] Validated 25,077 messages: 0 invalid, 0 malformed
+2026-03-28T10:08:00.760Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:08:00.761Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,965 messages from topic telemetry-inbound-07
+2026-03-28T10:08:00.762Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/017.parquet (size=3.2MB)
+2026-03-28T10:08:00.763Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 148ms, throughput=168,000 msg/sec
+2026-03-28T10:08:00.764Z INFO  telemetry-ingestion [MessageValidator] Validated 24,965 messages: 0 invalid, 0 malformed
+2026-03-28T10:08:30.870Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:08:30.871Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,011 messages from topic telemetry-inbound-11
+2026-03-28T10:08:30.872Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/018.parquet (size=3.3MB)
+2026-03-28T10:08:30.873Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 143ms, throughput=175,000 msg/sec
+2026-03-28T10:08:30.874Z INFO  telemetry-ingestion [MessageValidator] Validated 25,011 messages: 0 invalid, 0 malformed
+2026-03-28T10:09:00.980Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:09:00.981Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,903 messages from topic telemetry-inbound-07
+2026-03-28T10:09:00.982Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/019.parquet (size=3.2MB)
+2026-03-28T10:09:00.983Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 144ms, throughput=173,000 msg/sec
+2026-03-28T10:09:00.984Z INFO  telemetry-ingestion [MessageValidator] Validated 24,903 messages: 0 invalid, 0 malformed
+2026-03-28T10:09:30.090Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:09:30.091Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,055 messages from topic telemetry-inbound-11
+2026-03-28T10:09:30.092Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/020.parquet (size=3.3MB)
+2026-03-28T10:09:30.093Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 146ms, throughput=171,000 msg/sec
+2026-03-28T10:09:30.094Z INFO  telemetry-ingestion [MessageValidator] Validated 25,055 messages: 0 invalid, 0 malformed
+2026-03-28T10:10:00.200Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:10:00.201Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,945 messages from topic telemetry-inbound-07
+2026-03-28T10:10:00.202Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/021.parquet (size=3.2MB)
+2026-03-28T10:10:00.203Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 142ms, throughput=175,000 msg/sec
+2026-03-28T10:10:00.204Z INFO  telemetry-ingestion [MessageValidator] Validated 24,945 messages: 0 invalid, 0 malformed
+2026-03-28T10:10:30.310Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:10:30.311Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,088 messages from topic telemetry-inbound-11
+2026-03-28T10:10:30.312Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/022.parquet (size=3.3MB)
+2026-03-28T10:10:30.313Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 148ms, throughput=169,000 msg/sec
+2026-03-28T10:10:30.314Z INFO  telemetry-ingestion [MessageValidator] Validated 25,088 messages: 0 invalid, 0 malformed
+2026-03-28T10:11:00.420Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:11:00.421Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,881 messages from topic telemetry-inbound-07
+2026-03-28T10:11:00.422Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/023.parquet (size=3.2MB)
+2026-03-28T10:11:00.423Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 143ms, throughput=174,000 msg/sec
+2026-03-28T10:11:00.424Z INFO  telemetry-ingestion [MessageValidator] Validated 24,881 messages: 0 invalid, 0 malformed
+2026-03-28T10:11:30.530Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:11:30.531Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,022 messages from topic telemetry-inbound-11
+2026-03-28T10:11:30.532Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/024.parquet (size=3.3MB)
+2026-03-28T10:11:30.533Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 145ms, throughput=172,000 msg/sec
+2026-03-28T10:11:30.534Z INFO  telemetry-ingestion [MessageValidator] Validated 25,022 messages: 0 invalid, 0 malformed
+2026-03-28T10:12:00.640Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:12:00.641Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,978 messages from topic telemetry-inbound-07
+2026-03-28T10:12:00.642Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/025.parquet (size=3.2MB)
+2026-03-28T10:12:00.643Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 140ms, throughput=178,000 msg/sec
+2026-03-28T10:12:00.644Z INFO  telemetry-ingestion [MessageValidator] Validated 24,978 messages: 0 invalid, 0 malformed
+2026-03-28T10:12:30.750Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:12:30.751Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,067 messages from topic telemetry-inbound-11
+2026-03-28T10:12:30.752Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/026.parquet (size=3.3MB)
+2026-03-28T10:12:30.753Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 147ms, throughput=170,000 msg/sec
+2026-03-28T10:12:30.754Z INFO  telemetry-ingestion [MessageValidator] Validated 25,067 messages: 0 invalid, 0 malformed
+2026-03-28T10:13:00.860Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:13:00.861Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,915 messages from topic telemetry-inbound-07
+2026-03-28T10:13:00.862Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/027.parquet (size=3.2MB)
+2026-03-28T10:13:00.863Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 146ms, throughput=171,000 msg/sec
+2026-03-28T10:13:00.864Z INFO  telemetry-ingestion [MessageValidator] Validated 24,915 messages: 0 invalid, 0 malformed
+2026-03-28T10:13:30.970Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:13:30.971Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,044 messages from topic telemetry-inbound-11
+2026-03-28T10:13:30.972Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/028.parquet (size=3.3MB)
+2026-03-28T10:13:30.973Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 144ms, throughput=173,000 msg/sec
+2026-03-28T10:13:30.974Z INFO  telemetry-ingestion [MessageValidator] Validated 25,044 messages: 0 invalid, 0 malformed
+2026-03-28T10:14:00.080Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:14:00.081Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,952 messages from topic telemetry-inbound-07
+2026-03-28T10:14:00.082Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/029.parquet (size=3.2MB)
+2026-03-28T10:14:00.083Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 141ms, throughput=177,000 msg/sec
+2026-03-28T10:14:00.084Z INFO  telemetry-ingestion [MessageValidator] Validated 24,952 messages: 0 invalid, 0 malformed
+2026-03-28T10:14:30.190Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:14:30.191Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,099 messages from topic telemetry-inbound-11
+2026-03-28T10:14:30.192Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/030.parquet (size=3.3MB)
+2026-03-28T10:14:30.193Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 149ms, throughput=168,000 msg/sec
+2026-03-28T10:14:30.194Z INFO  telemetry-ingestion [MessageValidator] Validated 25,099 messages: 0 invalid, 0 malformed
+2026-03-28T10:15:00.300Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:15:00.301Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,887 messages from topic telemetry-inbound-07
+2026-03-28T10:15:00.302Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/031.parquet (size=3.2MB)
+2026-03-28T10:15:00.303Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 142ms, throughput=175,000 msg/sec
+2026-03-28T10:15:00.304Z INFO  telemetry-ingestion [MessageValidator] Validated 24,887 messages: 0 invalid, 0 malformed
+2026-03-28T10:15:30.410Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:15:30.411Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,031 messages from topic telemetry-inbound-11
+2026-03-28T10:15:30.412Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/032.parquet (size=3.3MB)
+2026-03-28T10:15:30.413Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 146ms, throughput=171,000 msg/sec
+2026-03-28T10:15:30.414Z INFO  telemetry-ingestion [MessageValidator] Validated 25,031 messages: 0 invalid, 0 malformed
+2026-03-28T10:16:00.520Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=ACME-IND-001, partition=2026-03-28/10
+2026-03-28T10:16:00.521Z INFO  telemetry-ingestion [BatchProcessor] Processing 24,940 messages from topic telemetry-inbound-07
+2026-03-28T10:16:00.522Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-acme/2026-03-28/10/033.parquet (size=3.2MB)
+2026-03-28T10:16:00.523Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 144ms, throughput=173,000 msg/sec
+2026-03-28T10:16:00.524Z INFO  telemetry-ingestion [MessageValidator] Validated 24,940 messages: 0 invalid, 0 malformed
+2026-03-28T10:16:30.630Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer_id=GLOBAL-LOG-882, partition=2026-03-28/10
+2026-03-28T10:16:30.631Z INFO  telemetry-ingestion [BatchProcessor] Processing 25,073 messages from topic telemetry-inbound-11
+2026-03-28T10:16:30.632Z INFO  telemetry-ingestion [S3Writer] Uploaded batch to s3://customer-data-global/2026-03-28/10/034.parquet (size=3.3MB)
+2026-03-28T10:16:30.633Z INFO  telemetry-ingestion [BatchProcessor] Batch completed in 148ms, throughput=169,000 msg/sec
+2026-03-28T10:16:30.634Z INFO  telemetry-ingestion [MessageValidator] Validated 25,073 messages: 0 invalid, 0 malformed
+2026-03-28T10:17:00.740Z INFO  telemetry-ingestion [BatchProcessor] Starting batch processing for customer

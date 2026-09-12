@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CloudOpsDatasetManifest",
+  "type": "object",
+  "required": [
+    "dataset_name",
+    "license",
+    "provenance",
+    "processing_status",
+    "sanitization_status"
+  ],
+  "properties": {
+    "dataset_name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable name of the dataset"
+    },
+    "source_url": {
+      "type": ["string", "null"],
+      "description": "Original download or reference URL for the dataset"
+    },
+    "source_organization": {
+      "type": ["string", "null"],
+      "description": "Organization, author, or research group publishing the dataset"
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1,
+      "description": "License identifier or terms governing dataset usage (e.g. MIT, Apache-2.0, CC-BY-4.0)"
+    },
+    "download_date": {
+      "type": ["string", "null"],
+      "description": "ISO-8601 timestamp or date when dataset was downloaded"
+    },
+    "original_file_name": {
+      "type": ["string", "null"],
+      "description": "Original filename of downloaded archive or document"
+    },
+    "original_size_bytes": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Compressed size of the downloaded asset in bytes"
+    },
+    "extracted_size_bytes": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Uncompressed extracted size in bytes"
+    },
+    "checksum": {
+      "type": ["string", "null"],
+      "description": "SHA-256 or MD5 checksum hash of the downloaded asset"
+    },
+    "record_count": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Total count of telemetry cases, records, or postmortems if known"
+    },
+    "data_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["logs", "metrics", "traces", "incidents", "configuration"]
+      },
+      "description": "Types of telemetry data present in dataset"
+    },
+    "cloud_provider": {
+      "type": ["string", "null"],
+      "description": "Target cloud environment (e.g. AWS, Multi-Cloud, Kubernetes)"
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "AWS or cloud service categories covered"
+    },
+    "provenance": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Detailed lineage and acquisition history of dataset"
+    },
+    "processing_status": {
+      "type": "string",
+      "enum": ["pending", "downloading", "extracted", "sanitized", "normalized", "processed", "ready", "failed"],
+      "description": "Current lifecycle status of dataset processing"
+    },
+    "sanitization_status": {
+      "type": "string",
+      "enum": ["unverified", "clean", "scrubbed", "flagged"],
+      "description": "Sanitization and secret-scanning verification status"
+    },
+    "notes": {
+      "type": ["string", "null"],
+      "description": "Additional context or notes regarding usage constraints"
+    }
+  },
+  "additionalProperties": true
+}

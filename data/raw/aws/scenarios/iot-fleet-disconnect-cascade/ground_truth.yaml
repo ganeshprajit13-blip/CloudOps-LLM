@@ -1,0 +1,71 @@
+scenario_id: INC-2024-11-14-002
+display_name: Fleet Disconnect from Security Rollout
+domain: IoT
+difficulty: high
+description: A 36-hour delayed cascade of IoT device disconnections in North America caused by a synchronous external dependency
+  timeout in a newly deployed security feature, masked by feature flag segmentation and lack of client-side timeout logging.
+hitl_scenario: true
+hitl_clarification_type: change_correlation
+hitl_flow:
+  1_vague_report: "4,200 devices went offline starting March 29 around 14:15 UTC in North America with no clear pattern. All infrastructure metrics appear healthy."
+  2_clarification: "Were there any recent deployments or feature flag changes? Which regions or device segments are affected?"
+  3_user_response: "Only North American devices — EU and APAC are completely unaffected. There were a few service deployments last week and a certificate rotation, but nothing the teams flagged as high-risk. Infrastructure dashboards all look green."
+  4_focused_investigation: "Agent searches deployment logs, configuration changes, and connection-path services around the incident window to identify what changed and why it only affects one region."
+  5_correct_root_cause: "Synchronous CT validation timeout during TLS handshake, blocked by external dependency, only impacting regionally segmented devices."
+root_cause:
+  service: auth-service
+  issue: synchronous_external_dependency_timeout
+  details: Certificate transparency validation was added behind a feature flag enabled only for North America devices. The
+    validation performed a synchronous, blocking call to ct.cloudflare.com during TLS handshake. When the external CT server
+    degraded (15-30s latency), client-side 10s timeouts occurred before server-side logs could capture the failure, leading
+    to widespread disconnections.
+evidence_keywords:
+- ct_validation_enabled
+- ct.cloudflare.com
+- connection_timeout_from_client
+- ct_validation_latency_ms
+- TLSHandler
+- v3.8.0
+- segment=us-*
+- segment=ca-*
+red_herrings:
+- 'device-registry.log: DB connection pool exhaustion'
+- 'certificate-rotator.log: DEVICE_UNREACHABLE errors'
+- 'metrics-aggregator.log: CPU/memory pressure'
+contributing_factors:
+- Synchronous blocking call to external service during connection critical path
+- Feature flag segmentation not documented in runbooks
+- 36-hour gap between deploy and incident masked causation
+- Client-side timeout prevents server-side error logging
+- Sequential CT server validation (no parallel/timeout-per-server)
+verification_steps:
+- Confirm auth-service v3.8.0 deployment timestamp matches T-36h
+- Verify feature flag ct_validation_enabled is scoped to us-* and ca-* regions in config
+- Correlate device disconnection timestamps with ct.cloudflare.com degradation window
+- Search auth-service logs for ct_validation_latency_ms > 10000 and connection_timeout_from_client events
+- Confirm no similar failures in non-North America regions
+fix_recommendations:
+- Disable feature flag ct_validation_enabled for North America segment immediately
+- Add per-server timeout (2s) for CT validation
+- Implement parallel CT server queries instead of sequential
+- Add circuit breaker for external CT validation (fail-open after 3 timeouts)
+- Document feature flag segmentation in runbooks
+- Add server-side timeout logging (before client times out)
+- Mandate chaos testing for external dependencies before production rollout
+- Feature flag configuration must be documented in architecture docs
+- Synthetic monitors for external dependencies (CT log servers)
+- Alert on client-side timeout spike (current alerts only track server errors)
+plain_english_summary: Over 4,200 IoT devices suddenly went offline across North America with no obvious cause. The disconnections
+  started 36 hours after a seemingly unrelated software deployment, making it very hard to link cause and effect. Multiple
+  systems show stress, but only one contains the actual trigger.
+causation_chain:
+- step: Auth service deploys with new certificate validation feature
+  service: auth-service
+- step: Feature flag enables validation for North America devices
+  service: auth-service
+- step: External certificate log server degrades
+  service: external
+- step: Device connections time out during validation
+  service: device-gateway
+- step: Devices cascade into offline state across the fleet
+  service: fleet-management

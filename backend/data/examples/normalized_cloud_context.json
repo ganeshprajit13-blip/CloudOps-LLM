@@ -1,0 +1,172 @@
+{
+  "timestamp": "2026-09-08T11:00:00+00:00",
+  "region": "ap-south-1",
+  "summary": {
+    "total_instances": 1,
+    "running_instances": 1,
+    "high_cpu_instances": 0,
+    "unhealthy_targets": 1,
+    "recent_changes": 1,
+    "blocked_ports": [
+      {
+        "port": 443,
+        "security_group_id": "sg-0987654321fedcba0"
+      }
+    ]
+  },
+  "resources": {
+    "ec2": [
+      {
+        "instance_id": "i-0a1b2c3d4e5f67890",
+        "state": "running",
+        "instance_type": "t3.medium",
+        "private_ip": "10.0.1.25",
+        "public_ip": "13.233.10.45",
+        "availability_zone": "ap-south-1a",
+        "subnet_id": "subnet-0123456789abcdef0",
+        "vpc_id": "vpc-0fe0dcba987654321",
+        "security_group_ids": [
+          "sg-0987654321fedcba0"
+        ],
+        "tags": {
+          "Name": "Production-WebServer-1",
+          "Environment": "Production"
+        }
+      }
+    ],
+    "vpc": {
+      "vpcs": [
+        {
+          "vpc_id": "vpc-0fe0dcba987654321",
+          "cidr": "10.0.0.0/16",
+          "state": "available"
+        }
+      ],
+      "subnets": [
+        {
+          "subnet_id": "subnet-0123456789abcdef0",
+          "vpc_id": "vpc-0fe0dcba987654321",
+          "cidr": "10.0.1.0/24",
+          "availability_zone": "ap-south-1a"
+        }
+      ],
+      "route_tables": [
+        {
+          "route_table_id": "rtb-0123456789abcdef0",
+          "vpc_id": "vpc-0fe0dcba987654321",
+          "routes": [
+            {
+              "destination": "0.0.0.0/0",
+              "target": "igw-0123456789abcdef0",
+              "state": "active"
+            }
+          ]
+        }
+      ],
+      "internet_gateways": [
+        "igw-0123456789abcdef0"
+      ],
+      "nat_gateways": []
+    },
+    "security_groups": [
+      {
+        "group_id": "sg-0987654321fedcba0",
+        "name": "web-security-group",
+        "vpc_id": "vpc-0fe0dcba987654321",
+        "inbound_rules": [
+          {
+            "protocol": "tcp",
+            "from_port": 80,
+            "to_port": 80,
+            "sources": [
+              "0.0.0.0/0"
+            ]
+          }
+        ]
+      }
+    ],
+    "load_balancers": [
+      {
+        "name": "prod-alb",
+        "type": "application",
+        "state": "active",
+        "dns_name": "prod-alb-11223344.ap-south-1.elb.amazonaws.com",
+        "vpc_id": "vpc-0fe0dcba987654321",
+        "target_groups": [
+          {
+            "name": "web-targets",
+            "port": 80,
+            "protocol": "HTTP",
+            "health_check_path": "/health",
+            "unhealthy_targets": [
+              {
+                "target_id": "i-0a1b2c3d4e5f67890",
+                "reason": "Target.FailedHealthChecks",
+                "description": "Health check failed with 502 Bad Gateway"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "metric_name": "CPUUtilization",
+      "resource_id": "i-0a1b2c3d4e5f67890",
+      "timestamp": "2026-09-08T10:55:00+00:00",
+      "value": 31.5,
+      "unit": "Percent"
+    }
+  ],
+  "cloudtrail_events": [
+    {
+      "event_time": "2026-09-08T10:45:00+00:00",
+      "event_name": "AuthorizeSecurityGroupIngress",
+      "event_source": "ec2.amazonaws.com",
+      "principal": "admin-devops",
+      "region": "ap-south-1",
+      "resource": "sg-0987654321fedcba0"
+    }
+  ],
+  "signals": [
+    {
+      "type": "port_not_allowed",
+      "severity": "high",
+      "resource_id": "sg-0987654321fedcba0",
+      "description": "Security Group sg-0987654321fedcba0 does not allow inbound TCP 443 (HTTPS) traffic.",
+      "value": 443,
+      "metadata": {
+        "group_name": "web-security-group",
+        "port": 443
+      }
+    },
+    {
+      "type": "unhealthy_load_balancer_target",
+      "severity": "high",
+      "resource_id": "i-0a1b2c3d4e5f67890",
+      "description": "Load Balancer target i-0a1b2c3d4e5f67890 in target group web-targets is unhealthy.",
+      "value": "unhealthy",
+      "metadata": {
+        "reason": "Target.FailedHealthChecks",
+        "target_group": "web-targets"
+      }
+    },
+    {
+      "type": "recent_infrastructure_change",
+      "severity": "medium",
+      "resource_id": "sg-0987654321fedcba0",
+      "description": "Recent CloudTrail event AuthorizeSecurityGroupIngress performed by admin-devops.",
+      "value": "AuthorizeSecurityGroupIngress",
+      "metadata": {
+        "principal": "admin-devops",
+        "event_time": "2026-09-08T10:45:00+00:00"
+      }
+    }
+  ],
+  "evidence": [
+    "Security Group sg-0987654321fedcba0 (web-security-group) does not contain an inbound TCP 443 rule.",
+    "ALB target i-0a1b2c3d4e5f67890 in target group web-targets is reported as unhealthy (Reason: Target.FailedHealthChecks).",
+    "CloudTrail recorded AuthorizeSecurityGroupIngress on sg-0987654321fedcba0 by principal admin-devops at 2026-09-08T10:45:00+00:00."
+  ]
+}

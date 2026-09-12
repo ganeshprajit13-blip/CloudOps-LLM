@@ -1,0 +1,134 @@
+2026-03-15T02:00:00.012Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8812 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-14/
+2026-03-15T02:01:34.567Z INFO  batch-scheduler [DynamoDB] Write throughput consumed: 62/100 RCUs for table defect-classifications
+2026-03-15T02:02:11.234Z INFO  batch-scheduler [Process] Processed 1,423 transcripts with 98.7% confidence avg across 5 classifiers
+2026-03-15T02:02:45.891Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8812.json
+2026-03-15T02:03:01.112Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 89.3% (1,272/1,423)
+2026-03-15T02:03:15.678Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-15T06:00:00.008Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8813 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-15/
+2026-03-15T06:01:22.345Z INFO  batch-scheduler [DynamoDB] Read throughput consumed: 41/100 RCUs for table transcript-metadata
+2026-03-15T06:01:58.789Z INFO  batch-scheduler [Process] Processed 1,389 transcripts with 97.9% confidence avg across 5 classifiers
+2026-03-15T06:02:33.121Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8813.json
+2026-03-15T06:02:47.556Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 88.7% (1,232/1,389)
+2026-03-15T06:03:02.990Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-15T10:00:00.005Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8814 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-15/
+2026-03-15T10:01:15.432Z INFO  batch-scheduler [DynamoDB] Write throughput consumed: 58/100 RCUs for table defect-classifications
+2026-03-15T10:01:49.876Z INFO  batch-scheduler [Process] Processed 1,405 transcripts with 98.1% confidence avg across 5 classifiers
+2026-03-15T10:02:24.110Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8814.json
+2026-03-15T10:02:38.765Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 89.1% (1,252/1,405)
+2026-03-15T10:02:52.301Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-15T14:00:00.011Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8815 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-15/
+2026-03-15T14:01:28.554Z INFO  batch-scheduler [DynamoDB] Read throughput consumed: 49/100 RCUs for table transcript-metadata
+2026-03-15T14:02:04.190Z INFO  batch-scheduler [Process] Processed 1,451 transcripts with 97.8% confidence avg across 5 classifiers
+2026-03-15T14:02:40.333Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8815.json
+2026-03-15T14:02:54.778Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 88.9% (1,290/1,451)
+2026-03-15T14:03:09.123Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-15T18:00:00.007Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8816 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-15/
+2026-03-15T18:01:31.456Z INFO  batch-scheduler [DynamoDB] Write throughput consumed: 61/100 RCUs for table defect-classifications
+2026-03-15T18:02:07.892Z INFO  batch-scheduler [Process] Processed 1,417 transcripts with 98.4% confidence avg across 5 classifiers
+2026-03-15T18:02:42.114Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8816.json
+2026-03-15T18:02:56.559Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 89.5% (1,267/1,417)
+2026-03-15T18:03:10.994Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-15T22:00:00.003Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8817 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-15/
+2026-03-15T22:01:24.447Z INFO  batch-scheduler [DynamoDB] Read throughput consumed: 47/100 RCUs for table transcript-metadata
+2026-03-15T22:02:00.781Z INFO  batch-scheduler [Process] Processed 1,392 transcripts with 98.6% confidence avg across 5 classifiers
+2026-03-15T22:02:36.125Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8817.json
+2026-03-15T22:02:50.570Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 89.0% (1,239/1,392)
+2026-03-15T22:03:05.005Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-16T02:00:00.015Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8818 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-16/
+2026-03-16T02:01:19.342Z INFO  batch-scheduler [DynamoDB] Write throughput consumed: 55/100 RCUs for table defect-classifications
+2026-03-16T02:01:55.778Z INFO  batch-scheduler [Process] Processed 1,430 transcripts with 97.7% confidence avg across 5 classifiers
+2026-03-16T02:02:31.112Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8818.json
+2026-03-16T02:02:45.557Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 88.5% (1,265/1,430)
+2026-03-16T02:03:00.002Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-16T06:00:00.009Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8819 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-16/
+2026-03-16T06:01:23.451Z INFO  batch-scheduler [DynamoDB] Read throughput consumed: 45/100 RCUs for table transcript-metadata
+2026-03-16T06:01:58.887Z INFO  batch-scheduler [Process] Processed 1,442 transcripts with 98.2% confidence avg across 5 classifiers
+2026-03-16T06:02:34.121Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8819.json
+2026-03-16T06:02:48.566Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 89.2% (1,287/1,442)
+2026-03-16T06:03:03.001Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-16T10:00:00.004Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8820 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-16/
+2026-03-16T10:01:17.346Z INFO  batch-scheduler [DynamoDB] Write throughput consumed: 59/100 RCUs for table defect-classifications
+2026-03-16T10:01:53.781Z INFO  batch-scheduler [Process] Processed 1,461 transcripts with 97.9% confidence avg across 5 classifiers
+2026-03-16T10:02:29.115Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8820.json
+2026-03-16T10:02:43.560Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 88.8% (1,298/1,461)
+2026-03-16T10:02:58.005Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-16T14:00:00.013Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8821 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-16/
+2026-03-16T14:01:26.449Z INFO  batch-scheduler [DynamoDB] Read throughput consumed: 43/100 RCUs for table transcript-metadata
+2026-03-16T14:02:02.783Z INFO  batch-scheduler [Process] Processed 1,503 transcripts with 98.0% confidence avg across 5 classifiers
+2026-03-16T14:02:38.117Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8821.json
+2026-03-16T14:02:52.562Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 88.3% (1,328/1,503)
+2026-03-16T14:03:07.007Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-16T18:00:00.008Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8822 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-16/
+2026-03-16T18:01:30.453Z INFO  batch-scheduler [DynamoDB] Write throughput consumed: 60/100 RCUs for table defect-classifications
+2026-03-16T18:02:06.787Z INFO  batch-scheduler [Process] Processed 1,475 transcripts with 98.5% confidence avg across 5 classifiers
+2026-03-16T18:02:42.121Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8822.json
+2026-03-16T18:02:56.566Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 89.4% (1,318/1,475)
+2026-03-16T18:03:11.001Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-16T22:00:00.006Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8823 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-16/
+2026-03-16T22:01:24.440Z INFO  batch-scheduler [DynamoDB] Read throughput consumed: 48/100 RCUs for table transcript-metadata
+2026-03-16T22:02:00.774Z INFO  batch-scheduler [Process] Processed 1,428 transcripts with 97.6% confidence avg across 5 classifiers
+2026-03-16T22:02:36.108Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8823.json
+2026-03-16T22:02:50.553Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 88.7% (1,267/1,428)
+2026-03-16T22:03:05.008Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-17T02:00:00.014Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8824 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-17/
+2026-03-17T02:01:18.345Z INFO  batch-scheduler [DynamoDB] Write throughput consumed: 57/100 RCUs for table defect-classifications
+2026-03-17T02:01:54.779Z INFO  batch-scheduler [Process] Processed 1,450 transcripts with 98.1% confidence avg across 5 classifiers
+2026-03-17T02:02:30.113Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8824.json
+2026-03-17T02:02:44.558Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 88.9% (1,289/1,450)
+2026-03-17T02:02:59.003Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-17T06:00:00.007Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8825 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-17/
+2026-03-17T06:01:22.446Z INFO  batch-scheduler [DynamoDB] Read throughput consumed: 46/100 RCUs for table transcript-metadata
+2026-03-17T06:01:58.780Z INFO  batch-scheduler [Process] Processed 1,482 transcripts with 97.8% confidence avg across 5 classifiers
+2026-03-17T06:02:34.114Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8825.json
+2026-03-17T06:02:48.559Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 88.1% (1,306/1,482)
+2026-03-17T06:03:03.004Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-17T10:00:00.002Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8826 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-17/
+2026-03-17T10:01:15.437Z INFO  batch-scheduler [DynamoDB] Write throughput consumed: 63/100 RCUs for table defect-classifications
+2026-03-17T10:01:51.771Z INFO  batch-scheduler [Process] Processed 1,510 transcripts with 97.5% confidence avg across 5 classifiers
+2026-03-17T10:02:27.105Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8826.json
+2026-03-17T10:02:41.550Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 87.6% (1,323/1,510)
+2026-03-17T10:02:55.995Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-17T14:00:00.010Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8827 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-17/
+2026-03-17T14:01:24.455Z INFO  batch-scheduler [DynamoDB] Read throughput consumed: 50/100 RCUs for table transcript-metadata
+2026-03-17T14:02:00.789Z INFO  batch-scheduler [Process] Processed 1,534 transcripts with 97.9% confidence avg across 5 classifiers
+2026-03-17T14:02:36.123Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8827.json
+2026-03-17T14:02:50.568Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 87.9% (1,348/1,534)
+2026-03-17T14:03:05.013Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-17T18:00:00.005Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8828 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-17/
+2026-03-17T18:01:29.448Z INFO  batch-scheduler [DynamoDB] Write throughput consumed: 64/100 RCUs for table defect-classifications
+2026-03-17T18:02:05.782Z INFO  batch-scheduler [Process] Processed 1,497 transcripts with 98.3% confidence avg across 5 classifiers
+2026-03-17T18:02:41.116Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8828.json
+2026-03-17T18:02:55.561Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 88.5% (1,323/1,497)
+2026-03-17T18:03:10.006Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-17T22:00:00.012Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8829 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-17/
+2026-03-17T22:01:23.443Z INFO  batch-scheduler [DynamoDB] Read throughput consumed: 44/100 RCUs for table transcript-metadata
+2026-03-17T22:01:59.777Z INFO  batch-scheduler [Process] Processed 1,468 transcripts with 98.0% confidence avg across 5 classifiers
+2026-03-17T22:02:35.111Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8829.json
+2026-03-17T22:02:49.556Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 88.2% (1,295/1,468)
+2026-03-17T22:03:04.001Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-18T02:00:00.009Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8830 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-18/
+2026-03-18T02:01:17.348Z INFO  batch-scheduler [DynamoDB] Write throughput consumed: 68/100 RCUs for table defect-classifications
+2026-03-18T02:01:53.782Z INFO  batch-scheduler [Process] Processed 1,621 transcripts with 97.1% confidence avg across 5 classifiers
+2026-03-18T02:02:29.116Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8830.json
+2026-03-18T02:02:43.561Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 86.7% (1,405/1,621)
+2026-03-18T02:02:58.006Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-18T06:00:00.004Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8831 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-18/
+2026-03-18T06:01:21.441Z INFO  batch-scheduler [DynamoDB] Read throughput consumed: 52/100 RCUs for table transcript-metadata
+2026-03-18T06:01:57.775Z INFO  batch-scheduler [Process] Processed 1,652 transcripts with 96.8% confidence avg across 5 classifiers
+2026-03-18T06:02:33.109Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8831.json
+2026-03-18T06:02:47.554Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 85.9% (1,419/1,652)
+2026-03-18T06:03:02.009Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-18T10:00:00.016Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8832 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-18/
+2026-03-18T10:01:14.444Z INFO  batch-scheduler [DynamoDB] Write throughput consumed: 72/100 RCUs for table defect-classifications
+2026-03-18T10:01:50.778Z INFO  batch-scheduler [Process] Processed 1,703 transcripts with 96.5% confidence avg across 5 classifiers
+2026-03-18T10:02:26.112Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8832.json
+2026-03-18T10:02:40.557Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 85.2% (1,451/1,703)
+2026-03-18T10:02:55.002Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-18T14:00:00.011Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8833 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-18/
+2026-03-18T14:01:27.447Z INFO  batch-scheduler [DynamoDB] Read throughput consumed: 55/100 RCUs for table transcript-metadata
+2026-03-18T14:02:03.781Z INFO  batch-scheduler [Process] Processed 1,718 transcripts with 96.2% confidence avg across 5 classifiers
+2026-03-18T14:02:39.115Z INFO  batch-scheduler [S3] Uploaded classification results to s3://defect-classifications-output/prosensor-hub/batch-8833.json
+2026-03-18T14:02:53.560Z INFO  batch-scheduler [Metrics] Classification accuracy (vs manual audit): 84.9% (1,457/1,718)
+2026-03-18T14:03:08.005Z INFO  batch-scheduler [Queue] Triggered notification to anomaly-detector service via SQS queue arn:aws:sqs:us-east-1:778899112233:defect-alerts
+2026-03-18T18:00:00.007Z INFO  batch-scheduler [JobStart] Starting batch job #BATCH-8834 for transcript ingestion from s3://cust-care-transcripts/prosensor-hub/2026-03-18/
+2026-03-18T18:01:26.442Z INFO  batch-scheduler [DynamoDB] Write throughput
