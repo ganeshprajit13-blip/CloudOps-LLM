@@ -1,6 +1,8 @@
 from typing import Optional
 from botocore.exceptions import BotoCoreError, ClientError, NoCredentialsError, PartialCredentialsError
 from fastapi import APIRouter, HTTPException, Query, status
+import anyio
+import os
 
 from app.aws.cloudtrail import get_cloudtrail_events
 from app.aws.cloudwatch import get_cloudwatch_metrics
@@ -9,6 +11,8 @@ from app.aws.load_balancer import get_load_balancers
 from app.aws.security_groups import get_security_groups
 from app.aws.ssm import get_windows_host_telemetry
 from app.aws.vpc import get_vpc_resources
+from app.aws.sts import get_sts_identity
+from app.services.aws_collector import collect_infrastructure_data
 from app.core.config import settings
 from app.schemas.aws import (
     CloudTrailResponseSchema,
@@ -20,10 +24,6 @@ from app.schemas.aws import (
     SecurityGroupResponseSchema,
     VpcResponseSchema,
 )
-import os
-from app.aws.sts import get_sts_identity
-from app.services.aws_collector import collect_infrastructure_data
-
 
 router = APIRouter(prefix="/aws", tags=["AWS Infrastructure"])
 
@@ -70,7 +70,7 @@ def _handle_aws_exception(e: Exception, service_name: str):
 async def read_sts_identity(region: Optional[str] = Query(None, description="AWS Region")):
     try:
         r = region or settings.AWS_REGION
-        identity_data = get_sts_identity(r)
+        identity_data = await anyio.to_thread.run_sync(get_sts_identity, r)
         return identity_data
     except Exception as e:
         _handle_aws_exception(e, "STS")
@@ -85,7 +85,7 @@ async def read_sts_identity(region: Optional[str] = Query(None, description="AWS
 async def read_ec2_instances(region: Optional[str] = Query(None, description="AWS Region")):
     try:
         r = region or settings.AWS_REGION
-        instances = get_ec2_instances(r)
+        instances = await anyio.to_thread.run_sync(get_ec2_instances, r)
         return EC2ResponseSchema(region=r, instances=instances)
     except Exception as e:
         _handle_aws_exception(e, "EC2")
@@ -104,7 +104,9 @@ async def read_cloudwatch_metrics(
 ):
     try:
         r = region or settings.AWS_REGION
-        metrics = get_cloudwatch_metrics(resource_id=resource_id, minutes=minutes, region=r)
+        metrics = await anyio.to_thread.run_sync(
+            lambda: get_cloudwatch_metrics(resource_id=resource_id, minutes=minutes, region=r)
+        )
         return CloudWatchResponseSchema(region=r, metrics=metrics)
     except Exception as e:
         _handle_aws_exception(e, "CloudWatch")
@@ -122,7 +124,9 @@ async def read_cloudtrail_events(
 ):
     try:
         r = region or settings.AWS_REGION
-        events = get_cloudtrail_events(hours=hours, region=r)
+        events = await anyio.to_thread.run_sync(
+            lambda: get_cloudtrail_events(hours=hours, region=r)
+        )
         return CloudTrailResponseSchema(region=r, events=events)
     except Exception as e:
         _handle_aws_exception(e, "CloudTrail")
@@ -137,7 +141,7 @@ async def read_cloudtrail_events(
 async def read_vpc_infrastructure(region: Optional[str] = Query(None, description="AWS Region")):
     try:
         r = region or settings.AWS_REGION
-        vpc_data = get_vpc_resources(r)
+        vpc_data = await anyio.to_thread.run_sync(get_vpc_resources, r)
         return VpcResponseSchema(region=r, vpc=vpc_data)
     except Exception as e:
         _handle_aws_exception(e, "VPC")
@@ -152,7 +156,7 @@ async def read_vpc_infrastructure(region: Optional[str] = Query(None, descriptio
 async def read_security_groups(region: Optional[str] = Query(None, description="AWS Region")):
     try:
         r = region or settings.AWS_REGION
-        groups = get_security_groups(r)
+        groups = await anyio.to_thread.run_sync(get_security_groups, r)
         return SecurityGroupResponseSchema(region=r, security_groups=groups)
     except Exception as e:
         _handle_aws_exception(e, "Security Groups")
@@ -167,7 +171,7 @@ async def read_security_groups(region: Optional[str] = Query(None, description="
 async def read_load_balancers(region: Optional[str] = Query(None, description="AWS Region")):
     try:
         r = region or settings.AWS_REGION
-        lbs = get_load_balancers(r)
+        lbs = await anyio.to_thread.run_sync(get_load_balancers, r)
         return LoadBalancerResponseSchema(region=r, load_balancers=lbs)
     except Exception as e:
         _handle_aws_exception(e, "Load Balancers")
@@ -186,7 +190,9 @@ async def read_host_telemetry(
     try:
         r = region or settings.AWS_REGION
         instance_ids = [instance_id] if instance_id else None
-        telemetry = get_windows_host_telemetry(instance_ids=instance_ids, region=r)
+        telemetry = await anyio.to_thread.run_sync(
+            lambda: get_windows_host_telemetry(instance_ids=instance_ids, region=r)
+        )
         return HostTelemetryResponseSchema(region=r, host_telemetry=telemetry)
     except Exception as e:
         _handle_aws_exception(e, "Host Telemetry")
@@ -201,9 +207,10 @@ async def read_host_telemetry(
 async def read_aggregated_infrastructure(region: Optional[str] = Query(None, description="AWS Region")):
     try:
         r = region or settings.AWS_REGION
-        data = collect_infrastructure_data(r)
+        data = await anyio.to_thread.run_sync(collect_infrastructure_data, r)
         return InfrastructureDataResponseSchema(**data)
     except Exception as e:
         _handle_aws_exception(e, "Infrastructure")
+
 
 

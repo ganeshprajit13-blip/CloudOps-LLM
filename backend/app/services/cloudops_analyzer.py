@@ -34,7 +34,7 @@ class CloudOpsAnalyzer:
         self.model_runner = model_runner
         self.rag_query_fn = rag_query_fn
 
-    def _collect_and_normalize_aws_data(self) -> Dict[str, Any]:
+    def _collect_and_normalize_aws_data(self, resource_id: Optional[str] = None) -> Dict[str, Any]:
         """
         Attempt to collect read-only AWS telemetry via Phase 2/3 services.
         Handles missing credentials or network errors gracefully.
@@ -43,8 +43,8 @@ class CloudOpsAnalyzer:
             from app.services.aws_collector import collect_infrastructure_data
             from app.services.preprocessing import preprocess_cloud_context as normalize_cloud_context
 
-            logger.info("Attempting read-only live AWS infrastructure collection...")
-            raw_data = collect_infrastructure_data()
+            logger.info(f"Attempting read-only live AWS infrastructure collection (resource_id={resource_id})...")
+            raw_data = collect_infrastructure_data(resource_id=resource_id)
             normalized = normalize_cloud_context(raw_data)
             
             if hasattr(normalized, "dict"):
@@ -158,7 +158,7 @@ class CloudOpsAnalyzer:
         final_context = dict(cloud_context) if cloud_context else {}
         t_aws_start = time.time()
         if collect_live_data and not final_context:
-            collected = self._collect_and_normalize_aws_data()
+            collected = self._collect_and_normalize_aws_data(resource_id=resource_id)
             if collected:
                 final_context = collected
         t_aws = round(time.time() - t_aws_start, 4)

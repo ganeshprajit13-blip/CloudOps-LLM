@@ -16,13 +16,14 @@ class ContextBuilder:
         resource_id: Optional[str]
     ) -> Dict[str, Any]:
         """
-        Filter cloud context to focus on a specific resource ID if provided,
-        while preserving essential related network and security context.
+        Filter cloud context to focus strictly on a specific resource ID if provided,
+        while preserving essential related network and security context, and excluding
+        unrelated security groups and route tables.
         """
-        if not resource_id or not cloud_context:
+        if not resource_id or not cloud_context or str(resource_id).strip().lower() in ("all", "auto", "none", ""):
             return cloud_context or {}
 
-        r_id = resource_id.strip().lower()
+        r_id = str(resource_id).strip().lower()
         import copy
         filtered = copy.deepcopy(cloud_context)
 
@@ -45,9 +46,9 @@ class ContextBuilder:
                 target_inst_id = str(target_inst.get("instance_id", "")).lower()
                 target_vpc_id = str(target_inst.get("vpc_id", "")).lower() if target_inst.get("vpc_id") else None
                 target_subnet_id = str(target_inst.get("subnet_id", "")).lower() if target_inst.get("subnet_id") else None
-                target_sg_ids = {str(sg_id).lower() for sg_id in target_inst.get("security_group_ids", [])}
+                target_sg_ids = {str(sg_id).lower() for sg_id in target_inst.get("security_group_ids", []) if sg_id}
 
-        # Filter Security Groups
+        # Filter Security Groups - ONLY keep security groups attached to target instance
         if isinstance(resources, dict) and "security_groups" in resources:
             sgs = resources.get("security_groups", [])
             if target_inst:
@@ -64,14 +65,14 @@ class ContextBuilder:
                 ]
             resources["security_groups"] = filtered_sgs
 
-        # Filter Host Telemetry
+        # Filter Host Telemetry - strictly target instance
         if isinstance(resources, dict) and "host_telemetry" in resources:
             hosts = resources.get("host_telemetry", [])
             filtered_hosts = [
                 h for h in hosts
                 if isinstance(h, dict) and (
-                    r_id in str(h.get("instance_id", "")).lower()
-                    or (target_inst_id and target_inst_id in str(h.get("instance_id", "")).lower())
+                    r_id == str(h.get("instance_id", "")).lower()
+                    or (target_inst_id and target_inst_id == str(h.get("instance_id", "")).lower())
                 )
             ]
             resources["host_telemetry"] = filtered_hosts
@@ -80,16 +81,23 @@ class ContextBuilder:
         retained_rt_ids = set()
         if isinstance(resources, dict) and "vpc" in resources and isinstance(resources["vpc"], dict):
             vpc_data = resources["vpc"]
-            # Subnets
+            
+            # VPCs
+            if "vpcs" in vpc_data:
+                vpcs = vpc_data.get("vpcs", [])
+                if target_vpc_id:
+                    vpc_data["vpcs"] = [
+                        v for v in vpcs
+                        if isinstance(v, dict) and str(v.get("vpc_id", "")).lower() == target_vpc_id
+                    ]
+
+            # Subnets - keep target subnet
             if "subnets" in vpc_data:
                 subnets = vpc_data.get("subnets", [])
                 if target_subnet_id:
                     vpc_data["subnets"] = [
                         s for s in subnets
-                        if isinstance(s, dict) and (
-                            str(s.get("subnet_id", "")).lower() == target_subnet_id
-                            or (target_vpc_id and str(s.get("vpc_id", "")).lower() == target_vpc_id)
-                        )
+                        if isinstance(s, dict) and str(s.get("subnet_id", "")).lower() == target_subnet_id
                     ]
                 elif target_vpc_id:
                     vpc_data["subnets"] = [
@@ -97,35 +105,37 @@ class ContextBuilder:
                         if isinstance(s, dict) and str(s.get("vpc_id", "")).lower() == target_vpc_id
                     ]
 
-            # Route Tables
+            # Route Tables - ONLY keep route table associated with target subnet / VPC
             if "route_tables" in vpc_data:
                 rts = vpc_data.get("route_tables", [])
-                if target_inst:
-                    filtered_rts = []
+                if target_inst and target_vpc_id:
+                    # Look for explicit subnet association in target VPC, or fallback to main route table
+                    explicit_rt = None
+                    main_rt = None
                     for rt in rts:
                         if not isinstance(rt, dict):
                             continue
                         rt_vpc = str(rt.get("vpc_id", "")).lower()
-                        if target_vpc_id and rt_vpc != target_vpc_id:
+                        if rt_vpc != target_vpc_id:
                             continue
                         assocs = rt.get("associations", [])
-                        is_assoc = False
-                        if not assocs:
-                            is_assoc = True
-                        else:
-                            for a in assocs:
-                                if isinstance(a, dict):
-                                    if target_subnet_id and str(a.get("subnet_id", "")).lower() == target_subnet_id:
-                                        is_assoc = True
-                                        break
-                                    if a.get("main", False) and rt_vpc == target_vpc_id:
-                                        is_assoc = True
-                                        break
-                        if is_assoc:
-                            filtered_rts.append(rt)
-                            if rt.get("route_table_id"):
-                                retained_rt_ids.add(str(rt.get("route_table_id")).lower())
-                    vpc_data["route_tables"] = filtered_rts
+                        for a in assocs:
+                            if isinstance(a, dict):
+                                if target_subnet_id and str(a.get("subnet_id", "")).lower() == target_subnet_id:
+                                    explicit_rt = rt
+                                    break
+                                if a.get("main") is True or a.get("Main") is True:
+                                    main_rt = rt
+                        if explicit_rt:
+                            break
+
+                    selected_rt = explicit_rt or main_rt
+                    if selected_rt:
+                        vpc_data["route_tables"] = [selected_rt]
+                        if selected_rt.get("route_table_id"):
+                            retained_rt_ids.add(str(selected_rt.get("route_table_id")).lower())
+                    else:
+                        vpc_data["route_tables"] = []
                 else:
                     for rt in rts:
                         if isinstance(rt, dict) and rt.get("route_table_id"):
@@ -142,7 +152,7 @@ class ContextBuilder:
                     has_tg = False
                     for tg in alb.get("target_groups", []):
                         for ut in tg.get("unhealthy_targets", []):
-                            if target_inst_id in str(ut.get("target_id", "")).lower():
+                            if target_inst_id == str(ut.get("target_id", "")).lower():
                                 has_tg = True
                                 break
                     if has_tg:
@@ -155,8 +165,8 @@ class ContextBuilder:
             filtered_metrics = [
                 m for m in metrics
                 if isinstance(m, dict) and (
-                    r_id in str(m.get("resource_id", "")).lower()
-                    or (target_inst_id and target_inst_id in str(m.get("resource_id", "")).lower())
+                    r_id == str(m.get("resource_id", "")).lower()
+                    or (target_inst_id and target_inst_id == str(m.get("resource_id", "")).lower())
                 )
             ]
             filtered["metrics"] = filtered_metrics
@@ -172,28 +182,37 @@ class ContextBuilder:
                 s_type = s.get("type", "")
                 s_meta = s.get("metadata", {}) or {}
 
-                if r_id in s_res or (target_inst_id and target_inst_id in s_res):
-                    relevant_signals.append(s)
-                    continue
-
+                # Port not allowed: only for attached security groups
                 if s_type == "port_not_allowed":
                     sg_id = str(s_meta.get("group_id", "")).lower()
-                    if sg_id in target_sg_ids or s_res in target_sg_ids:
+                    attached = [str(inst).lower() for inst in s_meta.get("attached_instances", [])]
+                    if target_inst_id:
+                        if sg_id in target_sg_ids and (target_inst_id in attached or not attached or s_res == target_inst_id):
+                            relevant_signals.append(s)
+                    elif sg_id == r_id or s_res == r_id:
                         relevant_signals.append(s)
-                        continue
+                    continue
 
+                # Missing default route: only for retained route table associated with the target
                 if s_type == "missing_default_route":
                     rt_id = str(s_meta.get("route_table_id", s_res)).lower()
-                    rt_vpc = str(s_meta.get("vpc_id", "")).lower()
-                    if (retained_rt_ids and rt_id in retained_rt_ids) or (target_vpc_id and rt_vpc == target_vpc_id):
+                    if retained_rt_ids and rt_id in retained_rt_ids:
                         relevant_signals.append(s)
-                        continue
+                    continue
 
+                # Unhealthy load balancer target: only for target instance
                 if s_type == "unhealthy_load_balancer_target":
-                    if target_inst_id and target_inst_id in s_res:
+                    if target_inst_id and target_inst_id == s_res:
                         relevant_signals.append(s)
-                        continue
+                    continue
 
+                # Instance-specific signals (CPU, Windows services, etc.)
+                if s_type in ("high_cpu", "normal_cpu", "windows_service_stopped", "port_listening"):
+                    if s_res == target_inst_id or s_res == r_id:
+                        relevant_signals.append(s)
+                    continue
+
+                # Recent infrastructure change
                 if s_type == "recent_infrastructure_change":
                     rel_ids = {r_id}
                     if target_inst_id:
@@ -203,9 +222,14 @@ class ContextBuilder:
                         rel_ids.add(target_subnet_id)
                     if target_vpc_id:
                         rel_ids.add(target_vpc_id)
-                    if any(rid in s_res for rid in rel_ids if rid):
+                    rel_ids.update(retained_rt_ids)
+                    if any(rid and (rid in s_res or s_res in rid) for rid in rel_ids if rid):
                         relevant_signals.append(s)
-                        continue
+                    continue
+
+                # Fallback for other signals if directly mentioning the resource
+                if r_id == s_res or (target_inst_id and target_inst_id == s_res):
+                    relevant_signals.append(s)
 
             filtered["signals"] = relevant_signals
 
@@ -220,10 +244,11 @@ class ContextBuilder:
                 rel_ids.add(target_subnet_id)
             if target_vpc_id:
                 rel_ids.add(target_vpc_id)
+            rel_ids.update(retained_rt_ids)
 
             filtered_events = [
                 ev for ev in events
-                if isinstance(ev, dict) and any(rid in str(ev.get("resource", "")).lower() for rid in rel_ids if rid)
+                if isinstance(ev, dict) and any(rid and (rid in str(ev.get("resource", "")).lower() or str(ev.get("resource", "")).lower() in rid) for rid in rel_ids if rid)
             ]
             filtered["cloudtrail_events"] = filtered_events
 

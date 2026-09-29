@@ -65,11 +65,13 @@ async def analyze_infrastructure(
         )
 
     try:
-        response = analyzer.analyze(
-            question=request.question,
-            cloud_context=request.cloud_context,
-            resource_id=request.resource_id,
-            collect_live_data=request.collect_live_data
+        import anyio
+        response = await anyio.to_thread.run_sync(
+            analyzer.analyze,
+            request.question,
+            request.cloud_context,
+            request.resource_id,
+            request.collect_live_data
         )
 
         if response.error == "EMPTY_QUERY":

@@ -23,6 +23,7 @@ from app.api.routes.analysis import router as analysis_router
 from app.api.routes.aws import router as aws_router
 from app.api.routes.cloud_context import router as cloud_context_router
 from app.api.routes.health import router as health_router
+from app.api.routes.support import router as support_router
 from app.core.config import settings
 from app.core.logging import logger
 from app.schemas.health import RootResponse
@@ -68,19 +69,68 @@ app.include_router(health_router)
 app.include_router(aws_router, prefix=settings.API_PREFIX)
 app.include_router(cloud_context_router, prefix=settings.API_PREFIX)
 app.include_router(analysis_router, prefix=settings.API_PREFIX)
+app.include_router(support_router, prefix=settings.API_PREFIX)
+app.include_router(support_router)
 
-@app.get(
-    "/",
-    response_model=RootResponse,
-    tags=["Root"],
-    summary="Backend Status",
-    description="Returns backend running message and version.",
-)
-async def root() -> RootResponse:
-    return RootResponse(
-        message="CloudOps LLM backend is running",
-        version=settings.APP_VERSION,
-    )
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+# Incidents API Endpoint
+@app.get("/api/incidents", tags=["Incidents"])
+async def get_active_incidents():
+    """Returns active and recent cloud incidents."""
+    return [
+        {
+            "id": "INC-8902",
+            "title": "High CPU Saturation on EC2 i-049f2b84a9e2118ff",
+            "severity": "Medium",
+            "status": "Investigating",
+            "service": "EC2",
+            "updatedAt": "10 mins ago"
+        },
+        {
+            "id": "INC-8891",
+            "title": "HTTPS Port 443 Inbound Rule Blocked on Security Group",
+            "severity": "Low",
+            "status": "Resolved",
+            "service": "Security Groups",
+            "updatedAt": "1 hour ago"
+        }
+    ]
+
+@app.get("/api/incidents/{incident_id}", tags=["Incidents"])
+async def get_incident_by_id(incident_id: str):
+    """Returns details for a specific incident."""
+    return {
+        "id": incident_id,
+        "title": f"Infrastructure Incident {incident_id}",
+        "severity": "Medium",
+        "status": "Investigating",
+        "service": "EC2",
+        "updatedAt": "Just now"
+    }
+
+STATIC_DIR = Path(__file__).resolve().parent / "static"
+
+class SPAStaticFiles(StaticFiles):
+    async def get_response(self, path: str, scope):
+        # Never serve index.html for API or documentation routes
+        raw_path = scope.get("path", "") or path
+        if raw_path.startswith("/api") or raw_path.startswith("api") or raw_path.startswith("/docs") or raw_path.startswith("/openapi"):
+            return JSONResponse(status_code=404, content={"detail": f"API endpoint not found: {raw_path}"})
+        try:
+            response = await super().get_response(path, scope)
+            if response.status_code == 404:
+                return await super().get_response("index.html", scope)
+            return response
+        except Exception:
+            return await super().get_response("index.html", scope)
+
+if STATIC_DIR.exists():
+    app.mount("/", SPAStaticFiles(directory=STATIC_DIR, html=True), name="spa")
+
+
+
 
 
 @app.exception_handler(HTTPException)

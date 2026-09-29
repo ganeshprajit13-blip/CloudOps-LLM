@@ -1,0 +1,50 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "cis_aws_foundation_benchmark_5_0",
+  "dataset_size": 5876950,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/halencarjunior/cis_aws_foundation_benchmark_5_0@0326eba758aefdf837e5f5409bd25e1c95eb4633/dataset.json": {
+      "num_bytes": 6096285,
+      "checksum": null
+    }
+  },
+  "download_size": 6096285,
+  "features": {
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "system": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 11973235,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 5876950,
+      "num_examples": 1519,
+      "dataset_name": "cis_aws_foundation_benchmark_5_0"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "aws-enterprise-assistant-dataset",
+  "dataset_size": 206795,
+  "description": "",
+  "download_size": 248518,
+  "features": {
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "response": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "metadata": {
+      "source_chunk_id": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "service": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "url": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "question_type": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 455313,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 206795,
+      "num_examples": 407,
+      "dataset_name": "aws-enterprise-assistant-dataset"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

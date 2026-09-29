@@ -1,0 +1,89 @@
+{
+  "total_records": 25475,
+  "exact_duplicates": {
+    "duplicate_questions": 11,
+    "duplicate_qa_pairs": 0,
+    "duplicate_complete_records": 0
+  },
+  "near_duplicate_groups": 59,
+  "good_records": 24870,
+  "good_percentage": 97.63,
+  "questionable_records": 1,
+  "questionable_percentage": 0.0,
+  "bad_records": 604,
+  "bad_percentage": 2.37,
+  "source_distribution": {
+    "Debarun12/aws-enterprise-assistant-dataset": 359,
+    "halencarjunior/cis_aws_foundation_benchmark_5_0": 1503,
+    "Mo7art/Stack2Graph_VD_r": 8419,
+    "Skilln/devops-qa-dataset": 3646,
+    "thegovind/azure-architecture-vqa": 1548,
+    "Omarrran/StackPulse_778K_QnA_Code_dataset": 10000
+  },
+  "category_distribution": {
+    "AWS Enterprise Support": 359,
+    "CIS AWS Benchmark Security": 1503,
+    "Databases & Networking": 2003,
+    "Cloud & DevOps": 4799,
+    "AWS & Cloud Infrastructure": 1480,
+    "AI & LLM Systems": 137,
+    "docker": 306,
+    "ai_llm": 6993,
+    "terraform": 135,
+    "troubleshooting": 1229,
+    "aws_vpc": 459,
+    "aws_database": 244,
+    "linux": 828,
+    "aws": 484,
+    "rag": 1181,
+    "kubernetes": 277,
+    "cloud_fundamentals": 1048,
+    "aws_storage": 177,
+    "aws_security": 79,
+    "ci_cd": 158,
+    "azure": 1260,
+    "aws_ec2": 144,
+    "azure_vnet": 40,
+    "azure_vm": 101,
+    "qlora": 4,
+    "devops": 14,
+    "aws_monitoring": 33
+  },
+  "macro_distribution": {
+    "aws_total": 1620,
+    "azure_total": 1401,
+    "devops_total": 1718,
+    "troubleshooting_total": 1229,
+    "ai_llm_total": 8178,
+    "cloud_fundamentals_total": 5847
+  },
+  "stackpulse_audit": {
+    "total": 10000,
+    "good": 9918,
+    "questionable": 1,
+    "bad": 81,
+    "good_percentage": 99.18
+  },
+  "azure_audit": {
+    "total": 1548,
+    "good": 1107,
+    "questionable": 0,
+    "bad": 441,
+    "good_percentage": 71.51
+  },
+  "devops_audit": {
+    "total": 3646,
+    "good": 3566,
+    "questionable": 0,
+    "bad": 80,
+    "good_percentage": 97.81
+  },
+  "overall_quality": "Excellent",
+  "training_ready": true,
+  "issues_identified": {
+    "scraper_auth_error_notices": 307,
+    "visual_diagram_dependencies": 0,
+    "stackpulse_unresolved_problem_statements": 1,
+    "question_echoes": 2
+  }
+}
